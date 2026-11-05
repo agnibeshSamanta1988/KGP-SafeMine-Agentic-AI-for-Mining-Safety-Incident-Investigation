@@ -1,0 +1,15 @@
+TABLE_NAME|COLUMN_NAME|DATA_TYPE|DATA_LENGTH|FIELD_DESCRIPTION
+CONTROLLER OPERATOR HISTORY|CONTROLLER_ID|VARCHAR2|7|Identification number assigned by MSHA Assessments Center for a Legal Entity acting as a controller of an operator.  May contain null values if this record has a mine status of New Mine and ID will be added at a later date.
+CONTROLLER OPERATOR HISTORY|CONTROLLER_NAME|VARCHAR2|60|Either the business name or a person's name for the Legal Entity.  May contain null values if this record has a mine status of New Mine and name will be added at a later date.  
+CONTROLLER OPERATOR HISTORY|CONTROLLER_START_DT|DATE|10|Date the controller started as the controller of the operator at the mine.
+CONTROLLER OPERATOR HISTORY|CONTROLLER_END_DT|DATE|10|Date the controller ceased to control the operator.
+CONTROLLER OPERATOR HISTORY|CONTROLLER_TYPE|VARCHAR2|7|Designates whether the controller is a Company name or a Person.
+CONTROLLER OPERATOR HISTORY|COAL_METAL_IND|VARCHAR2|1|Identifies if the mine is a Coal or Metal/Non-Metal mine.
+CONTROLLER OPERATOR HISTORY|MINE_ID|VARCHAR2|7|Identification number assigned to the mine by MSHA.  It is a unique primary key to join to the Inspections, Mine Address, Accidents, Annual Employ/Prod and Qrtly Employ/Prod tables.
+CONTROLLER OPERATOR HISTORY|MINE_NAME|VARCHAR2|50|Name of the mine as designated on the Legal ID Form (LID) or Mine Information Form (MIF).
+CONTROLLER OPERATOR HISTORY|MINE_STATUS|VARCHAR2|20|Status of the mine at this point in time.  Values are Abandoned, Abandoned and Sealed, Active, Intermittent, New Mine, NonProducing and Temporarily Idled.
+CONTROLLER OPERATOR HISTORY|OPERATOR_ID|VARCHAR2|7|Identification number assigned by MSHA Assessments Center for a Legal Entity acting as an operator at a mine.  May contain null values if this record has a status of New Mine.  If it is a New Mine, this information will be entered into the system at a future date.
+CONTROLLER OPERATOR HISTORY|OPERATOR_NAME|VARCHAR2|60|The operator name as updated by a LID (Legal ID Form) or MIF (Mine Information Form) at this point in time.  If the last action is a LID, it will be updated if Assessments updates the name when it is approved.  A new MIF will subsequently overwrite the mine's operator name.  May contain null values if this record has a status of New Mine.  If it is a New Mine, this information will be entered into the system at a future date.
+CONTROLLER OPERATOR HISTORY|OPERATOR_START_DT|DATE|10|Start date of the operating period at the mine.  
+CONTROLLER OPERATOR HISTORY|OPERATOR_END_DT|DATE|10|End date of the operating period at the mine.  If no date appears, the operator is still active.
+ 

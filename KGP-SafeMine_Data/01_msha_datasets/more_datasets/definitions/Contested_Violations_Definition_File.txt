@@ -1,0 +1,39 @@
+TABLE_NAME|COLUMN_NAME|DATA_TYPE|DATA_LENGTH|FIELD_DESCRIPTION
+CONTESTED VIOLATIONS|CITATION_NO|VARCHAR2|30|Preassigned citation/order/safeguard number of the initial action.
+CONTESTED VIOLATIONS|CITATION_ISSUE_DT|DATE|10|Date the citation/order was issued.
+CONTESTED VIOLATIONS|MINE_ID|VARCHAR2|7|Mine ID of the mine where the citation/order was issued.
+CONTESTED VIOLATIONS|MINE_NAME|VARCHAR2|50|Name of the mine where the citation/order was issued.
+CONTESTED VIOLATIONS|CONTEST_DT|DATE|10|Date the Hearing Request was received at the Assessments office.
+CONTESTED VIOLATIONS|DOCKET_NO|VARCHAR2|15|The Docket Number assigned by the Court to this group of Assessments being contested.
+CONTESTED VIOLATIONS|ASSESS_TYPE_CODE|VARCHAR2|20|Special Assessment Codes:  DiscriminationDocket, Regular, Single or Special.
+CONTESTED VIOLATIONS|DOCKET_DECISION_BY_CODE|VARCHAR2|20|Code specifying what entity make this decision:  ALJ, Commission, CourtOfAppeals, DistrictCourt or Other.  
+CONTESTED VIOLATIONS|JUDGE_FIRST_NAME|VARCHAR2|20|First name of the judge who made the decision.
+CONTESTED VIOLATIONS|JUDGE_LAST_NAME|VARCHAR2|30|Last name of the judge who made the decision.
+CONTESTED VIOLATIONS|PETITION_DUE_DT|DATE|10|Date the petition is due to be filed with the Commission.
+CONTESTED VIOLATIONS|PETITION_EXTENSION_DT|DATE|10|Date granted as the new petition file date because of a petition for extension.
+CONTESTED VIOLATIONS|PETITION_FILED_DT|DATE|10|Date the CLR/Solicitor filed the petition with the Commission.
+CONTESTED VIOLATIONS|DOCKET_DECISION_TYPE_CODE|VARCHAR2|20|Docket Decision Type Code:  Default, DefaultDistrictCourt, Dismissal, Prevail, Settlement, Vacate or Withdrawal.
+CONTESTED VIOLATIONS|DECISION_DT|DATE|10|Date this decision was made for the contested assessment.
+CONTESTED VIOLATIONS|PROPOSED_PENALTY_AMT|VARCHAR2|12|The proposed assessment amount when the citation/order was contested.  Format is xxxxxxxxx.xx (9.2)
+CONTESTED VIOLATIONS|DECISION_PENALTY_AMT|VARCHAR2|12|The proposed assessment amount after the decision.  Format is xxxxxxxxx.xx (9.2)
+CONTESTED VIOLATIONS|MINE_ACT_SECTION_CODE|VARCHAR2|20|The specific section of the Federal Mine Safety and Health Act which was violated and resulted in an inspector issuing a citation.
+CONTESTED VIOLATIONS|CFR_STANDARD_CODE|VARCHAR2|20|Unique code for the Title 30 CFR Part.
+CONTESTED VIOLATIONS|ORIGINAL_CITATION_TYPE_CODE|VARCHAR2|20|Specifies the type of issuance that was issued:  Citation, Notice, Order or Safeguard.
+CONTESTED VIOLATIONS|DECISION_CITATION_TYPE_CODE|VARCHAR2|20|Specifies the type of issuance when the contest was decided:  Citation, Notice, Order or Safeguard.
+CONTESTED VIOLATIONS|ORIGINAL_PRIMARY_ACTION_CODE|VARCHAR2|20|Primary Section of Act when the issuance was contested.
+CONTESTED VIOLATIONS|DECISION_PRIMARY_ACTION_CODE|VARCHAR2|20|Primary Section of Act when the contest was decided.
+CONTESTED VIOLATIONS|ORIGINAL_SIG_SUB_IND|VARCHAR2|1|Significant and Substantial indicator when the issuance was contested:  Y or N.
+CONTESTED VIOLATIONS|DECISION_SIG_SUB_IND|VARCHAR2|1|Significant and Substantial indicator when the contest was decided:  Y or N.
+CONTESTED VIOLATIONS|ORIGINAL_GRAVITY_LIKELIHOOD|VARCHAR2|20|Likelihood of Occurrence designation when the issuance was contested:  Highly, NoLikelihood, Occurred, Reasonably or Unlikely.
+CONTESTED VIOLATIONS|DECISION_GRAVITY_LIKELIHOOD|VARCHAR2|20|Likelihood of Occurrence designation when the contest was decided:  Highly, NoLikelihood, Occurred, Reasonably or Unlikely.
+CONTESTED VIOLATIONS|ORIGINAL_GRAVITY_PERSONS|NUMBER|5|The count of the number of people affected by the event triggering the issuance when the issuance was contested.
+CONTESTED VIOLATIONS|DECISION_GRAVITY_PERSONS|NUMBER|5|The count of the number of people affected by the event triggering the issuance when the contest was decided.
+CONTESTED VIOLATIONS|ORIGINAL_GRAVITY_INJURY|VARCHAR2|20|Injury/illness designation when the issuance was contested:  Fatal, LostDays, NoLostDays or Permanent.
+CONTESTED VIOLATIONS|DECISION_GRAVITY_INJURY|VARCHAR2|20|Injury/illness designation when the contest was decided:  Fatal, LostDays, NoLostDays or Permanent.
+CONTESTED VIOLATIONS|ORIGINAL_NEGLIGENCE|VARCHAR2|20|Negligence designation when the issuance was contested:  HighNegligence, LowNegligence, ModNegligence, NoNegligence or Reckless.
+CONTESTED VIOLATIONS|DECISION_NEGLIGENCE|VARCHAR2|20|Negligence designation when the contest was decided:  HighNegligence, LowNegligence, ModNegligence, NoNegligence or Reckless.
+CONTESTED VIOLATIONS|ISSUING_PROGRAM_AREA|VARCHAR2|20|Program area of the issuing Authorized Representative (AR):  Coal or M/NM.
+CONTESTED VIOLATIONS|ISSUING_DISTRICT|VARCHAR2|5|District office code for the issuing Authorized Representative.
+CONTESTED VIOLATIONS|MSHA_REP_PROGRAM_AREA_CODE|VARCHAR2|20|Program area code for the CLR or Solicitor responsible for this docket:  Coal, M/NM or SOL.
+CONTESTED VIOLATIONS|MSHA_REP_OFFICE_CODE|VARCHAR2|5|District office of the CLR assigned to the docket or region/branch of the Solicitor assigned.
+CONTESTED VIOLATIONS|MSHA_REP_OFFICE_NAME|VARCHAR2|80|District office name of the CLR assigned to the docket or region/branch of the Solicitor assigned.

@@ -1,0 +1,20 @@
+TABLE_NAME|COLUMN_NAME|DATA_TYPE|DATA_LENGTH|FIELD_DESCRIPTION
+QUARTZ SAMPLES|CASSETTE_NO|VARCHAR2|8|The cassette number is supplied by the manufacturer and must correspond to the number on the filter cassette bearing the identical serial number.  Cassette number and Laboratory number create a primary key for this file.
+QUARTZ SAMPLES|LABORATORY_NO|VARCHAR2|10|Laboratory number where the samples were sent and processed.  Cassette number and Laboratory number create a primary key for this file.
+QUARTZ SAMPLES|ENTITY_NO|VARCHAR2|4|Number assigned by the district which identifies the area being sampled.
+QUARTZ SAMPLES|MINE_ID|VARCHAR2|7|Identification number assigned to the mine operation by MSHA.  Use mine id to join to Mines table.
+QUARTZ SAMPLES|MINER_NO|VARCHAR2|9|The miner's personal identifier.
+QUARTZ SAMPLES|OCCUPATION_CODE|VARCHAR2|3|The occupation code the mine operator uses to identify each sample collected.
+QUARTZ SAMPLES|OCC_CODE_DESC|VARCHAR2|40|The description of the occupation code.
+QUARTZ SAMPLES|LAST_PROCESS_DT|DATE|10|Process date of the last action.
+QUARTZ SAMPLES|QUARTZ_PCT|VARCHAR2|4|Percentage of quartz found in a sample.  Format is ##.#.
+QUARTZ SAMPLES|ANALYSIS_DT|DATE|10|Date the sample was analyzed by the laboratory.
+QUARTZ SAMPLES|SAMPLE_DT|DATE|10|Date the quartz sample was taken.
+QUARTZ SAMPLES|SAMPLE_TYPE|VARCHAR2|1|The number identifying the type of sample collected. 
+QUARTZ SAMPLES|SAMPLE_TYPE_DESC|VARCHAR2|27|Description of the sample type code:  0-Invalid; 1-Designated Occ; 2-Non-Designated Occ; 3-Designated Area; 4-Designated work position; 5-Part 90 miner; 6-Nondesignated Area; 7-Intake Air; 8-Nondesignated work position; 9-Control Filter; ?-Sample type not found.
+QUARTZ SAMPLES|SAMPLE_START_TIME|VARCHAR2|2|Sample start time using the 24-hour clock time.
+QUARTZ SAMPLES|SURVEY_TYPE|VARCHAR2|1|Shows the purpose of the sample taken:  A, B, C, D, ?.
+QUARTZ SAMPLES|SURVEY_TYPE_DESC|VARCHAR2|33|Description of the survey type code:  A-MSHA; B-6 Month; C-Operator First Optional; D-Operator Second Optional; ?-Survey Type Unknown.
+QUARTZ SAMPLES|VOID_CODE|VARCHAR2|3|Code assigned by MSHA indicating the reason why the sample is not valid.
+QUARTZ SAMPLES|VOID_CODE_DESC|VARCHAR2|30|Description of the void code.
+QUARTZ SAMPLES|QUARTZ_MICROGRAMS|NUMBER|5|Quartz Concentration Micrograms per Cubic Meter (mcq/m3).

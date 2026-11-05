@@ -1,0 +1,30 @@
+TABLE_NAME|COLUMN_NAME|DATA_TYPE|DATA_LENGTH|FIELD_DESCRIPTION
+CIVIL PENALTY DOCKETS AND DECISIONS|ASSESS_CASE_NO|VARCHAR2|20|Assessment Control Number.
+CIVIL PENALTY DOCKETS AND DECISIONS|DOCKET_NO|VARCHAR2|15|The Docket Number assigned by the Court to this group of Assessments being contested.
+CIVIL PENALTY DOCKETS AND DECISIONS|VIOLATOR_ID|VARCHAR2|9|Depending on the violator type, this is either an Operator ID, a Contractor ID, a Miner ID or an Agent ID.
+CIVIL PENALTY DOCKETS AND DECISIONS|VIOLATOR_NAME|VARCHAR2|50|Name of the Violator at the time of the most recent Violation at the associated Mine.
+CIVIL PENALTY DOCKETS AND DECISIONS|VIOLATION_NO|VARCHAR2|30|Preassigned citation/order/safeguard number of the initial action.
+CIVIL PENALTY DOCKETS AND DECISIONS|VIOLATION_TYPE_CODE|VARCHAR2|20|Specifies the type of Violation: Citation, Order.
+CIVIL PENALTY DOCKETS AND DECISIONS|MINE_ID|VARCHAR2|7|Identification number assigned to the Mine by MSHA.
+CIVIL PENALTY DOCKETS AND DECISIONS|CONTEST_DT|DATE|10|The date the Hearing Request was received at the Assessments office.
+CIVIL PENALTY DOCKETS AND DECISIONS|RECIPIENT|VARCHAR2|20|Indicator of whether a Solicitor or CLR is designated to receive this Contest Case.
+CIVIL PENALTY DOCKETS AND DECISIONS|PETITION_FILED_DT|DATE|10|Date the CLR/Solicitor filed the petition with the Commission.
+CIVIL PENALTY DOCKETS AND DECISIONS|DECISION_TYPE_CODE|VARCHAR2|20|Code specifying the type of Decision.
+CIVIL PENALTY DOCKETS AND DECISIONS|DECISION_TYPE_CODE_DESC|VARCHAR2|80|Description of each Docket Decision Type.
+CIVIL PENALTY DOCKETS AND DECISIONS|DECISION_BY_CODE|VARCHAR2|20|Code specifying what entity made this DecisionDescription of each Decision By Code.
+CIVIL PENALTY DOCKETS AND DECISIONS|DECISION_BY_CODE_DESC|VARCHAR2|80|Description of each Decision By Code.
+CIVIL PENALTY DOCKETS AND DECISIONS|DECISION_BY_OTHER_DESC|VARCHAR2|80|Description of who who made the decision when a Decision By Code of Other is entered.
+CIVIL PENALTY DOCKETS AND DECISIONS|DECISION_DT|DATE|10|Date this Decision was made for the contested Assessment.
+CIVIL PENALTY DOCKETS AND DECISIONS|ASSESS_TYPE_CODE|VARCHAR2|20|Description of the type of assessment.
+CIVIL PENALTY DOCKETS AND DECISIONS|ORIGINAL_PENALTY_AMT|VARCHAR2|11|The original proposed penalty amount after good faith reduction has been applied, if applicable (format 99999999.99). 
+CIVIL PENALTY DOCKETS AND DECISIONS|DECISION_PENALTY_AMOUNT|VARCHAR2|11|The penalty amount specified in the Decision for the contested assessment (format 99999999.99).
+CIVIL PENALTY DOCKETS AND DECISIONS|NON_DELINQUENT_PERIOD|NUMBER|5|Number of days guaranteed by the judge for payment.
+CIVIL PENALTY DOCKETS AND DECISIONS|JUDGE_FIRST_NAME|VARCHAR2|20|First Name of Judge who made the decision.
+CIVIL PENALTY DOCKETS AND DECISIONS|JUDGE_MIDDLE_INITIAL|VARCHAR2|1|Middle initial of Judge who made the decision.
+CIVIL PENALTY DOCKETS AND DECISIONS|JUDGE_LAST_NAME|VARCHAR2|30|Last Name of Judge who made the decision.
+CIVIL PENALTY DOCKETS AND DECISIONS|APPEAL_TO_CODE|VARCHAR2|20|Code specifying what entity the Decision was appealed to.
+CIVIL PENALTY DOCKETS AND DECISIONS|APPEAL_TO_CODE_DESC|VARCHAR2|80|Description of each Appeal to Code.
+CIVIL PENALTY DOCKETS AND DECISIONS|APPEAL_TO_OTHER_DESC|VARCHAR2|80|Description of whom the decision was appealed to when an Appeal To Code of Other is entered.
+CIVIL PENALTY DOCKETS AND DECISIONS|APPEAL_BY_CODE|VARCHAR2|20|Code specifying what entity the Decision was appealed by.Description of each Appeal By Code.
+CIVIL PENALTY DOCKETS AND DECISIONS|APPEAL_BY_CODE_DESC|VARCHAR2|80|Description of each Appeal By Code.
+CIVIL PENALTY DOCKETS AND DECISIONS|APPEAL_DT|DATE|10|Date the Decision was appealed, if applicable.

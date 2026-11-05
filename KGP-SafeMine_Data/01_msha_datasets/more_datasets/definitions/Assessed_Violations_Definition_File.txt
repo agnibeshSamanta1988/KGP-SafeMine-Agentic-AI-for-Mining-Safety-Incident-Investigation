@@ -1,0 +1,59 @@
+TABLE_NAME|COLUMN_NAME|DATA_TYPE|DATA_LENGTH|FIELD_DESCRIPTION
+ASSESSED VIOLATIONS|EVENT_NO|VARCHAR2|7|A preassigned number used to identify each inspection, investigation, audit, survey, etc. Use to join to the Inspections and Violations tables.
+ASSESSED VIOLATIONS|VIOLATION_NO|VARCHAR2|30|Citation/order number assigned to each citation written during an inspection. This is a unique key to the file that can be used to join to the Violations table.
+ASSESSED VIOLATIONS|MINE_ID|VARCHAR2|7|Mine ID at which the violation is issued.
+ASSESSED VIOLATIONS|VIOLATOR_ID|VARCHAR2|9|Violator ID, which is the Operator ID, Contractor ID, Miner ID or Agent ID depending on the Violator type.
+ASSESSED VIOLATIONS|VIOLATOR_NAME|VARCHAR2|50|The name of the Operator or Contractor at the time of the Assessment.
+ASSESSED VIOLATIONS|VIOLATOR_TYPE_CD|VARCHAR2|20|Specifies the type of Violator, either Operator, Contractor, Agent or Miner (listed in common table Violator Type Codes). 
+ASSESSED VIOLATIONS|COAL_METAL_IND|VARCHAR2|1|Identifies if the violation was issued at a Coal(C) or Metal/Non-Metal (M) mine.
+ASSESSED VIOLATIONS|OFFICE_CD|VARCHAR2|5|MSHA assigned code identifying an office within a program area.  MSHA organization to which the mine is assigned. 
+ASSESSED VIOLATIONS|ASSESS_CASE_NO|VARCHAR2|20|Assessment Control Number.
+ASSESSED VIOLATIONS|PRIMARY_ACTION_CD|VARCHAR2|20|Primary Section of Act which gives the MSHA Inspector the authority to take the action specified by this Issuance.  More than one type of action may be cited.  
+ASSESSED VIOLATIONS|SIG_SUB_IND|VARCHAR2|1|An indicator as to whether or not the gravity is determined by the inspector to be significant and substantial.
+ASSESSED VIOLATIONS|MINE_ACT_SECTION_CD|VARCHAR2|20|Unique Section of the Mine Act.  The format is exactly as it appears in the Mine Act.
+ASSESSED VIOLATIONS|GOOD_FAITH_IND|VARCHAR2|1|Shows if Good Faith Reduction is applied to the Assessment.
+ASSESSED VIOLATIONS|EXCESSIVE_HISTORY_IND|VARCHAR2|1|An indicator used for non S&S Violations showing if the Violator has an excessive history of Violations.
+ASSESSED VIOLATIONS|CFR_STANDARD_CD|VARCHAR2|20|The 30 CFR Standard that the operator files to modify.
+ASSESSED VIOLATIONS|CITATION_TYPE_CD|VARCHAR2|20|Specifies the type of Citation: Citation, Order, Notice or Safeguard.
+ASSESSED VIOLATIONS|ASSESS_TYPE_CD|VARCHAR2|20|Unique code abbreviation for Special Assessment Codes:  DiscriminationDocket, Regular, Single or Special.
+ASSESSED VIOLATIONS|ASSESS_CASE_STATUS_CD|VARCHAR2|20|The Status Code for this Assessment Case Status:  Closed, Invalid, Printed or Received
+ASSESSED VIOLATIONS|ASSESS_CASE_STATUS_DT|DATE|10|Date the Assessment Case Status was assigned.
+ASSESSED VIOLATIONS|OCCURRENCE_DT|DATE|10|Actual date of occurrence of the violation. This is an important new date. It allows the citation to be matched with the exact Operator by date.
+ASSESSED VIOLATIONS|ISSUE_DT|DATE|10|Date the citation was issued.
+ASSESSED VIOLATIONS|FINAL_ORDER_DT|DATE|10|Date that this Assessment becomes a Final Order.  This date is set when the CRR date (Certified Return Receipt date) is set.  Note that this can be a projected future date that is set as soon as the CRR is entered.  
+ASSESSED VIOLATIONS|BILL_PRINT_DT|DATE|10|Date the bill was printed. This date always represents the first time the bill was printed.
+ASSESSED VIOLATIONS|BILL_PRINT_FISCAL_YR|VARCHAR2|4|The fiscal year associated with the Bill Print Date.
+ASSESSED VIOLATIONS|PROPOSED_PENALTY_AMT|NUMBER|9,2|The original dollar value of the proposed penalty prior to any modifications such as those possibly resulting from a decision on a contested case.  Stored in database as character with decimal.
+ASSESSED VIOLATIONS|CURRENT_ASSESSMENT_AMT|NUMBER|9,2|This is the dollar amount due for this Collectable.  Stored in database as character with decimal.
+ASSESSED VIOLATIONS|MINEACT_INTEREST_AMT|NUMBER|9,2|This is the dollar amount due for this Collectable.   Stored in database as character with decimal. 
+ASSESSED VIOLATIONS|EXLATE_INTEREST_AMT|NUMBER|9,2|Excessive late payment interest amount.  Stored in database as character with decimal.
+ASSESSED VIOLATIONS|PAID_PROPOSED_PENALTY_AMT|NUMBER|9,2|Dollar amount applied to this Collectable Amount.  Stored in database as character with decimal.
+ASSESSED VIOLATIONS|PAID_MINEACT_INTEREST_AMT|NUMBER|9,2|Dollar amount applied to this Collectable Amount.  Stored in database as character with decimal.  
+ASSESSED VIOLATIONS|PAID_EXLATE_INTEREST_AMT|NUMBER|9,2|Dollar amount applied to this Collectable Amount.  Stored in database as character with decimal.  
+ASSESSED VIOLATIONS|PENALTY_POINTS|VARCHAR2|5|The penalty points for Operator or Contractor violation history, which are based on the number of assessed violations in a preceding 24-month period. 
+ASSESSED VIOLATIONS|GRAVITY_PERSONS_POINTS|VARCHAR2|5|Points calculated for the value assigned for number of persons affected gravity.
+ASSESSED VIOLATIONS|GRAVITY_INJURY_POINTS|VARCHAR2|5|Points calculated for the value assigned for severity of injury gravity.
+ASSESSED VIOLATIONS|GRAVITY_LIKELIHOOD_POINTS|VARCHAR2|5|Points calculated for the value assigned for Likelihood of Occurrence gravity.
+ASSESSED VIOLATIONS|NEGLIGENCE_POINTS|VARCHAR2|5|Points calculated for the value assigned for Negligence.
+ASSESSED VIOLATIONS|CONTRACTOR_SIZE_POINTS|VARCHAR2|5|Points calculated for the size of the Contractor at the time of the violation if the violator is a Contractor.
+ASSESSED VIOLATIONS|GOOD_FAITH_POINTS|VARCHAR2|5|Points calculated for good faith.
+ASSESSED VIOLATIONS|VIOLATOR_VIOLATION_CNT|NUMBER|5|Total number of assessed violations for this violator at this mine during the violation history period. Used in penalty calculation. Applies to an Operator or a Contractor.
+ASSESSED VIOLATIONS|VIOLATOR_INSPECTION_DAY_CNT|NUMBER|5|Number of inspections for this Operator at this mine during the violation history period. Used in penalty calculation.  Does not apply to Contractor.  
+ASSESSED VIOLATIONS|VPID|NUMBER|9,2|Violations per inspection day.  The calculation for this value is Violator Violation Count / Violator Inspection Day Count.  Stored in database as character with decimal.
+ASSESSED VIOLATIONS|VIOLATION_PER_INSP_DAY_POINTS|VARCHAR2|5|Points calculated for the Violations per inspection day (VPID). This column is also used for the Contractor Violations per Year points (CVPY), when the violator is a Contractor.
+ASSESSED VIOLATIONS|VIOLATOR_REPEATED_VIOL_CNT|NUMBER|5|The number of repeat violations calculated for this assessment
+ASSESSED VIOLATIONS|RPID|NUMBER|9,3|Repeated violations per inspection day.  The calculation for this value is Violator Repeated Violation Count / Violator Inspection Day Count.  Stored in database as character with decimal.
+ASSESSED VIOLATIONS|VIOLATOR_REPEATED_VIOL_POINTS|VARCHAR2|5|Points calculated for the Repeated Violation Count
+ASSESSED VIOLATIONS|VIOLATOR_MINE_HRS|NUMBER|12|Operator's hours worked at the mine, used in Penalty calculation.  This value is stored in order to have a record of the calculation made at the time of the Assessment. This value does not change later even if the Operator data changes.
+ASSESSED VIOLATIONS|VIOLATOR_PRODUCTION_AMT|NUMBER|12|Operator's tonnage used in Penalty calculation.  This value is stored in order to have a record of the calculation made at the time of the Assessment.  This value does not change later even if the Operator data changes.
+ASSESSED VIOLATIONS|SIZE_OF_MINE|NUMBER|12|For Metal mines, this is the Violator Hours.  For Coal mines, this is the Violator Production Amount.
+ASSESSED VIOLATIONS|MINE_SIZE_POINTS|VARCHAR2|5|For Metal mines, this is the Violator Hours.  For Coal mines, this is the Violator Production Amount.
+ASSESSED VIOLATIONS|CONTROLLER_HRS|NUMBER|12|Controller's hours worked at the mine, used in Penalty calculation.  This value is stored in order to have a record of the calculation made at the time of the Assessment. This value does not change later even if the Operator or Controller data changes.
+ASSESSED VIOLATIONS|CONTROLLER_PRODUCTION_AMT|NUMBER|12|Controller's tonnage used in Penalty calculation.  This value is stored in order to have a record of the calculation made at the time of the Assessment. This value does not change later even if the Operator or Controller data changes.
+ASSESSED VIOLATIONS|SIZE_OF_CONTROLLING_ENTITY|NUMBER|12|For Metal mines, this is the Controller Hours.  For Coal mines, this is the Controller Production Amount.
+ASSESSED VIOLATIONS|CONTROLLER_SIZE_POINTS|VARCHAR2|5|Points calculated for the size of the Controller of the Operator at the time of the violation.
+ASSESSED VIOLATIONS|DELINQUENT_DT|DATE|10|Date this Assessment becomes delinquent for payment of penalty and other collectable amounts.  This date is set when the CRR Date is set for the Assessment Case (may be a future date).  Do not use this date alone to determine if this Assessment is delinquent. This date is always populated, whether or not the Assessment is delinquent.
+ASSESSED VIOLATIONS|HISTORY_START_DT|DATE|10|Calculated start date of the history period for the Violator for the calculation of penalty points for this Assessment.
+ASSESSED VIOLATIONS|HISTORY_END_DT|DATE|10|Calculated end date of the history period for the Violator for the calculation of penalty points for this Assessment.
+ASSESSED VIOLATIONS|VIOLATOR_START_DT|DATE|10|Start Date of the Operator at the Mine, for the period in which the violation occurred.  This value does not change later even if the Operator stops operating the Mine, because it needs to stay as the start date of the Operator at the time of the Assessment.
+ASSESSED VIOLATIONS|VIOLATOR_END_DT|DATE|10|End Date of the Operator at the Mine, for the period in which the violation occurred.  This value does not change later even if the Operator stops operating the Mine, because it needs to stay as the end  date of the Operator at the time of the Assessment.

@@ -1,0 +1,14 @@
+TABLE_NAME|COLUMN_NAME|DATA_TYPE|DATA_LENGTH|FIELD_DESCRIPTION
+107(a) ORDERS ISSUED|COAL OR METAL|VARCHAR2|1|Identifies if the 107(a) order was at a Coal or Metal/Non-Metal mine.
+107(a) ORDERS ISSUED|MINE ID|VARCHAR2|7|Identification number assigned to the operation inspected by MSHA .  Use mine id to join to Mines table.
+107(a) ORDERS ISSUED|MINE NAME|VARCHAR2|50|Name of the mine where the violation was issued.
+107(a) ORDERS ISSUED|OPERATOR NAME (VIOLATIONS)|VARCHAR2|60|Name of the operator active at the time the violation was cited.  May contain null values if this record pertains to a violation issued to a contractor.
+107(a) ORDERS ISSUED|CONTROLLER ID @ VIOLATIONS|VARCHAR2|7|Identification number assigned by MSHA Assessments for a Legal Entity acting as a controller of an operator at the time the violation was cited.   May contain null values if this record pertains to a violation issued to a contractor.
+107(a) ORDERS ISSUED|CONTROLLER NAME @ VIOLATIONS|VARCHAR2|60|Name of the controller active at the time the violation was cited.  May contain null values if this record pertains to a violation issued to a contractor.
+107(a) ORDERS ISSUED|CONTRACTOR ID|VARCHAR2|10|Code identifying the contractor to whom the order was issued.  May contain null values if the contractor was not cited.
+107(a) ORDERS ISSUED|CONTRACTOR NAME|VARCHAR2|60|The name of the contractor to whom the order was issued.
+107(a) ORDERS ISSUED|STATE ABBREVIATION|VARCHAR2|2|State in which the mine is located. Standard state abbreviation code.
+107(a) ORDERS ISSUED|VIOLATOR TYPE|VARCHAR2|20|Type of Violator (Operator, Contractor) to whom order was issued.
+107(a) ORDERS ISSUED|VIOLATION NO.|VARCHAR2|7|Order number assigned for this violation issued during an inspection.  This is a unique key to the file.
+107(a) ORDERS ISSUED|VIOLATION DATE ISSUED|DATE|10|Date on which the Order was issued.
+107(a) ORDERS ISSUED|TERMINATION DATE|DATE|10|Date on which the Order was terminated.  May contain null values if Order has not yet been terminated.

@@ -1,0 +1,11 @@
+TABLE_NAME|COLUMN_NAME|DATA_TYPE|DATA_LENGTH|FIELD_DESCRIPTION
+ANNUAL CONTRACTOR EMPLOY/PROD|CONTRACTOR_ID|VARCHAR2|7|Identification number assigned by MSHA for a legal entity acting as a contractor at a mine.
+ANNUAL CONTRACTOR EMPLOY/PROD|CONTRACTOR_NAME|VARCHAR2|60|The name of the contractor that reported this information.
+ANNUAL CONTRACTOR EMPLOY/PROD|CAL_YR|NUMBER|4|The 4-digit year on which the record is summarized.
+ANNUAL CONTRACTOR EMPLOY/PROD|SUBUNIT_CD|VARCHAR2|2|Code that identifies the location/operation within a mine.
+ANNUAL CONTRACTOR EMPLOY/PROD|SUBUNIT|VARCHAR2|32|Narrative description of each subunit code: (01) Underground;  (02) Surface at underground;  (03) Strip, quarry, open pit;  (04) Auger;  (05) Culm bank/refuse pile;  (06) Dredge;  (12) Other mining;  (17) Independent shops or yards;  (30) Mill operation/preparation plant;  (99) Office workers at mine site.  
+ANNUAL CONTRACTOR EMPLOY/PROD|ANNUAL_COAL_PRODUCTION|NUMBER|9|The annual summation of coal production where the average quarterly employment is greater than zero with grouping by calendar year, subunit code and contractor ID.  
+ANNUAL CONTRACTOR EMPLOY/PROD|ANNUAL_HOURS|NUMBER|9|The annual summation of hours where the average quarterly employment is greater than zero with grouping by calendar year, subunit code and contractor ID.
+ANNUAL CONTRACTOR EMPLOY/PROD|AVG_EMPLOYEE_CNT|NUMBER|9|The average of the quarterly average employee count where the average quarterly employment is greater than zero and is grouped by calendar year, subunit code and contractor ID.
+ANNUAL CONTRACTOR EMPLOY/PROD|AVG_EMPLOYEE_HOURS|NUMBER|7|Average employee hours derived by the following:  hours reported for year (annual_hours) / avg subunit empl for year (avg_employee_cnt).
+ANNUAL CONTRACTOR EMPLOY/PROD|COAL_METAL_IND|VARCHAR2|1|Identifies if the employment and production are being reported for a Coal or Metal/Non-Metal mine.

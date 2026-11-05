@@ -1,0 +1,30 @@
+TABLE_NAME|COLUMN_NAME|DATA_TYPE|DATA_LENGTH|FIELD_DESCRIPTION
+NOISE SAMPLES|MINE_ID|VARCHAR2|7|The mine id where the sample was taken.  Use mine_id to join to the Mines table.
+NOISE SAMPLES|EVENT_NO|VARCHAR2|7|Unique number identifying inspection (event) related to the sampling.  Primary key to join to the Inspections table.
+NOISE SAMPLES|VIOLATION_NO|NUMBER|7|Violation number assigned if issued during the inspection.
+NOISE SAMPLES|FORM_NO|VARCHAR2|8|Noise form number is the printed serial number of the noise Form 2000-84.  This number and the survey sample number provide a unique id for the file.
+NOISE SAMPLES|SURVEY_NO|VARCHAR2|1|Survey sample number is the printed serial number of the noise Form 2000-84.  This number and the survey sample number provide a unique id for the file.
+NOISE SAMPLES|SURVEY_DATE|DATE|10|The date of survey.  This date must be the same for all noise surveys documented on the same Form 2000-84.
+NOISE SAMPLES|START_TIME|VARCHAR2|4|Survey start time using the 24-hour clock time.
+NOISE SAMPLES|INSTRUMENT_NO|VARCHAR2|8|Instrument property number.
+NOISE SAMPLES|CALIBRATOR_NO|VARCHAR2|8|Calibrator property number.  This field may contain null values.
+NOISE SAMPLES|CALIBRATION_BEFORE|VARCHAR2|1|Calibration check before survey.  It contains either 'Y' or 'N'.
+NOISE SAMPLES|CALIBRATION AFTER|VARCHAR2|2|Calibration check after survey.  It contains either 'Y' or 'N'.
+NOISE SAMPLES|HCP_INDICATOR|VARCHAR2|1|Enrolled in HCP indicator.  It contains either 'Y' or 'N'.
+NOISE SAMPLES|MACHINE_CD|VARCHAR2|8|Instrument property number.  This field may contain spaces.
+NOISE SAMPLES|MANUFACTURER_CD|VARCHAR2|3|Manufacturer's code is entered on MSHA Form 2000-84.  This field may contain spaces.
+NOISE SAMPLES|MMU_AREAS|VARCHAR2|4|The MMU/DA/DWP identification number and additional codes assigned to the section, entity or surface area(s) where the survey was conducted.
+NOISE SAMPLES|OCCUPATION_CD|VARCHAR2|3|The MSHA code that best describes the duties performed during the survey period.
+NOISE SAMPLES|OCCUPATION_CD_DESC|VARCHAR2|40|Description of the duties performed during the survey period.
+NOISE SAMPLES|P_CODE|VARCHAR2|10|Mine operator equipment code.  P-Codes may be issued to a mine operator where MSHA has determined that a piece of equipment cannot be brought into compliance with the noise standards.
+NOISE SAMPLES|PHP_CAP|VARCHAR2|1|Cap hearing protective device type.  It contains either 'Y' or 'N'.
+NOISE SAMPLES|PHP_MUFF|VARCHAR2|1|Muff hearing protective device type.  It contains either 'Y' or 'N'.
+NOISE SAMPLES|PHP_PLUG|VARCHAR2|1|Plug hearing protective device type.  It contains either 'Y' or 'N'.
+NOISE SAMPLES|SURVEY_TYPE|VARCHAR2|1|Indicates whether the noise survey is an initial survey (I) or a follow-up (F) survey.
+NOISE SAMPLES|TOTAL_SURVEY_TIME|NUMBER|7|The total survey time in minutes for each survey conducted.
+NOISE SAMPLES|ACT_DOSE_85|NUMBER|7|Percentage of noise exposure at the 85 dBA action level from dosimeter I.
+NOISE SAMPLES|PEL_DOSE_90|NUMBER|7|Percentage of noise exposure at the 90 dBA permissible exposure level from Dosimeter II.
+NOISE SAMPLES|PEL_MAX_90|NUMBER|7|The noise exposure at the 90 dBA permissible exposure level from Dosimeter II.
+NOISE SAMPLES|UCL_117_DB|NUMBER|7|The duration of exposure in whole minutes for noise above 117 dB.
+NOISE SAMPLES|SURVEY_PROD_TONS|NUMBER|7|Raw production in tons for the survey period.
+NOISE SAMPLES|CONTRACTOR_ID|VARCHAR2|10|Contractor ID if sampling was performed in the working area of a contractor operating at the mine.

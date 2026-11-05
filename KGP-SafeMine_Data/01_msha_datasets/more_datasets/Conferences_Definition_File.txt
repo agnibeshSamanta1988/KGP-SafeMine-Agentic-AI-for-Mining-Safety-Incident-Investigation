@@ -1,0 +1,8 @@
+TABLE_NAME|COLUMN_NAME|DATA_TYPE|DATA_LENGTH|FIELD_DESCRIPTION
+CONFERENCES|CONFERENCE_NO|VARCHAR2|16|Unique identifier used in tracking this Conference.  This identifier is generated as follows: ooooo-yyyy-99999 (District office-Year-Sequence No.).
+CONFERENCES|CONFERENCE_REQUESTED_BY|VARCHAR2|80|Entity requesting the conference.
+CONFERENCES|CONFERENCE_STATUS_CD|VARCHAR2|20|Code for each conference status: Cancelled, Closed, Complete, Held, Pending and Scheduled.
+CONFERENCES|CONFERENCE_TYPE_CD|VARCHAR2|20|Code showing if it is an Enhanced or Safety and Health conference.
+CONFERENCES|COMPLETION_DT|DATE|10|Date all documentation was completed, reviewed and communicated for the conference.
+CONFERENCES|ISSUANCE_NO|VARCHAR2|7|Citation/order number associated with a specific conference.
+CONFERENCES|CONFERENCE_RESULTS|VARCHAR2|80|Description of the results of the conference.

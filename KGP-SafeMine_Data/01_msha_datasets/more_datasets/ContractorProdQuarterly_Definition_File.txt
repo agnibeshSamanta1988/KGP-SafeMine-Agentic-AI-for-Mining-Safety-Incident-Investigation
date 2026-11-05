@@ -1,0 +1,13 @@
+TABLE_NAME|COLUMN_NAME|DATA_TYPE|DATA_LENGTH|FIELD_DESCRIPTION
+QRTLY CONTRACTOR EMPLOY/PROD|CONTRACTOR_ID|VARCHAR2|7|Identification number assigned by MSHA for a legal entity acting as a contractor at a mine.
+QRTLY CONTRACTOR EMPLOY/PROD|CONTRACTOR_NAME|VARCHAR2|60|The name of the contractor that reported this information.
+QRTLY CONTRACTOR EMPLOY/PROD|CAL_YR|NUMBER|4|The 4-digit calendar year of the employment/production data.
+QRTLY CONTRACTOR EMPLOY/PROD|CAL_QTR|NUMBER|1|The single-digit calendar quarter for which the employment and production data is reported.
+QRTLY CONTRACTOR EMPLOY/PROD|FISCAL_YR|NUMBER|4|The 4-digit fiscal year of the employment/production data.
+QRTLY CONTRACTOR EMPLOY/PROD|FISCAL_QTR|NUMBER|1|The single-digit fiscal quarter for which the employment and production data is reported.
+QRTLY CONTRACTOR EMPLOY/PROD|SUBUNIT_CD|VARCHAR2|2|Code that identifies the location/operation within a mine.
+QRTLY CONTRACTOR EMPLOY/PROD|SUBUNIT|VARCHAR2|40|Narrative description of each subunit code:  (01) Underground;  (02) Surface at underground;  (03) Strip, quarry, open pit;  (04) Auger;  (05) Culm bank/refuse pile;  (06) Dredge;  (12) Other mining;  (17) Independent shops or yards;  (30) Mill operation/preparation plant;  (99) Office workers at mine site. 
+QRTLY CONTRACTOR EMPLOY/PROD|AVG_EMPLOYEE_CNT|NUMBER|9|Average number of employees reported by the contractor for the applicable quarter, subunit and year beginning with 2000.  May be zero.
+QRTLY CONTRACTOR EMPLOY/PROD|HOURS_WORKED|NUMBER|9|Total employee hours reported by the contractor during the quarter for this subunit, year and quarter.  May be zero.
+QRTLY CONTRACTOR EMPLOY/PROD|COAL_PRODUCTION|NUMBER|9|Quarterly coal production, in tons, reported by the contractor for the applicable subunit.  Can be zero or null values.
+QRTLY CONTRACTOR EMPLOY/PROD|COAL_METAL_IND|VARCHAR2|1|Identifies if the employment and production are being reported for a Coal or Metal/Non-Metal mine.

@@ -1,0 +1,18 @@
+TABLE_NAME|COLUMN_NAME|DATA_TYPE|DATA_LENGTH|FIELD_DESCRIPTION
+AREA SAMPLES|MINE_ID|VARCHAR2|7|The mine id where the sample was taken.  Use mine_id to join to the Mines table.
+AREA SAMPLES|EVENT_NO|VARCHAR2|7|Unique number identifying inspection (event) related to the sampling.  Primary key to join to the Inspections table.
+AREA SAMPLES|SAMPLE_NO|VARCHAR2|18|Unique identifier for each sample.  The format is yyyymmdd0ARNOseqSN: year, month, day, 0, AR Number, sequence number, subcomponent number.
+AREA SAMPLES|SAMPLE_DATE|DATE|10|Date the sample was taken.
+AREA SAMPLES|CONTAMINANT_CD|VARCHAR2|5|Code assigned to the substance or agent sampled.
+AREA SAMPLES|CONTAMINANT_CD_DESC|VARCHAR2|64|Description of the code assigned to the substance or agent sampled.
+AREA SAMPLES|CONCENTRATION|VARCHAR2|9|Concentration amount of the substance or agent sampled.  Format ####.####.
+AREA SAMPLES|SAMPLE_START_TIME|VARCHAR2|4|Sample start time using the 24-hour clock time.
+AREA SAMPLES|SAMPLING_INSTRUMENT_CD|VARCHAR2|2|Code for the type of sampling instrument used. 
+AREA SAMPLES|SAMPLING_INSTRUMENT_DESC|VARCHAR2|32|Description of the code for the type of sampling instrument used.
+AREA SAMPLES|AREA_SAMPLED|VARCHAR2|20|Area of mine or mill where sample was taken.
+AREA SAMPLES|LOCATION_CD|VARCHAR2|2|Code of level/area of mine that was sampled.
+AREA SAMPLES|LOCATION_CD_DESC|VARCHAR2|50|Description of the code of level/area of mine that was sampled.
+AREA SAMPLES|MINERS_PRESENT|VARCHAR2|1|If miners were present during sampling, this field will contain an 'X'.
+AREA SAMPLES|ACTION_TAKEN|VARCHAR2|1|Action resulting from analysis of sample.
+AREA SAMPLES|ACTION_TAKEN_DESC|VARCHAR2|26|C = Cit/Ord Issued; E = Exceeds PEL but not PEL X error factor; L = Exposure limit exceeded; N = No Action; T = CIT/ORD Terminated; X = Extended; ? = No Action.
+AREA SAMPLES|CONTRACTOR_ID|VARCHAR2|10|Contractor ID if sampling was performed in the working area of a contractor operating at the mine.

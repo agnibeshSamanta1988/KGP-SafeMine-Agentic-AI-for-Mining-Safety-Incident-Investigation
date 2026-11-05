@@ -1,0 +1,31 @@
+TABLE_NAME|COLUMN_NAME|DATA_TYPE|DATA_LENGTH|FIELD_DESCRIPTION
+COAL DUST SAMPLES|CASSETTE_NO|VARCHAR2|8|For gravimetric samples, the cassette number is supplied by the manufacturer and must correspond to the number on the filter cassette bearing the identical serial number.  It will be blank for CPDM samples.  Use Device Type Code to identify each sample type.
+COAL DUST SAMPLES|INSP_OPER_IND|VARCHAR2|1|'Y' = inspector sample.  'N' = operator sample.
+COAL DUST SAMPLES|SAMPLE_TAKEN_DT|DATE|10|The date the sample was taken.
+COAL DUST SAMPLES|INTIAL_WEIGHT|NUMBER|6,3|Initial weight of the cassette before the sample is taken.  Format is ###.###.
+COAL DUST SAMPLES|FINAL_WEIGHT|NUMBER|6,3|Final weight of the cassette after the sample is taken.  Format is ###.###.
+COAL DUST SAMPLES|CONCENTRATION|NUMBER|5,3|Concentration of dust to which miners are exposed.  Format is ##.###.
+COAL DUST SAMPLES|SAMPLE_TYPE_CD|VARCHAR2|1|The number identifying the type of sample collected: (0) Invalid, (1) DO, (2) NDO, (3) DA, (4) DWP, (5) Pt90 Miner, (6) NDA, (7) Intake Air, (8) NDWP, (9) Control Filter, (?) Not Found 
+COAL DUST SAMPLES|SAMPLE_TYPE_DESC |VARCHAR2|27|Description of the sample type code.
+COAL DUST SAMPLES|SAMPLE_USE_CD|VARCHAR2|1|Sample usage code.
+COAL DUST SAMPLES|SAMPLE_USE_DESC|VARCHAR2|59|Description of the sample usage code.
+COAL DUST SAMPLES|SAMPLING_TIME|NUMBER|4|The actual elapsed time in minutes between when the pump was started and when the pump was turned off.  The total time cannot be more than 495 minutes or the sample will be voided.  Also the time cannot be less than 360 minutes unless that is the normal length of the shift or the Administrator for CMS&H has granted written permission to do so. 
+COAL DUST SAMPLES|VOID_CD|VARCHAR2|30|If an inspector recommends that a sample be voided, the appropriate void code is entered in the "Void Code" box located in the lower right-hand portion of the dust data card.
+COAL DUST SAMPLES|VOID_CD_DESC|VARCHAR2|80|Description of the void code.
+COAL DUST SAMPLES|ENTITY_NO|VARCHAR2|4|Number assigned by district which identifies the area being sampled.
+COAL DUST SAMPLES|TYPE_ENTITY|VARCHAR2|1|Type of sampling entity:  (D) Designated Area; (I) Intake Air Designated Area; (M) MMU (Designated Occ.), (N) MMU (Non-Designated Occ.), (P) Pt 90 Miner, (R ) Roof Bolter Designated Area, (S) Designated Work Position 
+COAL DUST SAMPLES|TYPE_ENTITY_DESC|VARCHAR2|33|Description of the type of entity.
+COAL DUST SAMPLES|MINE_ID|VARCHAR2|7|The mine id where the sample was taken.  Use mine_id to join to the Mines table.
+COAL DUST SAMPLES|MINE_TYPE|VARCHAR2|1|One-character code from the Legal ID (LID) form: (F) Facility, (S) Surface, (U) Underground.
+COAL DUST SAMPLES|INSPECTING_OFFICE|VARCHAR2|4|The inspecting office code.
+COAL DUST SAMPLES|MINING_METHOD|VARCHAR2|2|Method of mining code.            
+COAL DUST SAMPLES|MINING_METHOD_DESC|VARCHAR2|51|Mining method description.
+COAL DUST SAMPLES|OCCUPATION_CD|VARCHAR2|3|The occupation code the mine operator will use to identify each sample collected.
+COAL DUST SAMPLES|OCCUPATION_DESC|VARCHAR2|40|The description of the occupation code the mine operator will use to identify each sample collected.
+COAL DUST SAMPLES|COAL_TONS|NUMBER|5|Tons of material produced. This item is required for samples taken on MMU's only.  
+COAL DUST SAMPLES|SAMPLE_ENTITY_TYPE_CD|VARCHAR2|20|The entity type code for this sample.
+COAL DUST SAMPLES|SINGLE_SAMPLE_ECV|NUMBER|4,2|Threshold that indicates with 95% confidence that a single gravimetric or CPDM sample has exceeded the applicable standard.
+COAL DUST SAMPLES|AVERAGE_5_ECV|NUMBER|4,2|Threshold that indicates with 95% confidence that an average of 5 gravimetric or CPDM samples has exceeded the applicable standard.
+COAL DUST SAMPLES|AVERAGE_15_ECV|NUMBER|4,2|Threshold that indicates with 95% confidence that an average of 15 gravimetric or CPDM samples has exceeded the applicable standard.
+COAL DUST SAMPLES|DEVICE_TYPE_CD|VARCHAR2|20|Describes the type of sample:  CMDPSU for gravimetric samples and CPDM for Continuous Personal Dust Monitor.
+COAL DUST SAMPLES|SMP_CPDM_FILE_NAME|VARCHAR2|50|Identifier for CPDM samples.  Made up of sample start date (YYYYMMDD) + sample end time (TTT) + serial number (###########) + mine ID (#######).
