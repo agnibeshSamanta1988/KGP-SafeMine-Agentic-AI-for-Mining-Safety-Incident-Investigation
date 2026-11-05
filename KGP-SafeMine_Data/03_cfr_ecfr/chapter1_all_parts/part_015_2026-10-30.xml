@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+<DIV5 N="15" TYPE="PART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-15&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 15&amp;quot;}">
+<HEAD>PART 15&#x2014;REQUIREMENTS FOR APPROVAL OF EXPLOSIVES AND SHEATHED EXPLOSIVE UNITS
+</HEAD>
+<AUTH>
+<HED>Authority:</HED><PSPACE>30 U.S.C. 957.
+</PSPACE></AUTH>
+<SOURCE>
+<HED>Source:</HED><PSPACE>53 FR 46761, Nov. 18, 1988, unless otherwise noted.
+</PSPACE></SOURCE>
+<DIV6 N="A" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-15/subpart-A&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 15 Subpart A&amp;quot;}">
+<HEAD>Subpart A&#x2014;General Provisions</HEAD>
+<DIV8 N="15.1" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-15.1&quot;,&quot;citation&quot;:&quot;30 CFR 15.1&quot;}">
+<HEAD>&#xA7; 15.1 Purpose and effective dates.</HEAD>
+<P>This part sets forth the requirements for approval of explosives and sheathed explosive units to be used in underground coal mines and certain underground metal and nonmetal gassy mines and is effective January 17, 1989. Those manufacturers proceeding under the provisions of the previous regulation may file requests for approval or extension of approval of explosives under that regulation until January 17, 1990. After January 17, 1990, all requests for approval or extension of approval of explosives or sheathed explosive units shall be made in accordance with Subpart A and the applicable subpart of this part. Explosives issued an approval under regulations in place prior to January 17, 1989, and in compliance with those regulations, may continue to be manufactured and marked as approved as long as no change to the explosive is made.</P>
+<CITA TYPE="N">[53 FR 46761, Nov. 18, 1988; 54 FR 351, Jan. 5, 1989]
+</CITA>
+</DIV8>
+
+<DIV8 N="15.2" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-15.2&quot;,&quot;citation&quot;:&quot;30 CFR 15.2&quot;}">
+<HEAD>&#xA7; 15.2 Definitions.</HEAD>
+<P>The following definitions apply in this part.</P>
+<P><I>Applicant.</I> An individual or organization that manufactures or controls the production of an explosive or an explosive unit and that applies to MSHA for approval of that explosive or explosive unit.</P>
+<P><I>Approval.</I> A document issued by MSHA which states that an explosive or explosive unit has met the requirements of this part and which authorizes an approval marking identifying the explosive or explosive unit as approved as permissible.</P>
+<P><I>Explosive.</I> A substance, compound, or mixture, the primary purpose of which is to function by explosion.</P>
+<P><I>Extension of approval.</I> A document issued by MSHA which states that the change to an explosive or explosive unit previously approved by MSHA under this part meets the requirements of this part and which authorizes the continued use of the approval marking after the appropriate extension number has been added.</P>
+<P><I>Minimum product firing temperature.</I> The lowest product temperature at which the explosive or explosive unit is approved for use under this part.</P>
+<P><I>Post-approval product audit.</I> Examination, testing, or both, by MSHA of approved explosives or explosive units selected by MSHA to determine whether they meet the technical requirements and have been manufactured as approved.</P>
+<P><I>Sheath.</I> A chemical compound or mixture incorporated in a sheathed explosive unit and which forms a flame inhibiting cloud on detonation of the explosive.</P>
+<P><I>Sheathed explosive unit.</I> A device consisting of an approved or permissible explosive covered by a sheath encased in a sealed covering and designed to be fired outside the confines of a borehole.</P>
+<P><I>Test detonator.</I> An instantaneous detonator that has a strength equivalent to that of a detonator with a base charge of 0.40-0.45 grams PETN.</P>
+<CITA TYPE="N">[53 FR 46761, Nov. 18, 1988; 54 FR 351, Jan. 5, 1989]
+</CITA>
+</DIV8>
+
+<DIV8 N="15.3" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-15.3&quot;,&quot;citation&quot;:&quot;30 CFR 15.3&quot;}">
+<HEAD>&#xA7; 15.3 Observers at tests and evaluation.</HEAD>
+<P>Only personnel of MSHA, designees of MSHA, representatives of the applicant, and such other persons as agreed upon by MSHA and the applicant shall be present during tests and evaluations conducted under this part.</P>
+<CITA TYPE="N">[70 FR 46342, Aug. 9, 2005]
+</CITA>
+</DIV8>
+
+<DIV8 N="15.4" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-15.4&quot;,&quot;citation&quot;:&quot;30 CFR 15.4&quot;}">
+<HEAD>&#xA7; 15.4 Application procedures and requirements.</HEAD>
+<P>(a) <I>Application.</I> Requests for an approval or an extension of approval under this part shall be sent to: U.S. Department of Labor, Mine Safety and Health Administration, Approval and Certification Center, 765 Technology Drive, Triadelphia, WV 26059.</P>
+<P>(b) <I>Fees.</I> Fees calculated in accordance with Part 5 of this Title shall be submitted in accordance with &#xA7; 5.40.</P>
+<P>(c) <I>Original approval for explosives.</I> Each application for approval of an explosive shall include&#x2014;</P>
+<P>(1) A technical description of the explosive, including the chemical composition of the explosive with tolerances for each ingredient;</P>
+<P>(2) A laboratory number or other suitable designation identifying the explosive. The applicant shall provide the brand or trade name under which the explosive will be marketed prior to issuance of the approval;</P>
+<P>(3) The lengths and diameters of explosive cartridges for which approval is requested;</P>
+<P>(4) The proposed minimum product firing temperature of the explosive; and</P>
+<P>(5) The name, address, and telephone number of the applicant's representative responsible for answering any questions regarding the application.</P>
+<P>(d) <I>Original approval for sheathed explosive units.</I> Each application for approval of a sheathed explosive unit shall include&#x2014;</P>
+<P>(1) A technical description of the sheathed explosive unit which includes the chemical composition of the sheath, with tolerances for each ingredient, and the types of material used for the outer covering;</P>
+<P>(2) The minimum thickness weight, and specific gravity of the sheath and outer covering;</P>
+<P>(3) The brand or trade name, weight, specific gravity, and minimum product firing temperature of the approved explosive to be used in the unit;</P>
+<P>(4) The ratio of the weight of the sheath to the weight of the explosive; and</P>
+<P>(5) The name, address and telephone number of the applicant's representative responsible for answering any questions regarding the application.</P>
+<P>(e) <I>Subsequent approval of a similar explosive or sheathed explosive unit.</I> Each application for approval of an explosive or sheathed explosive unit similar to one for which the applicant already holds an approval shall include&#x2014;</P>
+<P>(1) The approval number of the explosive or sheathed explosive unit which most closely resembles the new one;</P>
+<P>(2) The information specified in paragraphs (c) and (d) of this section for an original approval, as applicable, except that any document which is the same as the one listed by MSHA in the prior approval need not be submitted but shall be noted in the application; and</P>
+<P>(3) An explanation of all changes from the existing approval.</P>
+<P>(f) <I>Extension of the approval.</I> Any change in an approved explosive or sheathed explosive unit from the documentation on file at MSHA that affects the technical requirements of this Part shall be submitted for approval prior to implementing the change.</P>
+<P>(1) Each application for an extension of approval shall include&#x2014;</P>
+<P>(i) The MSHA-assigned approval number for the explosive or sheathed explosive unit for which the extension is sought;</P>
+<P>(ii) A description of the proposed change to the approved explosive or sheathed explosive unit; and</P>
+<P>(iii) The name, address, and telephone number of the applicant's representative responsible for answering any questions regarding the application.</P>
+<P>(2) MSHA will determine what tests, additional information, samples, or material, if any, are required to evaluate the proposed change.</P>
+<P>(3) When a change involves the chemical composition of an approved explosive or sheathed explosive unit which affects the firing characteristics, MSHA may require the explosive or sheathed explosive unit to be distinguished from those associated with the former composition.</P>
+<CITA TYPE="N">[53 FR 46761, Nov. 18, 1988; 54 FR 351, Jan. 5, 1989; 60 FR 33723, June 29, 1995; 73 FR 52211, Sept. 9, 2008]
+</CITA>
+</DIV8>
+
+<DIV8 N="15.5" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-15.5&quot;,&quot;citation&quot;:&quot;30 CFR 15.5&quot;}">
+<HEAD>&#xA7; 15.5 Test samples.</HEAD>
+<P>(a) <I>Submission of test samples.</I> (1) The applicant shall not submit explosives or sheathed explosive units to be tested until requested to do so by MSHA.</P>
+<P>(2) The applicant shall submit 70 pounds of 1
+<FR>1/4</FR>-inch diameter explosives and additional cartridges in the amount of 3200 divided by the length in inches, except for cartridges 12, 20 and greater than 36 inches long. The applicant shall submit 70 pounds and additional cartridges in the amount of 3800 divided by the length in inches for cartridges 12, 20 and greater than 36 inches long.</P>
+<P>(3) If approval is requested for cartridges in diameters less than 1-
+<FR>1/4</FR> inches, the applicant shall submit a number of cartridges equal to 1800 divided by the length in inches, except for cartridges 12, 20 and greater than 36 inches long. The applicant shall submit cartridges in the amount of 2200 divided by the length in inches for cartridges 12, 20 and greater than 36 inches long.</P>
+<P>(4) If approval is requested for cartridges in diameters larger than 1-
+<FR>1/4</FR> inches, the applicant shall submit an additional 10 cartridges of each larger diameter.</P>
+<P>(5) If approval is requested for cartridges in more than one length, the applicant shall submit an additional 10 cartridges for each additional length and diameter combination.</P>
+<P>(6) Each applicant seeking approval of sheathed explosive units shall submit 140 units.</P>
+<P>(b) <I>Condition and composition.</I> Explosives and sheathed explosive units will not be tested that&#x2014;</P>
+<P>(1) Contain chlorites, chlorates, or substances that will react over an extended time and cause degradation of the explosive or sheathed explosive unit;</P>
+<P>(2) Are chemically unstable;</P>
+<P>(3) Show leakage;</P>
+<P>(4) Use aluminum clips to seal the cartridge;</P>
+<P>(5) Contain any combination of perchlorate and aluminum;</P>
+<P>(6) Contain more than 5 percent perchlorate; or</P>
+<P>(7) Contain any perchlorate and less than 5 percent water.</P>
+<P>(c) <I>Storage.</I> Explosives and sheathed explosive units shall be stored in a magazine for at least 30 days before gallery tests are conducted.</P>
+</DIV8>
+
+<DIV8 N="15.6" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-15.6&quot;,&quot;citation&quot;:&quot;30 CFR 15.6&quot;}">
+<HEAD>&#xA7; 15.6 Issuance of approval.</HEAD>
+<P>(a) MSHA will issue an approval or a notice of the reasons for denying approval after completing the evaluation and testing provided for by this part.</P>
+<P>(b) An applicant shall not advertise or otherwise represent an explosive or sheathed explosive unit as approved until MSHA has issued an approval.</P>
+</DIV8>
+
+<DIV8 N="15.7" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-15.7&quot;,&quot;citation&quot;:&quot;30 CFR 15.7&quot;}">
+<HEAD>&#xA7; 15.7 Approval marking.</HEAD>
+<P>(a) An approved explosive or sheathed explosive unit shall be marketed only under the brand or trade name specified in the approval.</P>
+<P>(b) The wrapper of each cartridge and each case of approved explosives shall be legibly labeled with the following: the brand or trade name, &#x201C;MSHA Approved Explosive&#x201D;, the test detonator strength, and the minimum product firing temperature.</P>
+<P>(c) The outer covering of each sheathed explosive unit and each case of approved sheathed explosive units shall be legibly labeled with the following: the brand or trade name, &#x201C;MSHA Approved Sheathed Explosive Unit&#x201D;, the test detonator strength, and the minimum product firing temperature.</P>
+<CITA TYPE="N">[53 FR 46761, Nov. 18, 1988; 54 FR 351, Jan. 5, 1989; 54 FR 27641, June 30, 1989; 60 FR 33723, June 29, 1995]
+</CITA>
+</DIV8>
+
+<DIV8 N="15.8" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-15.8&quot;,&quot;citation&quot;:&quot;30 CFR 15.8&quot;}">
+<HEAD>&#xA7; 15.8 Quality assurance.</HEAD>
+<P>(a) Applicants granted an approval or an extension of approval under this part shall manufacture the explosive or sheathed explosive unit as approved.</P>
+<P>(b) Applicants shall immediately report to the MSHA Approval and Certification Center, any knowledge of explosives or sheathed explosive units that have been distributed that do not meet the specifications of the approval.</P>
+<CITA TYPE="N">[53 53 FR 46761, Nov. 18, 1988, as amended at 60 FR 33723, June 29, 1995]
+</CITA>
+</DIV8>
+
+<DIV8 N="15.9" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-15.9&quot;,&quot;citation&quot;:&quot;30 CFR 15.9&quot;}">
+<HEAD>&#xA7; 15.9 Disclosure of information.</HEAD>
+<P>(a) All information concerning product specifications and performance submitted to MSHA by the applicant shall be considered proprietary information.</P>
+<P>(b) MSHA will notify the applicants of requests for disclosure of information concerning its explosives or sheathed explosive units and shall give the applicant an opportunity to provide MSHA with a statement of its position prior to any disclosure.</P>
+</DIV8>
+
+<DIV8 N="15.10" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-15.10&quot;,&quot;citation&quot;:&quot;30 CFR 15.10&quot;}">
+<HEAD>&#xA7; 15.10 Post-approval product audit.</HEAD>
+<P>(a) Approved explosives and sheathed explosive units shall be subject to periodic audits by MSHA for the purpose of determining conformity with the technical requirements upon which the approval was based. Any approved explosive or sheathed explosive unit which is to be audited shall be selected by MSHA and be representative of those distributed for use in mines. The approval-holder may obtain any final report resulting from such audit.</P>
+<P>(b) No more than once a year, except for cause, the approval-holder, at MSHA's request, shall make one case of explosives or 25 sheathed explosive units available at no cost to MSHA for an audit. The approval-holder may observe any tests conducted during this audit.</P>
+<P>(c) An approved explosive or sheathed explosive unit shall be subject to audit for cause at any time MSHA believes that it is not in compliance with the technical requirements upon which the approval was based.</P>
+<P>(d) Explosives approved under regulations in effect prior to January 17, 1989, shall conform to the provisions on field samples set out in those regulations (See 30 CFR part 15, 1987 edition).</P>
+</DIV8>
+
+<DIV8 N="15.11" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-15.11&quot;,&quot;citation&quot;:&quot;30 CFR 15.11&quot;}">
+<HEAD>&#xA7; 15.11 Revocation.</HEAD>
+<P>(a) MSHA may revoke for cause an approval issued under this part if the explosive or sheathed explosive unit&#x2014;</P>
+<P>(1) Fails to meet the applicable technical requirements; or</P>
+<P>(2) Creates a hazard when used in a mine.</P>
+<P>(b) Prior to revoking an approval, the approval-holder shall be informed in writing of MSHA's intention to revoke. The notice shall&#x2014;</P>
+<P>(1) Explain the specific reasons for the proposed revocation; and</P>
+<P>(2) Provide the approval-holder an opportunity to demonstrate or achieve compliance with the product approval requirements.</P>
+<P>(c) Upon request, the approval-holder shall be afforded an opportunity for a hearing.</P>
+<P>(d) If an explosive or sheathed explosive unit poses an imminent hazard to the safety or health of miners, the approval may be immediately suspended without a written notice of the agency's intention to revoke. The suspension may continue until the revocation proceedings are completed.</P>
+</DIV8>
+
+</DIV6>
+<DIV6 N="B" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-15/subpart-B&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 15 Subpart B&amp;quot;}">
+<HEAD>Subpart B&#x2014;Requirements for Approval of Explosives</HEAD>
+<DIV8 N="15.20" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-15.20&quot;,&quot;citation&quot;:&quot;30 CFR 15.20&quot;}">
+<HEAD>&#xA7; 15.20 Technical requirements.</HEAD>
+<P>(a) <I>Chemical composition.</I> The chemical composition of the explosive shall be within the tolerances furnished by the applicant.</P>
+<P>(b) <I>Rate-of-detonation test.</I> The explosive shall propagate completely in the rate-of-detonation test. The test is conducted at an ambient temperature between 68 and 86 &#xB0;F. Nongelatinous explosives are initiated with a test detonator only, while gelatinous explosives are initiated with a test detonator and a 60-gram tetryl pellet booster. The test is conducted on&#x2014;</P>
+<P>(1) A 50-inch column of 1
+<FR>1/4</FR> inch diameter cartridges; and</P>
+<P>(2) A 50-inch column of the smallest diameter cartridges less than 1
+<FR>1/4</FR> inches submitted for testing.</P>
+<P>(c) <I>Air-gap sensitivity.</I> The air-gap sensitivity of the explosive shall be at least 2 inches at the minimum product firing temperature and 3 inches at a temperature between 68 and 86 &#xB0;F, and the explosive shall propagate completely.</P>
+<P>(1) Air-gap sensitivity of the explosive is determined in the explosion-by-influence test using the 7-inch cartridge method. The air-gap sensitivity is determined for 1
+<FR>1/4</FR> inch diameter cartridges and each cartridge diameter smaller than 1
+<FR>1/4</FR> inches. Explosives are initiated with a test detonator.</P>
+<P>(2) The 7-inch cartridge method is conducted with two 8-inch cartridges. One inch is cut off the end of each cartridge. The cartridges are placed in a paper tube, the cut ends facing each other, with the appropriate 2-inch or 3-inch air gap between them. The test is conducted at a temperature between 68 and 86 &#xB0;F and at the minimum product firing temperature proposed by the applicant, or 41 &#xB0;F, whichever is lower. The test temperature at which the explosive propagates completely will be specified in the approval as the minimum product firing temperature at which the explosive is approved for use.</P>
+<P>(d) <I>Gallery Test 7.</I> The explosive shall yield a value of at least 450 grams for the lower 95 percent confidence limit (L<E T="52">95</E>) on the weight for 50 percent probability of ignition (W<E T="52">50</E>) in gallery test 7 and shall propagate completely. The L<E T="52">95</E> and W<E T="52">50</E> values for the explosive are determined by using the Bruceton up-and-down method. A minimum of 20 trials are made with explosive charges of varying weights, including wrapper and seals. Each charge is primed with a test detonator, then tamped and stemmed with one pound of dry-milled fire clay into the borehole of a steel cannon. The cannon is fired into air containing 7.7 to 8.3 percent of natural gas. The air temperature is between 68 and 86 &#xB0;F.</P>
+<P>(e) <I>Gallery Test 8.</I> The explosive shall yield a value of at least 350 grams for the weight for 50 percent probability of ignition (W<E T="52">CDG</E>) in gallery test 8 and shall propagate completely. The (W<E T="52">CDG</E>) value for the explosive is determined using the Bruceton up-and-down method. A minimum of 10 tests are made with explosive charges of varying weights, including wrapper and seals. Each charge is primed with a test detonator, then tamped into the borehole of a steel cannon. The cannon is fired into a mixture of 8 pounds of bituminous coal dust predispersed into 640 cubic feet of air containing 3.8 to 4.2 percent of natural gas. The air temperature is between 68 and 86 &#xB0;F.</P>
+<P>(f) <I>Pendulum-friction test.</I> The explosive shall show no perceptible reaction in the pendulum-friction test with the hard fiber-faced shoe. Ten trials of the test are conducted by releasing the steel shoe from a height of 59 inches. If there is evidence of sensitivity, the test is repeated with the hard fiber-faced shoe.</P>
+<P>(g) <I>Toxic gases.</I> The total volume equivalent to carbon monoxide (CO) of toxic gases produced by detonation of the explosive shall not exceed 2.5 cubic feet per pound of explosive as determined in the large chamber test. The explosive shall propagate completely.</P>
+<P>(1) The large chamber test is conducted with a one-pound explosive charge, including wrapper and seal, primed with a test detonator. The explosive charge is loaded into the borehole of a steel cannon, then tamped and stemmed with one pound of dry-milled fire clay. The cannon is fired into the large chamber and the gaseous products resulting from detonation of the explosive are collected and analyzed for toxic gases. At least two trials are conducted.</P>
+<P>(2) The equivalent volume of each toxic gas produced, relative to CO, is determined by multiplying the measured volume of the gas by a conversion factor. The conversion factor is equal to the threshold limit value, time weighted average (TLV-TWA) in parts-per-million for CO divided by the TLV-TWA for the toxic gas. The TLV-TWA conversion factor for each gas for which MSHA shall test is specified in Table I of this subpart. The total volume equivalent to CO of the toxic gases produced by detonation of the explosive is the sum of the equivalent volumes of the individual toxic gases.</P>
+<DIV width="100%"><DIV class="gpotbl_div">
+<TABLE border="1" cellpadding="1" cellspacing="1" class="gpo_table" frame="void" width="100%">
+<CAPTION><P class="title">Table I&#x2014;Conversion Factors for Toxic Gases</P><P class="headnote">[For Equivalent Volume Relative to Carbon Monoxide]</P></CAPTION>
+<THEAD>
+<TR>
+<TH rowspan="2" class="center border-top-single border-bottom-single border-right-single"> </TH>
+<TH colspan="2" class="center border-top-single border-bottom-single">Toxic Gas</TH>
+</TR>
+<TR>
+<TH class="center border-bottom-single border-right-single">Conversion Factor</TH>
+<TH class="center border-bottom-single">TLV-TWA (PPM)</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD class="left border-right-single">Ammonia</TD>
+<TD class="right border-right-single">2</TD>
+<TD class="right">25</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Carbon Dioxide</TD>
+<TD class="right border-right-single">0.01</TD>
+<TD class="right">5000</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Carbon Monoxide</TD>
+<TD class="right border-right-single">1</TD>
+<TD class="right">50</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Hydrogen Sulfide</TD>
+<TD class="right border-right-single">5</TD>
+<TD class="right">10</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Nitric Oxide</TD>
+<TD class="right border-right-single">2</TD>
+<TD class="right">25</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Nitrogen Dioxide</TD>
+<TD class="right border-right-single">17</TD>
+<TD class="right">3</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single">Sulfur Dioxide</TD>
+<TD class="right border-bottom-single border-right-single">25</TD>
+<TD class="right border-bottom-single">2</TD>
+</TR>
+</TBODY>
+</TABLE>
+</DIV></DIV>
+<P>(h) <I>Cartridge diameter and length changes.</I> (1) For proposed changes to an approved explosive involving only cartridge diameter or length, MSHA will determine what tests, if any, will be required.</P>
+<P>(2) When a proposed change to an approved explosive involves a smaller diameter than that specified in the approval, the rate-of-detonation and air-gap sensitivity tests will be conducted.</P>
+<P>(3) No test will be conducted on cartridges with diameters the same as or smaller than those that previously failed to detonate in the rate-of-detonation test.</P>
+<P>(i) <I>New technology.</I> MSHA may approve an explosive that incorporates technology for which the requirements of this subpart are not applicable if MSHA determines that the explosive is as safe as those which meet the requirements of this subpart.</P>
+</DIV8>
+
+<DIV8 N="15.21" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-15.21&quot;,&quot;citation&quot;:&quot;30 CFR 15.21&quot;}">
+<HEAD>&#xA7; 15.21 Tolerances for ingredients.</HEAD>
+<P>Tolerances for each ingredient in an explosive, which are expressed as a percentage of the total explosive, shall not exceed the following:</P>
+<P>(a) Physical sensitizers: The tolerances established by the applicant;</P>
+<P>(b) Aluminum: &#xB1;0.7 percent;</P>
+<P>(c) Carbonaceous materials: &#xB1;3 percent; and</P>
+<P>(d) Moisture and ingredients other than specified in paragraphs (a), (b), and (c) of this section: The tolerances specified in Table II.</P>
+<DIV width="100%"><DIV class="gpotbl_div">
+<TABLE border="1" cellpadding="1" cellspacing="1" class="gpo_table" frame="void" width="100%">
+<CAPTION><P class="title">Table II&#x2014;Tolerances for Moisture and Other Ingredients</P></CAPTION>
+<THEAD>
+<TR>
+<TH class="center border-top-single border-bottom-single border-right-single">Quantity of ingredients (as percent of total explosive or sheath)</TH>
+<TH class="center border-top-single border-bottom-single">Tolerance percent</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD class="left border-right-single">0 to 5.0</TD>
+<TD class="right">1.2</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">5.1 to 10.0</TD>
+<TD class="right">1.5</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">10.1 to 20.0</TD>
+<TD class="right">1.7</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">20.1 to 30.0</TD>
+<TD class="right">2.0</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">30.1 to 40.0</TD>
+<TD class="right">2.3</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">40.1 to 50.0</TD>
+<TD class="right">2.5</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">50.1 to 55.0</TD>
+<TD class="right">2.8</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single">55.1 to 100.0</TD>
+<TD class="right border-bottom-single">3.0</TD>
+</TR>
+</TBODY>
+</TABLE>
+</DIV></DIV>
+</DIV8>
+
+<DIV8 N="15.22" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-15.22&quot;,&quot;citation&quot;:&quot;30 CFR 15.22&quot;}">
+<HEAD>&#xA7; 15.22 Tolerances for performance, wrapper, and specific gravity.</HEAD>
+<P>(a) The rate of detonation of the explosive shall be within &#xB1;15 percent of that specified in the approval.</P>
+<P>(b) The weight of wrapper per 100 grams of explosive shall be within &#xB1;2 grams of that specified in the approval.</P>
+<P>(c) The apparent specific gravity of the explosive shall be within &#xB1;7.5 percent of that specified in the approval.</P>
+</DIV8>
+
+</DIV6>
+<DIV6 N="C" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-15/subpart-C&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 15 Subpart C&amp;quot;}">
+<HEAD>Subpart C&#x2014;Requirements for Approval of Sheathed Explosive Units or Other Explosive Units Designed to be Fired Outside the Confines of a Borehole</HEAD>
+<DIV8 N="15.30" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-15.30&quot;,&quot;citation&quot;:&quot;30 CFR 15.30&quot;}">
+<HEAD>&#xA7; 15.30 Technical requirements.</HEAD>
+<P>(a) <I>Quantity of explosive.</I> The sheathed explosive unit shall contain not more than 1
+<FR>1/2</FR> pounds of an approved or permissible explosive.</P>
+<P>(b) <I>Chemical composition.</I> The chemical composition of the sheath shall be within the tolerances furnished by the applicant.</P>
+<P>(c) <I>Detonator well.</I> The sheathed explosive unit shall have a detonator well that&#x2014;</P>
+<P>(1) Is protected by a sealed covering;</P>
+<P>(2) Permits an instantaneous detonator to be inserted in the unit with the detonator completely embedded in the well;</P>
+<P>(3) Is provided with a means of securing the detonator in the well; and</P>
+<P>(4) Is clearly marked.</P>
+<P>(d) <I>Drop test.</I> The outer covering of the sheathed explosive unit shall not tear or rupture and the internal components shall not shift position or be damaged in the drop test.</P>
+<P>(1) The drop test is conducted on at least 10 sheathed explosive units. Each unit is dropped on its top, bottom, and edge from a height of 6 feet onto a concrete surface. For units with explosives approved with a minimum product firing temperature, the drop test is performed with the unit at the minimum product firing temperature established for the explosive in the unit. For units with explosives approved under regulations in effect prior to January 17, 1989, the drop test is performed with the unit at 41 &#xB0;F.</P>
+<P>(2) At least four units which have been drop-tested shall be cut-open and examined.</P>
+<P>(3) At least six units which have been drop-tested shall be subjected to gallery tests 9 and 10 as provided in paragraphs (e)(1) and (e)(2) of this section.</P>
+<P>(e) <I>Gallery tests.</I> No sheathed explosive unit shall cause an ignition in gallery tests 9, 10, 11, or 12. Ten trials in each gallery test shall be conducted and each sheathed explosive unit shall propagate completely in all tests.</P>
+<P>(1) Gallery test 9 is conducted in each trial with three sheathed explosive units placed in a row 2 feet apart. One of the trials is conducted with sheathed explosive units which have been subjected to the drop test as provided in paragraph (d)(3) of this section. The units are placed on a concrete slab, primed with test detonators and fired in air containing 7.7 to 8.3 percent natural gas or 8.7 to 9.3 percent methane. The air temperature is between 41 and 86 &#xB0;F.</P>
+<P>(2) Gallery test 10 is conducted in each trial with three sheathed explosive units placed in a row 2 feet apart. One of the trials is conducted with sheathed explosive units which have been subjected to the drop test as provided in paragraph (d)(3) of this section. The units are placed on a concrete slab, primed with test detonators and fired in air containing 3.8 to 4.2 percent natural gas, or 4.3 to 4.7 percent methane, mixed with 0.2 ounces per cubic foot of predispersed bituminous coal dust. The air temperature is between 41 and 86 &#xB0;F.</P>
+<P>(3) Gallery test 11 is conducted in each trial with three sheathed explosive units arranged in a triangular pattern with the units in contact with each other. The units are placed in a simulated crevice formed between two square concrete slabs, each measuring 24 inches on a side and 2 inches in thickness. The crevice is formed by placing one slab on top of the other and raising the edge of the upper slab at least 4 inches. The sheathed explosive units are primed with test detonators and fired in air containing 7.7 to 8.3 percent natural gas or 8.7 to 9.3 percent methane. The air temperature is between 41 and 86 &#xB0;F.</P>
+<P>(4) Gallery test 12 is conducted in each trial with three sheathed explosive units arranged in a triangular pattern with the units in contact with each other. The units are placed in a corner formed by three square steel plates, each measuring 24 inches on a side and one inch in thickness. The sheathed explosive units are primed with test detonators and fired in air containing 7.7 to 8.3 percent natural gas or 8.7 to 9.3 percent methane. The air temperature is between 41 and 86 &#xB0;F.</P>
+<P>(f) <I>Detonation test.</I> Each of ten sheathed explosive units shall propagate completely when fired at the minimum product firing temperature for the explosive used in the unit or 41 &#xB0;F for units with explosives approved under regulations in effect prior to January 17, 1989. The units are initiated with test detonators.</P>
+<P>(g) <I>New technology.</I> MSHA may approve an explosive unit designed to be fired outside the confines of a borehole that incorporates technology for which the requirements of this subpart are not applicable if MSHA determines that such explosive unit is as safe as those which meet the requirements of this subpart.</P>
+<CITA TYPE="N">[53 FR 46761, Nov. 18, 1988; 54 FR 351, Jan. 5, 1989]
+</CITA>
+</DIV8>
+
+<DIV8 N="15.31" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-15.31&quot;,&quot;citation&quot;:&quot;30 CFR 15.31&quot;}">
+<HEAD>&#xA7; 15.31 Tolerances for ingredients.</HEAD>
+<P>Tolerances established by the applicant for each ingredient in the sheath shall not exceed the tolerances specified in Table II &#xA7; 15.21 of this part.</P>
+</DIV8>
+
+<DIV8 N="15.32" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-15.32&quot;,&quot;citation&quot;:&quot;30 CFR 15.32&quot;}">
+<HEAD>&#xA7; 15.32 Tolerances for weight of explosive, sheath, wrapper, and specific gravity.</HEAD>
+<P>(a) The weight of the explosive, the sheath, and the outer covering shall each be within &#xB1;7.5 percent of that specified in the approval.</P>
+<P>(b) The ratio of the weight of the sheath to that of the explosive shall be within &#xB1;7.5 percent of that specified in the approval.</P>
+<P>(c) The specific gravity of the explosive and sheath shall be within &#xB1;7.5 percent of that specified in the approval.</P>
+</DIV8>
+
+</DIV6>
+</DIV5>

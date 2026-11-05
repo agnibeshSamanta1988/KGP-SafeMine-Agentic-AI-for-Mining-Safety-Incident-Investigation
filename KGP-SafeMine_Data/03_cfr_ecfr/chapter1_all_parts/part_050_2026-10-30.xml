@@ -1,0 +1,330 @@
+<?xml version="1.0"?>
+<DIV5 N="50" TYPE="PART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-50&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 50&amp;quot;}">
+<HEAD>PART 50&#x2014;NOTIFICATION, INVESTIGATION, REPORTS AND RECORDS OF ACCIDENTS, INJURIES, ILLNESSES, EMPLOYMENT, AND COAL PRODUCTION IN MINES
+</HEAD>
+<AUTH>
+<HED>Authority:</HED><PSPACE>29 U.S.C. 557(a); 30 U.S.C. 811, 813(j), 951, 957, 961.
+</PSPACE></AUTH>
+<SOURCE>
+<HED>Source:</HED><PSPACE>42 FR 65535, Dec. 30, 1977, unless otherwise noted.
+</PSPACE></SOURCE>
+<DIV6 N="A" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-50/subpart-A&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 50 Subpart A&amp;quot;}">
+<HEAD>Subpart A&#x2014;General</HEAD>
+<DIV8 N="50.1" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-50.1&quot;,&quot;citation&quot;:&quot;30 CFR 50.1&quot;}">
+<HEAD>&#xA7; 50.1 Purpose and scope.</HEAD>
+<P>This part 50 implements sections 103(e) and 111 of the Federal Coal Mine Health and Safety Act of 1969, 30 U.S.C. 801 <I>et seq.,</I> and sections 4 and 13 of the Federal Metal and Nonmetallic Mine Safety Act, 30 U.S.C. 721 <I>et seq.,</I> and applies to operators of coal, metal, and nonmetallic mines. It requires operators to immediately notify the Mine Safety and Health Administration (MSHA) of accidents, requires operators to investigate accidents, and restricts disturbance of accident related areas. This part also requires operators to file reports pertaining to accidents, occupational injuries and occupational illnesses, as well as employment and coal production data, with MSHA, and requires operators to maintain copies of reports at relevant mine offices. The purpose of this part is to implement MSHA's authority to investigate, and to obtain and utilize information pertaining to, accidents, injuries, and illnesses occurring or originating in mines. In utilizing information received under part 50, MSHA will develop rates of injury occurrence (incident rates or IR), on the basis of 200,000 hours of employee exposure (equivalent to 100 employees working 2,000 hours per year). The incidence rate for a particular injury category will be based on the formula:</P>
+<FP-2>IR = (number of cases &#xD7; 200,000) divided by hours of employee exposure.
+</FP-2>
+<FP>MSHA will develop data respecting injury severity using days away from work or days of restricted work activity and the 200,000 hour base as criteria. The severity measure (SM) for a particular injury category will be based on the formula:
+</FP>
+<FP-2>SM = (sum of days &#xD7; 200,000) divided by hours of employee exposure.
+</FP-2>
+<CITA TYPE="N">[42 FR 65535, Dec. 30, 1977; 43 FR 1617, Jan. 11, 1978, as amended at 43 FR 12318, Mar. 24, 1978; 71 FR 16666, Apr. 3, 2006]
+</CITA>
+</DIV8>
+
+<DIV8 N="50.2" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-50.2&quot;,&quot;citation&quot;:&quot;30 CFR 50.2&quot;}">
+<HEAD>&#xA7; 50.2 Definitions.</HEAD>
+<P>As used in this part:</P>
+<P>(a) <I>Mine</I> means: (1) An area of land from which minerals are extracted in nonliquid form or, if in liquid form, are extracted with workers underground (2) private ways and roads appurtenant to such area, and (3) lands, excavations, underground passageways, shafts, slopes, tunnels and workings, structures, facilities, equipment, machines, tools, or other property including impoundments, retention dams, and tailings ponds, on the surface or underground, used in, or to be used in, or resulting from, the work of extracting such minerals from their natural deposits in nonliquid form, or if in liquid form, with workers underground, or used in, or to be used in, the milling of such minerals, or the work of preparing coal or other minerals, and includes custom coal preparation facilities.</P>
+<P>(b) <I>Work of preparing the coal</I> means the breaking, crushing, sizing, cleaning, washing, drying, mixing, storing, and loading of bituminous coal, lignite, or anthracite, and such other work of preparing such coal as is usually done by the operator of the coal mine.</P>
+<P>(c) <I>Operator</I> means</P>
+<P>(1) Any owner, lessee, or other person who operates, controls, or supervises a coal mine; or,</P>
+<P>(2) The person, partnership, association, or corporation, or subsidiary of a corporation operating a metal or nonmetal mine, and owning the right to do so, and includes any agent thereof charged with responsibility for the operation of such mine.</P>
+<P>(d) <I>Miner</I> means any individual working in a mine.</P>
+<P>(e) <I>Occupational injury</I> means any injury to a miner which occurs at a mine for which medical treatment is administered, or which results in death or loss of consciousness, inability to perform all job duties on any day after an injury, temporary assignment to other duties, or transfer to another job.</P>
+<P>(f) <I>Occupational illness</I> means an illness or disease of a miner which may have resulted from work at a mine or for which an award of compensation is made.</P>
+<P>(g) <I>First aid</I> means one-time treatment, and any follow-up visit for observational purposes, of a minor injury.</P>
+<P>(h) <I>Accident</I> means:</P>
+<P>(1) A death of an individual at a mine;</P>
+<P>(2) An injury to an individual at a mine which has a reasonable potential to cause death;</P>
+<P>(3) An entrapment of an individual for more than 30 minutes or which has a reasonable potential to cause death;</P>
+<P>(4) An unplanned inundation of a mine by a liquid or gas;</P>
+<P>(5) An unplanned ignition or explosion of gas or dust;</P>
+<P>(6) In underground mines, an unplanned fire not extinguished within 10 minutes of discovery; in surface mines and surface areas of underground mines, an unplanned fire not extinguished within 30 minutes of discovery;</P>
+<P>(7) An unplanned ignition or explosion of a blasting agent or an explosive;</P>
+<P>(8) An unplanned roof fall at or above the anchorage zone in active workings where roof bolts are in use; or, an unplanned roof or rib fall in active workings that impairs ventilation or impedes passage;</P>
+<P>(9) A coal or rock outburst that causes withdrawal of miners or which disrupts regular mining activity for more than one hour;</P>
+<P>(10) An unstable condition at an impoundment, refuse pile, or culm bank which requires emergency action in order to prevent failure, or which causes individuals to evacuate an area; or, failure of an impoundment, refuse pile, or culm bank;</P>
+<P>(11) Damage to hoisting equipment in a shaft or slope which endangers an individual or which interferes with use of the equipment for more than thirty minutes; and</P>
+<P>(12) An event at a mine which causes death or bodily injury to an individual not at the mine at the time the event occurs.</P>
+<CITA TYPE="N">[42 FR 65535, Dec. 30, 1977; 43 FR 1617, Jan. 11, 1978, as amended at 43 FR 12318, Mar. 24, 1978; 69 FR 26499, May 13, 2004; 71 FR 71452, Dec. 8, 2006]
+</CITA>
+</DIV8>
+
+</DIV6>
+<DIV6 N="B" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-50/subpart-B&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 50 Subpart B&amp;quot;}">
+<HEAD>Subpart B&#x2014;Notification, Investigation, Preservation of Evidence</HEAD>
+<DIV8 N="50.10" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-50.10&quot;,&quot;citation&quot;:&quot;30 CFR 50.10&quot;}">
+<HEAD>&#xA7; 50.10 Immediate notification.</HEAD>
+<P>The operator shall immediately contact MSHA at once without delay and within 15 minutes at the toll-free number, 1-800-746-1553, once the operator knows or should know that an accident has occurred involving:</P>
+<P>(a) A death of an individual at the mine;</P>
+<P>(b) An injury of an individual at the mine which has a reasonable potential to cause death;</P>
+<P>(c) An entrapment of an individual at the mine which has a reasonable potential to cause death; or</P>
+<P>(d) Any other accident.</P>
+<CITA TYPE="N">[74 FR 68919, Dec. 29, 2009]
+</CITA>
+</DIV8>
+
+<DIV8 N="50.11" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-50.11&quot;,&quot;citation&quot;:&quot;30 CFR 50.11&quot;}">
+<HEAD>&#xA7; 50.11 Investigation.</HEAD>
+<P>(a) After notification of an accident by an operator, the MSHA District Manager will promptly decide whether to conduct an accident investigation and will promptly inform the operator of his decision. If MSHA decides to investigate an accident, it will initiate the investigation within 24 hours of notification.</P>
+<P>(b) Each operator of a mine shall investigate each accident and each occupational injury at the mine. Each operator of a mine shall develop a report of each investigation. No operator may use Form 7000-1 as a report, except that an operator of a mine at which fewer than twenty miners are employed may, with respect to that mine, use Form 7000-1 as an investigation report respecting an occupational injury not related to an accident. No operator may use an investigation or an investigation report conducted or prepared by MSHA to comply with this paragraph. An operator shall submit a copy of any investigation report to MSHA at its request. Each report prepared by the operator shall include,</P>
+<P>(1) The date and hour of occurrence;</P>
+<P>(2) The date the investigation began;</P>
+<P>(3) The names of individuals participating in the investigation;</P>
+<P>(4) A description of the site;</P>
+<P>(5) An explanation of the accident or injury, including a description of any equipment involved and relevant events before and after the occurrence, and any explanation of the cause of any injury, the cause of any accident or cause of any other event which caused an injury;</P>
+<P>(6) The name, occupation, and experience of any miner involved;</P>
+<P>(7) A sketch, where pertinent, including dimensions depicting the occurrence;</P>
+<P>(8) A description of steps taken to prevent a similar occurrence in the future; and</P>
+<P>(9) Identification of any report submitted under &#xA7; 50.20 of this part.</P>
+<CITA TYPE="N">[42 FR 65535, Dec. 30, 1977, as amended at 69 FR 26499, May 13, 2004]
+</CITA>
+</DIV8>
+
+<DIV8 N="50.12" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-50.12&quot;,&quot;citation&quot;:&quot;30 CFR 50.12&quot;}">
+<HEAD>&#xA7; 50.12 Preservation of evidence.</HEAD>
+<P>Unless granted permission by a MSHA District Manager, no operator may alter an accident site or an accident related area until completion of all investigations pertaining to the accident except to the extent necessary to rescue or recover an individual, prevent or eliminate an imminent danger, or prevent destruction of mining equipment.</P>
+<CITA TYPE="N">[42 FR 65535, Dec. 30, 1977; 43 FR 1617, Jan. 11, 1978, as amended at 69 FR 26499, May 13, 2004]
+</CITA>
+</DIV8>
+
+</DIV6>
+<DIV6 N="C" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-50/subpart-C&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 50 Subpart C&amp;quot;}">
+<HEAD>Subpart C&#x2014;Reporting of Accidents, Injuries, and Illnesses</HEAD>
+<DIV8 N="50.20" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-50.20&quot;,&quot;citation&quot;:&quot;30 CFR 50.20&quot;}">
+<HEAD>&#xA7; 50.20 Preparation and submission of MSHA Report Form 7000-1&#x2014;Mine Accident, Injury, and Illness Report.</HEAD>
+<P>(a) Each operator shall maintain at the mine office a supply of MSHA Mine Accident, Injury, and Illness Report Form 7000-1. These may be obtained from the MSHA District Office. Each operator shall report each accident, occupational injury, or occupational illness at the mine. The principal officer in charge of health and safety at the mine or the supervisor of the mine area in which an accident or occupational injury occurs, or an occupational illness may have originated, shall complete or review the form in accordance with the instructions and criteria in &#xA7;&#xA7; 50.20-1 through 50.20-7. If an occupational illness is diagnosed as being one of those listed in &#xA7; 50.20-6(b)(7), the operator must report it under this part. The operator shall mail completed forms to MSHA within ten working days after an accident or occupational injury occurs or an occupational illness is diagnosed. When an accident specified in &#xA7; 50.10 occurs, which does not involve an occupational injury, sections A, B, and items 5 through 12 of section C of Form 7000-1 shall be completed and mailed to MSHA in accordance with the instructions in &#xA7; 50.20-1 and criteria contained in &#xA7;&#xA7; 50.20-4 through 50.20-6.</P>
+<P>(b) Each operator shall report each occupational injury or occupational illness on one set of forms. If more than one miner is injured in the same accident or is affected simultaneously with the same occupational illness, an operator shall complete a separate set of forms for each miner affected. To the extent that the form is not self-explanatory, an operator shall complete the form in accordance with the instructions in &#xA7; 50.20-1 and criteria contained in &#xA7;&#xA7; 50.20-2 through 50.20-7.</P>
+<SECAUTH TYPE="N">(Secs. 103 (a) and (h), and 508, Pub. L. 91-173, as amended by Pub. L. 95-164, 91 Stat. 1297, 1299, 83 Stat. 803 (30 U.S.C. 801, 813, 957))
+</SECAUTH>
+<CITA TYPE="N">[42 FR 65535, Dec. 30, 1977, as amended at 44 FR 52828, Sept. 11, 1979; 60 FR 35695, July 11, 1995; 69 FR 26499, May 13, 2004]
+</CITA>
+</DIV8>
+
+<DIV8 N="50.20-1" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-50.20-1&quot;,&quot;citation&quot;:&quot;30 CFR 50.20-1&quot;}">
+<HEAD>&#xA7; 50.20-1 General instructions for completing MSHA Form 7000-1.</HEAD>
+<P>Each Form 7000-1 consists of four sheets, an original and three copies. The original form shall be mailed to: MSHA Office of Injury and Employment Information, P.O. Box 25367, Denver Federal Center, Denver, Colo. 80225, within ten working days after an accident, occupational injury or occupational illness. At the same time, the first copy shall be mailed to the appropriate local MSHA district office. If the first copy does not contain a completed Section D&#x2014;Return to Duty Information&#x2014;the second copy shall be retained by the operator until the miner returns to work or a final disposition is made respecting the miner. When the miner returns to work or a final disposition is made, the operator shall, within five days, complete Section D and mail the second copy to the MSHA Office of Injury and Employment Information at the above address. A third copy, containing all the information in the first and second copies shall be retained at the mine office closest to the mine for a period of five years. You may also submit reports by facsimile, 888-231-5515. To file electronically, follow the instructions on MSHA Internet site, <I>http://www.msha.gov.</I> For assistance in electronic filing, contact the MSHA help desk at 877-778-6055.</P>
+<CITA TYPE="N">[42 FR 65535, Dec. 30, 1977; 43 FR 1617, Jan. 11, 1978; 60 FR 35695, July 11, 1995, as amended at 69 FR 26499, May 13, 2004; 71 FR 16666, Apr. 3, 2006]
+</CITA>
+</DIV8>
+
+<DIV8 N="50.20-2" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-50.20-2&quot;,&quot;citation&quot;:&quot;30 CFR 50.20-2&quot;}">
+<HEAD>&#xA7; 50.20-2 Criteria&#x2014;&#x201C;Transfer to another job.&#x201D;</HEAD>
+<P>&#x201C;Transfer to another job&#x201D; means transfers, either temporary, or permanent, which are occasioned by a work-related injury or illness. Permanent or temporary transfers to remove miners from further exposure to health hazards are considered preventative in nature and are not required to be reported. Controlling the amount of exposure to radiation during some period of time is one example. Transfer of a coal miner to a less dusty area of a mine when the miner elects to exercise rights under Section 203(b) of the Federal Coal Mine Health and Safety Act of 1969 is another example.</P>
+</DIV8>
+
+<DIV8 N="50.20-3" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-50.20-3&quot;,&quot;citation&quot;:&quot;30 CFR 50.20-3&quot;}">
+<HEAD>&#xA7; 50.20-3 Criteria&#x2014;Differences between medical treatment and first aid.</HEAD>
+<P>(a) Medical treatment includes, but is not limited to, the suturing of any wound, treatment of fractures, application of a cast or other professional means of immobilizing an injured part of the body, treatment of infection arising out of an injury, treatment of bruise by the drainage of blood, surgical removal of dead or damaged skin (debridement), amputation or permanent loss of use of any part of the body, treatment of second and third degree burns. Procedures which are diagnostic in nature are not considered by themselves to constitute medical treatments. Visits to a physician, physical examinations, X-ray examinations, and hospitalization for observations, where no evidence of injury or illness is found and no medical treatment given, do not in themselves constitute medical treatment. Procedures which are preventive in nature also are not considered by themselves to constitute medical treatment. Tetanus and flu shots are considered preventative in nature. First aid includes any one-time treatment, and follow-up visit for the purpose of observation, of minor injuries such as, cuts, scratches, first degree burns and splinters. Ointments, salves, antiseptics, and dressings to minor injuries are considered to be first aid.</P>
+<P>(1) <I>Abrasion.</I> (i) First aid treatment is limited to cleaning a wound, soaking, applying antiseptic and nonprescription medication and bandages on the first visit and follow-up visits limited to observation including changing dressing and bandages. Additional cleaning and application of antiseptic constitutes first aid where it is required by work duties that soil the bandage.</P>
+<P>(ii) Medical treatment includes examination for removal of imbedded foreign material, multiple soakings, whirlpool treatment, treatment of infection, or other professional treatments and any treatment involving more than a minor spot-type injury. Treatment of abrasions occurring to greater than full skin depth is considered medical treatment.</P>
+<P>(2) <I>Bruises.</I> (i) First aid treatment is limited to a single soaking or application of cold compresses, and follow-up visits if they are limited only to observation.</P>
+<P>(ii) Medical treatment includes multiple soakings, draining of collected blood, or other treatment beyond observation.</P>
+<P>(3) <I>Burns, Thermal and Chemical (resulting in destruction of tissue by direct contact).</I> (i) First aid treatment is limited to cleaning or flushing the surface, soaking, applying cold compresses, antiseptics or nonprescription medications, and bandaging on the first visit, and follow-up visits restricted to observation, changing bandages, or additional cleaning. Most first degree burns are amenable to first aid treatment.</P>
+<P>(ii) Medical treatment includes a series of treatments including soaks, whirlpool, skin grafts, and surgical debridement (cutting away dead skin). Most second and third degree burns require medical treatment.</P>
+<P>(4) <I>Cuts and Lacerations.</I> (i) First aid treatment is the same as for abrasions except the application of butterfly closures for cosmetic purposes only can be considered first aid.</P>
+<P>(ii) Medical treatment includes the application of butterfly closures for non-cosmetic purposes, sutures, (stitches), surgical debridement, treatment of infection, or other professional treatment.</P>
+<P>(5) <I>Eye Injuries.</I> (i) First aid treatment is limited to irrigation, removal of foreign material not imbedded in eye, and application of nonprescription medications. A precautionary visit (special examination) to a physician is considered as first aid if treatment is limited to above items, and follow-up visits if they are limited to observation only.</P>
+<P>(ii) Medical treatment cases involve removal of imbedded foreign objects, use of prescription medications, or other professional treatment.</P>
+<P>(6) <I>Inhalation of Toxic or Corrosive Gases.</I> (i) First aid treatment is limited to removal of the miner to fresh air or the one-time administration of oxygen for several minutes.</P>
+<P>(ii) Medical treatment consists of any professional treatment beyond that mentioned under first aid and all cases involving loss of consciousness.</P>
+<P>(7) <I>Foreign Objects.</I> (i) First aid treatment is limited to cleaning the wound, removal of any foreign object by tweezers or other simple techniques, application of antiseptics and nonprescription medications, and bandaging on the first visit. Follow-up visits are limited to observation including changing of bandages. Additional cleaning and applications of antiseptic constitute first aid where it is required by work duties that soil the bandage.</P>
+<P>(ii) Medical treatment consists of removal of any foreign object by physician due to depth of imbedment, size or shape of object, or location of wound. Treatment for infection, treatment of a reaction to tetanus booster, or other professional treatment, is considered medical treatment.</P>
+<P>(8) <I>Sprains and Strains.</I> (i) First aid treatment is limited to soaking, application of cold compresses, and use of elastic bandages on the first visit. Follow-up visits for observation, including reapplying bandage, are first aid.</P>
+<P>(ii) Medical treatment includes a series of hot and cold soaks, use of whirlpools, diathermy treatment, or other professional treatment.</P>
+<CITA TYPE="N">[42 FR 65535, Dec. 30, 1977; 43 FR 12318, Mar. 24, 1978]
+</CITA>
+</DIV8>
+
+<DIV8 N="50.20-4" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-50.20-4&quot;,&quot;citation&quot;:&quot;30 CFR 50.20-4&quot;}">
+<HEAD>&#xA7; 50.20-4 Criteria&#x2014;MSHA Form 7000-1, Section A.</HEAD>
+<P>(a) <I>MSHA I.D. number.</I> Enter the seven digit number assigned to the mine operation by MSHA. If the number is unknown, the nearest MSHA District Office should be contacted.</P>
+<P>(b) <I>Mine name.</I> Enter the exact name of the operation to which the MSHA I.D. number was assigned.</P>
+<P>(c) <I>Company name.</I> Enter the name of the mining company submitting this report or, if not a company, the operator's name.</P>
+<CITA TYPE="N">[42 FR 65535, Dec. 30, 1977, as amended at 69 FR 26499, May 13, 2004]
+</CITA>
+</DIV8>
+
+<DIV8 N="50.20-5" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-50.20-5&quot;,&quot;citation&quot;:&quot;30 CFR 50.20-5&quot;}">
+<HEAD>&#xA7; 50.20-5 Criteria&#x2014;MSHA Form 7000-1, Section B.</HEAD>
+<P>(a) This section shall be completed for all accidents immediately reported to MSHA as defined in &#xA7; 50.10. Circle the code from the following list which best defines the accident:</P>
+<EXTRACT>
+<FP-1>Code 01&#x2014;A death of an individual at a mine;
+</FP-1>
+<FP-1>Code 02&#x2014;An injury to an individual at a mine which has a reasonable potential to cause death;
+</FP-1>
+<FP-1>Code 03&#x2014;An entrapment of an individual for more than 30 minutes;
+</FP-1>
+<FP-1>Code 04&#x2014;An unplanned mine inundation by a liquid or gas;
+</FP-1>
+<FP-1>Code 05&#x2014;An unplanned ignition or explosion of dust or gas;
+</FP-1>
+<FP-1>Code 06&#x2014;An unplanned mine fire not extinguished within 30 minutes of discovery;
+</FP-1>
+<FP-1>Code 07&#x2014;An unplanned ignition of a blasting agent or an explosive;
+</FP-1>
+<FP-1>Code 08&#x2014;An unplanned roof fall at or above the anchorage zone in active workings where roof bolts are in use; or a roof or rib fall on active workings that impairs ventilation or impedes passage;
+</FP-1>
+<FP-1>Code 09&#x2014;A coal or rock outburst that causes withdrawal of miners or which disrupts regular mining activity for more than one hour;
+</FP-1>
+<FP-1>Code 10&#x2014;An unstable condition at an impoundment, refuse pile, or culm bank which requires emergency action in order to prevent failure, or which causes individuals to evacuate an area; or, failure of an impoundment, refuse pile, or culm bank;
+</FP-1>
+<FP-1>Code 11&#x2014;Damage to hoisting equipment in a shaft or slope which endangers an individual or which interferes with use of the equipment for more than thirty minutes; and
+</FP-1>
+<FP-1>Code 12&#x2014;An event at a mine which causes death or bodily injury to an individual not at the mine at the time the event occurs.</FP-1></EXTRACT>
+</DIV8>
+
+<DIV8 N="50.20-6" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-50.20-6&quot;,&quot;citation&quot;:&quot;30 CFR 50.20-6&quot;}">
+<HEAD>&#xA7; 50.20-6 Criteria&#x2014;MSHA Form 7000-1, Section C.</HEAD>
+<P>(a) Complete items 5 through 12 for each accident, occupational injury, or occupational illness.</P>
+<P>(1) Item 5. Location and mining method. Circle the appropriate location code that was nearest to the location of the accident injury or illness. If the accident injury or illness occurred at the surface, circle only the surface location code in column (a). If the accident injury or illness occurred underground, circle only the underground location code in column (b). Where applicable, circle the underground mining method code in column (c). Applicable codes for columns (a), (b), and (c) are as follows:</P>
+<P>(i) Column (a)&#x2014;Surface location codes. If the accident injury or illness occurred at the surface of a mine, circle one of the following codes which best describes where the accident injury or illness occurred and ignore columns (b) and (c):</P>
+<EXTRACT>
+<FP-1>Code 02&#x2014;Surface shop, yard, etc., at an underground mine;
+</FP-1>
+<FP-1>Code 30&#x2014;Mill operation, preparation plant, or breaker, including associated shops and yards;
+</FP-1>
+<FP-1>Code 03&#x2014;Surface strip or open pit mine, including shop and yard;
+</FP-1>
+<FP-1>Code 04&#x2014;Surface auger coal operation on a coal mine, including shop and yard;
+</FP-1>
+<FP-1>Code 05&#x2014;Surface culm bank or refuse pile at a coal mine, including shop and yard;
+</FP-1>
+<FP-1>Code 06&#x2014;Dredge mining, including shop and yard;
+</FP-1>
+<FP-1>Code 12&#x2014;Other surface mining;
+</FP-1>
+<FP-1>Code 17&#x2014;Independent shops;
+</FP-1>
+<FP-1>Code 99&#x2014;Office facilities.</FP-1></EXTRACT>
+<P>(ii) Column (b)&#x2014;Underground location codes. If the accident injury or illness occurred underground, circle the one code which best describes where the accident injury or illness occurred:</P>
+<EXTRACT>
+<FP-1>Code 01&#x2014;Vertical shaft;
+</FP-1>
+<FP-1>Code 02&#x2014;Slope/Inclined shaft;
+</FP-1>
+<FP-1>Code 03&#x2014;Face;
+</FP-1>
+<FP-1>Code 04&#x2014;Intersection;
+</FP-1>
+<FP-1>Code 05&#x2014;Underground Shop/Office;
+</FP-1>
+<FP-1>Code 06&#x2014;Other.</FP-1></EXTRACT>
+<P>(iii) Column (c)&#x2014;Underground mining method. If the underground accident injury or illness occurred on a working section or working place, enter the code for the mining method at that working section or working place:</P>
+<EXTRACT>
+<FP-1>Code 01&#x2014;Longwall;
+</FP-1>
+<FP-1>Code 02&#x2014;Shortwall;
+</FP-1>
+<FP-1>Code 03&#x2014;Conventional/stoping;
+</FP-1>
+<FP-1>Code 05&#x2014;Continuous Miners;
+</FP-1>
+<FP-1>Code 06&#x2014;Hand Loading;
+</FP-1>
+<FP-1>Code 07&#x2014;Caving;
+</FP-1>
+<FP-1>Code 08&#x2014;Other.</FP-1></EXTRACT>
+<P>(2) Item 6. Date of accident injury or illness. Enter the date the accident injury or illness occurred.</P>
+<P>(3) Item 9. Describe fully the conditions contributing to the accident injury or illness and quantify the damage or impairment. Describe what happened and the reasons therefor, identify the factors which led or contributed to the accident, injury or illness and identify any damage or impairment to the mining operation. The narrative shall clearly specify the actual cause or causes of the accident injury or illness and shall include the following:</P>
+<P>(i) Whether the accident injury or illness involved any aspect of compliance with rules and regulations;</P>
+<P>(ii) Whether the accident injury or illness involved mine equipment or the mining system;</P>
+<P>(iii) Whether the accident injury or illness involved job skills and miner proficiency, training and attitude; and</P>
+<P>(iv) Whether the accident injury or illness involved protective items relating to clothing, or protective devices on equipment.</P>
+<P>(4) Item 10. If equipment was involved in the accident, injury or illness specify type (loader, shuttle car, dozer, etc.), name of manufacturer, and equipment model number.</P>
+<P>(5) Item 11. Name of witness to accident injury or illness. If any miner witnessed the accident injury or illness, enter the name.</P>
+<P>(b) Complete items 13-27 for each occupational injury, or occupational illness.</P>
+<P>(1) Item 13. Name of injured/ill miner. Enter the miner's name (first, middle initial, and last).</P>
+<P>(2) Item 17. Regular job title. Enter the miner's regular job title. For example: &#x201C;shuttle car operator&#x201D;.</P>
+<P>(3) Item 19. Check if this injury/illness resulted in permanent total or partial disability.</P>
+<P>(i) &#x201C;Permanent total disability.&#x201D; The classification for any injury or illness other than death which permanently and totally incapacitates an employee from following any gainful occupation or which results in the loss, or the complete loss of use, of any of the following in one accident injury or illness:</P>
+<P>(A) Both eyes;</P>
+<P>(B) One eye and one hand, or arm, or leg, or foot;</P>
+<P>(C) Any two of the following not on the same limb: hand, arm, foot, or leg.</P>
+<P>(ii) &#x201C;Permanent partial disability.&#x201D; The classification for any injury or illness other than death or permanent total disability which results in the loss, or complete loss of use, of any member or part of a member of the body, or any permanent impairment of functions of the body or part thereof, regardless of any preexisting disability of the affected member or impaired body function.</P>
+<P>(4) Item 20. What directly inflicted injury or illness. Name the object or substance which directly affected the miner. For example: the machine or thing struck against or which struck the miner; the vapor or poison inhaled or swallowed; the chemical or non-ionizing radiation which irritated the skin; or in cases of strains or hernias, the thing lifted or pulled.</P>
+<P>(5) Item 21. Nature of injury or illness. For injuries, use commonly used medical terms to answer this question such as puncture wound, third degree burn, fracture, dislocation, amputation. For multiple injuries, enter the injury which was the most serious. For illness, name the illness, such as pneumoconiosis, silicosis. Avoid general terms such as &#x201C;hurt&#x201D;, &#x201C;sore&#x201D;, &#x201C;sick&#x201D;.</P>
+<P>(6) Item 22. Part of body injured or affected. Name the part of the body with the most serious injury. For example, if an injured employee has a bruised finger and a broken ankle, write &#x201C;ankle&#x201D;. If amputation, enter part of the body lost.</P>
+<P>(7) Item 23. Occupational Illness. Circle the code from the list below which most accurately describes the illness. These are typical examples and are not to be considered the complete listing of the types of illnesses and disorders that should be included under each category. In cases where the time of onset of illness is in doubt, the day of diagnosis of illness will be considered as the first day of illness.</P>
+<P>(i) Code 21&#x2014;<I>Occupational Skin Diseases or Disorders.</I> Examples: Contact dermatitis, eczema, or rash caused by primary irritants and sensitizers or poisonous plants; oil acne; chrome ulcers; chemical burns or inflammations.</P>
+<P>(ii) Code 22&#x2014;<I>Dust Diseases of the Lungs (Pneumoconioses).</I> Examples: Silicosis, asbestosis, coal worker's pneumoconiosis, and other pneumoconioses.</P>
+<P>(iii) Code 23&#x2014;<I>Respiratory Conditions due to Toxic Agents.</I> Examples: Pneumonitis, pharyngitis, rhinitis, or acute congestion due to chemicals, dusts, gases, or fumes.</P>
+<P>(iv) Code 24&#x2014;<I>Poisoning (Systemic Effects of Toxic Materials).</I> Examples: Poisoning by lead, mercury, cadmium, arsenic, or other metals, poisoning by carbon monoxide, hydrogen sulfide or other gases; poisoning by benzol, carbon tetrachloride, or other organic solvents; poisoning by insecticide sprays such as parathion, lead arsenate; poisoning by other chemicals such as formaldehyde, plastics and resins.</P>
+<P>(v) Code 25&#x2014;<I>Disorders Due to Physical Agents (Other than Toxic Materials).</I> Examples: Heatstroke, sunstroke, heat exhaustion and other effects of environmental heat; freezing, frostbite and effects of exposure to low temperatures; caisson disease; effects of ionizing radiation (radon daughters, non-medical, non-therapeutic X-rays, radium); effects of nonionizing radiation (welding flash, ultra-violet rays, micro-waves, sunburn).</P>
+<P>(vi) Code 26&#x2014;<I>Disorders Associated with Repeated Trauma.</I> Examples: Noise-induced hearing loss; synovitis, tenosynovitis, and bursitis; Raynaud's phenomena; and other conditions due to repeated motion, vibration or pressure.</P>
+<P>(vii) Code 29&#x2014;<I>All Other Occupational Illnesses.</I> Examples: Infectious hepatitis, malignant and benign tumors, any form of cancer, kidney diseases, food poisoning, histoplasmosis.</P>
+<P>(8) Item 24. Miner's work activity when injury or illness occurred. Describe exactly the activity of the injured miner when the occupational injury or occupational illness occurred. For example: &#x201C;Setting temporary support prior to drilling holes for roof bolts.&#x201D;</P>
+<SECAUTH TYPE="N">(Secs. 103 (a) and (h), and 508, Pub. L. 91-173, as amended by Pub. L. 95-164, 91 Stat. 1297, 1299, 83 Stat. 803 (30 U. S. C. 801, 813, 957))
+</SECAUTH>
+<CITA TYPE="N">[42 FR 65535, Dec. 30, 1977; 43 FR 1617, Jan. 11, 1978, as amended at 44 FR 52828, Sept. 11, 1979; 69 FR 26499, May 13, 2004]
+</CITA>
+</DIV8>
+
+<DIV8 N="50.20-7" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-50.20-7&quot;,&quot;citation&quot;:&quot;30 CFR 50.20-7&quot;}">
+<HEAD>&#xA7; 50.20-7 Criteria&#x2014;MSHA Form 7000-1, Section D.</HEAD>
+<P>This section requires information concerning the miner's return to duty.</P>
+<P>(a) Item 28. Permanently transferred or terminated. Check this block if the miner's employment was terminated or if the miner was permanently transferred to another regular job as a direct result of the occupational injury or occupational illness.</P>
+<P>(b) Item 29. Show the date that the injured person returned to his regular job at full capacity (not to restricted work activity) or was transferred or terminated.</P>
+<P>(c) Item 30. Number of days away from work. Enter the number of work-days, consecutive or not, on which the miner would have worked but could not because of occupational injury or occupational illness. The number of days away from work shall not include the day of injury or onset of illness or any days on which the miner would not have worked even though able to work. If an employee loses a day from work solely because of the unavailability of professional medical personnel for initial observation or treatment and not as a direct consequence of the injury or illness, the day should not be counted as a day away from work.</P>
+<P>(d) Item 31. Number of days of restricted work activity. Enter the number of workdays, consecutive or not, on which because of occupational injury or occupational illness:</P>
+<P>(1) The miner was assigned to another job on a temporary basis;</P>
+<P>(2) The miner worked at a permanent job less than full time; or</P>
+<P>(3) The miner worked at a permanently assigned job but could not perform all duties normally connected with it. The number of days of restricted work activity shall not include the day of injury or onset of illness, or any days the miner did not work even though able to work.</P>
+<FP>If an injured or ill employee receives scheduled follow-up medical treatment or observation which results in the loss of a full workday solely because of the unavailability of professional medical personnel, it will not be counted as a day of restricted work activity. Days of restricted work activity end as the result of any of the following:
+</FP>
+<P>(i) The miner returns to his regularly scheduled job and performs all of its duties for a full day or shift;</P>
+<P>(ii) The miner is permanently transferred to another permanent job (which shall be reported under Item 28, Permanently Transferred or Terminated). If this happens, even though the miner could not perform this original job any longer, the Days of Restricted Work Activity will stop; or</P>
+<P>(iii) The miner is terminated or leaves the mine. (Termination shall also be reported under Item 28, Permanently Transferred or Terminated).</P>
+</DIV8>
+
+</DIV6>
+<DIV6 N="D" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-50/subpart-D&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 50 Subpart D&amp;quot;}">
+<HEAD>Subpart D&#x2014;Quarterly Employment and Coal Production Report</HEAD>
+<DIV8 N="50.30" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-50.30&quot;,&quot;citation&quot;:&quot;30 CFR 50.30&quot;}">
+<HEAD>&#xA7; 50.30 Preparation and submission of MSHA Form 7000-2&#x2014;Quarterly Employment and Coal Production Report.</HEAD>
+<P>(a) Each operator of a mine in which an individual worked during any day of a calendar quarter shall complete a MSHA Form 7000-2 in accordance with the instructions and criteria in &#xA7; 50.30-1 and submit the original to the MSHA Office of Injury and Employment Information, P.O. Box 25367, Denver Federal Center, Denver, Colo. 80225, within 15 days after the end of each calendar quarter. These forms may be obtained from the MSHA District Office. Each operator shall retain an operator's copy at the mine office nearest the mine for 5 years after the submission date. You may also submit reports by facsimile, 888-231-5515. To file electronically, follow the instructions on MSHA Internet site, <I>http://www.msha.gov.</I> For assistance in electronic filing, contact the MSHA help desk at 877-778-6055.</P>
+<P>(b) Each operator of a coal mine in which an individual worked during any day of a calendar quarter shall report coal production on Form 7000-2.</P>
+<CITA TYPE="N">[42 FR 65535, Dec. 30, 1977, as amended at 60 FR 35695, July 11, 1995; 69 FR 26499, May 13, 2004]
+</CITA>
+</DIV8>
+
+<DIV8 N="50.30-1" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-50.30-1&quot;,&quot;citation&quot;:&quot;30 CFR 50.30-1&quot;}">
+<HEAD>&#xA7; 50.30-1 General instructions for completing MSHA Form 7000-2.</HEAD>
+<P>(a) <I>MSHA I.D. Number</I> is the 7-digit number assigned to the mine operation by MSHA. Any questions regarding the appropriate I.D. number to use should be directed to your local MSHA District Office.</P>
+<P>(b) <I>Calendar Quarter:</I> First quarter is January, February, and March. Second quarter is April, May, and June. Third quarter is July, August, and September. Fourth quarter is October, November, and December.</P>
+<P>(c) <I>County</I> is the name of the county, borough, or independent city in which the operation is located.</P>
+<P>(d) <I>Operation Name</I> is the specific name of the mine or plant to which the MSHA I.D. number was assigned and for which the quarterly employment report is being submitted.</P>
+<P>(e) <I>Company Name</I> is the name of the operating company that this report pertains to.</P>
+<P>(f) <I>Mailing Address</I> is the address of the mine office where the quarterly employment report is to be retained. This should be as near the operation as possible.</P>
+<P>(g) <I>Employment, Employee Hours, and Coal Production</I>&#x2014;(1) <I>Operation Sub-Unit:</I> (i) Underground Mine: Report data for your underground workers on the first line. If you have personnel working at the surface of your underground mine, report data for those persons on the second line;</P>
+<P>(ii) Surface Mine (Including Shops and Yards): Report on the appropriate line, employment and coal production for the mining operation. For surface mining sub-units 03, 04, 05 and 06, include all work associated with shops and yards;</P>
+<P>(iii) Mill Operations, Preparation Plants, Breakers: Report data on all persons employed at your milling (crushing, sizing, grinding, concentrating, etc.) operation, preparation plant, or breaker, including those working in associated shops and yards. (Do not include personnel reported in shops and yards associated with other sub-units.);</P>
+<P>(iv) Office: Include in this category employees who work principally at the mine or preparation facility office.</P>
+<P>(2) <I>Average number of persons working during quarter:</I> Show the average number of employees on the payroll during all active periods in the quarter. Include all classes of employees (supervisory, professional, technical proprietors, owners, operators, partners, and service personnel) on your payroll, full or part-time, Report Each Employee Under One Activity Only. For example: If one or more persons work both in the mine and the mill, report these employees under the activity where they spend most of their time. If necessary, estimate for the major activity. The average number may be computed by adding together the number of employees working during each pay period and then dividing by the number of pay periods. Do not include pay periods where no one worked. For example, during the quarter you had 5 pay periods where employees worked. The number of employees in each pay period was 10, 12, 13, 14 and 15 respectively. To compute the average, add the number of employees working each pay period (10 + 12 + 13 + 14 + 15 = 64). Then divide by the number of pay periods (64 divided by 5 = 12.8). Rounding this to the nearest whole number, we get 13 as the average number of persons working.</P>
+<P>(3) <I>Total employee-hours worked during the quarter:</I> Show the total hours worked by all employees during the quarter covered. Include all time where the employee was actually on duty, but exclude vacation, holiday, sick leave, and all other off-duty time, even though paid for. Make certain that each overtime hour is reported as one hour, and not as the overtime pay multiple for an hour of work. The hours reported should be obtained from payroll or other time records. If actual hours are not available, they may be estimated on the basis of scheduled hours. Make certain not to include hours paid but not worked.</P>
+<P>(4) <I>Production of clean coal (short tons):</I> This section is to be compiled only by operators of underground or surface mines, but not by operators of central or independent coal preparation plants or operators of metal or nonmetal mines. Enter the total production of clean coal from the mine. This must include coal shipped from the mine and coal used for fuel at the mine, but exclude refuse and coal produced at another mine and purchased for use at the mine.</P>
+<P>(h) <I>Other Reportable Data.</I> Indicate the number of reportable injuries or illnesses occurring at your operation during the quarter covered by this report. Show the name, title, and telephone number of the person to be contacted regarding this report, and show the date that this report was completed.</P>
+<CITA TYPE="N">[42 FR 65535, Dec. 30, 1977, as amended at 69 FR 26500, May 13, 2004]
+</CITA>
+</DIV8>
+
+</DIV6>
+<DIV6 N="E" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-50/subpart-E&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 50 Subpart E&amp;quot;}">
+<HEAD>Subpart E&#x2014;Maintenance of Records; Verification of Information</HEAD>
+<DIV8 N="50.40" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-50.40&quot;,&quot;citation&quot;:&quot;30 CFR 50.40&quot;}">
+<HEAD>&#xA7; 50.40 Maintenance of records.</HEAD>
+<P>(a) Each operator of a mine shall maintain a copy of each investigation report required to be prepared under &#xA7; 50.11 at the mine office closest to the mine for five years after the concurrence.</P>
+<P>(b) Each operator shall maintain a copy of each report submitted under &#xA7; 50.20 or &#xA7; 50.30 at the mine office closest to the mine for five years after submission. Upon request by the Mine Safety and Health Administration, an operator shall make a copy of any report submitted under &#xA7; 50.20 or &#xA7; 50.30 available to MSHA for inspection or copying.</P>
+<CITA TYPE="N">[42 FR 65535, Dec. 30, 1977, as amended at 43 FR 12318, Mar. 24, 1978]
+</CITA>
+</DIV8>
+
+<DIV8 N="50.41" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-50.41&quot;,&quot;citation&quot;:&quot;30 CFR 50.41&quot;}">
+<HEAD>&#xA7; 50.41 Verification of reports.</HEAD>
+<P>Upon request by MSHA, an operator shall allow MSHA to inspect and copy information related to an accident, injury or illnesses which MSHA considers relevant and necessary to verify a report of investigation required by &#xA7; 50.11 of this part or relevant and necessary to a determination of compliance with the reporting requirements of this part.</P>
+</DIV8>
+
+</DIV6>
+</DIV5>

@@ -1,0 +1,1305 @@
+<?xml version="1.0"?>
+<DIV5 N="3" TYPE="PART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-3&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 3&amp;quot;}">
+<HEAD>PART 3&#x2014;OMB CONTROL NUMBERS UNDER THE PAPERWORK REDUCTION ACT
+</HEAD>
+<AUTH>
+<HED>Authority:</HED><PSPACE>30 U.S.C. 957; 44 U.S.C. 3501-3520.
+</PSPACE></AUTH>
+<DIV8 N="3.1" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-3.1&quot;,&quot;citation&quot;:&quot;30 CFR 3.1&quot;}">
+<HEAD>&#xA7; 3.1 OMB control numbers.</HEAD>
+<P>The collection of information requirements in MSHA regulation sections in this chapter have been approved and assigned control numbers by the Office of Management and Budget (OMB) under the Paperwork Reduction Act. Regulation sections in this chapter containing paperwork requirements and their respective OMB control numbers are displayed in the following table:</P>
+<DIV width="100%"><DIV class="gpotbl_div">
+<TABLE border="1" cellpadding="1" cellspacing="1" class="gpo_table" frame="void" width="100%">
+<CAPTION><P class="title">Table 1&#x2014;OMB Control Numbers</P></CAPTION>
+<THEAD>
+<TR>
+<TH class="center border-top-single border-bottom-single border-right-single">30 CFR Citation</TH>
+<TH class="center border-top-single border-bottom-single">OMB Control No.</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD colspan="2" class="center border-bottom-single"><strong class="minor-caps">Subchapter B&#x2014;Testing, Evaluation, and Approval of Mining Products</strong></TD>
+</TR>
+<TR>
+<TD class="left border-right-single">6.10</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.3</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.4</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.6</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.7</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.23</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.27</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.28</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.29</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.30</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.43</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.46</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.47</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.48</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.49</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.51</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.63</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.69</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.71</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.83</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.90</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.97</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.105</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.108</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.303</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.306</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.309</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.311</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.403</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.407</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.408</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.409</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">7.411</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">15.4</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">15.8</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">18.6</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">18.15</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">18.53</TD>
+<TD class="right">1219-0066, -0116</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">18.81</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">18.82</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">18.93</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">18.94</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">19.3</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">19.13</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">20.3</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">20.14</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">22.4</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">22.8</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">22.11</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">23.3</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">23.7</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">23.10</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">23.12</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">23.14</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">27.4</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">27.6</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">27.11</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">28.10</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">28.23</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">28.25</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">28.30</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">28.31</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">33.6</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">33.12</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">35.6</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">35.10</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">35.12</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">36.6</TD>
+<TD class="right">1219-0066</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single">36.12</TD>
+<TD class="right border-bottom-single">1219-0066</TD>
+</TR>
+<TR>
+<TD colspan="2" class="center border-bottom-single"><strong class="minor-caps">Subchapter G&#x2014;Filing and Other Administrative Requirements</strong></TD>
+</TR>
+<TR>
+<TD class="left border-right-single">40.3</TD>
+<TD class="right">1219-0042</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">40.4</TD>
+<TD class="right">1219-0042</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">40.5</TD>
+<TD class="right">1219-0042</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">41.20</TD>
+<TD class="right">1219-0042</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">43.4</TD>
+<TD class="right">1219-0014</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">43.7</TD>
+<TD class="right">1219-0014</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">44.9</TD>
+<TD class="right">1219-0065</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">44.10</TD>
+<TD class="right">1219-0065</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">44.11</TD>
+<TD class="right">1219-0065</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">45.3</TD>
+<TD class="right">1219-0040</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single">45.4</TD>
+<TD class="right border-bottom-single">1219-0040</TD>
+</TR>
+<TR>
+<TD colspan="2" class="center border-bottom-single"><strong class="minor-caps">Subchapter H&#x2014;Education and Training</strong></TD>
+</TR>
+<TR>
+<TD class="left border-right-single">46.3</TD>
+<TD class="right">1219-0131</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">46.5</TD>
+<TD class="right">1219-0131</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">46.6</TD>
+<TD class="right">1219-0131</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">46.7</TD>
+<TD class="right">1219-0131</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">46.8</TD>
+<TD class="right">1219-0131</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">46.9</TD>
+<TD class="right">1219-0131</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">46.11</TD>
+<TD class="right">1219-0131</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">47.31</TD>
+<TD class="right">1219-0133</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">47.32</TD>
+<TD class="right">1219-0133</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">47.32(a)(4)</TD>
+<TD class="right">1219-0133</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">47.41</TD>
+<TD class="right">1219-0133</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">47.51</TD>
+<TD class="right">1219-0133</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">47.71</TD>
+<TD class="right">1219-0133</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">47.73</TD>
+<TD class="right">1219-0133</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">48.3</TD>
+<TD class="right">1219-0009, -0141</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">48.9</TD>
+<TD class="right">1219-0009</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">48.23</TD>
+<TD class="right">1219-0009</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">48.29</TD>
+<TD class="right">1219-0009</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">49.2</TD>
+<TD class="right">1219-0078</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">49.3</TD>
+<TD class="right">1219-0078</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">49.4</TD>
+<TD class="right">1219-0078</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">49.6</TD>
+<TD class="right">1219-0078</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">49.7</TD>
+<TD class="right">1219-0078</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">49.8</TD>
+<TD class="right">1219-0078</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">49.9</TD>
+<TD class="right">1219-0078</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">49.12</TD>
+<TD class="right">1219-0144</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">49.16</TD>
+<TD class="right">1219-0144</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">49.18</TD>
+<TD class="right">1219-0144</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single">49.50</TD>
+<TD class="right border-bottom-single">1219-0144</TD>
+</TR>
+<TR>
+<TD colspan="2" class="center border-bottom-single"><strong class="minor-caps">Subchapter I&#x2014;Accidents, Injuries, Illnesses, Employment, and Production in Mines</strong></TD>
+</TR>
+<TR>
+<TD class="left border-right-single">50.10</TD>
+<TD class="right">1219-0007, -0141</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">50.11</TD>
+<TD class="right">1219-0007, -0141</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">50.20</TD>
+<TD class="right">1219-0007</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single">50.30</TD>
+<TD class="right border-bottom-single">1219-0007</TD>
+</TR>
+<TR>
+<TD colspan="2" class="center border-bottom-single"><strong class="minor-caps">Subchapter K&#x2014;Metal and Nonmetal Mine Safety and Health</strong></TD>
+</TR>
+<TR>
+<TD class="left border-right-single">56.1000</TD>
+<TD class="right">1219-0042</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">56.3203(a)</TD>
+<TD class="right">1219-0121</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">56.5005</TD>
+<TD class="right">1219-0048</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">56.13015</TD>
+<TD class="right">1219-0089</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">56.13030</TD>
+<TD class="right">1219-0089</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">56.14100</TD>
+<TD class="right">1219-0089</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">56.18002</TD>
+<TD class="right">1219-0089</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">56.19022</TD>
+<TD class="right">1219-0034</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">56.19023</TD>
+<TD class="right">1219-0034</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">56.19057</TD>
+<TD class="right">1219-0049</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">56.19121</TD>
+<TD class="right">1219-0034</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.1000</TD>
+<TD class="right">1219-0042</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.3203(a)</TD>
+<TD class="right">1219-0121</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.3461</TD>
+<TD class="right">1219-0097</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.5005</TD>
+<TD class="right">1219-0048</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.5037</TD>
+<TD class="right">1219-0003</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.5040</TD>
+<TD class="right">1219-0003</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.5047</TD>
+<TD class="right">1219-0039</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.5060</TD>
+<TD class="right">1219-0135</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.5065</TD>
+<TD class="right">1219-0135</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.5066</TD>
+<TD class="right">1219-0135</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.5067</TD>
+<TD class="right">1219-0135</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.5070</TD>
+<TD class="right">1219-0135</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.5071</TD>
+<TD class="right">1219-0135</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.5075</TD>
+<TD class="right">1219-0135</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.8520</TD>
+<TD class="right">1219-0016</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.8525</TD>
+<TD class="right">1219-0016</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.11053</TD>
+<TD class="right">1219-0046</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.13015</TD>
+<TD class="right">1219-0089</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.13030</TD>
+<TD class="right">1219-0089</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.14100</TD>
+<TD class="right">1219-0089</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.18002</TD>
+<TD class="right">1219-0089</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.19022</TD>
+<TD class="right">1219-0034</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.19023</TD>
+<TD class="right">1219-0034</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.19057</TD>
+<TD class="right">1219-0049</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.19121</TD>
+<TD class="right">1219-0034</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.22004(c)</TD>
+<TD class="right">1219-0103</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.22204</TD>
+<TD class="right">1219-0030</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.22229</TD>
+<TD class="right">1219-0103</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.22230</TD>
+<TD class="right">1219-0103</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.22231</TD>
+<TD class="right">1219-0103</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.22239</TD>
+<TD class="right">1219-0103</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57.22401</TD>
+<TD class="right">1219-0096</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single">57.22606</TD>
+<TD class="right border-bottom-single">1219-0095</TD>
+</TR>
+<TR>
+<TD colspan="2" class="center border-bottom-single"><strong class="minor-caps">Subchapter M&#x2014;Uniform Mine Health Regulations</strong></TD>
+</TR>
+<TR>
+<TD class="left border-right-single">62.110</TD>
+<TD class="right">1219-0120</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">62.130</TD>
+<TD class="right">1219-0120</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">62.170</TD>
+<TD class="right">1219-0120</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">62.171</TD>
+<TD class="right">1219-0120</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">62.172</TD>
+<TD class="right">1219-0120</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">62.173</TD>
+<TD class="right">1219-0120</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">62.174</TD>
+<TD class="right">1219-0120</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">62.175</TD>
+<TD class="right">1219-0120</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">62.180</TD>
+<TD class="right">1219-0120</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single">62.190</TD>
+<TD class="right border-bottom-single">1219-0120</TD>
+</TR>
+<TR>
+<TD colspan="2" class="center border-bottom-single"><strong class="minor-caps">Subchapter O&#x2014;Coal Mine Safety and Health</strong></TD>
+</TR>
+<TR>
+<TD class="left border-right-single">70.201(c)</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">70.202(b)</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">70.204</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">70.209</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">70.210</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">70.220</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">70.220(a)</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">71.201(c)</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">71.202(b)</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">71.204</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">71.209</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">71.210</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">71.220</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">71.220(a)</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">71.300</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">71.301</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">71.301(d)</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">71.403</TD>
+<TD class="right">1219-0024</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">71.404</TD>
+<TD class="right">1219-0024</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">72.500</TD>
+<TD class="right">1219-0124</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">72.503</TD>
+<TD class="right">1219-0124</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">72.510</TD>
+<TD class="right">1219-0124</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">72.520</TD>
+<TD class="right">1219-0124</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.100</TD>
+<TD class="right">1219-0127</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.153(a)(2)</TD>
+<TD class="right">1219-0001</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.155</TD>
+<TD class="right">1219-0127</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.159</TD>
+<TD class="right">1219-0127</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.160</TD>
+<TD class="right">1219-0127</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.161</TD>
+<TD class="right">1219-0127</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.204(a)</TD>
+<TD class="right">1219-0121</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.215</TD>
+<TD class="right">1219-0004</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.220</TD>
+<TD class="right">1219-0004</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.221</TD>
+<TD class="right">1219-0004</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.222</TD>
+<TD class="right">1219-0004</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.223</TD>
+<TD class="right">1219-0004</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.310</TD>
+<TD class="right">1219-0088</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.312</TD>
+<TD class="right">1219-0088</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.335</TD>
+<TD class="right">1219-0142</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.336</TD>
+<TD class="right">1219-0142</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.337</TD>
+<TD class="right">1219-0142</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.338</TD>
+<TD class="right">1219-0142</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.342</TD>
+<TD class="right">1219-0088</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.350</TD>
+<TD class="right">1219-0138</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.351</TD>
+<TD class="right">1219-0088, -0116, -0138</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.352</TD>
+<TD class="right">1219-0138</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.360</TD>
+<TD class="right">1219-0088</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.361</TD>
+<TD class="right">1219-0088</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.362</TD>
+<TD class="right">1219-0088</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.363</TD>
+<TD class="right">1219-0088</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.364</TD>
+<TD class="right">1219-0088</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.370</TD>
+<TD class="right">1219-0088</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.371</TD>
+<TD class="right">1219-0088, -0138</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.372</TD>
+<TD class="right">1219-0073</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.373</TD>
+<TD class="right">1219-0073</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.382</TD>
+<TD class="right">1219-0088</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.512</TD>
+<TD class="right">1219-0116</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.703</TD>
+<TD class="right">1219-0116</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.703-3</TD>
+<TD class="right">1219-0116</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.800</TD>
+<TD class="right">1219-0116</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.800-4</TD>
+<TD class="right">1219-0116</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.820</TD>
+<TD class="right">1210-0116</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.821</TD>
+<TD class="right">1219-0116</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.900</TD>
+<TD class="right">1219-0116</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.900-4</TD>
+<TD class="right">1219-0116</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1001-1</TD>
+<TD class="right">1219-0116</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1100-3</TD>
+<TD class="right">1219-0054</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1103-8</TD>
+<TD class="right">1219-0054</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1103-11</TD>
+<TD class="right">1219-0054</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1200</TD>
+<TD class="right">1219-0073</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1200-1</TD>
+<TD class="right">1219-0073</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1201</TD>
+<TD class="right">1219-0073</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1202</TD>
+<TD class="right">1219-0073</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1202-1</TD>
+<TD class="right">1219-0073</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1203</TD>
+<TD class="right">1219-0073</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1204</TD>
+<TD class="right">1219-0073</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1204-1</TD>
+<TD class="right">1219-0073</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1321</TD>
+<TD class="right">1219-0025</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1327</TD>
+<TD class="right">1219-0025</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1400-2</TD>
+<TD class="right">1219-0034</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1400-4</TD>
+<TD class="right">1219-0034</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1432</TD>
+<TD class="right">1219-0034</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1433</TD>
+<TD class="right">1219-0034</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1501</TD>
+<TD class="right">1219-0054</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1502</TD>
+<TD class="right">1219-0054, -0141</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1504</TD>
+<TD class="right">1219-0141</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1505</TD>
+<TD class="right">1219-0141</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1702</TD>
+<TD class="right">1219-0041</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1712-4</TD>
+<TD class="right">1219-0024</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1712-5</TD>
+<TD class="right">1219-0024</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1713-1</TD>
+<TD class="right">1219-0078</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1714-3</TD>
+<TD class="right">1219-0141</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1714-3(e)</TD>
+<TD class="right">1219-0044</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1714-4</TD>
+<TD class="right">1219-0044</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1714-5</TD>
+<TD class="right">1219-0141</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1714-8</TD>
+<TD class="right">1219-0141</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1716</TD>
+<TD class="right">1219-0020</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1716-1</TD>
+<TD class="right">1219-0020</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1716-3</TD>
+<TD class="right">1219-0020</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1721</TD>
+<TD class="right">1219-0073</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1901</TD>
+<TD class="right">1219-0119</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1904</TD>
+<TD class="right">1219-0119</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1911</TD>
+<TD class="right">1219-0119</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1912</TD>
+<TD class="right">1219-0119</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1914</TD>
+<TD class="right">1219-0119</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75.1915</TD>
+<TD class="right">1219-0119, -0124</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.100</TD>
+<TD class="right">1219-0127</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.103(a)(2)</TD>
+<TD class="right">1219-0001</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.105</TD>
+<TD class="right">1219-0127</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.106</TD>
+<TD class="right">1219-0127</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.107</TD>
+<TD class="right">1219-0127</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.107-1</TD>
+<TD class="right">1219-0127</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.215</TD>
+<TD class="right">1219-0015</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.215-2</TD>
+<TD class="right">1219-0015</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.215-3</TD>
+<TD class="right">1219-0015</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.215-4</TD>
+<TD class="right">1219-0015</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.216-2</TD>
+<TD class="right">1219-0015</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.216-3</TD>
+<TD class="right">1219-0015</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.216-4</TD>
+<TD class="right">1219-0015</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.216-5</TD>
+<TD class="right">1219-0015</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.502</TD>
+<TD class="right">1219-0116</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.800</TD>
+<TD class="right">1219-0116</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.800-2</TD>
+<TD class="right">1219-0116</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.900</TD>
+<TD class="right">1219-0116</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.900-2</TD>
+<TD class="right">1219-0116</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.1000</TD>
+<TD class="right">1219-0026</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.1000-1</TD>
+<TD class="right">1219-0026</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.1101</TD>
+<TD class="right">1219-0051</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.1200</TD>
+<TD class="right">1219-0073</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.1201</TD>
+<TD class="right">1219-0073</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.1202</TD>
+<TD class="right">1219-0073</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.1404</TD>
+<TD class="right">1219-0034</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.1432</TD>
+<TD class="right">1219-0034</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.1433</TD>
+<TD class="right">1219-0034</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.1702</TD>
+<TD class="right">1219-0078</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.1713</TD>
+<TD class="right">1219-0083</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.1900</TD>
+<TD class="right">1219-0019</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.1901</TD>
+<TD class="right">1219-0082</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.1906</TD>
+<TD class="right">1219-0034</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">77.1909-1</TD>
+<TD class="right">1219-0025</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">90.201(c)</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">90.202(b)</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">90.204</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">90.209</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">90.220</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">90.300</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">90.301</TD>
+<TD class="right">1219-0011</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single">90.301(d)</TD>
+<TD class="right border-bottom-single">1219-0011</TD>
+</TR>
+</TBODY>
+</TABLE>
+</DIV></DIV>
+<CITA TYPE="N">[73 FR 36790, June 30, 2008]
+</CITA>
+</DIV8>
+
+</DIV5>

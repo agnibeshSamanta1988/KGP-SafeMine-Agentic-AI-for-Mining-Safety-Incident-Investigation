@@ -1,0 +1,478 @@
+<?xml version="1.0"?>
+<DIV5 N="70" TYPE="PART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-70&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 70&amp;quot;}">
+<HEAD>PART 70&#x2014;MANDATORY HEALTH STANDARDS&#x2014;UNDERGROUND COAL MINES
+</HEAD>
+<AUTH>
+<HED>Authority:</HED><PSPACE>30 U.S.C. 811, 813(h), 957.
+</PSPACE></AUTH>
+<SOURCE>
+<HED>Source:</HED><PSPACE>59 FR 8327, Feb 18, 1994, unless otherwise noted.
+</PSPACE></SOURCE>
+<DIV6 N="A" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-70/subpart-A&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 70 Subpart A&amp;quot;}">
+<HEAD>Subpart A&#x2014;General</HEAD>
+<SOURCE>
+<HED>Source:</HED><PSPACE>79 FR 24972, May 1, 2014, unless otherwise noted.
+</PSPACE></SOURCE>
+<DIV8 N="70.1" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-70.1&quot;,&quot;citation&quot;:&quot;30 CFR 70.1&quot;}">
+<HEAD>&#xA7; 70.1 Scope.</HEAD>
+<P>This part 70 sets forth mandatory health standards for each underground coal mine subject to the Federal Mine Safety and Health Act of 1977, as amended.</P>
+</DIV8>
+
+<DIV8 N="70.2" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-70.2&quot;,&quot;citation&quot;:&quot;30 CFR 70.2&quot;}">
+<HEAD>&#xA7; 70.2 Definitions.</HEAD>
+<P>The following definitions apply in this part.</P>
+<P><I>Act.</I> The Federal Mine Safety and Health Act of 1977, Public Law 91-173, as amended by Public Law 95-164 and Public Law 109-236.</P>
+<P><I>Active workings.</I> Any place in a coal mine where miners are normally required to work or travel.</P>
+<P><I>Approved sampling device.</I> A sampling device approved by the Secretary and Secretary of Health and Human Services (HHS) under part 74 of this title.</P>
+<P><I>Certified person.</I> An individual certified by the Secretary in accordance with &#xA7; 70.202 to take respirable dust samples required by this part or certified in accordance with &#xA7; 70.203 to perform the maintenance and calibration of respirable dust sampling equipment as required by this part.</P>
+<P><I>Coal mine dust personal sampler unit (CMDPSU).</I> A personal sampling device approved under part 74, subpart B, of this title.</P>
+<P><I>Concentration.</I> A measure of the amount of a substance contained per unit volume of air.</P>
+<P><I>Continuous personal dust monitor (CPDM).</I> A personal sampling device approved under part 74, subpart C of this title.</P>
+<P><I>Designated area (DA).</I> A specific location in the mine identified by the operator in the mine ventilation plan under &#xA7; 75.371(t) of this title where samples will be collected to measure respirable dust generation sources in the active workings; approved by the District Manager; and assigned a four-digit identification number by MSHA.</P>
+<P><I>Designated occupation (DO).</I> The occupation on a mechanized mining unit (MMU) that has been determined by results of respirable dust samples to have the greatest respirable dust concentration.</P>
+<P><I>District Manager.</I> The manager of the Coal Mine Safety and Health District in which the mine is located.</P>
+<P><I>Equivalent concentration.</I> The concentration of respirable coal mine dust, including quartz, expressed in milligrams per cubic meter of air (mg/m
+<SU>3</SU>) as measured with an approved sampling device, determined by dividing the weight of dust in milligrams collected on the filter of an approved sampling device by the volume of air in cubic meters passing through the filter (sampling time in minutes (t) times the sampling airflow rate in cubic meters per minute), and then converting that concentration to an equivalent concentration as measured by the Mining Research Establishment (MRE) instrument. When the approved sampling device is:</P>
+<P>(1) The CMDPSU, the equivalent concentration is determined by multiplying the concentration of respirable coal mine dust by the constant factor prescribed by the Secretary.</P>
+<P>(2) The CPDM, the device shall be programmed to automatically report end-of-shift concentration measurements as equivalent concentrations.</P>
+<P><I>Mechanized mining unit (MMU).</I> A unit of mining equipment including hand loading equipment used for the production of material; or a specialized unit which uses mining equipment other than specified in &#xA7; 70.206(b) or in &#xA7; 70.208(b) of this part. Each MMU will be assigned a four-digit identification number by MSHA, which is retained by the MMU regardless of where the unit relocates within the mine. However, when:</P>
+<P>(1) Two sets of mining equipment are used in a series of working places within the same working section and only one production crew is employed at any given time on either set of mining equipment, the two sets of equipment shall be identified as a single MMU.</P>
+<P>(2) Two or more sets of mining equipment are simultaneously engaged in cutting, mining, or loading coal or rock from working places within the same working section, each set of mining equipment shall be identified as a separate MMU.</P>
+<P><I>MRE instrument.</I> The gravimetric dust sampler with a four channel horizontal elutriator developed by the Mining Research Establishment of the National Coal Board, London, England.</P>
+<P><I>MSHA.</I> The Mine Safety and Health Administration of the U.S. Department of Labor.</P>
+<P><I>Normal production shift.</I> A production shift during which the amount of material produced by an MMU is at least equal to 80 percent of the average production recorded by the operator for the most recent 30 production shifts or for all production shifts if fewer than 30 shifts of production data are available.</P>
+<P><I>Other designated occupation (ODO).</I> Other occupation on an MMU that is designated for sampling required by this part in addition to the DO. Each ODO shall be identified by a four-digit identification number assigned by MSHA.</P>
+<P><I>Production shift.</I> With regard to an MMU, a shift during which material is produced; with regard to a DA of a mine, a shift during which material is produced and routine day-to-day activities are occurring in the DA.</P>
+<P><I>Representative sample.</I> A respirable dust sample, expressed as an equivalent concentration, that reflects typical dust concentration levels and with regard to an MMU, normal mining activities in the active workings during which the amount of material produced is equivalent to a normal production shift; or with regard to a DA, material is produced and routine-day-to-day activities are occurring.</P>
+<P><I>Respirable dust.</I> Dust collected with a sampling device approved by the Secretary and the Secretary of HHS in accordance with part 74 (Coal Mine Dust Sampling Devices) of this title.</P>
+<P><I>Secretary.</I> The Secretary of Labor or a delegate.</P>
+<P><I>Valid respirable dust sample.</I> A respirable dust sample collected and submitted as required by this part, including any sample for which the data were electronically transmitted to MSHA, and not voided by MSHA.</P>
+<CITA TYPE="N">[79 FR 24972, May 1, 2014, as amended at 89 FR 28473, Apr. 18, 2024]
+</CITA>
+</DIV8>
+
+</DIV6>
+<DIV6 N="B" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-70/subpart-B&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 70 Subpart B&amp;quot;}">
+<HEAD>Subpart B&#x2014;Dust Standards</HEAD>
+<SOURCE>
+<HED>Source:</HED><PSPACE>79 FR 24973, May 1, 2014, unless otherwise noted.
+</PSPACE></SOURCE>
+<DIV8 N="70.100" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-70.100&quot;,&quot;citation&quot;:&quot;30 CFR 70.100&quot;}">
+<HEAD>&#xA7; 70.100 Respirable dust standards.</HEAD>
+<P>(a) Each operator shall continuously maintain the average concentration of respirable dust in the mine atmosphere during each shift to which each miner in the active workings of each mine is exposed, as measured with an approved sampling device and expressed in terms of an equivalent concentration, at or below:</P>
+<P>(1) 2.0 milligrams of respirable dust per cubic meter of air (mg/m
+<SU>3</SU>).</P>
+<P>(2) 1.5 mg/m
+<SU>3</SU> as of August 1, 2016.</P>
+<P>(b) Each operator shall continuously maintain the average concentration of respirable dust within 200 feet outby the working faces of each section in the intake airways as measured with an approved sampling device and expressed in terms of an equivalent concentration at or below:</P>
+<P>(1) 1.0 mg/m
+<SU>3</SU>.</P>
+<P>(2) 0.5 mg/m
+<SU>3</SU> as of August 1, 2016.</P>
+</DIV8>
+
+<DIV8 N="70.101" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-70.101&quot;,&quot;citation&quot;:&quot;30 CFR 70.101&quot;}">
+<HEAD>&#xA7; 70.101 [Reserved]</HEAD>
+</DIV8>
+
+</DIV6>
+<DIV6 N="C" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-70/subpart-C&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 70 Subpart C&amp;quot;}">
+<HEAD>Subpart C&#x2014;Sampling Procedures</HEAD>
+<SOURCE>
+<HED>Source:</HED><PSPACE>79 FR 24974, May 1, 2014, unless otherwise noted.
+</PSPACE></SOURCE>
+<DIV8 N="70.201" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-70.201&quot;,&quot;citation&quot;:&quot;30 CFR 70.201&quot;}">
+<HEAD>&#xA7; 70.201 Sampling; general and technical requirements.</HEAD>
+<P>(a) Only an approved coal mine dust personal sampler unit (CMDPSU) shall be used to take bimonthly samples of the concentration of respirable coal mine dust from the designated occupation (DO) in each MMU as required by this part until January 31, 2016. On February 1, 2016, DOs in each MMU shall be sampled quarterly with an approved CPDM as required by this part and an approved CMDPSU shall not be used, unless notified by the Secretary to continue to use an approved CMDPSU to conduct quarterly sampling.</P>
+<P>(b) Only an approved CMDPSU shall be used to take bimonthly samples of the concentration of respirable coal mine dust from each designated area (DA) as required by this part until January 31, 2016. On February 1, 2016:</P>
+<P>(1) DAs associated with an MMU shall be redesignated as Other Designated Occupations (ODO). ODOs shall be sampled quarterly with an approved CPDM as required by this part and an approved CMDPSU shall not be used, unless notified by the Secretary to continue to use an approved CMDPSU to conduct quarterly sampling.</P>
+<P>(2) DAs identified by the operator under &#xA7; 75.371(t) of this chapter shall be sampled quarterly with an approved CMDPSU as required by this part, unless the operator notifies the District Manager in writing that only an approved CPDM will be used for all DA sampling at the mine. The notification must be received at least 90 days before the beginning of the quarter in which CPDMs will be used to collect the DA samples.</P>
+<P>(c) Sampling devices shall be worn or carried directly to the MMU or DA to be sampled and from the MMU or DA sampled and shall be operated portal-to-portal. Sampling devices shall remain with the occupation or DA being sampled and shall be operational during the entire shift, which includes the total time spent in the MMU or DA and while traveling to and from the mining section or area being sampled. If the work shift to be sampled is longer than 12 hours and the sampling device is:</P>
+<P>(1) A CMDPSU, the operator shall switch-out the unit's sampling pump prior to the 13th-hour of operation.</P>
+<P>(2) A CPDM, the operator shall switch-out the CPDM with a fully charged device prior to the 13th-hour of operation.</P>
+<P>(d) If using a CMDPSU, one control filter shall be used for each shift of sampling. Each control filter shall:</P>
+<P>(1) Have the same pre-weight date (noted on the dust data card) as the filters used for sampling;</P>
+<P>(2) Remain plugged at all times;</P>
+<P>(3) Be used for the same amount of time, and exposed to the same temperature and handling conditions as the filters used for sampling;</P>
+<P>(4) Be kept with the exposed samples after sampling and in the same mailing container when transmitted to MSHA.</P>
+<P>(e) Records showing the length of each production shift for each MMU shall be made and retained for at least six months and shall be made available for inspection by authorized representatives of the Secretary and the representative of miners, and submitted to the District Manager when requested in writing.</P>
+<P>(f) Upon request from the District Manager, the operator shall submit the date and time any respirable dust sampling required by this part will begin. This information shall be submitted at least 48 hours prior to the scheduled sampling.</P>
+<P>(g) To establish a normal production shift, the operator shall record the amount of run-of-mine material produced by each MMU during each shift to determine the average production for the most recent 30 production shifts, or for all production shifts if fewer than 30 shifts of production data are available. Production records shall be retained for at least six months and shall be made available for inspection by authorized representatives of the Secretary and the representative of miners.</P>
+<P>(h) Operators using CPDMs shall provide training to all miners expected to wear a CPDM. The training shall be completed prior to a miner wearing a CPDM and then every 12 months thereafter. The training shall include:</P>
+<P>(1) The importance of monitoring dust concentrations and properly wearing the CPDM.</P>
+<P>(2) Explaining the basic features and capabilities of the CPDM;</P>
+<P>(3) Discussing the various types of information displayed by the CPDM and how to access that information; and</P>
+<P>(4) How to start and stop a short-term sample run during compliance sampling.</P>
+<P>(i) An operator shall keep a record of the CPDM training at the mine site for 24 months after completion of the training. An operator may keep the record elsewhere if the record is immediately accessible from the mine site by electronic transmission. Upon request from an authorized representative of the Secretary, Secretary of HHS, or representative of miners, the operator shall promptly provide access to any such training records. The record shall include:</P>
+<P>(1) The date of training;</P>
+<P>(2) The names of miners trained; and</P>
+<P>(3) The subjects included in the training.</P>
+<P>(j) An anthracite mine using the full box, open breast, or slant breast mining method may use either a CPDM or a CMDPSU to conduct the required sampling. The mine operator shall notify the District Manager in writing of its decision to not use a CPDM.</P>
+<P>(k) MSHA approval of the dust control portion of the operator's mine ventilation plan may be revoked based on samples taken by MSHA or in accordance with this part 70.</P>
+</DIV8>
+
+<DIV8 N="70.202" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-70.202&quot;,&quot;citation&quot;:&quot;30 CFR 70.202&quot;}">
+<HEAD>&#xA7; 70.202 Certified person; sampling.</HEAD>
+<P>(a) The respirable dust sampling required by this part shall be performed by a certified person.</P>
+<P>(b) To be certified, a person shall complete the applicable MSHA course of instruction and pass the MSHA examination demonstrating competency in sampling procedures. Persons not certified in sampling, and those certified only in maintenance and calibration procedures in accordance with &#xA7; 70.203(b), are not permitted to collect respirable dust samples required by this part or handle approved sampling devices when being used in sampling.</P>
+<P>(c) To maintain certification, a person must pass the MSHA examination demonstrating competency in sampling procedures every three years.</P>
+<P>(d) MSHA may revoke a person's certification for failing to properly carry out the required sampling procedures.</P>
+</DIV8>
+
+<DIV8 N="70.203" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-70.203&quot;,&quot;citation&quot;:&quot;30 CFR 70.203&quot;}">
+<HEAD>&#xA7; 70.203 Certified person; maintenance and calibration.</HEAD>
+<P>(a) Approved sampling devices shall be maintained and calibrated by a certified person.</P>
+<P>(b) To be certified, a person shall complete the applicable MSHA course of instruction and pass the MSHA examination demonstrating competency in maintenance and calibration procedures for approved sampling devices. Necessary maintenance of the sampling head assembly of a CMDPSU, or the cyclone assembly of a CPDM, can be performed by persons certified in sampling or in maintenance and calibration.</P>
+<P>(c) To maintain certification, a person must pass the MSHA examination demonstrating competency in maintenance and calibration procedures every three years.</P>
+<P>(d) MSHA may revoke a person's certification for failing to properly carry out the required maintenance and calibration procedures.</P>
+</DIV8>
+
+<DIV8 N="70.204" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-70.204&quot;,&quot;citation&quot;:&quot;30 CFR 70.204&quot;}">
+<HEAD>&#xA7; 70.204 Approved sampling devices; maintenance and calibration.</HEAD>
+<P>(a) Approved sampling devices shall be maintained as approved under part 74 of this title and calibrated in accordance with MSHA Informational Report IR 1240 (1996) &#x201C;Calibration and Maintenance Procedures for Coal Mine Respirable Dust Samplers&#x201D; or in accordance with the manufacturer's recommendations, if using a CPDM. Only persons certified in maintenance and calibration can perform maintenance work on the CPDM or the pump unit of the CMDPSU.</P>
+<P>(b) Sampling devices shall be calibrated at the flowrate of 2.0 liters of air per minute (L/min) if using a CMDPSU; at 2.2 L/min if using a CPDM; or at a different flowrate recommended by the manufacturer, before they are put into service and, thereafter, at time intervals recommended by the manufacturer or prescribed by the Secretary or Secretary of HHS.</P>
+<P>(c) If using a CMDPSU, each sampling device shall be examined and tested by a person certified in sampling or in maintenance and calibration within 3 hours before the start of the shift on which the approved sampling devices will be used to collect respirable dust samples. This is to assure that the sampling devices are clean and in proper working condition. This examination and testing shall include the following:</P>
+<P>(1) Examination of all components of the cyclone assembly to assure that they are clean and free of dust and dirt. This includes examining the interior of the connector barrel (located between the cassette assembly and vortex finder), vortex finder, cyclone body, and grit pot;</P>
+<P>(2) Examination of the inner surface of the cyclone body to assure that it is free of scoring or scratch marks on the inner surface of the cyclone where the air flow is directed by the vortex finder into the cyclone body;</P>
+<P>(3) Examination of the external hose connecting the pump unit to the sampling head assembly to assure that it is clean and free of leaks; and</P>
+<P>(4) Examination of the clamping and positioning of the cyclone body, vortex finder, and cassette to assure that they are rigid, in alignment, firmly in contact, and airtight.</P>
+<P>(5) Testing the voltage of each battery while under actual load to assure the battery is fully charged. This requires that a fully assembled and examined sampling head assembly be attached to the pump inlet with the pump unit running when the voltage check is made. The voltage for the batteries used in the CMDPSU shall not be lower than the product of the number of cells in the battery multiplied by the manufacturer's nominal voltage per cell value.</P>
+<P>(d) If using a CPDM, the certified person in sampling or in maintenance and calibration shall:</P>
+<P>(1) Follow the pre-operational examinations, testing, and set-up procedures, and perform necessary external maintenance recommended by the manufacturer to assure the operational readiness of each CPDM within 3 hours before the start of the shift on which the sampling devices will be used to collect respirable dust samples; and</P>
+<P>(2) Perform other required scheduled examinations and maintenance procedures recommended by the manufacturer.</P>
+<P>(e) You must proceed in accordance with &#x201C;Calibration and Maintenance Procedures for Coal Mine Respirable Dust Samplers,&#x201D; MSHA Informational Report IR 1240 (1996), referenced in paragraph (a) of this section. The Director of the Federal Register approves this incorporation by reference in accordance with 5 U.S.C. 552(a) and 1 CFR part 51. You may obtain a copy from the MSHA Web site at <I>http://www.msha.gov</I> and you may inspect or obtain a copy at MSHA, Coal Mine Safety and Health, 200 Constitution Avenue NW, Washington, DC 20210; 202-693-9500; and at each MSHA Coal Mine Safety and Health District Office, or at the National Archives and Records Administration (NARA). For information on the availability of this material at NARA, call 202-741-6030, or go to: <I>http://www.archives.gov/federal_register/code_of_federal_regulations/ibr_locations.html.</I></P>
+<CITA TYPE="N">[79 FR 24974, May 1, 2014, as amended at 80 FR 52989, Sept. 2, 2015; 91 FR 9448, Feb. 26, 2026]
+</CITA>
+</DIV8>
+
+<DIV8 N="70.205" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-70.205&quot;,&quot;citation&quot;:&quot;30 CFR 70.205&quot;}">
+<HEAD>&#xA7; 70.205 Approved sampling devices; operation; air flowrate.</HEAD>
+<P>As of April 14, 2025:</P>
+<P>(a) Approved sampling devices shall be operated at the flowrate of 2.0 L/min if using a CMDPSU; at 2.2 L/min if using a CPDM; or at a different flowrate recommended by the manufacturer.</P>
+<P>(b) If using a CMDPSU, each approved sampling device shall be examined each shift by a person certified in sampling during:</P>
+<P>(1) The second hour after being put into operation to assure it is in the proper location, operating properly, and at the proper flowrate. If the proper flowrate is not maintained, necessary adjustments shall be made by the certified person. This examination is not required if the sampling device is being operated in an anthracite coal mine using the full box, open breast, or slant breast mining method.</P>
+<P>(2) The last hour of operation to assure that the sampling device is operating properly and at the proper flowrate. If the proper flowrate is not maintained, the respirable dust sample shall be transmitted to MSHA with a notation by the certified person on the back of the dust data card stating that the proper flowrate was not maintained. Other events occurring during the collection of respirable dust samples that may affect the validity of the sample, such as dropping of the sampling head assembly onto the mine floor, shall be noted on the back of the dust data card.</P>
+<P>(c) If using a CPDM, the person certified in sampling shall monitor the dust concentrations and the sampling status conditions being reported by the sampling device at mid-shift or more frequently as specified in the approved mine ventilation plan to assure: The sampling device is in the proper location and operating properly; and the work environment of the occupation or DA being sampled remains in compliance with the standard at the end of the shift. This monitoring is not required if the sampling device is being operated in an anthracite coal mine using the full box, open breast, or slant breast mining method.</P>
+<CITA TYPE="N">[89 FR 28473, 28474, Apr. 18, 2024]
+</CITA>
+</DIV8>
+
+<DIV8 N="70.206-70.207" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-70.206-70.207&quot;,&quot;citation&quot;:&quot;30 CFR 70.206-70.207&quot;}">
+<HEAD>&#xA7;&#xA7; 70.206-70.207 [Reserved]</HEAD>
+</DIV8>
+
+<DIV8 N="70.208" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-70.208&quot;,&quot;citation&quot;:&quot;30 CFR 70.208&quot;}">
+<HEAD>&#xA7; 70.208 Quarterly sampling; mechanized mining units.</HEAD>
+<P>As of April 14, 2025:</P>
+<P>(a) The operator shall sample each calendar quarter:</P>
+<P>(1) The designated occupation (DO) in each MMU on consecutive normal production shifts until 15 valid representative samples are taken. The District Manager may require additional groups of 15 valid representative samples when information indicates the operator has not followed the approved ventilation plan for any MMU.</P>
+<P>(2) Each other designated occupation (ODO) specified in paragraphs (b)(1) through (10) of this section in each MMU or specified by the District Manager and identified in the approved mine ventilation plan on consecutive normal production shifts until 15 valid representative samples are taken. Sampling of each ODO type shall begin after fulfilling the sampling requirements of paragraph (a)(1) of this section. When required to sample more than one ODO type, each ODO type must be sampled over separate time periods during the calendar quarter.</P>
+<P>(3) The quarterly periods are:</P>
+<P>(i) January 1-March 31</P>
+<P>(ii) April 1-June 30</P>
+<P>(iii) July 1-September 30</P>
+<P>(iv) October 1-December 31.</P>
+<P>(b) Unless otherwise directed by the District Manager, the approved sampling device shall be worn by the miner assigned to perform the duties of the DO or ODO specified in paragraphs (b)(1) through (10) of this section or by the District Manager for each type of MMU.</P>
+<P>(1) <I>Conventional section using cutting machine.</I> DO&#x2014;The cutting machine operator;</P>
+<P>(2) <I>Conventional section blasting off the solid.</I> DO&#x2014;The loading machine operator;</P>
+<P>(3) <I>Continuous mining section other than auger-type.</I> DO&#x2014;The continuous mining (CM) machine operator or mobile bridge operator when using continuous haulage; ODO&#x2014;The roof bolting machine operator who works nearest the working face on the return air side of the continuous mining machine; the face haulage operators on MMUs using blowing face ventilation; the face haulage operators on MMUs ventilated by split intake air (&#x201C;fishtail ventilation&#x201D;) as part of a super-section; and face haulage operators where two continuous mining machines are operated on an MMU.</P>
+<P>(4) <I>Continuous mining section using auger-type machine.</I> DO&#x2014;The jacksetter who works nearest the working face on the return air side of the continuous mining machine;</P>
+<P>(5) <I>Scoop section using cutting machine.</I> DO&#x2014;The cutting machine operator;</P>
+<P>(6) <I>Scoop section, blasting off the solid.</I> DO&#x2014;The coal drill operator;</P>
+<P>(7) <I>Longwall section.</I> DO&#x2014;The longwall operator working on the tailgate side of the longwall mining machine; ODO&#x2014;The jacksetter who works nearest the return air side of the longwall working face, and the mechanic;</P>
+<P>(8) <I>Hand loading section with a cutting machine.</I> DO&#x2014;The cutting machine operator;</P>
+<P>(9) <I>Hand loading section blasting off the solid.</I> DO&#x2014;The hand loader exposed to the greatest dust concentration; and</P>
+<P>(10) <I>Anthracite mine sections.</I> DO&#x2014;The hand loader exposed to the greatest dust concentration.</P>
+<P>(c) [Reserved]</P>
+<P>(d) If a normal production shift is not achieved, the DO or ODO sample for that shift may be voided by MSHA. However, any sample, regardless of production, that exceeds the standard by at least 0.1 mg/m
+<SU>3</SU> shall be used in the determination of the equivalent concentration for that occupation</P>
+<P>(e) When a valid representative sample taken in accordance with this section meets or exceeds the ECV in table 1 to this section that corresponds to the particular sampling device used, the operator shall:</P>
+<P>(1) Make approved respiratory equipment available to affected miners in accordance with &#xA7; 72.700 of this chapter;</P>
+<P>(2) Immediately take corrective action to lower the concentration of respirable dust to at or below the respirable dust standard; and</P>
+<P>(3) Make a record of the corrective actions taken. The record shall be certified by the mine foreman or equivalent mine official, no later than the end of the mine foreman's or equivalent official's next regularly scheduled working shift. The record shall be made in a secure book that is not susceptible to alteration or electronically in a computer system so as to be secure and not susceptible to alteration. Such records shall be retained at a surface location at the mine for at least 1 year and shall be made available for inspection by authorized representatives of the Secretary and the representative of miners.</P>
+<P>(f) Noncompliance with the standard is demonstrated during the sampling period when:</P>
+<P>(1) Three or more valid representative samples meet or exceed the ECV in table 1 to this section that corresponds to the particular sampling device used; or</P>
+<P>(2) The average for all valid representative samples meets or exceeds the ECV in table 1 to this section that corresponds to the particular sampling device used.</P>
+<P>(g)(1) Unless otherwise directed by the District Manager, upon issuance of a citation for a violation of the standard involving a DO in an MMU, paragraph (a)(1) of this section shall not apply to the DO in that MMU until the violation is abated and the citation is terminated in accordance with paragraphs (h) and (i) of this section.</P>
+<P>(2) Unless otherwise directed by the District Manager, upon issuance of a citation for a violation of the standard involving a type of ODO in an MMU, paragraph (a)(2) of this section shall not apply to that ODO type in that MMU until the violation is abated and the citation is terminated in accordance with paragraphs (g) and (h) of this section.</P>
+<P>(h) Upon issuance of a citation for violation of the standard, the operator shall take the following actions sequentially:</P>
+<P>(1) Make approved respiratory equipment available to affected miners in accordance with &#xA7; 72.700 of this chapter;</P>
+<P>(2) Immediately take corrective action to lower the concentration of respirable coal mine dust to at or below the standard; and</P>
+<P>(3) Make a record of the corrective actions taken. The record shall be certified by the mine foreman or equivalent mine official, no later than the end of the mine foreman's or equivalent official's next regularly scheduled working shift. The record shall be made in a secure book that is not susceptible to alteration or electronically in a computer system so as to be secure and not susceptible to alteration. Such records shall be retained at a surface location at the mine for at least 1 year and shall be made available for inspection by authorized representatives of the Secretary and the representative of miners.</P>
+<P>(4) Begin sampling, within 8 calendar days after the date the citation is issued, the environment of the affected occupation in the MMU on consecutive normal production shifts until five valid representative samples are taken.</P>
+<P>(i) A citation for a violation of the standard shall be terminated by MSHA when:</P>
+<P>(1) Each of the five valid representative samples is at or below the standard; and</P>
+<P>(2) The operator has submitted to the District Manager revised dust control parameters as part of the mine ventilation plan applicable to the MMU in the citation and the changes have been approved by the District Manager. The revised parameters shall reflect the control measures used by the operator to abate the violation.</P>
+<DIV width="100%"><DIV class="gpotbl_div">
+<TABLE border="1" cellpadding="1" cellspacing="1" class="gpo_table" frame="void" width="100%">
+<CAPTION><P class="title">Table 1 to &#xA7; 70.208&#x2014;Excessive Concentration Values (ECV) Based on a Single Sample, Three Samples, or the Average of Five or Fifteen Full-Shift CMDPSU/CPDM Concentration Measurements</P></CAPTION>
+<THEAD>
+<TR>
+<TH rowspan="2" class="center border-top-single border-bottom-single border-right-single">Section</TH>
+<TH rowspan="2" class="center border-top-single border-bottom-single border-right-single">Samples</TH>
+<TH colspan="2" class="center border-top-single border-bottom-single">ECV (mg/m<sup>3</sup>)</TH>
+</TR>
+<TR>
+<TH class="center border-bottom-single border-right-single">CMDPSU</TH>
+<TH class="center border-bottom-single">CPDM</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD class="left border-right-single">70.208 (e)</TD>
+<TD class="left border-right-single">70.1-0(a)&#x2014;Single sample</TD>
+<TD class="right border-right-single">1.79</TD>
+<TD class="right">1.70</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left border-right-single">70.1-0(b)&#x2014;Single sample</TD>
+<TD class="right border-right-single">0.74</TD>
+<TD class="right">0.57</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">70.208(f)(1)</TD>
+<TD class="left border-right-single">70.1-0(a)&#x2014;3 or more samples</TD>
+<TD class="right border-right-single">1.79</TD>
+<TD class="right">1.70</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left border-right-single">70.1-0(b)&#x2014;3 or more samples</TD>
+<TD class="right border-right-single">0.74</TD>
+<TD class="right">0.57</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">70.208(f)(2)</TD>
+<TD class="left border-right-single">70.1-0(a)&#x2014;5 sample average</TD>
+<TD class="right border-right-single">1.63</TD>
+<TD class="right">1.59</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left border-right-single">70.1-0(b)&#x2014;5 sample average</TD>
+<TD class="right border-right-single">0.61</TD>
+<TD class="right">0.53</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">70.208(f)(2)</TD>
+<TD class="left border-right-single">70.1-0(a)&#x2014;15 sample average</TD>
+<TD class="right border-right-single">1.58</TD>
+<TD class="right">1.56</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left border-right-single">70.1-0(b)&#x2014;15 sample average</TD>
+<TD class="right border-right-single">0.57</TD>
+<TD class="right">0.52</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">70.208(i)(1)</TD>
+<TD class="left border-right-single">70.1-0(a)&#x2014;Each of 5 samples</TD>
+<TD class="right border-right-single">1.79</TD>
+<TD class="right">1.70</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single"> </TD>
+<TD class="left border-bottom-single border-right-single">70.1-0(b)&#x2014;Each of 5 samples</TD>
+<TD class="right border-bottom-single border-right-single">0.74</TD>
+<TD class="right border-bottom-single">0.57</TD>
+</TR>
+</TBODY>
+</TABLE>
+</DIV></DIV>
+<CITA TYPE="N">[89 FR 28474, 28475, Apr. 18, 2024]
+</CITA>
+</DIV8>
+
+<DIV8 N="70.209" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-70.209&quot;,&quot;citation&quot;:&quot;30 CFR 70.209&quot;}">
+<HEAD>&#xA7; 70.209 Quarterly sampling; designated areas.</HEAD>
+<P>As of April 14, 2025:</P>
+<P>(a) The operator shall sample quarterly each designated area (DA) on consecutive production shifts until five valid representative samples are taken. The quarterly periods are:</P>
+<P>(1) January 1-March 31</P>
+<P>(2) April 1-June 30</P>
+<P>(3) July 1-September 30</P>
+<P>(4) October 1-December 31.</P>
+<P>(b) [Reserved]</P>
+<P>(c) When a valid representative sample taken in accordance with this section meets or exceeds the ECV in table 1 to this section that corresponds to the particular sampling device used, the operator shall:</P>
+<P>(1) Make approved respiratory equipment available to affected miners in accordance with &#xA7; 72.700 of this chapter;</P>
+<P>(2) Immediately take corrective action to lower the concentration of respirable dust to at or below the respirable dust standard; and</P>
+<P>(3) Make a record of the corrective actions taken. The record shall be certified by the mine foreman or equivalent mine official, no later than the end of the mine foreman's or equivalent official's next regularly scheduled working shift. The record shall be made in a secure book that is not susceptible to alteration or electronically in a computer system so as to be secure and not susceptible to alteration. Such records shall be retained at a surface location at the mine for at least 1 year and shall be made available for inspection by authorized representatives of the Secretary and the representative of miners.</P>
+<P>(d) Noncompliance with the standard is demonstrated during the sampling period when:</P>
+<P>(1) Two or more valid representative samples meet or exceed the ECV in table 1 to this section that corresponds to the particular sampling device used; or</P>
+<P>(2) The average for all valid representative samples meets or exceeds the ECV in table 1 to this section that corresponds to the particular sampling device used.</P>
+<P>(e) Unless otherwise directed by the District Manager, upon issuance of a citation for a violation of the standard, paragraph (a) of this section shall not apply to that DA until the violation is abated and the citation is terminated in accordance with paragraphs (e) and (f) of this section.</P>
+<P>(f) Upon issuance of a citation for a violation of the standard, the operator shall take the following actions sequentially:</P>
+<P>(1) Make approved respiratory equipment available to affected miners in accordance with &#xA7; 72.700 of this chapter;</P>
+<P>(2) Immediately take corrective action to lower the concentration of respirable coal mine dust to at or below the standard; and</P>
+<P>(3) Make a record of the corrective actions taken. The record shall be certified by the mine foreman or equivalent mine official, no later than the end of the mine foreman's or equivalent official's next regularly scheduled working shift. The record shall be made in a secure book that is not susceptible to alteration or electronically in a computer system so as to be secure and not susceptible to alteration. Such records shall be retained at a surface location at the mine for at least 1 year and shall be made available for inspection by authorized representatives of the Secretary and the representative of miners.</P>
+<P>(4) Begin sampling, within 8 calendar days after the date the citation is issued, the environment of the affected DA on consecutive normal production shifts until five valid representative samples are taken.</P>
+<P>(g) A citation for a violation of the standard shall be terminated by MSHA when:</P>
+<P>(1) Each of the five valid representative samples is at or below the standard; and</P>
+<P>(2) The operator has submitted to the District Manager revised dust control parameters as part of the mine ventilation plan applicable to the DA in the citation, and the changes have been approved by the District Manager. The revised parameters shall reflect the control measures used by the operator to abate the violation.</P>
+<DIV width="100%"><DIV class="gpotbl_div">
+<TABLE border="1" cellpadding="1" cellspacing="1" class="gpo_table" frame="void" width="100%">
+<CAPTION><P class="title">Table 1 to &#xA7; 70.209&#x2014;Excessive Concentration Values (ECV) Based on a Single Sample, Two Samples, or the Average of Five or Fifteen Full-Shift CMDPSU/CPDM Concentration Measurements</P></CAPTION>
+<THEAD>
+<TR>
+<TH rowspan="2" class="center border-top-single border-bottom-single border-right-single">Section</TH>
+<TH rowspan="2" class="center border-top-single border-bottom-single border-right-single">Samples</TH>
+<TH colspan="2" class="center border-top-single border-bottom-single">ECV (mg/m<sup>3</sup>)</TH>
+</TR>
+<TR>
+<TH class="center border-bottom-single border-right-single">CMDPSU</TH>
+<TH class="center border-bottom-single">CPDM</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD class="left border-right-single">70.209 (c)</TD>
+<TD class="left border-right-single">70.100(a)&#x2014;Single sample</TD>
+<TD class="right border-right-single">1.79</TD>
+<TD class="right">1.70</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left border-right-single">70.100(b)&#x2014;Single sample</TD>
+<TD class="right border-right-single">0.74</TD>
+<TD class="right">0.57</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">70.209(d)(1)</TD>
+<TD class="left border-right-single">70.100(a)&#x2014;2 or more samples</TD>
+<TD class="right border-right-single">1.79</TD>
+<TD class="right">1.70</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left border-right-single">70.100(b)&#x2014;2 or more samples</TD>
+<TD class="right border-right-single">0.74</TD>
+<TD class="right">0.57</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">70.209(d)(2)</TD>
+<TD class="left border-right-single">70.100(a)&#x2014;5 sample average</TD>
+<TD class="right border-right-single">1.63</TD>
+<TD class="right">1.59</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left border-right-single">70.100(b)&#x2014;5 sample average</TD>
+<TD class="right border-right-single">0.61</TD>
+<TD class="right">0.53</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">70.209(d)(2)</TD>
+<TD class="left border-right-single">70.100(a)&#x2014;15 sample average</TD>
+<TD class="right border-right-single">1.58</TD>
+<TD class="right">1.56</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left border-right-single">70.100(b)&#x2014;15 sample average</TD>
+<TD class="right border-right-single">0.57</TD>
+<TD class="right">0.52</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">70.209(g)(1)</TD>
+<TD class="left border-right-single">70.100(a)&#x2014;Each of 5 samples</TD>
+<TD class="right border-right-single">1.79</TD>
+<TD class="right">1.70</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single"> </TD>
+<TD class="left border-bottom-single border-right-single">70.100(b)&#x2014;Each of 5 samples</TD>
+<TD class="right border-bottom-single border-right-single">0.74</TD>
+<TD class="right border-bottom-single">0.57</TD>
+</TR>
+</TBODY>
+</TABLE>
+</DIV></DIV>
+<CITA TYPE="N">[89 FR 28475, 28476, Apr. 18, 2024]
+</CITA>
+</DIV8>
+
+<DIV8 N="70.210" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-70.210&quot;,&quot;citation&quot;:&quot;30 CFR 70.210&quot;}">
+<HEAD>&#xA7; 70.210 Respirable dust samples; transmission by operator.</HEAD>
+<P>(a) If using a CMDPSU, the operator shall transmit within 24 hours after the end of the sampling shift all samples collected to fulfill the requirements of this part, including control filters, in containers provided by the manufacturer of the filter cassette to: Respirable Dust Processing Laboratory, Pittsburgh Safety and Health Technology Center, 626 Cochrans Mill Road, Building 38, Pittsburgh, PA 15236-3611, or to any other address designated by the District Manager.</P>
+<P>(b) The operator shall not open or tamper with the seal of any filter cassette or alter the weight of any filter cassette before or after it is used to fulfill the requirements of this part.</P>
+<P>(c) A person certified in sampling shall properly complete the dust data card that is provided by the manufacturer for each filter cassette. The card shall have an identification number identical to that on the cassette used to take the sample and be submitted to MSHA with the sample. Each card shall be signed by the certified person who actually performed the required examinations under 70.205(b) of this part during the sampling shift and shall include that person's MSHA Individual Identification Number (MIIN). Respirable dust samples with data cards not properly completed may be voided by MSHA.</P>
+<P>(d) All respirable dust samples collected by the operator shall be considered taken to fulfill the sampling requirements of part 70, 71, or 90 of this title, unless the sample has been identified in writing by the operator to the District Manager, prior to the intended sampling shift, as a sample to be used for purposes other than required by part 70, 71, or 90 of this title.</P>
+<P>(e) Respirable dust samples received by MSHA in excess of those required by this part shall be considered invalid samples.</P>
+<P>(f) If using a CPDM, the person certified in sampling shall (1) validate, certify, and transmit electronically to MSHA within 24 hours after the end of each sampling shift all sample data file information collected and stored in the CPDM, including the sampling status conditions encountered when sampling; and (2) not tamper with the CPDM or its components in any way before, during, or after it is used to fulfill the requirements of this part, or alter any sample data files. All CPDM data files transmitted electronically to MSHA shall be maintained by the operator for at least 12 months.</P>
+<CITA TYPE="N">[79 FR 24974, May 1, 2014, as amended at 80 FR 52989, Sept. 2, 2015]
+</CITA>
+</DIV8>
+
+<DIV8 N="70.211" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-70.211&quot;,&quot;citation&quot;:&quot;30 CFR 70.211&quot;}">
+<HEAD>&#xA7; 70.211 Respirable dust samples; report to operator; posting.</HEAD>
+<P>(a) MSHA shall provide the operator, as soon as practicable, a report with the following data on respirable dust samples submitted or whose results were transmitted electronically, if using a CPDM, in accordance with this part:</P>
+<P>(1) The mine identification number;</P>
+<P>(2) The locations within the mine from which the samples were taken;</P>
+<P>(3) The concentration of respirable dust, expressed as an equivalent concentration for each valid sample;</P>
+<P>(4) The average equivalent concentration of respirable dust for all valid samples;</P>
+<P>(5) The occupation code, where applicable; and</P>
+<P>(6) The reason for voiding any sample.</P>
+<P>(b) Upon receipt, the operator shall post this data for at least 31 days on the mine bulletin board.</P>
+<P>(c) If using a CPDM, the person certified in sampling shall, within 12 hours after the end of each sampling shift, print, sign, and post on the mine bulletin board a paper record (Dust Data Card) of the sample run. This hard-copy record shall include the data entered when the sample run was first programmed, and the following:</P>
+<P>(1) The mine identification number;</P>
+<P>(2) The locations within the mine from which the samples were taken;</P>
+<P>(3) The concentration of respirable dust, expressed as an equivalent concentration reported and stored for each sample;</P>
+<P>(4) The sampling status conditions encountered for each sample; and</P>
+<P>(5) The shift length.</P>
+<P>(d) The information required by paragraph (c) of this section shall remain posted until receipt of the MSHA report covering these respirable dust samples.</P>
+</DIV8>
+
+<DIV8 N="70.212" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-70.212&quot;,&quot;citation&quot;:&quot;30 CFR 70.212&quot;}">
+<HEAD>&#xA7; 70.212 Status change reports.</HEAD>
+<P>(a) If there is a change in operational status that affects the respirable dust sampling requirements of this part, the operator shall report the change in operational status of the mine, mechanized mining unit, or designated area to the MSHA District Office or to any other MSHA office designated by the District Manager. Status changes shall be reported in writing or electronically within 3 working days after the status change has occurred.</P>
+<P>(b) Each specific operational status is defined as follows:</P>
+<P>(1) Underground mine:</P>
+<P>(i) <I>Producing</I>&#x2014;has at least one MMU unit producing material.</P>
+<P>(ii) <I>Nonproducing</I>&#x2014;no material is being produced.</P>
+<P>(iii) <I>Abandoned</I>&#x2014;the work of all miners has been terminated and production activity has ceased.</P>
+<P>(2) MMU:</P>
+<P>(i) <I>Producing</I>&#x2014;producing material from a working section.</P>
+<P>(ii) <I>Nonproducing</I>&#x2014;temporarily ceased production of material.</P>
+<P>(iii) <I>Abandoned</I>&#x2014;permanently ceased production of material.</P>
+<P>(3) DA:</P>
+<P>(i) <I>Producing</I>&#x2014;activity is occurring.</P>
+<P>(ii) <I>Nonproducing</I>&#x2014;activity has ceased.</P>
+<P>(iii) <I>Abandoned</I>&#x2014;the dust generating source has been withdrawn and activity has ceased.</P>
+</DIV8>
+
+</DIV6>
+<DIV6 N="D" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-70/subpart-D&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 70 Subpart D&amp;quot;}">
+<HEAD>Subpart D [Reserved]</HEAD>
+</DIV6>
+<DIV6 N="E" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-70/subpart-E&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 70 Subpart E&amp;quot;}">
+<HEAD>Subpart E&#x2014;Dust From Drilling Rock [Reserved]</HEAD>
+</DIV6>
+<DIV6 N="F-S" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-70/subpart-F-S&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 70 Subpart F-S&amp;quot;}">
+<HEAD>Subparts F-S [Reserved]</HEAD>
+</DIV6>
+<DIV6 N="T" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-70/subpart-T&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 70 Subpart T&amp;quot;}">
+<HEAD>Subpart T&#x2014;Diesel Exhaust Gas Monitoring</HEAD>
+<DIV8 N="70.1900" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-70.1900&quot;,&quot;citation&quot;:&quot;30 CFR 70.1900&quot;}">
+<HEAD>&#xA7; 70.1900 Exhaust Gas Monitoring.</HEAD>
+<P>(a) During on-shift examinations required by &#xA7; 75.362, a certified person as defined by &#xA7; 75.100 of this chapter and designated by the operator as trained or experienced in the appropriate sampling procedures, shall determine the concentration of carbon monoxide (CO) and nitrogen dioxide (NO<E T="52">2</E>):</P>
+<P>(1) In the return of each working section where diesel equipment is used, at a location which represents the contribution of all diesel equipment on such section;</P>
+<P>(2) In the area of the section loading point if diesel haulage equipment is operated on the working section;</P>
+<P>(3) At a point inby the last piece of diesel equipment on the longwall or shortwall face when mining equipment is being installed or removed; and</P>
+<P>(4) In any other area designated by the district manager as specified in the mine operator's approved ventilation plan where diesel equipment is operated in a manner which can result in significant concentrations of diesel exhaust.</P>
+<P>(b) Samples of CO and NO<E T="52">2</E> shall be&#x2014;</P>
+<P>(1) Collected in a manner that makes the results available immediately to the person collecting the samples;</P>
+<P>(2) Collected and analyzed by appropriate instrumentation which has been maintained and calibrated in accordance with the manufacturer's recommendations; and</P>
+<P>(3) Collected during periods that are representative of conditions during normal operations.</P>
+<P>(c) Except as provided in &#xA7; 75.325(j) of this chapter, when sampling results indicate a concentration of CO and/or NO<E T="52">2</E> exceeding an action level of 50 percent of the threshold limit values (TLV&#xAE;) adopted by the American Conference of Governmental Industrial Hygienists, the mine operator shall immediately take appropriate corrective action to reduce the concentrations of CO and/or NO<E T="52">2</E> to below the applicable action level. The publication, &#x201C;Threshold Limit Values for Substance in Workroom Air&#x201D; (1972) is incorporated by reference and may be inspected at MSHA's Office of Standards, Regulations, and Variances, 200 Constitution Avenue NW, Washington, DC 20210; 202-693-9440; at any MSHA Coal Mine Safety and Health District Office; or at the National Archives and Records Administration (NARA). For information on the availability of this material at NARA, call 202-741-6030, or go to: <I>http://www.archives.gov/federal_register/code_of_federal_regulations/ibr_locations.html.</I> This incorporation by reference was approved by the Director of the Federal Register in accordance with 5 U.S.C. 552(a) and 1 CFR part 51. In addition, copies of the document may be purchased from the American Conference of Governmental Industrial Hygienists, 1330 Kemper Meadow Drive, Attn: Customer Service, Cincinnati, OH 45240; 513-742-2020; <I>http://www.acgih.org.</I></P>
+<P>(d) A record shall be made when sampling results exceed the action level for the applicable TLV &#xAE; for CO and/or NO<E T="52">2</E>. The record shall be made as part of and in the same manner as the records for hazards required by &#xA7; 75.363 of this chapter and include the following:</P>
+<P>(1) Location where each sample was collected;</P>
+<P>(2) Substance sampled and the measured concentration; and</P>
+<P>(3) Corrective action taken to reduce the concentration of CO and/or NO<E T="52">2</E> to or below the applicable action level.</P>
+<P>(e) As of November 25, 1997 exhaust gas monitoring shall be conducted in accordance with the requirements of this section.</P>
+<CITA TYPE="N">[61 FR 55526, Oct. 25, 1996, as amended at 67 FR 38385, June 4, 2002; 71 FR 16667, Apr. 3, 2006; 80 FR 52989, Sept. 2, 2015; 91 FR 9448, Feb. 26, 2026]
+</CITA>
+</DIV8>
+
+</DIV6>
+</DIV5>

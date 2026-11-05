@@ -1,0 +1,1059 @@
+<?xml version="1.0"?>
+<DIV5 N="62" TYPE="PART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-62&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 62&amp;quot;}">
+<HEAD>PART 62&#x2014;OCCUPATIONAL NOISE EXPOSURE
+</HEAD>
+<AUTH>
+<HED>Authority:</HED><PSPACE>30 U.S.C. 811.
+</PSPACE></AUTH>
+<SOURCE>
+<HED>Source:</HED><PSPACE>64 FR 49630, Sept. 13, 1999, unless otherwise noted.
+</PSPACE></SOURCE>
+<DIV8 N="62.100" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-62.100&quot;,&quot;citation&quot;:&quot;30 CFR 62.100&quot;}">
+<HEAD>&#xA7; 62.100 Purpose and scope; effective date.</HEAD>
+<P>The purpose of these standards is to prevent the occurrence and reduce the progression of occupational noise-induced hearing loss among miners. This part sets forth mandatory health standards for each surface and underground metal, nonmetal, and coal mine subject to the Federal Mine Safety and Health Act of 1977. The provisions of this part become effective September 13, 2000.</P>
+</DIV8>
+
+<DIV8 N="62.101" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-62.101&quot;,&quot;citation&quot;:&quot;30 CFR 62.101&quot;}">
+<HEAD>&#xA7; 62.101 Definitions.</HEAD>
+<P>The following definitions apply in this part:</P>
+<P><I>Access.</I> The right to examine and copy records.</P>
+<P><I>Action level.</I> An 8-hour time-weighted average sound level (TWA<E T="52">8</E>) of 85 dBA, or equivalently a dose of 50%, integrating all sound levels from 80 dBA to at least 130 dBA.</P>
+<P><I>Audiologist.</I> A professional, specializing in the study and rehabilitation of hearing, who is certified by the American Speech-Language-Hearing Association (ASHA) or licensed by a state board of examiners.</P>
+<P><I>Baseline audiogram.</I> The audiogram recorded in accordance with &#xA7; 62.170(a) of this part against which subsequent audiograms are compared to determine the extent of hearing loss.</P>
+<P><I>Criterion level.</I> The sound level which if constantly applied for 8 hours results in a dose of 100% of that permitted by the standard.</P>
+<P><I>Decibel (dB).</I> A unit of measure of sound pressure levels, defined in one of two ways, depending upon the use:</P>
+<P>(1) For measuring sound pressure levels, the decibel is 20 times the common logarithm of the ratio of the measured sound pressure to the standard reference sound pressure of 20 micropascals (&#xB5;Pa), which is the threshold of normal hearing sensitivity at 1000 Hertz (Hz).</P>
+<P>(2) For measuring hearing threshold levels, the decibel is the difference between audiometric zero (reference pressure equal to 0 hearing threshold level) and the threshold of hearing of the individual being tested at each test frequency.</P>
+<P><I>Dual Hearing Protection Level.</I> A TWA<E T="52">8</E> of 105 dBA, or equivalently, a dose of 800% of that permitted by the standard, integrating all sound levels from 90 dBA to at least 140 dBA.</P>
+<P><I>Exchange rate.</I> The amount of increase in sound level, in decibels, which would require halving of the allowable exposure time to maintain the same noise dose. For the purposes of this part, the exchange rate is 5 decibels (5 dB).</P>
+<P><I>Hearing protector.</I> Any device or material, capable of being worn on the head or in the ear canal, sold wholly or in part on the basis of its ability to reduce the level of sound entering the ear, and which has a scientifically accepted indicator of noise reduction value.</P>
+<P><I>Hertz (Hz).</I> Unit of measurement of frequency numerically equal to cycles per second.</P>
+<P><I>Medical pathology.</I> A condition or disease affecting the ear.</P>
+<P><I>Miner's designee.</I> Any individual or organization to whom a miner gives written authorization to exercise a right of access to records.</P>
+<P><I>Qualified technician.</I> A technician who has been certified by the Council for Accreditation in Occupational Hearing Conservation (CAOHC), or by another recognized organization offering equivalent certification.</P>
+<P><I>Permissible exposure level.</I> A TWA<E T="52">8</E> of 90 dBA or equivalently a dose of 100% of that permitted by the standard, integrating all sound levels from 90 dBA to at least 140 dBA.</P>
+<P><I>Reportable hearing loss.</I> A change in hearing sensitivity for the worse, relative to the miner's baseline audiogram, or the miner's revised baseline audiogram where one has been established in accordance with &#xA7; 62.170(c)(2), of an average of 25 dB or more at 2000, 3000, and 4000 Hz in either ear.</P>
+<P><I>Revised baseline audiogram.</I> An annual audiogram designated to be used in lieu of a miner's original baseline audiogram in measuring changes in hearing sensitivity as a result of the circumstances set forth in &#xA7;&#xA7; 62.170(c)(1) or 62.170(c)(2) of this part.</P>
+<P><I>Sound level.</I> The sound pressure level in decibels measured using the A-weighting network and a slow response, expressed in the unit dBA.</P>
+<P><I>Standard threshold shift.</I> A change in hearing sensitivity for the worse relative to the miner's baseline audiogram, or relative to the most recent revised baseline audiogram where one has been established, of an average of 10 dB or more at 2000, 3000, and 4000 Hz in either ear.</P>
+<P><I>Time-weighted average-8 hour</I> (TWA<E T="54">8</E>). The sound level which, if constant over 8 hours, would result in the same noise dose as is measured.</P>
+</DIV8>
+
+<DIV8 N="62.110" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-62.110&quot;,&quot;citation&quot;:&quot;30 CFR 62.110&quot;}">
+<HEAD>&#xA7; 62.110 Noise exposure assessment.</HEAD>
+<P>(a) The mine operator must establish a system of monitoring that evaluates each miner's noise exposure sufficiently to determine continuing compliance with this part.</P>
+<P>(b) The mine operator must determine a miner's noise dose (D, in percent) by using a noise dosimeter or by computing the formula: D = 100(C<E T="52">1</E>/T<E T="52">1</E> + C<E T="52">2</E>/T<E T="52">2</E> + . . . . + C<E T="52">n</E>/T<E T="52">n</E>), where Cn is the total time the miner is exposed at a specified sound level, and T<E T="52">n</E> is the reference duration of exposure at that sound level shown in Table 62-1.</P>
+<P>(1) The mine operator must use Table 62-2 when converting from dose readings to equivalent TWA<E T="52">8</E> readings.</P>
+<P>(2) A miner's noise dose determination must:</P>
+<P>(i) Be made without adjustment for the use of any hearing protector;</P>
+<P>(ii) Integrate all sound levels over the appropriate range;</P>
+<P>(iii) Reflect the miner's full work shift;</P>
+<P>(iv) Use a 90-dB criterion level and a 5-dB exchange rate; and</P>
+<P>(v) Use the A-weighting and slow response instrument settings.</P>
+<P>(c) <I>Observation of monitoring.</I> The mine operator must provide affected miners and their representatives with an opportunity to observe noise exposure monitoring required by this section and must give prior notice of the date and time of intended exposure monitoring to affected miners and their representatives.</P>
+<P>(d) <I>Miner notification.</I> The mine operator must notify a miner of his or her exposure when the miner's exposure is determined to equal or exceed the action level, exceed the permissible exposure level, or exceed the dual hearing protection level, provided the mine operator has not notified the miner of an exposure at such level within the prior 12 months. The mine operator must base the notification on an exposure evaluation conducted either by the mine operator or by an authorized representative of the Secretary of Labor. The mine operator must notify the miner in writing within 15 calendar days of:</P>
+<P>(1) The exposure determination; and (2) the corrective action being taken.</P>
+<P>(e) The mine operator must maintain a copy of any such miner notification, or a list on which the relevant information about that miner's notice is recorded, for the duration of the affected miner's exposure at or above the action level and for at least 6 months thereafter.</P>
+</DIV8>
+
+<DIV8 N="62.120" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-62.120&quot;,&quot;citation&quot;:&quot;30 CFR 62.120&quot;}">
+<HEAD>&#xA7; 62.120 Action level.</HEAD>
+<P>If during any work shift a miner's noise exposure equals or exceeds the action level the mine operator must enroll the miner in a hearing conservation program that complies with &#xA7; 62.150 of this part.</P>
+</DIV8>
+
+<DIV8 N="62.130" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-62.130&quot;,&quot;citation&quot;:&quot;30 CFR 62.130&quot;}">
+<HEAD>&#xA7; 62.130 Permissible exposure level.</HEAD>
+<P>(a) The mine operator must assure that no miner is exposed during any work shift to noise that exceeds the permissible exposure level. If during any work shift a miner's noise exposure exceeds the permissible exposure level, the mine operator must use all feasible engineering and administrative controls to reduce the miner's noise exposure to the permissible exposure level, and enroll the miner in a hearing conservation program that complies with &#xA7; 62.150 of this part. When a mine operator uses administrative controls to reduce a miner's exposure, the mine operator must post the procedures for such controls on the mine bulletin board and provide a copy to the affected miner.</P>
+<P>(b) If a miner's noise exposure continues to exceed the permissible exposure level despite the use of all feasible engineering and administrative controls, the mine operator must continue to use the engineering and administrative controls to reduce the miner's noise exposure to as low a level as is feasible.</P>
+<P>(c) The mine operator must assure that no miner is exposed at any time to sound levels exceeding 115 dBA, as determined without adjustment for the use of any hearing protector.</P>
+</DIV8>
+
+<DIV8 N="62.140" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-62.140&quot;,&quot;citation&quot;:&quot;30 CFR 62.140&quot;}">
+<HEAD>&#xA7; 62.140 Dual hearing protection level.</HEAD>
+<P>If during any work shift a miner's noise exposure exceeds the dual hearing protection level, the mine operator must, in addition to the actions required for noise exposures that exceed the permissible exposure level, provide and ensure the concurrent use of both an ear plug and an ear muff type hearing protector. The following table sets out mine operator actions under MSHA's noise standard.</P>
+<DIV width="100%"><DIV class="gpotbl_div">
+<TABLE border="1" cellpadding="1" cellspacing="1" class="gpo_table" frame="void" width="100%">
+<THEAD>
+<TR>
+<TH class="center border-top-single border-bottom-single border-right-single">Provision</TH>
+<TH class="center border-top-single border-bottom-single border-right-single">Condition</TH>
+<TH class="center border-top-single border-bottom-single">Action required by the mine operator</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD class="left border-right-single">&#xA7; 62.120</TD>
+<TD class="left border-right-single">Miner's noise exposure is less than the action level</TD>
+<TD class="left">None.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">&#xA7; 62.120</TD>
+<TD class="left border-right-single">Miner's exposure equals or exceeds the action level, but does not exceed the permissible exposure level (PEL)</TD>
+<TD class="left">Operator enrolls the miner in hearing conservation program (HCP) which includes (1) a system of monitoring, (2) voluntary, with two exceptions, use of operator-provided hearing protectors, (3) voluntary audiometric testing, (4) training, and (5) record keeping.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">&#xA7; 62.130</TD>
+<TD class="left border-right-single">Miner's exposure exceeds the PEL</TD>
+<TD class="left">Operator uses/continues to use all feasible engineering and administrative controls to reduce exposure to PEL; enrolls the miner in a HCP including ensured use of operator-provided hearing protectors; posts administrative controls and provides copy to affected miner; must never permit a miner to be exposed to sound levels exceeding 115 dBA.</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single">&#xA7; 62.140</TD>
+<TD class="left border-bottom-single border-right-single">Miner's exposure exceeds the dual hearing protection level</TD>
+<TD class="left border-bottom-single">Operator enrolls the miner in a HCP, continues to meet all the requirements of &#xA7; 62.130, ensures concurrent use of earplug and earmuff.</TD>
+</TR>
+</TBODY>
+</TABLE>
+</DIV></DIV>
+</DIV8>
+
+<DIV8 N="62.150" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-62.150&quot;,&quot;citation&quot;:&quot;30 CFR 62.150&quot;}">
+<HEAD>&#xA7; 62.150 Hearing conservation program.</HEAD>
+<P>A hearing conservation program established under this part must include:</P>
+<P>(a) A system of monitoring under &#xA7; 62.110 of this part;</P>
+<P>(b) The provision and use of hearing protectors under &#xA7; 62.160 of this part;</P>
+<P>(c) Audiometric testing under &#xA7;&#xA7; 62.170 through 62.175 of this part;</P>
+<P>(d) Training under &#xA7; 62.180 of this part; and</P>
+<P>(e) Recordkeeping under &#xA7; 62.190 of this part.</P>
+</DIV8>
+
+<DIV8 N="62.160" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-62.160&quot;,&quot;citation&quot;:&quot;30 CFR 62.160&quot;}">
+<HEAD>&#xA7; 62.160 Hearing protectors.</HEAD>
+<P>(a) A mine operator must provide a hearing protector to a miner whose noise exposure equals or exceeds the action level under &#xA7; 62.120 of this part. In addition, the mine operator must:</P>
+<P>(1) Train the miner in accordance with &#xA7; 62.180 of this part;</P>
+<P>(2) Allow the miner to choose a hearing protector from at least two muff types and two plug types, and in the event dual hearing protectors are required, to choose one of each type;</P>
+<P>(3) Ensure that the hearing protector is in good condition and is fitted and maintained in accordance with the manufacturer's instructions;</P>
+<P>(4) Provide the hearing protector and necessary replacements at no cost to the miner; and</P>
+<P>(5) Allow the miner to choose a different hearing protector(s), if wearing the selected hearing protector(s) is subsequently precluded due to medical pathology of the ear.</P>
+<P>(b) The mine operator must ensure, after satisfying the requirements of paragraph (a) of this section, that a miner wears a hearing protector whenever the miner's noise exposure exceeds the permissible exposure level before the implementation of engineering and administrative controls, or if the miner's noise exposure continues to exceed the permissible exposure level despite the use of all feasible engineering and administrative controls.</P>
+<P>(c) The mine operator must ensure, after satisfying the requirements of paragraph (a) of this section, that a miner wears a hearing protector when the miner's noise exposure is at or above the action level, if:</P>
+<P>(1) The miner has incurred a standard threshold shift; or</P>
+<P>(2) More than 6 months will pass before the miner can take a baseline audiogram.</P>
+</DIV8>
+
+<DIV8 N="62.170" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-62.170&quot;,&quot;citation&quot;:&quot;30 CFR 62.170&quot;}">
+<HEAD>&#xA7; 62.170 Audiometric testing.</HEAD>
+<P>The mine operator must provide audiometric tests to satisfy the requirements of this part at no cost to the miner. A physician or an audiologist, or a qualified technician under the direction or supervision of a physician or an audiologist must conduct the tests.</P>
+<P>(a) <I>Baseline audiogram.</I> The mine operator must offer miners the opportunity for audiometric testing of the miner's hearing sensitivity for the purpose of establishing a valid baseline audiogram to compare with subsequent annual audiograms. The mine operator may use an existing audiogram of the miner's hearing sensitivity as the baseline audiogram if it meets the audiometric testing requirements of &#xA7; 62.171 of this part.</P>
+<P>(1) The mine operator must offer and provide within 6 months of enrolling the miner in a hearing conservation program, audiometric testing which results in a valid baseline audiogram, or offer and provide the testing within 12 months where the operator uses mobile test vans to do the testing.</P>
+<P>(2) The mine operator must notify the miner to avoid high levels of noise for at least 14 hours immediately preceding the baseline audiogram. The mine operator must not expose the miner to workplace noise for the 14-hour quiet period before conducting the audiometric testing to determine a baseline audiogram. The operator may substitute the use of hearing protectors for this quiet period.</P>
+<P>(3) The mine operator must not establish a new baseline audiogram or a new revised baseline audiogram, where one has been established, due to changes in enrollment status in the hearing conservation program. The mine operator may establish a new baseline or revised baseline audiogram for a miner who is away from the mine for more than 6 consecutive months.</P>
+<P>(b) <I>Annual audiogram.</I> After the baseline audiogram is established, the mine operator must continue to offer subsequent audiometric tests at intervals not exceeding 12 months for as long as the miner remains in the hearing conservation program.</P>
+<P>(c) <I>Revised baseline audiogram.</I> An annual audiogram must be deemed to be a revised baseline audiogram when, in the judgment of the physician or audiologist:</P>
+<P>(1) A standard threshold shift revealed by the audiogram is permanent; or (2) The hearing threshold shown in the annual audiogram indicates significant improvement over the baseline audiogram.</P>
+</DIV8>
+
+<DIV8 N="62.171" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-62.171&quot;,&quot;citation&quot;:&quot;30 CFR 62.171&quot;}">
+<HEAD>&#xA7; 62.171 Audiometric test procedures.</HEAD>
+<P>(a) All audiometric testing under this part must be conducted in accordance with scientifically validated procedures. Audiometric tests must be pure tone, air conduction, hearing threshold examinations, with test frequencies including 500, 1000, 2000, 3000, 4000, and 6000 Hz. Each ear must be tested separately.</P>
+<P>(b) The mine operator must compile an audiometric test record for each miner tested. The record must include:</P>
+<P>(1) Name and job classification of the miner tested;</P>
+<P>(2) A copy of all of the miner's audiograms conducted under this part;</P>
+<P>(3) Evidence that the audiograms were conducted in accordance with paragraph (a) of this section;</P>
+<P>(4) Any exposure determination for the miner conducted in accordance with &#xA7; 62.110 of this part; and</P>
+<P>(5) The results of follow-up examination(s), if any.</P>
+<P>(c) The operator must maintain audiometric test records for the duration of the affected miner's employment, plus at least 6 months, and make the records available for inspection by an authorized representative of the Secretary of Labor.</P>
+</DIV8>
+
+<DIV8 N="62.172" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-62.172&quot;,&quot;citation&quot;:&quot;30 CFR 62.172&quot;}">
+<HEAD>&#xA7; 62.172 Evaluation of audiograms.</HEAD>
+<P>(a) The mine operator must:</P>
+<P>(1) Inform persons evaluating audiograms of the requirements of this part and provide those persons with a copy of the miner's audiometric test records;</P>
+<P>(2) Have a physician or an audiologist, or a qualified technician who is under the direction or supervision of a physician or audiologist:</P>
+<P>(i) Determine if the audiogram is valid; and</P>
+<P>(ii) Determine if a standard threshold shift or a reportable hearing loss, as defined in this part, has occurred.</P>
+<P>(3) Instruct the physician, audiologist, or qualified technician not to reveal to the mine operator, without the written consent of the miner, any specific findings or diagnoses unrelated to the miner's hearing loss due to occupational noise or the wearing of hearing protectors; and</P>
+<P>(4) Obtain the results and the interpretation of the results of audiograms conducted under this part within 30 calendar days of conducting the audiogram.</P>
+<P>(b)(1) The mine operator must provide an audiometric retest within 30 calendar days of receiving a determination that an audiogram is invalid, provided any medical pathology has improved to the point that a valid audiogram may be obtained.</P>
+<P>(2) If an annual audiogram demonstrates that the miner has incurred a standard threshold shift or reportable hearing loss, the mine operator may provide one retest within 30 calendar days of receiving the results of the audiogram and may use the results of the retest as the annual audiogram.</P>
+<P>(c) In determining whether a standard threshold shift or reportable hearing loss has occurred, allowance may be made for the contribution of aging (presbycusis) to the change in hearing level. The baseline, or the revised baseline as appropriate, and the annual audiograms used in making the determination should be adjusted according to the following procedure:</P>
+<P>(1) Determine from Tables 62-3 or 62-4 the age correction values for the miner by:</P>
+<P>(i) Finding the age at which the baseline audiogram or revised baseline audiogram, as appropriate, was taken, and recording the corresponding values of age corrections at 2000, 3000, and 4000 Hz;</P>
+<P>(ii) Finding the age at which the most recent annual audiogram was obtained and recording the corresponding values of age corrections at 2000, 3000, and 4000 Hz; and</P>
+<P>(iii) Subtracting the values determined in paragraph (c)(1)(i) of this section from the values determined in paragraph (c)(1)(ii) of this section. The differences calculated represent that portion of the change in hearing that may be due to aging.</P>
+<P>(2) Subtract the values determined in paragraph (c)(1)(iii) of this section from the hearing threshold levels found in the annual audiogram to obtain the adjusted annual audiogram hearing threshold levels.</P>
+<P>(3) Subtract the hearing threshold levels in the baseline audiogram or revised baseline audiogram from the adjusted annual audiogram hearing threshold levels determined in paragraph (c)(2) of this section to obtain the age-corrected threshold shifts.</P>
+</DIV8>
+
+<DIV8 N="62.173" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-62.173&quot;,&quot;citation&quot;:&quot;30 CFR 62.173&quot;}">
+<HEAD>&#xA7; 62.173 Follow-up evaluation when an audiogram is invalid.</HEAD>
+<P>(a) If a valid audiogram cannot be obtained due to a suspected medical pathology of the ear that the physician or audiologist believes was caused or aggravated by the miner's occupational exposure to noise or the wearing of hearing protectors, the mine operator must refer the miner for a clinical-audiological evaluation or an otological examination, as appropriate, at no cost to the miner.</P>
+<P>(b) If a valid audiogram cannot be obtained due to a suspected medical pathology of the ear that the physician or audiologist concludes is unrelated to the miner's occupational exposure to noise or the wearing of hearing protectors, the mine operator must instruct the physician or audiologist to inform the miner of the need for an otological examination.</P>
+<P>(c) The mine operator must instruct the physician, audiologist, or qualified technician not to reveal to the mine operator, without the written consent of the miner, any specific findings or diagnoses unrelated to the miner's occupational exposure to noise or the wearing of hearing protectors.</P>
+</DIV8>
+
+<DIV8 N="62.174" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-62.174&quot;,&quot;citation&quot;:&quot;30 CFR 62.174&quot;}">
+<HEAD>&#xA7; 62.174 Follow-up corrective measures when a standard threshold shift is detected.</HEAD>
+<P>The mine operator must, within 30 calendar days of receiving evidence or confirmation of a standard threshold shift, unless a physician or audiologist determines the standard threshold shift is neither work-related nor aggravated by occupational noise exposure:</P>
+<P>(a) Retrain the miner, including the instruction required by &#xA7; 62.180 of this part;</P>
+<P>(b) Provide the miner with the opportunity to select a hearing protector, or a different hearing protector if the miner has previously selected a hearing protector, from among those offered by the mine operator in accordance with &#xA7; 62.160 of this part; and</P>
+<P>(c) Review the effectiveness of any engineering and administrative controls to identify and correct any deficiencies.</P>
+</DIV8>
+
+<DIV8 N="62.175" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-62.175&quot;,&quot;citation&quot;:&quot;30 CFR 62.175&quot;}">
+<HEAD>&#xA7; 62.175 Notification of results; reporting requirements.</HEAD>
+<P>(a) The mine operator must, within 10 working days of receiving the results of an audiogram, or receiving the results of a follow-up evaluation required under &#xA7; 62.173 of this part, notify the miner in writing of:</P>
+<P>(1) The results and interpretation of the audiometric test, including any finding of a standard threshold shift or reportable hearing loss; and</P>
+<P>(2) The need and reasons for any further testing or evaluation, if applicable.</P>
+<P>(b) When evaluation of the audiogram shows that a miner has incurred a reportable hearing loss as defined in this part, the mine operator must report such loss to MSHA as a noise-induced hearing loss in accordance with part 50 of this title, unless a physician or audiologist has determined that the loss is neither work-related nor aggravated by occupational noise exposure.</P>
+</DIV8>
+
+<DIV8 N="62.180" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-62.180&quot;,&quot;citation&quot;:&quot;30 CFR 62.180&quot;}">
+<HEAD>&#xA7; 62.180 Training.</HEAD>
+<P>(a) The mine operator must, within 30 days of a miner's enrollment into a hearing conservation program, provide the miner with training. The mine operator must give training every 12 months thereafter if the miner's noise exposure continues to equal or exceed the action level. Training must include:</P>
+<P>(1) The effects of noise on hearing;</P>
+<P>(2) The purpose and value of wearing hearing protectors;</P>
+<P>(3) The advantages and disadvantages of the hearing protectors to be offered;</P>
+<P>(4) The various types of hearing protectors offered by the mine operator and the care, fitting, and use of each type;</P>
+<P>(5) The general requirements of this part;</P>
+<P>(6) The mine operator's and miner's respective tasks in maintaining mine noise controls; and</P>
+<P>(7) The purpose and value of audiometric testing and a summary of the procedures.</P>
+<P>(b) The mine operator must certify the date and type of training given each miner, and maintain the miner's most recent certification for as long as the miner is enrolled in the hearing conservation program and for at least 6 months thereafter.</P>
+</DIV8>
+
+<DIV8 N="62.190" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-62.190&quot;,&quot;citation&quot;:&quot;30 CFR 62.190&quot;}">
+<HEAD>&#xA7; 62.190 Records.</HEAD>
+<P>(a) The authorized representatives of the Secretaries of Labor and Health and Human Services must have access to all records required under this part. Upon written request, the mine operator must provide, within 15 calendar days of the request, access to records to:</P>
+<P>(1) The miner, or with the miner's written consent, the miner's designee, for all records that the mine operator must maintain for that individual miner under this part;</P>
+<P>(2) Any representative of miners designated under part 40 of this title, to training certifications compiled under &#xA7; 62.180(b) of this part and to any notice of exposure determination under &#xA7; 62.110(d) of this part, for the miners whom he or she represents; and</P>
+<P>(3) Any former miner, for records which indicate his or her own exposure.</P>
+<P>(b) When a person with access to records under paragraphs (a)(1), (a)(2), or (a)(3) of this section requests a copy of a record, the mine operator must provide the first copy of such record at no cost to that person, and any additional copies requested by that person at reasonable cost.</P>
+<P>(c) Transfer of records. (1) The mine operator must transfer all records required to be maintained by this part, or a copy thereof, to a successor mine operator who must maintain the records for the time period required by this part.</P>
+<P>(2) The successor mine operator must use the baseline audiogram, or revised baseline audiogram, as appropriate, obtained by the original mine operator to determine the existence of a standard threshold shift or reportable hearing loss.</P>
+</DIV8>
+
+<DIV9 N="Appendix to Part 62" TYPE="APPENDIX" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/part-62/appendix-Appendix to Part 62&quot;,&quot;citation&quot;:&quot;Appendix to Part 62, Title 30&quot;}">
+<HEAD>Appendix to Part 62
+</HEAD>
+<DIV width="100%"><DIV class="gpotbl_div">
+<TABLE border="1" cellpadding="1" cellspacing="1" class="gpo_table" frame="void" width="100%">
+<CAPTION><P class="title">Table 62-1&#x2014;Reference Duration</P></CAPTION>
+<THEAD>
+<TR>
+<TH class="center border-top-single border-bottom-single border-right-single">dBA</TH>
+<TH class="center border-top-single border-bottom-single">T (hours)</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD class="left border-right-single">80</TD>
+<TD class="right">32.0</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">85</TD>
+<TD class="right">16.0</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">86</TD>
+<TD class="right">13.9</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">87</TD>
+<TD class="right">12.1</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">88</TD>
+<TD class="right">10.6</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">89</TD>
+<TD class="right">9.2</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">90</TD>
+<TD class="right">8.0</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">91</TD>
+<TD class="right">7.0</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">92</TD>
+<TD class="right">6.1</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">93</TD>
+<TD class="right">5.3</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">94</TD>
+<TD class="right">4.6</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">95</TD>
+<TD class="right">4.0</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">96</TD>
+<TD class="right">3.5</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">97</TD>
+<TD class="right">3.0</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">98</TD>
+<TD class="right">2.6</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">99</TD>
+<TD class="right">2.3</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">100</TD>
+<TD class="right">2.0</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">101</TD>
+<TD class="right">1.7</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">102</TD>
+<TD class="right">1.5</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">103</TD>
+<TD class="right">1.3</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">104</TD>
+<TD class="right">1.1</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">105</TD>
+<TD class="right">1.0</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">106</TD>
+<TD class="right">0.87</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">107</TD>
+<TD class="right">0.76</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">108</TD>
+<TD class="right">0.66</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">109</TD>
+<TD class="right">0.57</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">110</TD>
+<TD class="right">0.50</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">111</TD>
+<TD class="right">0.44</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">112</TD>
+<TD class="right">0.38</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">113</TD>
+<TD class="right">0.33</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">114</TD>
+<TD class="right">0.29</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single">115</TD>
+<TD class="right border-bottom-single">0.25
+</TD>
+</TR>
+</TBODY>
+<TFOOT><TR><TD colspan="2">At no time shall any excursion exceed 115 dBA. For any value, the reference duration (T) in hours is computed by: T = 8/2<sup>(L&#x2212;90)/5</sup> where L is the measured A-weighted, slow-response sound pressure level.</TD></TR></TFOOT></TABLE>
+</DIV></DIV>
+<DIV width="100%"><DIV class="gpotbl_div">
+<TABLE border="1" cellpadding="1" cellspacing="1" class="gpo_table" frame="void" width="100%">
+<CAPTION><P class="title">Table 62-2&#x2014;&#x201C;Dose&#x201D;TWA <sub>8</sub> Equivalent</P></CAPTION>
+<THEAD>
+<TR>
+<TH class="center border-top-single border-bottom-single border-right-single">Dose</TH>
+<TH class="center border-top-single border-bottom-single">TWA<sup>8</sup><br/>(percent)</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD class="left border-right-single">25</TD>
+<TD class="right">80</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">29</TD>
+<TD class="right">81</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">33</TD>
+<TD class="right">82</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">38</TD>
+<TD class="right">83</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">44</TD>
+<TD class="right">84</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">50</TD>
+<TD class="right">85</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57</TD>
+<TD class="right">86</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">66</TD>
+<TD class="right">87</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">76</TD>
+<TD class="right">88</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">87</TD>
+<TD class="right">89</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">100</TD>
+<TD class="right">90</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">115</TD>
+<TD class="right">91</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">132</TD>
+<TD class="right">92</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">152</TD>
+<TD class="right">93</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">174</TD>
+<TD class="right">94</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">200</TD>
+<TD class="right">95</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">230</TD>
+<TD class="right">96</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">264</TD>
+<TD class="right">97</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">303</TD>
+<TD class="right">98</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">350</TD>
+<TD class="right">99</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">400</TD>
+<TD class="right">100</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">460</TD>
+<TD class="right">101</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">530</TD>
+<TD class="right">102</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">610</TD>
+<TD class="right">103</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">700</TD>
+<TD class="right">104</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">800</TD>
+<TD class="right">105</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">920</TD>
+<TD class="right">106</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">1056</TD>
+<TD class="right">107</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">1213</TD>
+<TD class="right">108</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">1393</TD>
+<TD class="right">109</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">1600</TD>
+<TD class="right">110</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">1838</TD>
+<TD class="right">111</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">2111</TD>
+<TD class="right">112</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">2425</TD>
+<TD class="right">113</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">2786</TD>
+<TD class="right">114</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single">3200</TD>
+<TD class="right border-bottom-single">115
+</TD>
+</TR>
+</TBODY>
+<TFOOT><TR><TD colspan="2">Interpolate between the values found in this Table, or extend the Table, by using the formula: TWA<sub>8</sub> = 16.61 log<sub>10</sub> (D/100) + 90.</TD></TR></TFOOT></TABLE>
+</DIV></DIV>
+<DIV width="100%"><DIV class="gpotbl_div">
+<TABLE border="1" cellpadding="1" cellspacing="1" class="gpo_table" frame="void" width="100%">
+<CAPTION><P class="title">Table 62-3&#x2014;Age Correction Value in Decibels for Males (Selected Frequencies)</P></CAPTION>
+<THEAD>
+<TR>
+<TH rowspan="2" class="center border-top-single border-bottom-single border-right-single">Age (years)</TH>
+<TH colspan="3" class="center border-top-single border-bottom-single">kHz</TH>
+</TR>
+<TR>
+<TH class="center border-bottom-single border-right-single">2</TH>
+<TH class="center border-bottom-single border-right-single">3</TH>
+<TH class="center border-bottom-single">4</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD class="left border-right-single">20 or less</TD>
+<TD class="right border-right-single">3</TD>
+<TD class="right border-right-single">4</TD>
+<TD class="right">5</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">21</TD>
+<TD class="right border-right-single">3</TD>
+<TD class="right border-right-single">4</TD>
+<TD class="right">5</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">22</TD>
+<TD class="right border-right-single">3</TD>
+<TD class="right border-right-single">4</TD>
+<TD class="right">5</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">23</TD>
+<TD class="right border-right-single">3</TD>
+<TD class="right border-right-single">4</TD>
+<TD class="right">6</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">24</TD>
+<TD class="right border-right-single">3</TD>
+<TD class="right border-right-single">5</TD>
+<TD class="right">6</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">25</TD>
+<TD class="right border-right-single">3</TD>
+<TD class="right border-right-single">5</TD>
+<TD class="right">7</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">26</TD>
+<TD class="right border-right-single">4</TD>
+<TD class="right border-right-single">5</TD>
+<TD class="right">7</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">27</TD>
+<TD class="right border-right-single">4</TD>
+<TD class="right border-right-single">6</TD>
+<TD class="right">7</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">28</TD>
+<TD class="right border-right-single">4</TD>
+<TD class="right border-right-single">6</TD>
+<TD class="right">8</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">29</TD>
+<TD class="right border-right-single">4</TD>
+<TD class="right border-right-single">6</TD>
+<TD class="right">8</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">30</TD>
+<TD class="right border-right-single">4</TD>
+<TD class="right border-right-single">6</TD>
+<TD class="right">9</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">31</TD>
+<TD class="right border-right-single">4</TD>
+<TD class="right border-right-single">7</TD>
+<TD class="right">9</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">32</TD>
+<TD class="right border-right-single">5</TD>
+<TD class="right border-right-single">7</TD>
+<TD class="right">10</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">33</TD>
+<TD class="right border-right-single">5</TD>
+<TD class="right border-right-single">7</TD>
+<TD class="right">10</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">34</TD>
+<TD class="right border-right-single">5</TD>
+<TD class="right border-right-single">8</TD>
+<TD class="right">11</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">35</TD>
+<TD class="right border-right-single">5</TD>
+<TD class="right border-right-single">8</TD>
+<TD class="right">11</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">36</TD>
+<TD class="right border-right-single">5</TD>
+<TD class="right border-right-single">9</TD>
+<TD class="right">12</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">37</TD>
+<TD class="right border-right-single">6</TD>
+<TD class="right border-right-single">9</TD>
+<TD class="right">12</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">38</TD>
+<TD class="right border-right-single">6</TD>
+<TD class="right border-right-single">9</TD>
+<TD class="right">13</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">39</TD>
+<TD class="right border-right-single">6</TD>
+<TD class="right border-right-single">10</TD>
+<TD class="right">14</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">40</TD>
+<TD class="right border-right-single">6</TD>
+<TD class="right border-right-single">10</TD>
+<TD class="right">14</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">41</TD>
+<TD class="right border-right-single">6</TD>
+<TD class="right border-right-single">10</TD>
+<TD class="right">14</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">42</TD>
+<TD class="right border-right-single">7</TD>
+<TD class="right border-right-single">11</TD>
+<TD class="right">16</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">43</TD>
+<TD class="right border-right-single">7</TD>
+<TD class="right border-right-single">12</TD>
+<TD class="right">16</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">44</TD>
+<TD class="right border-right-single">7</TD>
+<TD class="right border-right-single">12</TD>
+<TD class="right">17</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">45</TD>
+<TD class="right border-right-single">7</TD>
+<TD class="right border-right-single">13</TD>
+<TD class="right">18</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">46</TD>
+<TD class="right border-right-single">8</TD>
+<TD class="right border-right-single">13</TD>
+<TD class="right">19</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">47</TD>
+<TD class="right border-right-single">8</TD>
+<TD class="right border-right-single">14</TD>
+<TD class="right">19</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">48</TD>
+<TD class="right border-right-single">8</TD>
+<TD class="right border-right-single">14</TD>
+<TD class="right">20</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">49</TD>
+<TD class="right border-right-single">9</TD>
+<TD class="right border-right-single">15</TD>
+<TD class="right">21</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">50</TD>
+<TD class="right border-right-single">9</TD>
+<TD class="right border-right-single">16</TD>
+<TD class="right">22</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">51</TD>
+<TD class="right border-right-single">9</TD>
+<TD class="right border-right-single">16</TD>
+<TD class="right">23</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">52</TD>
+<TD class="right border-right-single">10</TD>
+<TD class="right border-right-single">17</TD>
+<TD class="right">24</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">53</TD>
+<TD class="right border-right-single">10</TD>
+<TD class="right border-right-single">18</TD>
+<TD class="right">25</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">54</TD>
+<TD class="right border-right-single">10</TD>
+<TD class="right border-right-single">18</TD>
+<TD class="right">26</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">55</TD>
+<TD class="right border-right-single">11</TD>
+<TD class="right border-right-single">19</TD>
+<TD class="right">27</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">56</TD>
+<TD class="right border-right-single">11</TD>
+<TD class="right border-right-single">20</TD>
+<TD class="right">28</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57</TD>
+<TD class="right border-right-single">11</TD>
+<TD class="right border-right-single">21</TD>
+<TD class="right">29</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">58</TD>
+<TD class="right border-right-single">12</TD>
+<TD class="right border-right-single">22</TD>
+<TD class="right">31</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">59</TD>
+<TD class="right border-right-single">12</TD>
+<TD class="right border-right-single">22</TD>
+<TD class="right">32</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single">60 or more</TD>
+<TD class="right border-bottom-single border-right-single">13</TD>
+<TD class="right border-bottom-single border-right-single">23</TD>
+<TD class="right border-bottom-single">33</TD>
+</TR>
+</TBODY>
+</TABLE>
+</DIV></DIV>
+<DIV width="100%"><DIV class="gpotbl_div">
+<TABLE border="1" cellpadding="1" cellspacing="1" class="gpo_table" frame="void" width="100%">
+<CAPTION><P class="title">Table 62-4&#x2014;Age Correction Value in Decibels for Females (Selected Frequencies)</P></CAPTION>
+<THEAD>
+<TR>
+<TH rowspan="2" class="center border-top-single border-bottom-single border-right-single">Age (years)</TH>
+<TH colspan="3" class="center border-top-single border-bottom-single">kHz</TH>
+</TR>
+<TR>
+<TH class="center border-bottom-single border-right-single">2</TH>
+<TH class="center border-bottom-single border-right-single">3</TH>
+<TH class="center border-bottom-single">4</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD class="left border-right-single">20 or less</TD>
+<TD class="right border-right-single">4</TD>
+<TD class="right border-right-single">3</TD>
+<TD class="right">3</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">21</TD>
+<TD class="right border-right-single">4</TD>
+<TD class="right border-right-single">4</TD>
+<TD class="right">3</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">22</TD>
+<TD class="right border-right-single">4</TD>
+<TD class="right border-right-single">4</TD>
+<TD class="right">4</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">23</TD>
+<TD class="right border-right-single">5</TD>
+<TD class="right border-right-single">4</TD>
+<TD class="right">4</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">24</TD>
+<TD class="right border-right-single">5</TD>
+<TD class="right border-right-single">4</TD>
+<TD class="right">4</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">25</TD>
+<TD class="right border-right-single">5</TD>
+<TD class="right border-right-single">4</TD>
+<TD class="right">4</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">26</TD>
+<TD class="right border-right-single">5</TD>
+<TD class="right border-right-single">5</TD>
+<TD class="right">4</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">27</TD>
+<TD class="right border-right-single">5</TD>
+<TD class="right border-right-single">5</TD>
+<TD class="right">5</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">28</TD>
+<TD class="right border-right-single">5</TD>
+<TD class="right border-right-single">5</TD>
+<TD class="right">5</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">29</TD>
+<TD class="right border-right-single">5</TD>
+<TD class="right border-right-single">5</TD>
+<TD class="right">5</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">30</TD>
+<TD class="right border-right-single">6</TD>
+<TD class="right border-right-single">5</TD>
+<TD class="right">5</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">31</TD>
+<TD class="right border-right-single">6</TD>
+<TD class="right border-right-single">6</TD>
+<TD class="right">5</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">32</TD>
+<TD class="right border-right-single">6</TD>
+<TD class="right border-right-single">6</TD>
+<TD class="right">6</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">33</TD>
+<TD class="right border-right-single">6</TD>
+<TD class="right border-right-single">6</TD>
+<TD class="right">6</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">34</TD>
+<TD class="right border-right-single">6</TD>
+<TD class="right border-right-single">6</TD>
+<TD class="right">6</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">35</TD>
+<TD class="right border-right-single">6</TD>
+<TD class="right border-right-single">7</TD>
+<TD class="right">7</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">36</TD>
+<TD class="right border-right-single">7</TD>
+<TD class="right border-right-single">7</TD>
+<TD class="right">7</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">37</TD>
+<TD class="right border-right-single">7</TD>
+<TD class="right border-right-single">7</TD>
+<TD class="right">7</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">38</TD>
+<TD class="right border-right-single">7</TD>
+<TD class="right border-right-single">7</TD>
+<TD class="right">7</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">39</TD>
+<TD class="right border-right-single">7</TD>
+<TD class="right border-right-single">8</TD>
+<TD class="right">8</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">40</TD>
+<TD class="right border-right-single">7</TD>
+<TD class="right border-right-single">8</TD>
+<TD class="right">8</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">41</TD>
+<TD class="right border-right-single">8</TD>
+<TD class="right border-right-single">8</TD>
+<TD class="right">8</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">42</TD>
+<TD class="right border-right-single">8</TD>
+<TD class="right border-right-single">9</TD>
+<TD class="right">9</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">43</TD>
+<TD class="right border-right-single">8</TD>
+<TD class="right border-right-single">9</TD>
+<TD class="right">9</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">44</TD>
+<TD class="right border-right-single">8</TD>
+<TD class="right border-right-single">9</TD>
+<TD class="right">9</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">45</TD>
+<TD class="right border-right-single">8</TD>
+<TD class="right border-right-single">10</TD>
+<TD class="right">10</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">46</TD>
+<TD class="right border-right-single">9</TD>
+<TD class="right border-right-single">10</TD>
+<TD class="right">10</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">47</TD>
+<TD class="right border-right-single">9</TD>
+<TD class="right border-right-single">10</TD>
+<TD class="right">11</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">48</TD>
+<TD class="right border-right-single">9</TD>
+<TD class="right border-right-single">11</TD>
+<TD class="right">11</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">49</TD>
+<TD class="right border-right-single">9</TD>
+<TD class="right border-right-single">11</TD>
+<TD class="right">11</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">50</TD>
+<TD class="right border-right-single">10</TD>
+<TD class="right border-right-single">11</TD>
+<TD class="right">12</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">51</TD>
+<TD class="right border-right-single">10</TD>
+<TD class="right border-right-single">11</TD>
+<TD class="right">12</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">52</TD>
+<TD class="right border-right-single">10</TD>
+<TD class="right border-right-single">12</TD>
+<TD class="right">13</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">53</TD>
+<TD class="right border-right-single">10</TD>
+<TD class="right border-right-single">13</TD>
+<TD class="right">13</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">54</TD>
+<TD class="right border-right-single">11</TD>
+<TD class="right border-right-single">13</TD>
+<TD class="right">14</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">55</TD>
+<TD class="right border-right-single">11</TD>
+<TD class="right border-right-single">14</TD>
+<TD class="right">14</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">56</TD>
+<TD class="right border-right-single">11</TD>
+<TD class="right border-right-single">14</TD>
+<TD class="right">15</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">57</TD>
+<TD class="right border-right-single">11</TD>
+<TD class="right border-right-single">15</TD>
+<TD class="right">15</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">58</TD>
+<TD class="right border-right-single">12</TD>
+<TD class="right border-right-single">15</TD>
+<TD class="right">16</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">59</TD>
+<TD class="right border-right-single">12</TD>
+<TD class="right border-right-single">16</TD>
+<TD class="right">16</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single">60 or more</TD>
+<TD class="right border-bottom-single border-right-single">12</TD>
+<TD class="right border-bottom-single border-right-single">16</TD>
+<TD class="right border-bottom-single">17</TD>
+</TR>
+</TBODY>
+</TABLE>
+</DIV></DIV>
+<CITA TYPE="N">[64 FR 49630, Sept. 13, 1999, as amended at 65 FR 66929, Nov. 8, 2000]
+</CITA>
+</DIV9>
+
+</DIV5>

@@ -1,0 +1,412 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CBNB3ZZN7Z"></script>
+        <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-CBNB3ZZN7Z');</script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-77FVMB3KNS"></script>
+    <!-- Hot gar Onemine.org script -->
+    <script src="https://t.contentsquare.net/uxa/6362288bc9dbb.js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-77FVMB3KNS');
+    </script>
+
+
+    <meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+<title>OneMine | Natural Language Processing for Classification of Narratives from MSHA Data</title>
+<meta name="title" content="OneMine | Natural Language Processing for Classification of Narratives from MSHA Data" />
+<meta name="description" content="Mining can be categorized as a hazardous activity, considering some factors such as environmental conditions with a considerable presence of humidity, suspended particles, or falling rocks have affected the severity and number of accidents compared with other economic sectors. The industry analyzes incident reports to narrow the rate of severe injuries and fatalities, conducting root cause analysis and identifying leading indicators. As the International Council on Mining and Metals noted, the vast trove of incident data is not analyzed as much as possible due to a lack of analytics expertise at mine sites. However, machine learning could solve the problem of analyzing all the incident data in a no-timeconsuming way, considering the abundant data, and without using expert personnel in data science. Thus, a Convolutional Neural Network and a Na&#239;ve Bayes model were introduced to perform classification in the MSHA database. The database from 2020 consists of 60 fields to describe safety incidents; these fields include mine I.D., accident date, subunit (mill, surface), material extracted, and other metadata." />
+<meta name="keywords" content="mining, library, online library, search mining, minerals library, mining library" />
+<meta name="author" content="M. Shahsavar, J. Gomez, J. Sattarvand" />
+<link rel="canonical" href="https://onemine.org/documents/natural-language-processing-for-classification-of-narratives-from-msha-data" />
+<meta name="robots" content="index, follow" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Natural Language Processing for Classification of Narratives from MSHA Data" />
+<meta name="twitter:description" content="Mining can be categorized as a hazardous activity, considering some factors such as environmental conditions with a considerable presence of humidity, suspended particles, or falling rocks have affected the severity and number of accidents compared with other economic sectors. The industry analyzes incident reports to narrow the rate of severe injuries and fatalities, conducting root cause analysis and identifying leading indicators. As the International Council on Mining and Metals noted, the vast trove of incident data is not analyzed as much as possible due to a lack of analytics expertise at mine sites. However, machine learning could solve the problem of analyzing all the incident data in a no-timeconsuming way, considering the abundant data, and without using expert personnel in data science. Thus, a Convolutional Neural Network and a Na&#239;ve Bayes model were introduced to perform classification in the MSHA database. The database from 2020 consists of 60 fields to describe safety incidents; these fields include mine I.D., accident date, subunit (mill, surface), material extracted, and other metadata." />
+<meta name="twitter:image" content="/sites/onemine/images/seo-meta-onemine.png" />
+<meta name="twitter:image:width" content="1600" />
+<meta name="twitter:image:height" content="900" />
+
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Natural Language Processing for Classification of Narratives from MSHA Data" />
+<meta property="og:description" content="Mining can be categorized as a hazardous activity, considering some factors such as environmental conditions with a considerable presence of humidity, suspended particles, or falling rocks have affected the severity and number of accidents compared with other economic sectors. The industry analyzes incident reports to narrow the rate of severe injuries and fatalities, conducting root cause analysis and identifying leading indicators. As the International Council on Mining and Metals noted, the vast trove of incident data is not analyzed as much as possible due to a lack of analytics expertise at mine sites. However, machine learning could solve the problem of analyzing all the incident data in a no-timeconsuming way, considering the abundant data, and without using expert personnel in data science. Thus, a Convolutional Neural Network and a Na&#239;ve Bayes model were introduced to perform classification in the MSHA database. The database from 2020 consists of 60 fields to describe safety incidents; these fields include mine I.D., accident date, subunit (mill, surface), material extracted, and other metadata." />
+<meta property="og:url" content="https://onemine.org/documents/natural-language-processing-for-classification-of-narratives-from-msha-data" />
+<meta property="og:site_name" content="OneMine" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:image" content="/sites/onemine/images/seo-meta-onemine.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1600" />
+<meta property="og:image:height" content="900" />
+<meta property="article:published_time" content="2023-06-25T00:00:00+00:00" />
+<meta property="article:tag" content="mining" />
+<meta property="article:tag" content="library" />
+<meta property="article:tag" content="online library" />
+<meta property="article:tag" content="search mining" />
+<meta property="article:tag" content="minerals library" />
+<meta property="article:tag" content="mining library" />
+
+
+
+    <link href="/css/devextreme/dx.light.css" rel="stylesheet" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" />
+    <link rel="stylesheet" href="/sites/onemine/css/public.css" />
+    <link rel="stylesheet" href="/scss/custom.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/lib/growl-notifications/colored-theme.min.css" />
+
+    <!-- New DevExpress add-ins -->
+    <script src="/js/devextreme/jquery.js"></script>
+    <script src="/js/devextreme/dx.all.js"></script>
+    <script src="/js/devextreme/aspnet/dx.aspnet.mvc.js"></script>
+    <script src="/js/devextreme/aspnet/dx.aspnet.data.js"></script>
+
+    <!-- Cookie Consent -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js" defer></script>
+    <script>
+        window.addEventListener("load",
+            function () {
+                window.cookieconsent.initialise({
+                    container: document.getElementById("cookieConsent"),
+                    "palette": {
+                        "popup": {
+                            "background": "#FFFFFF",
+                            "text": "#4D4D56"
+                        },
+                        "button": {
+                            "background": "#223F3F"
+                        }
+                    },
+                    "position": "top",
+                    onPopupOpen: function () {
+                        pushDown(this.element.clientHeight);
+                    },
+                    onPopupClose: function () {
+                        pushDown(0);
+                    },
+                    "content": {
+                        "message": "This website uses cookies to ensure you get the best user experience & you agree to our website's User Agreement.",
+                        "dismiss": "Accept",
+                        "deny": "Refuse Cookies",
+                        "link": "Learn More",
+                        "href": "https://www.onemine.org/about/user-agreement"
+                    }
+                });
+            });
+            
+        function pushDown(height) {
+            var navbar = document.getElementsByClassName("page-header")[0];
+            navbar.style.transition = 'all 1s';
+            navbar.style.marginTop = height + 'px';
+        }
+    </script>
+
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    
+    
+  
+
+    
+<script type="text/javascript">!function(T,l,y){var S=T.location,k="script",D="instrumentationKey",C="ingestionendpoint",I="disableExceptionTracking",E="ai.device.",b="toLowerCase",w="crossOrigin",N="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"5",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[b](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,u,p,l;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][b]()]=i[1])}if(!e[C]){var r=e.endpointsuffix,o=r?e.location:null;e[C]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[D]||d[D]||"",u=s[C],p=u?u+"/v2/track":d.endpointUrl,(l=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=p,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),l.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,p)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:N,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(N,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(l,p))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(k);n.src=h;var e=y[w];return!e&&""!==e||"undefined"==n[w]||(n[w]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(k)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[I]&&!0!==s[I]){var c="onerror";t(["_"+c]);var u=T[c];T[c]=function(e,t,n,a,i){var r=u&&u(e,t,n,a,i);return!0!==r&&m["_"+c]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);function a(){y.onInit&&y.onInit(n)}(T[t]=n).queue&&0===n.queue.length?(n.queue.push(a),n.trackPageView({})):a()}(window,document,{
+src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js", // The SDK URL Source
+crossOrigin: "anonymous", 
+cfg: { // Application Insights Configuration
+    connectionString: 'InstrumentationKey=c7d462d6-79a1-4faf-b694-6e26a4666024'
+}});</script></head>
+
+<body data-waypoints="1px; is-scrolled">
+    <div id="userAgreement"></div>
+    <div id="cookieConsent"></div>
+    <header class="page-header" role="banner">
+    <div class="page-bounds">
+      <div class="header-logo">
+        <a href="/">
+          <img src="/sites/onemine/images/logo.png" alt="OneMine, Inc. logo" />
+        </a>
+      </div>
+      <button class="page-header__toggle">
+        Menu
+        <span class="toggle-indicator">
+          <span class="toggle-indicator__piece toggle-indicator__piece--1"></span>
+          <span class="toggle-indicator__piece toggle-indicator__piece--2"></span>
+          <span class="toggle-indicator__piece toggle-indicator__piece--3"></span>
+        </span>
+      </button>
+      <div class="page-header__content">
+        <nav class="header-nav" role="navigation">
+          
+
+
+    <ul class="list-unstyled">
+                <li>
+                    <a id="MenuItem_Main:GetAccess" href="/getaccess">Get Access</a>
+                </li>
+                <li>
+                    <a id="MenuItem_Main:FAQs" href="/faqs">FAQs</a>
+                </li>
+                <li>
+                    <a id="MenuItem_Main:AboutOneMine" href="/about">About OneMine</a>
+
+
+
+    <ul class="list-unstyled">
+                <li>
+                    <a id="MenuItem_Main:AboutOneMine:ContactUs" href="/about/contact-us">Contact Us</a>
+                </li>
+                <li>
+                    <a id="MenuItem_Main:AboutOneMine:UserAgreement" href="/about/user-agreement">User Agreement</a>
+                </li>
+                <li>
+                    <a id="MenuItem_Main:AboutOneMine:Privacy" href="/about/privacy-policy">Privacy Policy</a>
+                </li>
+                <li>
+                    <a id="MenuItem_Main:AboutOneMine:Help" href="/about/help">Help</a>
+                </li>
+    </ul>
+                </li>
+                <li>
+                    <a id="MenuItem_Main:LogIn" href="/account/sign-in?ReturnUrl=%2Fdocuments%2Fnatural-language-processing-for-classification-of-narratives-from-msha-data">Log In</a>
+                </li>
+    </ul>
+
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="content" role="main" id="top">
+    <div class="page-bounds">
+      
+
+
+
+<div class="interior-layout">
+  <div class="interior-layout__title">
+    <h1 class="page-title">Natural Language Processing for Classification of Narratives from MSHA Data</h1>
+    <div class="breadcrumbs">
+      
+
+    </div>
+  </div>
+
+  <div class="interior-layout__nav">
+    <div class="in-this-section">
+      
+
+    </div>
+  </div>
+  <div class="interior-layout__main">
+    
+
+
+<div class="grid">
+  <div class="grid__unit">
+      <img src="/images/SMElogo.png" class="org__thumbnail" alt="Society for Mining, Metallurgy &amp; Exploration" />
+
+    <div class="authors">
+        <span class="author">M. Shahsavar</span>
+        <span class="author">J. Gomez</span>
+        <span class="author">J. Sattarvand</span>
+    </div>
+    <dl>
+      <dt>Organization:</dt>
+      <dd>Society for Mining, Metallurgy &amp; Exploration</dd>
+      <dt>Pages:</dt>
+      <dd>10</dd>
+      <dt>File Size:</dt>
+      <dd>225 KB</dd>
+      <dt>Publication Date:</dt>
+      <dd>Jun 25, 2023</dd>
+    </dl>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6 pb-3 pb-md-5 pe-5 ps-0">
+    <h4>Abstract</h4>
+  </div>
+    <div class="col-md-6 text-right pb-3 pb-md-5 pe-5 ps-0">
+    <a target="_blank" rel="noopener" href="/cdn-cgi/l/email-protection#320d414750585751460f7d5c577f5b5c5712765d51475f575c4614505d564b0f665a5b41125b41125312554057534612565d51475f575c46127b12545d475c56125d5c127d5c577f5b5c571c5d405512465a5346127b12465a5d47555a46124b5d47125f5b555a46125057125b5c4657405741465756125b5c12405753565b5c551c170276170276715a575159125d474612465a5712535041464053514608125a46464241081d1d5d5c575f5b5c571c5d40551d565d51475f575c46411d5c53464740535e1f5e535c55475355571f42405d515741415b5c551f545d401f515e5341415b545b5153465b5d5c1f5d541f5c53404053465b4457411f54405d5f1f5f415a531f56534653">
+      <h6>
+        <i class="fas fa-envelope-open-text" ></i>
+        Email to a Friend
+      </h6>
+    </a>
+  </div>
+    <div class="grid__unit">Mining can be categorized as a hazardous activity, considering some factors such as environmental conditions with a considerable presence of humidity, suspended particles, or falling rocks have affected the severity and number of accidents compared with other economic sectors. The industry analyzes incident reports to narrow the rate of severe injuries and fatalities, conducting root cause analysis and identifying leading indicators. As the International Council on Mining and Metals noted, the vast trove of incident data is not analyzed as much as possible due to a lack of analytics expertise at mine sites. However, machine learning could solve the problem of analyzing all the incident data in a no-timeconsuming way, considering the abundant data, and without using expert personnel in data science. Thus, a Convolutional Neural Network and a Na&#xEF;ve Bayes model were introduced to perform classification in the MSHA database. The database from 2020 consists of 60 fields to describe safety incidents; these fields include mine I.D., accident date, subunit (mill, surface), material extracted, and other metadata.</div>
+</div>
+
+<div class="grid__unit">
+  <h6>Citation</h6>
+  <p class="citation">
+    APA: 
+      <span class="author">M. Shahsavar</span>
+      <span class="author">J. Gomez</span>
+      <span class="author">J. Sattarvand</span>
+      &nbsp;(2023) 
+    &nbsp;Natural Language Processing for Classification of Narratives from MSHA Data
+  </p>
+    <p class="citation">
+        MLA:
+
+            <span class="author">M. Shahsavar </span>
+            <span class="author">J. Gomez </span>
+            <span class="author">J. Sattarvand </span>
+        <span><i>Natural Language Processing for Classification of Narratives from MSHA Data</i>.</span>
+        Society for Mining, Metallurgy &amp; Exploration<span>,</span>
+2023<span>.</span>
+       
+    </p>
+
+
+<h6>Export</h6>
+  <div class="citation">
+    <a href="/documents/natural-language-processing-for-classification-of-narratives-from-msha-data/citation/csv">
+      <div>
+        <h3><i class="fas fa-file-csv" ></i></h3>
+        <p>CSV</p>
+      </div>
+    </a>
+    <a href="/documents/natural-language-processing-for-classification-of-narratives-from-msha-data/citation/ris">
+      <div>
+        <h3><i class="fas fa-file-contract" ></i></h3>
+        <p>RIS</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+<div class="content-box content-box--action download grid__unit--1-2-m">
+    <div class="align-center">
+        <h5 class="align-center">Purchase this Article for $25.00</h5>
+        <p>
+            <strong><a id="MenuItem_Main:CreateGuest" href="/account/create?ReturnUrl=%2Fdocuments%2Fnatural-language-processing-for-classification-of-narratives-from-msha-data">Create</a></strong> a Guest account to purchase this file<br />
+            - or -<br/>
+            <strong><a id="MenuItem_Main:LogIn" href="/account/sign-in?ReturnUrl=%2Fdocuments%2Fnatural-language-processing-for-classification-of-narratives-from-msha-data">Log in</a></strong> to your existing Guest account
+        </p>
+    </div>
+
+  
+
+  
+</div>
+
+
+  </div>
+  <div class="interior-layout__aside">
+    
+    
+
+
+    
+    <div class="mb-4">
+        
+
+<!-- Sidebar 300x250 1 [async] -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">if (!window.AdButler){(function(){var s = document.createElement("script"); s.async = true; s.type = "text/javascript";s.src = 'https://servedbyadbutler.com/app.js';var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(s, n);}());}</script>
+<script type="text/javascript">
+var AdButler = AdButler || {}; AdButler.ads = AdButler.ads || [];
+var abkw = window.abkw || '';
+var plc587332 = window.plc587332 || 0;
+document.write('<'+'div id="placement_587332_'+plc587332+'"></'+'div>');
+AdButler.ads.push({handler: function(opt){ AdButler.register(183221, 587332, [300,250], 'placement_587332_'+opt.place, opt); }, opt: { place: plc587332++, keywords: abkw, domain: 'servedbyadbutler.com', click:'CLICK_MACRO_PLACEHOLDER' }});
+</script>
+
+    </div>
+    <div class="mb-4">
+        
+
+<!-- Sidebar 300x250 2 [async] -->
+<script type="text/javascript">if (!window.AdButler){(function(){var s = document.createElement("script"); s.async = true; s.type = "text/javascript";s.src = 'https://servedbyadbutler.com/app.js';var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(s, n);}());}</script>
+<script type="text/javascript">
+var AdButler = AdButler || {}; AdButler.ads = AdButler.ads || [];
+var abkw = window.abkw || '';
+var plc587333 = window.plc587333 || 0;
+document.write('<'+'div id="placement_587333_'+plc587333+'"></'+'div>');
+AdButler.ads.push({handler: function(opt){ AdButler.register(183221, 587333, [300,250], 'placement_587333_'+opt.place, opt); }, opt: { place: plc587333++, keywords: abkw, domain: 'servedbyadbutler.com', click:'CLICK_MACRO_PLACEHOLDER' }});
+</script>
+
+    </div>
+  </div>
+</div>
+    </div> 
+  </div>
+
+  <footer class="page-footer" role="contentinfo" id="footer">
+    
+    <div class="page-bounds">
+      <div class="footer-logo">
+        <a href="/">
+          <img src="/sites/onemine/images/footer-logo.png" alt="OneMine, Inc. logo" />
+        </a>
+      </div>
+      <div class="footer-social">
+        <span class="screenreaders-only">Visit us on</span>
+      </div>
+      <div class="footer-contact hide-on-mobile">
+        <p>
+          12999 E. Adam Aircraft Circle Englewood, CO 80112 &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/cdn-cgi/l/email-protection#355c5b535a755a5b50585c5b501b5a4752"><span class="__cf_email__" data-cfemail="a4cdcac2cbe4cbcac1c9cdcac18acbd6c3">[email&#160;protected]</span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="tel:13039484248">&#x2B;1 303 948 4248</a>
+          <br />
+        </p>
+      </div>
+      <div class="footer-contact hide-on-desktop">
+        <p>
+          12999 E. Adam Aircraft Circle<br />
+          Englewood, CO 80112<br />
+          <a href="/cdn-cgi/l/email-protection#1f767179705f70717a7276717a31706d78"><span class="__cf_email__" data-cfemail="fe97909891be91909b9397909bd0918c99">[email&#160;protected]</span></a><br />
+          <a href="tel:13039484248">&#x2B;1 303 948 4248</a><br />
+        </p>
+      </div>
+      <div class="footer-utility">
+                <ul class="list-inline d-flex flex-column flex-md-row justify-content-center mx-0">
+              <li class="d-inline-block border-end border-white"><a class="px-3" href="/about/privacy-policy">Privacy Policy</a></li>
+              <li class="d-inline-block border-end border-white"><a class="px-3" href="/about/contact-us">Contact Us</a></li>
+              <li class="d-inline-block"><a class="px-3" href="/about/user-agreement">User Agreement</a></li>
+          </ul>
+      </div>
+      <div class="footer-version">
+        Version : 3642&#x2B;73da20259c988a2d81b13c1c517cb99a330b6924
+      </div>
+    </div>
+  </footer>  
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/js/polyfills.min.js"></script>
+  <script src="/js/lodash.custom.min.js"></script>
+  <script src="/lib/growl-notifications/growl-notification.min.js"></script>
+  <script src="/lib/tinymce/js/tinymce/tinymce.min.js" referrerpolicy="origin"></script>
+  <script src="/js/scripts.js"></script>
+  <script src="/js/prism.min.js"></script>
+  <script src="/lib/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="/js/custom.js"></script>
+  <script src="/js/login-status.js"></script>
+  
+  
+  
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a54d099cbe86a6c5',t:'MTc5MzcyNjI5OQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a54d099cbe86a6c5',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

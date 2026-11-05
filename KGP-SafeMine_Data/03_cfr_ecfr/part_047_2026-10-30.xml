@@ -1,0 +1,814 @@
+<?xml version="1.0"?>
+<DIV5 N="47" TYPE="PART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-47&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 47&amp;quot;}">
+<HEAD>PART 47&#x2014;HAZARD COMMUNICATION (HazCom)
+</HEAD>
+<AUTH>
+<HED>Authority:</HED><PSPACE>30 U.S.C. 811, 825.
+</PSPACE></AUTH>
+<SOURCE>
+<HED>Source:</HED><PSPACE>67 FR 42383, June 21, 2002, unless otherwise noted.
+</PSPACE></SOURCE>
+<DIV6 N="A" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-47/subpart-A&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 47 Subpart A&amp;quot;}">
+<HEAD>Subpart A&#x2014;Purpose, Scope, Applicability, and Initial Miner Training</HEAD>
+<DIV8 N="47.1" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.1&quot;,&quot;citation&quot;:&quot;30 CFR 47.1&quot;}">
+<HEAD>&#xA7; 47.1 Purpose of a HazCom standard; applicability.</HEAD>
+<P>The purpose of this part is to reduce injuries and illnesses by ensuring that each operator&#x2014;</P>
+<P>(a) Identifies the chemicals at the mine,</P>
+<P>(b) Determines which chemicals are hazardous,</P>
+<P>(c) Establishes a HazCom program, and</P>
+<P>(d) Informs each miner who can be exposed, and other on-site operators whose miners can be exposed, about chemical hazards and appropriate protective measures.</P>
+<P>(e) As of September 23, 2002, all mines employing six or more miners are required to comply with this part.</P>
+<P>(f) As of March 21, 2003, all mines employing five or fewer miners are required to comply with this part.</P>
+</DIV8>
+
+<DIV8 N="47.2" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.2&quot;,&quot;citation&quot;:&quot;30 CFR 47.2&quot;}">
+<HEAD>&#xA7; 47.2 Operators and chemicals covered; initial miner training.</HEAD>
+<P>(a) This part applies to any operator producing or using a hazardous chemical to which a miner can be exposed under normal conditions of use or in a foreseeable emergency. (Subpart J of this part lists exemptions from coverage.)</P>
+<P>(b) Operators of mines which employ six or more miners must instruct each miner with information about the physical and health hazards of chemicals in the miner's work area, the protective measures a miner can take against these hazards, and the contents of the mine's HazCom program by September 23, 2002. Operators of mines that employ five or fewer miners must instruct each miner with information about the physical and health hazards of chemicals in the miner's work area, the protective measures a miner can take against these hazards, and the contents of the mine's HazCom program by March 21, 2003.</P>
+</DIV8>
+
+</DIV6>
+<DIV6 N="B" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-47/subpart-B&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 47 Subpart B&amp;quot;}">
+<HEAD>Subpart B&#x2014;Definitions</HEAD>
+<DIV8 N="47.11" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.11&quot;,&quot;citation&quot;:&quot;30 CFR 47.11&quot;}">
+<HEAD>&#xA7; 47.11 Definitions of terms used in this part.</HEAD>
+<P>The definitions in Table 47.11 apply in this part as follows:</P>
+<DIV width="100%"><DIV class="gpotbl_div">
+<TABLE border="1" cellpadding="1" cellspacing="1" class="gpo_table" frame="void" width="100%">
+<CAPTION><P class="title">Table 47.11&#x2014;Definitions</P></CAPTION>
+<THEAD>
+<TR>
+<TH class="center border-top-single border-bottom-single border-right-single">Term</TH>
+<TH class="center border-top-single border-bottom-single">Definition for purposes of HazCom</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD class="left border-right-single">Access</TD>
+<TD class="left">The right to examine and copy records.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Article</TD>
+<TD class="left">A manufactured item, other than a fluid or particle, that&#x2014;</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(1) Is formed to a specific shape or design during manufacture, and</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(2) Has end-use functions dependent on its shape or design.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Chemical</TD>
+<TD class="left">Any element, chemical compound, or mixture of these.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Chemical name</TD>
+<TD class="left">(1) The scientific designation of a chemical in accordance with the nomenclature system of either the International Union of Pure and Applied Chemistry (IUPAC) or the Chemical Abstracts Service (CAS), or</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(2) A name that will clearly identify the chemical for the purpose of conducting a hazard evaluation.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Common name</TD>
+<TD class="left">Any designation or identification (such as a code name, code number, trade name, brand name, or generic name) used to identify a chemical other than by its chemical name.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Consumer product</TD>
+<TD class="left">A product or component of a product that is packaged, labeled, and distributed in the same form and concentration as it is sold for use by the general public.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Container</TD>
+<TD class="left">(1) Any bag, barrel, bottle, box, can, cylinder, drum, reaction vessel, storage tank, or the like.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(2) The following are not considered to be containers for the purpose of compliance with this part:</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(i) Pipes or piping systems;</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(ii) Conveyors; and</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(iii) Engines, fuel tanks, or other operating systems or parts in a vehicle.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Cosmetics and drugs</TD>
+<TD class="left">(1) Cosmetics are any article applied to the human body for cleansing, beautifying, promoting attractiveness, or altering appearance.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(2) Drugs are any article used to affect the structure or any function of the body of humans or other animals.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">CPSC</TD>
+<TD class="left">The U.S. Consumer Product Safety Commission.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Designated representative</TD>
+<TD class="left">(1) Any individual or organization to whom a miner gives written authorization to exercise the miner's rights under this part, or</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(2) A representative of miners under part 40 of this chapter.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">EPA</TD>
+<TD class="left">The U.S. Environmental Protection Agency.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Exposed</TD>
+<TD class="left">Subjected, or potentially subjected, to a physical or health hazard in the course of employment. &#x201C;Subjected,&#x201D; in terms of health hazards, includes any route of entry, such as through the lungs (inhalation), the stomach (ingestion), or the skin (skin absorption).</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Foreseeable emergency</TD>
+<TD class="left">Any potential occurrence that could result in an uncontrolled release of a hazardous chemical into the mine.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Hazard warning</TD>
+<TD class="left">Any words, pictures, or symbols, appearing on a label or other form of warning, that convey the specific physical and health hazards of the chemical. (<E T="03">See</E> the definitions for <E T="03">physical hazard</E> and <E T="03">health hazard</E> for examples of the hazards that the warning must convey.)</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Hazardous chemical</TD>
+<TD class="left">Any chemical that can present a physical or health hazard.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Hazardous substance</TD>
+<TD class="left">Regulated by CPSC under the Federal Hazardous Substances Act or EPA under the Comprehensive Environmental Response, Compensation, and Liability Act.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Hazardous waste</TD>
+<TD class="left">Chemicals regulated by EPA under the Solid Waste Disposal Act as amended by the Resource Conservation and Recovery Act.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Health hazard</TD>
+<TD class="left">A chemical for which there is statistically significant evidence that it can cause acute or chronic health effects in exposed persons. <E T="03">Health hazard</E> includes chemicals which&#x2014;</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(1) Cause cancer;</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(2) Damage the reproductive system or cause birth defects;</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(3) Are irritants, corrosives, or sensitizers;</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(4) Damage the liver;</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(5) Damage the kidneys;</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(6) Damage the nervous system;</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(7) Damage the blood or lymphatic systems;</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(8) Damage the stomach or intestines;</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(9) Damage the lungs, skin, eyes, or mucous membranes; or</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(10) Are toxic or highly toxic agents.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Health professional</TD>
+<TD class="left">A physician, physician's assistant, nurse, emergency medical technician, or other person qualified to provide medical or occupational health services.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Identity</TD>
+<TD class="left">A chemical's <E T="03">common name</E> or <E T="03">chemical name.</E>
+</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Label</TD>
+<TD class="left">Any written, printed, or graphic material displayed on or affixed to a container to identify its contents and convey other relevant information.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Material safety data sheet (MSDS)</TD>
+<TD class="left">Written or printed material concerning a hazardous chemical which&#x2014;</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(1) An operator prepares in accordance with Table 47.52&#x2014;Contents of MSDS; or</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(2) An employer prepares in accordance with 29 CFR 1910.1200, 1915.1200, 1917.28, 1918.90, 1926.59, or 1928.21 (OSHA Hazard Communication regulations); or</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(3) An independent source prepares which contains equivalent information, such as International Chemical Safety Cards (ICSC) and Workplace Hazardous Material Information Sheets (WHMIS).</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Mixture</TD>
+<TD class="left">Any combination of two or more chemicals which is not the result of a chemical reaction.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Ordinary consumer use</TD>
+<TD class="left">Household, family, school, recreation, or other personal use or enjoyment, as opposed to business use.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">OSHA</TD>
+<TD class="left">The Occupational Safety and Health Administration, U.S. Department of Labor.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Physical hazard</TD>
+<TD class="left">A chemical for which there is scientifically valid evidence that it is&#x2014;</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(1) <E T="03">Combustible liquid:</E>
+</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(i) A liquid having a flash point at or above 100 &#xB0;F (37.8 &#xB0;C) and below 200 &#xB0;F (93.3 &#xB0;C); or</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(ii) A liquid mixture having components with flashpoints of 200 &#xB0;F (93.3 &#xB0;C) or higher, the total volume of which make up 99% or more of the mixture.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(2) <E T="03">Compressed gas:</E>
+</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(i) A contained gas or mixture of gases with an absolute pressure exceeding:</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(A) 40 psi (276 kPa) at 70 &#xB0;F (21.1 &#xB0;C); or</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(B) 104 psi (717 kPa) at 130 &#xB0;F (54.4 &#xB0;C) regardless of pressure at 70 &#xB0;F.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(ii) A liquid having a vapor pressure exceeding 40 psi (276 kPa) at 100 &#xB0;F (37.8 &#xB0;C) as determined by ASTM D-323-82.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(3) <E T="03">Explosive:</E> A chemical that undergoes a rapid chemical change causing a sudden, almost instantaneous release of pressure, gas, and heat when subjected to sudden shock, pressure, or high temperature.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(4) <E T="03">Flammable:</E> A chemical that will readily ignite and, when ignited, will burn persistently at ambient temperature and pressure in the normal concentration of oxygen in the air.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(5) <E T="03">Organic peroxide:</E> An explosive, shock sensitive, organic compound or an oxide that contains a high proportion of oxygen-superoxide.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(6) <E T="03">Oxidizer:</E> A chemical, other than an explosive, that initiates or promotes combustion in other materials, thereby causing fire either of itself or through the release of oxygen or other gases.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(7) <E T="03">Pyrophoric:</E> Capable of igniting spontaneously in air at a temperature of 130 &#xB0;F (54.4 &#xB0;C) or below.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(8) <E T="03">Unstable (reactive):</E> A chemical which in the pure state, or as produced or transported, will vigorously polymerize, decompose, condense, or become self-reactive under conditions of shock, pressure, or temperature.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(9) <E T="03">Water-reactive:</E> A chemical that reacts with water to release a gas that is either flammable or a health hazard.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Produce</TD>
+<TD class="left">To manufacture, process, formulate, generate, or repackage.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Raw material</TD>
+<TD class="left">Ore, valuable minerals, worthless material or gangue, overburden, or a combination of these, that is removed from natural deposits by mining or is upgraded through milling.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Trade secret</TD>
+<TD class="left">Any confidential formula, pattern, process, device, information, or compilation of information that is used by the operator and that gives the operator an opportunity to obtain an advantage over competitors who do not know about it or use it.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Use</TD>
+<TD class="left">To package, handle, react, or transfer.</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single">Work area</TD>
+<TD class="left border-bottom-single">Any place in or about a mine where a miner works.</TD>
+</TR>
+</TBODY>
+</TABLE>
+</DIV></DIV>
+<CITA TYPE="N">[67 FR 42383, June 21, 2002; 67 FR 57635, Sept. 11, 2002]
+</CITA>
+</DIV8>
+
+</DIV6>
+<DIV6 N="C" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-47/subpart-C&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 47 Subpart C&amp;quot;}">
+<HEAD>Subpart C&#x2014;Hazard Determination</HEAD>
+<DIV8 N="47.21" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.21&quot;,&quot;citation&quot;:&quot;30 CFR 47.21&quot;}">
+<HEAD>&#xA7; 47.21 Identifying hazardous chemicals.</HEAD>
+<P>The operator must evaluate each chemical brought on mine property and each chemical produced on mine property to determine if it is hazardous as specified in Table 47.21 as follows:</P>
+<DIV width="100%"><DIV class="gpotbl_div">
+<TABLE border="1" cellpadding="1" cellspacing="1" class="gpo_table" frame="void" width="100%">
+<CAPTION><P class="title">Table 47.21&#x2014;Identifying Hazardous Chemicals</P></CAPTION>
+<THEAD>
+<TR>
+<TH class="center border-top-single border-bottom-single border-right-single">Category</TH>
+<TH class="center border-top-single border-bottom-single">Basis for determining if a chemical is hazardous</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD class="left border-right-single">(a) Chemical brought to the mine</TD>
+<TD class="left">The chemical is hazardous when its MSDS or container label indicates it is a physical or health hazard; or the operator may choose to evaluate the chemical using the criteria in paragraphs (b) and (c) of this table.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">(b) Chemical produced at the mine</TD>
+<TD class="left">The chemical is hazardous if any one of the following that it is a hazard:</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(1) Available evidence concerning its physical or health hazards.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(2) MSHA standards in 30 CFR chapter I.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(3) Occupational Safety and Health Administration (OSHA), 29 CFR part 1910, subpart Z, <E T="03">Toxic and Hazardous Substances.</E>
+</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(4) American Conference of Governmental Industrial Hygienists (ACGIH), <E T="03">Threshold Limit Values and Biological Exposure Indices</E> (2001).</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(5) U.S. Department of Health and Human Services, National Toxicology Program (NTP), <E T="03">Ninth Annual Report on Carcinogens,</E> January 2001.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(6) International Agency for Research on Cancer (IARC), Monographs and related supplements, Volumes 1 through 77.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">(c) Mixture produced at the mine</TD>
+<TD class="left">(1) If a mixture has been tested as a whole to determine its hazards, use the results of that testing.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(2) If a mixture has not been tested as a whole to determine its hazards&#x2014;</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(i) Use available, scientifically valid evidence to determine its physical hazard potential;</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(ii) Assume that it presents the same health hazard as a non-carcinogenic component that makes up 1% or more (by weight or volume) of the mixture; and</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(iii) Assume that it presents a carcinogenic health hazard if a component considered carcinogenic by NTP or IARC makes up 0.1% or more (by weight or volume) of the mixture.</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single"> </TD>
+<TD class="left border-bottom-single">(3) If evidence indicates that a component could be released from a mixture in a concentration that could present a health risk to miners, assume that the mixture presents the same hazard.</TD>
+</TR>
+</TBODY>
+</TABLE>
+</DIV></DIV>
+</DIV8>
+
+</DIV6>
+<DIV6 N="D" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-47/subpart-D&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 47 Subpart D&amp;quot;}">
+<HEAD>Subpart D&#x2014;HazCom Program</HEAD>
+<DIV8 N="47.31" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.31&quot;,&quot;citation&quot;:&quot;30 CFR 47.31&quot;}">
+<HEAD>&#xA7; 47.31 Requirement for a HazCom program.</HEAD>
+<P>Each operator must&#x2014;</P>
+<P>(a) Develop and implement a written HazCom program,</P>
+<P>(b) Maintain it for as long as a hazardous chemical is known to be at the mine, and</P>
+<P>(c) Share relevant HazCom information with other on-site operators whose miners can be affected.</P>
+</DIV8>
+
+<DIV8 N="47.32" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.32&quot;,&quot;citation&quot;:&quot;30 CFR 47.32&quot;}">
+<HEAD>&#xA7; 47.32 HazCom program contents.</HEAD>
+<P>The HazCom program must include the following:</P>
+<P>(a) How this part is put into practice at the mine through the use of&#x2014;</P>
+<P>(1) Hazard determination,</P>
+<P>(2) Labels and other forms of warning,</P>
+<P>(3) Material safety data sheets (MSDSs), and</P>
+<P>(4) Miner training.</P>
+<P>(b) A list or other record identifying all hazardous chemicals known to be at the mine. The list must&#x2014;</P>
+<P>(1) Use a chemical identity that permits cross-referencing between the list, a chemical's label, and its MSDS; and</P>
+<P>(2) Be compiled for the whole mine or by individual work areas.</P>
+<P>(c) At mines with more than one operator, the methods for&#x2014;</P>
+<P>(1) Providing other operators with access to MSDSs, and</P>
+<P>(2) Informing other operators about&#x2014;</P>
+<P>(i) Hazardous chemicals to which their miners can be exposed,</P>
+<P>(ii) The labeling system on the containers of these chemicals, and</P>
+<P>(iii) Appropriate protective measures.</P>
+<CITA TYPE="N">[67 FR 42383, June 21, 2002; 67 FR 57635, Sept. 11, 2002]
+</CITA>
+</DIV8>
+
+</DIV6>
+<DIV6 N="E" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-47/subpart-E&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 47 Subpart E&amp;quot;}">
+<HEAD>Subpart E&#x2014;Container Labels and Other Forms of Warning</HEAD>
+<DIV8 N="47.41" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.41&quot;,&quot;citation&quot;:&quot;30 CFR 47.41&quot;}">
+<HEAD>&#xA7; 47.41 Requirement for container labels.</HEAD>
+<P>(a) The operator must ensure that each container of a hazardous chemical has a label. If a container is tagged or marked with the appropriate information, it is labeled.</P>
+<P>(1) The operator must replace a container label immediately if it is missing or if the hazard information on the label is unreadable.</P>
+<P>(2) The operator must not remove or deface existing labels on containers of hazardous chemicals.</P>
+<P>(b) For each hazardous chemical produced at the mine, the operator must prepare a container label and update this label with any significant, new information about the chemical's hazards within 3 months of becoming aware of this information.</P>
+<P>(c) For each hazardous chemical brought to the mine, the operator must replace an outdated label when a revised label is received from the chemical's manufacturer or supplier. The operator is not responsible for an inaccurate label obtained from the chemical's manufacturer or supplier.</P>
+</DIV8>
+
+<DIV8 N="47.42" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.42&quot;,&quot;citation&quot;:&quot;30 CFR 47.42&quot;}">
+<HEAD>&#xA7; 47.42 Label contents.</HEAD>
+<P>When an operator must make a label, the label must&#x2014;</P>
+<P>(a) Be prominently displayed, legible, accurate, and in English;</P>
+<P>(b) Display appropriate hazard warnings;</P>
+<P>(c) Use a chemical identity that permits cross-referencing between the list of hazardous chemicals, a chemical's label, and its MSDS; and</P>
+<P>(d) Include on labels for customers, the name and address of the operator or another responsible party who can provide additional information about the hazardous chemical.</P>
+<CITA TYPE="N">[67 FR 42383, June 21, 2002; 67 FR 63255, Oct. 11, 2002]
+</CITA>
+</DIV8>
+
+<DIV8 N="47.43" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.43&quot;,&quot;citation&quot;:&quot;30 CFR 47.43&quot;}">
+<HEAD>&#xA7; 47.43 Label alternatives.</HEAD>
+<P>The operator may use signs, placards, process sheets, batch tickets, operating procedures, or other label alternatives for individual, stationary process containers, provided that the alternative&#x2014;</P>
+<P>(a) Identifies the container to which it applies,</P>
+<P>(b) Communicates the same information as required on the label, and</P>
+<P>(c) Is readily available throughout each work shift to miners in the work area.</P>
+</DIV8>
+
+<DIV8 N="47.44" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.44&quot;,&quot;citation&quot;:&quot;30 CFR 47.44&quot;}">
+<HEAD>&#xA7; 47.44 Temporary, portable containers.</HEAD>
+<P>(a) The operator does not have to label a temporary, portable container if he or she ensures that the miner using the portable container&#x2014;</P>
+<P>(1) Knows the identity of the chemical, its hazards, and any protective measures needed, and</P>
+<P>(2) Leaves the container empty at the end of the shift.</P>
+<P>(b) Otherwise, the operator must mark the temporary, portable container with at least the common name of its contents.</P>
+</DIV8>
+
+</DIV6>
+<DIV6 N="F" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-47/subpart-F&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 47 Subpart F&amp;quot;}">
+<HEAD>Subpart F&#x2014;Material Safety Data Sheets (MSDS)</HEAD>
+<DIV8 N="47.51" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.51&quot;,&quot;citation&quot;:&quot;30 CFR 47.51&quot;}">
+<HEAD>&#xA7; 47.51 Requirement for an MSDS.</HEAD>
+<P>Operators must have an MSDS for each hazardous chemical which they produce or use. The MSDS may be in any medium, such as paper or electronic, that does not restrict availability.</P>
+<P>(a) For each hazardous chemical produced at the mine, the operator must prepare an MSDS, and update it with significant, new information about the chemical's hazards or protective measures within 3 months of becoming aware of this information.</P>
+<P>(b) For each hazardous chemical brought to the mine, the operator must rely on the MSDS received from the chemical manufacturer or supplier, develop their own MSDS, or obtain one from another source.</P>
+<P>(c) Although the operator is not responsible for an inaccurate MSDS obtained from the chemical's manufacturer, supplier, or other source, the operator must&#x2014;</P>
+<P>(1) Replace an outdated MSDS upon receipt of an updated revision, and</P>
+<P>(2) Obtain an accurate MSDS as soon as possible after becoming aware of an inaccuracy.</P>
+<P>(d) The operator is not required to prepare an MSDS for an intermediate chemical or by-product resulting from mining or milling if its hazards are already addressed on the MSDS of the source chemical.</P>
+</DIV8>
+
+<DIV8 N="47.52" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.52&quot;,&quot;citation&quot;:&quot;30 CFR 47.52&quot;}">
+<HEAD>&#xA7; 47.52 MSDS contents.</HEAD>
+<P>When an operator must prepare an MSDS for a hazardous chemical produced at the mine, the MSDS must&#x2014;</P>
+<P>(a) Be legible, accurate, and in English;</P>
+<P>(b) Use a chemical identity that permits cross-referencing between the list of hazardous chemicals, the chemical's label, and its MSDS; and</P>
+<P>(c) Contain information, or indicate if no information is available, for the categories listed in Table 47.52 as follows:</P>
+<DIV width="100%"><DIV class="gpotbl_div">
+<TABLE border="1" cellpadding="1" cellspacing="1" class="gpo_table" frame="void" width="100%">
+<CAPTION><P class="title">Table 47.52&#x2014;Contents of MSDS</P></CAPTION>
+<THEAD>
+<TR>
+<TH class="center border-top-single border-bottom-single border-right-single">Category</TH>
+<TH class="center border-top-single border-bottom-single">Requirements, descriptions, and exceptions</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD class="left border-right-single">(1) Identity</TD>
+<TD class="left">The identity of the chemical or, if the chemical is a mixture, the identities of all hazardous ingredients. <E T="03">See</E> &#xA7; 47.21 (Identifying hazardous chemicals).</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">(2) Properties</TD>
+<TD class="left">The physical and chemical characteristics of the chemical, such as vapor pressure and solubility in water.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">(3) Physical</TD>
+<TD class="left">The physical hazards of the chemical including the potential for fire, explosion, and reactivity.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">(4) Health hazards</TD>
+<TD class="left">The health hazards of the chemical including&#x2014;</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(i) Signs and symptoms of exposure,</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(ii) Any medical conditions which are generally recognized as being aggravated by exposure to the chemical, and</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(iii) The primary routes of entry for the chemical, such as lungs, stomach, or skin.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">(5) Exposure limits</TD>
+<TD class="left">For the chemical or the ingredients of a mixture&#x2014;</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(i) The MSHA or OSHA permissible limit, if there is one, and</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(ii) Any other exposure limit recommended by the preparer of the MSDS.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">(6) Carcinogenicity</TD>
+<TD class="left">Whether the chemical or an ingredient in the mixture is a carcinogen or potential carcinogen. See the sources specified in &#xA7; 47.21 (Identifying hazardous chemicals).</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">(7) Safe use</TD>
+<TD class="left">Precautions for safe handling and use including&#x2014;</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(i) Appropriate hygienic practices,</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(ii) Protective measures during repair and maintenance of contaminated equipment, and</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(iii) Procedures for clean-up of spills and leaks.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">(8) Control measures</TD>
+<TD class="left">Generally applicable control measures such as engineering controls, work practices, and personal protective equipment.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">(9) Emergency information</TD>
+<TD class="left">(i) Emergency medical and first-aid procedures; and</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(ii) The name, address, and telephone number of the operator or other responsible party who can provide additional information on the hazardous chemical and appropriate emergency procedures.</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single">(10) Date prepared</TD>
+<TD class="left border-bottom-single">The date the MSDS was prepared or last changed.</TD>
+</TR>
+</TBODY>
+</TABLE>
+</DIV></DIV>
+<CITA TYPE="N">[67 FR 42383, June 21, 2002; 67 FR 57635, Sept. 11, 2002]
+</CITA>
+</DIV8>
+
+<DIV8 N="47.53" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.53&quot;,&quot;citation&quot;:&quot;30 CFR 47.53&quot;}">
+<HEAD>&#xA7; 47.53 Alternative for hazardous waste.</HEAD>
+<P>If the mine produces or uses hazardous waste, the operator must provide potentially exposed miners and designated representatives access to available information for the hazardous waste that&#x2014;</P>
+<P>(a) Identifies its hazardous chemical components,</P>
+<P>(b) Describes its physical or health hazards, or</P>
+<P>(c) Specifies appropriate protective measures.</P>
+</DIV8>
+
+<DIV8 N="47.54" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.54&quot;,&quot;citation&quot;:&quot;30 CFR 47.54&quot;}">
+<HEAD>&#xA7; 47.54 Availability of an MSDS.</HEAD>
+<P>The operator must make MSDSs accessible to miners during each work shift for each hazardous chemical to which they may be exposed either&#x2014;</P>
+<P>(a) At each work area where the hazardous chemical is produced or used, or</P>
+<P>(b) At an alternative location, provided that the MSDS is readily available to miners in an emergency.</P>
+</DIV8>
+
+<DIV8 N="47.55" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.55&quot;,&quot;citation&quot;:&quot;30 CFR 47.55&quot;}">
+<HEAD>&#xA7; 47.55 Retaining an MSDS.</HEAD>
+<P>The operator must&#x2014;</P>
+<P>(a) Retain its MSDS for as long as the hazardous chemical is known to be at the mine, and</P>
+<P>(b) Notify miners at least 3 months before disposing of the MSDS.</P>
+</DIV8>
+
+</DIV6>
+<DIV6 N="G" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-47/subpart-G&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 47 Subpart G&amp;quot;}">
+<HEAD>Subpart G [Reserved]</HEAD>
+</DIV6>
+<DIV6 N="H" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-47/subpart-H&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 47 Subpart H&amp;quot;}">
+<HEAD>Subpart H&#x2014;Making HazCom Information Available</HEAD>
+<DIV8 N="47.71" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.71&quot;,&quot;citation&quot;:&quot;30 CFR 47.71&quot;}">
+<HEAD>&#xA7; 47.71 Access to HazCom materials.</HEAD>
+<P>Upon request, the operator must provide access to all HazCom materials required by this part to miners and designated representatives, except as provided in &#xA7; 47.81 through &#xA7; 47.87 (provisions for trade secrets).</P>
+</DIV8>
+
+<DIV8 N="47.72" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.72&quot;,&quot;citation&quot;:&quot;30 CFR 47.72&quot;}">
+<HEAD>&#xA7; 47.72 Cost for copies.</HEAD>
+<P>(a) The operator must provide the first copy and each revision of the HazCom material without cost.</P>
+<P>(b) Fees for a subsequent copy of the HazCom material must be non-discriminatory and reasonable.</P>
+</DIV8>
+
+<DIV8 N="47.73" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.73&quot;,&quot;citation&quot;:&quot;30 CFR 47.73&quot;}">
+<HEAD>&#xA7; 47.73 Providing labels and MSDSs to customers.</HEAD>
+<P>For a hazardous chemical produced at the mine, the operator must provide customers, upon request, with the chemical's label or a copy of the label information, and the chemical's MSDS.</P>
+</DIV8>
+
+</DIV6>
+<DIV6 N="I" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-47/subpart-I&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 47 Subpart I&amp;quot;}">
+<HEAD>Subpart I&#x2014;Trade Secret Hazardous Chemical</HEAD>
+<DIV8 N="47.81" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.81&quot;,&quot;citation&quot;:&quot;30 CFR 47.81&quot;}">
+<HEAD>&#xA7; 47.81 Provisions for withholding trade secrets.</HEAD>
+<P>(a) Operators may withhold the identity of a trade secret chemical, including the name and other specific identification, from the written list of hazardous chemicals, the label, and the MSDS, provided that the operator&#x2014;</P>
+<P>(1) Can support the claim that the chemical's identity is a trade secret,</P>
+<P>(2) Identifies the chemical in a way that it can be referred to without disclosing the secret,</P>
+<P>(3) Indicates in the MSDS that the chemical's identity is withheld as a trade secret, and</P>
+<P>(4) Discloses in the MSDS information on the properties and effects of the hazardous chemical.</P>
+<P>(b) The operator must make the chemical's identity available to miners, designated representatives, and health professionals in accordance with the provisions of this subpart.</P>
+<P>(c) This subpart does not require the operator to disclose process or percentage of mixture information, which is a trade secret, under any circumstances.</P>
+</DIV8>
+
+<DIV8 N="47.82" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.82&quot;,&quot;citation&quot;:&quot;30 CFR 47.82&quot;}">
+<HEAD>&#xA7; 47.82 Disclosure of information to MSHA.</HEAD>
+<P>(a) Even if the operator has a trade secret claim, the operator must disclose to MSHA, upon request, any information which this subpart requires the operator to make available.</P>
+<P>(b) The operator must make a trade secret claim, no later than at the time the information is provided to MSHA, so that MSHA can determine the trade secret status and implement the necessary protection.</P>
+</DIV8>
+
+<DIV8 N="47.83" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.83&quot;,&quot;citation&quot;:&quot;30 CFR 47.83&quot;}">
+<HEAD>&#xA7; 47.83 Disclosure in a medical emergency.</HEAD>
+<P>(a) Upon request and regardless of the existence of a written statement of need or a confidentiality agreement, the operator must immediately disclose the identity of a trade secret chemical to the treating health professional when that person determines that&#x2014;</P>
+<P>(1) A medical emergency exists, and</P>
+<P>(2) The identity of the hazardous chemical is necessary for emergency or first-aid treatment.</P>
+<P>(b) The operator may require a written statement of need and confidentiality agreement in accordance with the provisions of &#xA7; 47.84 and &#xA7; 47.85 as soon as circumstances permit.</P>
+</DIV8>
+
+<DIV8 N="47.84" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.84&quot;,&quot;citation&quot;:&quot;30 CFR 47.84&quot;}">
+<HEAD>&#xA7; 47.84 Non-emergency disclosure.</HEAD>
+<P>Upon request, the operator must disclose the identity of a trade secret chemical in a non-emergency situation to an exposed miner, the miner's designated representative, or a health professional providing services to the miner, if the following conditions are met.</P>
+<P>(a) The request is in writing.</P>
+<P>(b) The request describes in reasonable detail an occupational health need for the information, as follows:</P>
+<P>(1) To assess the chemical hazards to which the miner will be exposed.</P>
+<P>(2) To conduct or assess health sampling to determine the miner's exposure levels.</P>
+<P>(3) To conduct reassignment or periodic medical surveillance of the exposed miner.</P>
+<P>(4) To provide medical treatment to the exposed miner.</P>
+<P>(5) To select or assess appropriate personal protective equipment for the exposed miner.</P>
+<P>(6) To design or assess engineering controls or other protective measures for the exposed miner.</P>
+<P>(7) To conduct studies to determine the health effects of exposure.</P>
+<P>(c) The request explains in detail why the disclosure of the following information would not satisfy the purpose described in paragraph (b) of this section:</P>
+<P>(1) The properties and effects of the chemical.</P>
+<P>(2) Measures for controlling the miner's exposure to the chemical.</P>
+<P>(3) Methods of monitoring and analyzing the miner's exposure to the chemical.</P>
+<P>(4) Methods of diagnosing and treating harmful exposures to the chemical.</P>
+<P>(d) The request describes the procedures to be used to maintain the confidentiality of the disclosed information.</P>
+<P>(e) The person making the request enters a written confidentiality agreement that he or she will not use the information for any purpose other than the health needs asserted and agrees not to release the information under any circumstances, except as authorized by &#xA7; 47.85, by the terms of the agreement, or by the operator.</P>
+</DIV8>
+
+<DIV8 N="47.85" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.85&quot;,&quot;citation&quot;:&quot;30 CFR 47.85&quot;}">
+<HEAD>&#xA7; 47.85 Confidentiality agreement and remedies.</HEAD>
+<P>(a) The confidentiality agreement authorized by &#xA7; 47.84&#x2014;</P>
+<P>(1) May restrict the use of the trade secret chemical identity to the health purposes indicated in the written statement of need;</P>
+<P>(2) May provide for appropriate legal remedies in the event of a breach of the agreement, including stipulation of a reasonable pre-estimate of likely damages;</P>
+<P>(3) Must allow the exposed miner, the miner's designated representative, or the health professional to disclose the trade secret chemical identity to MSHA;</P>
+<P>(4) May provide that the exposed miner, the miner's designated representative, or the health professional inform the operator who provided the trade secret chemical identity prior to or at the same time as its disclosure to MSHA; and</P>
+<P>(5) May not include requirements for the posting of a penalty bond.</P>
+<P>(b) Nothing in this subpart precludes the parties from pursuing non-contractual remedies to the extent permitted by law.</P>
+</DIV8>
+
+<DIV8 N="47.86" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.86&quot;,&quot;citation&quot;:&quot;30 CFR 47.86&quot;}">
+<HEAD>&#xA7; 47.86 Denial of a written request for disclosure.</HEAD>
+<P>To deny a written request for disclosure of the identity of a trade secret chemical, the operator must&#x2014;</P>
+<P>(a) Put the denial in writing,</P>
+<P>(1) Including evidence to substantiate the claim that the chemical's identity is a trade secret,</P>
+<P>(2) Stating the specific reasons why the request is being denied, and</P>
+<P>(3) Explaining how alternative information will satisfy the specific medical or occupational health need without revealing the chemical's identity.</P>
+<P>(b) Provide the denial to the health professional, miner, or designated representative within 30 days of the request.</P>
+</DIV8>
+
+<DIV8 N="47.87" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.87&quot;,&quot;citation&quot;:&quot;30 CFR 47.87&quot;}">
+<HEAD>&#xA7; 47.87 Review of denial.</HEAD>
+<P>(a) The health professional, miner, or designated representative may refer the written denial to MSHA for review. The request for review must include a copy of&#x2014;</P>
+<P>(1) The request for disclosure of the identity of the trade secret chemical,</P>
+<P>(2) The confidentiality agreement, and</P>
+<P>(3) The operator's written denial.</P>
+<P>(b) If MSHA determines that the identity of the trade secret chemical should have been disclosed, the operator will be subject to citation by MSHA.</P>
+<P>(c) If MSHA determines that the confidentiality agreement would not sufficiently protect against unauthorized disclosure of the trade secret, MSHA may impose additional conditions to ensure that the occupational health services are provided without an undue risk of harm to the operator.</P>
+<P>(d) If the operator contests a citation for a failure to release the identity of a trade secret chemical, the matter will be adjudicated by the Federal Mine Safety and Health Review Commission. The Administrative Law Judge may review the citation and supporting documentation &#x201C;in camera&#x201D; or issue appropriate orders to protect the trade secret.</P>
+</DIV8>
+
+</DIV6>
+<DIV6 N="J" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-47/subpart-J&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 47 Subpart J&amp;quot;}">
+<HEAD>Subpart J&#x2014;Exemptions</HEAD>
+<DIV8 N="47.91" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.91&quot;,&quot;citation&quot;:&quot;30 CFR 47.91&quot;}">
+<HEAD>&#xA7; 47.91 Exemptions from the HazCom standard.</HEAD>
+<P>A hazardous chemical is exempt from this part under the conditions described in Table 47.91 as follows:</P>
+<DIV width="100%"><DIV class="gpotbl_div">
+<TABLE border="1" cellpadding="1" cellspacing="1" class="gpo_table" frame="void" width="100%">
+<CAPTION><P class="title">Table 47.91&#x2014;Chemicals and Products Exempt from this HazCom Standard</P></CAPTION>
+<THEAD>
+<TR>
+<TH class="center border-top-single border-bottom-single border-right-single">Exemption</TH>
+<TH class="center border-top-single border-bottom-single">Conditions for exemption</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD class="left border-right-single">Article</TD>
+<TD class="left">If, under normal conditions of use, it&#x2014;</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(1) Releases no more than insignificant amounts of a hazardous chemical, and</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(2) Poses no physical or health risk to exposed miners.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Biological hazards</TD>
+<TD class="left">All biological hazards, such as poisonous plants, insects, and micro-organisms.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Consumer product or hazardous substance regulated by CPSC</TD>
+<TD class="left">(1) If the miner uses it for the purpose the manufacturer intended; and</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left">(2) Such use does not expose the miner more often and for longer periods than <E T="03">ordinary consumer use.</E>
+</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Cosmetics, drugs, food, food additive, color additive, drinks, alcoholic beverages, tobacco and tobacco products, or medical or veterinary device or product, including materials intended for use as ingredients in such products (such as flavors and fragrances)</TD>
+<TD class="left">When intended for personal consumption or use.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Radiation</TD>
+<TD class="left">All ionizing or non-ionizing radiation, such as alpha or gamma, microwaves, or x-rays.</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single">Wood or wood products, including lumber</TD>
+<TD class="left border-bottom-single">If they do not release or otherwise result in exposure to a hazardous chemical under normal conditions of use. For example, wood is not exempt if it is treated with a hazardous chemical or if it will be subsequently cut or sanded.</TD>
+</TR>
+</TBODY>
+</TABLE>
+</DIV></DIV>
+</DIV8>
+
+<DIV8 N="47.92" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-47.92&quot;,&quot;citation&quot;:&quot;30 CFR 47.92&quot;}">
+<HEAD>&#xA7; 47.92 Exemptions from labeling.</HEAD>
+<P>A hazardous chemical is exempt from subpart E of this part under the conditions described in Table 47.92 as follows:</P>
+<DIV width="100%"><DIV class="gpotbl_div">
+<TABLE border="1" cellpadding="1" cellspacing="1" class="gpo_table" frame="void" width="100%">
+<CAPTION><P class="title">Table 47.92&#x2014;Hazardous Chemicals Exempt from Labeling</P></CAPTION>
+<THEAD>
+<TR>
+<TH class="center border-top-single border-bottom-single border-right-single">Exemption</TH>
+<TH class="center border-top-single border-bottom-single">Conditions for exemption</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD class="left border-right-single">Chemical substance, consumer product, hazardous substance, or pesticide</TD>
+<TD class="left">When kept in its manufacturer's or supplier's original packaging labeled under other federal labeling requirements.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Hazardous substance</TD>
+<TD class="left">When the subject of remedial or removal action under the Comprehensive Environmental Response, Compensation and Liability Act (CERCLA) in accordance with EPA regulations.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Hazardous waste</TD>
+<TD class="left">When regulated by EPA under the Solid Waste Disposal Act as amended by the Resource Conservation and Recovery Act.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">Raw material being mined or processed</TD>
+<TD class="left">While on mine property, except when the container holds a mixture of the raw material and another hazardous chemical and the mixture is found to be hazardous under &#xA7; 47.21&#x2014;Identifying hazardous chemicals.</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single">Wood or wood products, including lumber</TD>
+<TD class="left border-bottom-single">Wood or wood products are always exempt from labeling.</TD>
+</TR>
+</TBODY>
+</TABLE>
+</DIV></DIV>
+<CITA TYPE="N">[67 FR 42383, June 21, 2002; 67 FR 42366, Sept. 11, 2002; 67 FR 63255, Oct. 11, 2002]
+</CITA>
+</DIV8>
+
+</DIV6>
+</DIV5>

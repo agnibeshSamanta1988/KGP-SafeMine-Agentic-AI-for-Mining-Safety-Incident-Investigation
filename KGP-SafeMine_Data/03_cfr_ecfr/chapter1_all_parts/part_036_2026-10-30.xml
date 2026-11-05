@@ -1,0 +1,381 @@
+<?xml version="1.0"?>
+<DIV5 N="36" TYPE="PART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-36&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 36&amp;quot;}">
+<HEAD>PART 36&#x2014;APPROVAL REQUIREMENTS FOR PERMISSIBLE MOBILE DIESEL-POWERED TRANSPORTATION EQUIPMENT
+</HEAD>
+<AUTH>
+<HED>Authority:</HED><PSPACE>30 U.S.C. 957, 961.
+</PSPACE></AUTH>
+<SOURCE>
+<HED>Source:</HED><PSPACE>Schedule 31, 26 FR 645, Jan. 24, 1961, unless otherwise noted.
+</PSPACE></SOURCE>
+<DIV6 N="A" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-36/subpart-A&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 36 Subpart A&amp;quot;}">
+<HEAD>Subpart A&#x2014;General Provisions</HEAD>
+<DIV8 N="36.1" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.1&quot;,&quot;citation&quot;:&quot;30 CFR 36.1&quot;}">
+<HEAD>&#xA7; 36.1 Purpose.</HEAD>
+<P>The regulations in this part set forth the requirements for mobile diesel-powered transportation equipment to procure their approval and certification as permissible; procedures for applying for such certification; and fees.</P>
+<CITA TYPE="N">[61 FR 55525, Oct. 25, 1996]
+</CITA>
+</DIV8>
+
+<DIV8 N="36.2" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.2&quot;,&quot;citation&quot;:&quot;30 CFR 36.2&quot;}">
+<HEAD>&#xA7; 36.2 Definitions.</HEAD>
+<P>The following definitions apply in this part.</P>
+<P><I>Applicant</I> An individual, partnership, company, corporation, association, or other organization, that designs, manufactures, assembles, or controls the assembly and that seeks a certificate of approval or preliminary testing of mobile diesel-powered transportation equipment as permissible.</P>
+<P><I>Certificate of approval.</I> A formal document issued by MSHA stating that the complete assembly has met the requirements of this part for mobile diesel-powered transportation equipment and authorizing the use and attachment of an official approval plate so indicating.</P>
+<P><I>Component.</I> A piece, part, or fixture of mobile diesel-powered transportation equipment that is essential to its operation as a permissible assembly.</P>
+<P><I>Diesel engine.</I> A compression-ignition, internal-combustion engine that utilizes diesel fuel.</P>
+<P><I>Explosion proof.</I> A component or subassembly that is so constructed and protected by an enclosure and/or flame arrester (s) that if a flammable mixture of gas is ignited within the enclosure it will withstand the resultant pressure without damage to the enclosure and/or flame arrester(s). Also the enclosure and/or flame arrester(s) shall prevent the discharge of flame or ignition of any flammable mixture that surrounds the enclosure.</P>
+<P><I>Flame arrester.</I> A device so constructed that flame or sparks from the diesel engine cannot propagate an explosion of a flammable mixture through it.</P>
+<P><I>Flammable mixture.</I> A mixture of gas, such as methane, natural gas, or similar hydrocarbon gas with normal air, that will propagate flame or explode violently when initiated by an incendive source.</P>
+<P><I>Fuel-air ratio.</I> The composition of the mixture of fuel and air in the combustion chamber of the diesel engine expressed as weight-pound of fuel per pound of air.</P>
+<P><I>MSHA.</I> The United States Department of Labor, Mine Safety and Health Administration.</P>
+<P><I>Mobile diesel-powered transportation equipment.</I> Equipment that is:</P>
+<P>(1) Used for transporting the product being mined or excavated, or for transporting materials and supplies used in mining or excavating operations;</P>
+<P>(2) Mounted on wheels or crawler treads (tracks); and</P>
+<P>(3) Powered by a diesel engine as the prime mover.</P>
+<P><I>Normal operation.</I> When each component and the entire assembly of the mobile diesel-powered transportation equipment performs the functions for which they were designed.</P>
+<P><I>Permissible.</I> As applied to mobile diesel-powered transportation equipment, this means that the complete assembly conforms to the requirements of this part, and that a certificate of approval to that effect has been issued.</P>
+<P><I>Subassembly.</I> A group or combination of components.</P>
+<CITA TYPE="N">[61 FR 55525, Oct. 25, 1996]
+</CITA>
+</DIV8>
+
+<DIV8 N="36.3" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.3&quot;,&quot;citation&quot;:&quot;30 CFR 36.3&quot;}">
+<HEAD>&#xA7; 36.3 Consultation.</HEAD>
+<P>By appointment, applicants or their representatives may visit the U.S. Department of Labor, Mine Safety and Health Administration, Approval and Certification Center, 765 Technology Drive, Triadelphia, WV 26059, to discuss with qualified MSHA personnel proposed mobile diesel-powered transportation equipment to be submitted in accordance with the regulations of this part. No charge is made for such consultation and no written report thereof will be submitted to the applicant.</P>
+<CITA TYPE="N">[Sched. 31, 26 FR 645, Jan. 24, 1961, as amended at 43 FR 12318, Mar. 24, 1978; 60 FR 35695, July 11, 1995; 73 FR 52213, Sept. 9, 2008]
+</CITA>
+</DIV8>
+
+<DIV8 N="36.4" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.4&quot;,&quot;citation&quot;:&quot;30 CFR 36.4&quot;}">
+<HEAD>&#xA7; 36.4 Mobile diesel-powered transportation equipment for which certificates of approval may be granted.</HEAD>
+<P>Certificates of approval will be granted for completely assembled mobile diesel-powered transportation equipment only. Subassemblies or components may be granted letters of certification in accordance with &#xA7; 36.5.</P>
+</DIV8>
+
+<DIV8 N="36.5" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.5&quot;,&quot;citation&quot;:&quot;30 CFR 36.5&quot;}">
+<HEAD>&#xA7; 36.5 Letters of certification.</HEAD>
+<P>When a component or subassembly meets all of the applicable requirements of Subparts B and C of this part, and also its normal operation will not be affected by connection to adjacent components or subassemblies, MSHA will issue to the applicant, upon his request, a letter of certification informing him that additional inspection or tests of the component or subassembly will not be required when it is incorporated without modification in a piece of completely assembled mobile diesel-powered transportation equipment. The applicant may cite this letter of certification to another applicant who seeks approval and certification of his completely assembled mobile diesel-powered transportation equipment and who desires to incorporate the component or subassembly in such equipment.</P>
+</DIV8>
+
+<DIV8 N="36.6" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.6&quot;,&quot;citation&quot;:&quot;30 CFR 36.6&quot;}">
+<HEAD>&#xA7; 36.6 Application procedures and requirements.</HEAD>
+<P>(a)(1) No investigation or testing will be undertaken by MSHA except pursuant to a written application accompanied by all descriptions, specifications, test samples, and related materials. The application and all related matters and correspondence shall be addressed to: U.S. Department of Labor, Mine Safety and Health Administration, Approval and Certification Center, 765 Technology Drive, Triadelphia, WV 26059. Fees calculated in accordance with part 5 of this title shall be submitted in accordance with &#xA7; 5.40.</P>
+<P>(2) Where the applicant for approval has used an independent laboratory under part 6 of this chapter to perform, in whole or in part, the necessary testing and evaluation for approval under this part, the applicant must provide to MSHA as part of the approval application:</P>
+<P>(i) Written evidence of the laboratory's independence and current recognition by a laboratory accrediting organization;</P>
+<P>(ii) Complete technical explanation of how the product complies with each requirement in the applicable MSHA product approval requirements;</P>
+<P>(iii) Identification of components or features of the product that are critical to the safety of the product; and</P>
+<P>(iv) All documentation, including drawings and specifications, as submitted to the independent laboratory by the applicant and as required by this part.</P>
+<P>(3) An applicant may request testing and evaluation to non-MSHA product safety standards which have been determined by MSHA to be equivalent, under &#xA7; 6.20 of this chapter, to MSHA's product approval requirements under this part.</P>
+<P>(b) Drawings, specifications, and descriptions shall be adequate in detail to identify fully the complete assembly, components, and subassemblies. Drawings, specifications, and descriptions shall include:</P>
+<P>(1) Assembly drawing(s) showing the overall dimensions of the equipment, location and capacity of the fuel tank, location of flame arresters, exhaust-gas conditioner and its water-supply tank, if applicable, exhaust-gas dilution system, and other details that are essential to the functioning of the equipment.</P>
+<P>(2) Except for equipment utilizing part 7, subpart F power packages, detailed drawings showing the intake, combustion, and exhaust systems of the diesel engine, including joints and gaskets; the turbulence or precombustion chamber, if applicable; injector assembly and nozzle details; and any surfaces that form the combustion chamber or part thereof, such as the cylinder head, piston and cylinder liner; and other features that may affect permissibility, such as exhaust-gas conditioner and flame arresters.</P>
+<P>(3) Except for equipment utilizing part 7, subpart F power packages, a schematic drawing of the fuel system showing piping, connections, fuel filters, fuel-injection pump, and mechanical governor assembly. All components shall be identified to permit adjustment, as necessary, and the location of seals or locks to prevent tampering shall be indicated.</P>
+<P>(4) Except for equipment utilizing part 7, subpart F power packages, drawing(s) specifying the kind of material and detailed dimensions of the components of explosion-proof enclosures, including joints and openings.</P>
+<P>(5) Drawing(s) showing the construction of headlights, battery boxes, including seals or locks, and method of mounting.</P>
+<P>(6) Other drawings, specifications, or descriptions identifying any feature that MSHA considers necessary for certification of the particular mobile diesel-powered transportation equipment.</P>
+<P>(c) Shipment of the mobile diesel-powered transportation equipment or component part or subassembly as the case may be, shall be deferred until MSHA has notified the applicant that the application will be accepted. Shipping instructions will be issued by MSHA and shipping charges shall be prepaid by the application. Upon completion of the investigation and notification thereof to the applicant by MSHA, the applicant shall remove his equipment promptly from the test site (see &#xA7; 36.40).</P>
+<P>(d) The application shall state that the equipment is completely developed and of the design and materials that the applicant believes to be suitable for a finished marketable product or is a completely developed component or subassembly suitable for incorporation in a finished marketable complete assembly of mobile diesel-powered transportation equipment. If the final design of a component depends upon results of MSHA's tests, this shall be so stated in the application.</P>
+<P>(e) For a complete investigation leading to approval and certification, the applicant shall furnish a complete operable assembly for inspecting and testing. Spare parts and expendable components, subject to wear in normal operation, shall be supplied by the applicant to permit continuous operation of the equipment during test periods. If special tools are necessary to disassembly any component for inspection or test, the applicant shall furnish these with the equipment to be tested.</P>
+<P>(f) With each application, the applicant shall submit evidence of how he proposes to inspect his completely assembled mobile diesel-powered transportation equipment at the place of manufacture or assembly before shipment to purchasers. Ordinarily such inspection is recorded on a factory inspection form and the applicant shall furnish to MSHA a copy of his factory inspection form or equivalent with his application. The form shall direct attention to the points that must be checked to make certain that all components of the assembly are in proper condition, complete in all respects, and in agreement with the drawings, specifications, and descriptions filed with MSHA.</P>
+<P>(g) With the application, the applicant shall furnish to MSHA complete instructions for operating and servicing his equipment. After completing MSHA's investigation, if any revision of the instructions is required, a revised copy thereof shall be submitted to MSHA for inclusion with the drawings and specifications.</P>
+<CITA TYPE="N">[Sched. 31, 26 FR 645, Jan. 24, 1961, as amended at 43 FR 12318, Mar. 24, 1978; 47 FR 14696, Apr. 6, 1982; 60 FR 33723, June 29, 1995; 60 FR 35695, July 11, 1995; 61 FR 55526, Oct. 25, 1996; 68 FR 36422, June 17, 2003; 70 FR 46344, Aug. 9, 2005; 73 FR 52213, Sept. 9, 2008]
+</CITA>
+</DIV8>
+
+<DIV8 N="36.7" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.7&quot;,&quot;citation&quot;:&quot;30 CFR 36.7&quot;}">
+<HEAD>&#xA7; 36.7 [Reserved]</HEAD>
+</DIV8>
+
+<DIV8 N="36.8" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.8&quot;,&quot;citation&quot;:&quot;30 CFR 36.8&quot;}">
+<HEAD>&#xA7; 36.8 Date for conducting tests.</HEAD>
+<P>The date for acceptance of an application will determine the order of precedence for testing when more than one application is pending, and the applicant will be notified of the date on which tests will begin. If a complete assembly, or component, or subassembly fails to meet any of the requirements, it shall lose its order of precedence. However, if the cause of failure is corrected, testing will be resumed after completing such test work as may be in progress.</P>
+</DIV8>
+
+<DIV8 N="36.9" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.9&quot;,&quot;citation&quot;:&quot;30 CFR 36.9&quot;}">
+<HEAD>&#xA7; 36.9 Conduct of investigations, tests, and demonstrations.</HEAD>
+<P>(a) Prior to the issuance of a certificate of approval or a letter of certification, as the case may require, necessary Government personnel, representatives of the applicant, and such other persons as may be mutually agreed upon may observe the investigations or tests. MSHA shall hold as confidential and shall not disclose principles or patentable features prior to certification, nor shall it disclose any details of drawings, specifications, descriptions, or related materials. After the issuance of a certificate of approval, MSHA may conduct such public demonstrations and tests of the approved mobile diesel-powered transportation equipment as it deems appropriate. The conduct of all investigations, tests, and demonstrations shall be under the direction and control of MSHA, and any other persons shall be present only as observers, except as noted in paragraph (b) of this section.</P>
+<P>(b) When requested by MSHA, the applicant shall provide assistance in disassembling parts for inspection, preparing parts for testing, and operating equipment during the tests.</P>
+<CITA TYPE="N">[Sched. 31, 26 FR 645, Jan. 24, 1961, as amended at 39 FR 24006, June 28, 1974; 61 FR 55526, Oct. 25, 1996]
+</CITA>
+</DIV8>
+
+<DIV8 N="36.10" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.10&quot;,&quot;citation&quot;:&quot;30 CFR 36.10&quot;}">
+<HEAD>&#xA7; 36.10 Certificate of approval.</HEAD>
+<P>(a) Upon completion of investigation of a complete assembly of mobile diesel-powered transportation equipment, MSHA will issue to the applicant either a certificate of approval or a written notice of disapproval, as the case may require. No informal notification of approval will be issued. If a certificate of approval is issued, no test data or detailed results of tests will accompany it. If a notice of disapproval is issued, it will be accompanied by details of the defects, with a view to possible correction. MSHA will not disclose, except to the applicant, any information on mobile diesel-powered transportation equipment upon which a notice of disapproval has been issued.</P>
+<P>(b) A certificate of approval will be accompanied by a list of drawings, specifications, and related material covering the details of design and construction of equipment upon which the certificate of approval is based. Applicants shall keep exact duplicates of the drawings, specifications, and descriptions that relate to equipment which has received a certificate of approval, and these are to be adhered to exactly in production of the certified equipment.</P>
+<P>(c) A certificate of approval will be accompanied by an appropriate caution statement specifying the conditions to be observed for operating and maintaining the equipment and to preserve its permissible status.</P>
+</DIV8>
+
+<DIV8 N="36.11" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.11&quot;,&quot;citation&quot;:&quot;30 CFR 36.11&quot;}">
+<HEAD>&#xA7; 36.11 Approval plates.</HEAD>
+<P>(a) A certificate of approval will be accompanied by a photograph of an approval plate, bearing the emblem of the Mine Safety and Health Administration and spaces for the approval number, the type, the serial number, and ventilation requirement; the name of the complete assembly; and the name of the applicant.</P>
+<P>(b) The applicant shall reproduce the design as a separate plate, which shall be attached, in a suitable place, on each complete assembly to which it relates. The size, type, and method of attaching and location of an approval plate are subject to MSHA's approval. The method of affixing the approval plate shall not impair the permissibility (explosion-proof) features of the complete assembly of mobile diesel-powered transportation equipment.</P>
+<P>(c) The approval plate identifies the equipment, to which it is attached, as permissible and is the applicant's guarantee that the equipment complies with the requirements of this part. Without an approval plate no equipment is considered permissible under the provisions of this part.</P>
+<P>(d) Use of the approval plate obligates the applicant to whom the certificate of approval was granted to maintain in his plant the quality of each complete assembly bearing it and guarantees that it is manufactured and assembled according to the drawings, specifications, and descriptions upon which a certificate of approval was based.</P>
+<CITA TYPE="N">[Sched. 31, 26 FR 645, Jan. 24, 1961, as amended at 43 FR 12318, Mar. 24, 1978]
+</CITA>
+</DIV8>
+
+<DIV8 N="36.12" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.12&quot;,&quot;citation&quot;:&quot;30 CFR 36.12&quot;}">
+<HEAD>&#xA7; 36.12 Changes after certification.</HEAD>
+<P>If an applicant desires to change any feature of certified equipment, he shall first obtain MSHA's approval of the change, pursuant to the following procedure:</P>
+<P>(a)(1) Application shall be made, as for an original certificate of approval, requesting that the existing certification be extended to cover the proposed change. The application shall be accompanied by specifications and related material as in the case of an original application.</P>
+<P>(2) Where the applicant for approval has used an independent laboratory under part 6 of this chapter to perform, in whole or in part, the necessary testing and evaluation for approval of changes to an approved product under this part, the applicant must provide to MSHA as part of the approval application:</P>
+<P>(i) Written evidence of the laboratory's independence and current recognition by a laboratory accrediting organization;</P>
+<P>(ii) Complete technical explanation of how the product complies with each requirement in the applicable MSHA product approval requirements;</P>
+<P>(iii) Identification of components or features of the product that are critical to the safety of the product; and</P>
+<P>(iv) All documentation, including drawings and specifications, as submitted to the independent laboratory by the applicant and as required by this part.</P>
+<P>(b) The application will be examined by MSHA to determine whether inspection and testing of the modified equipment or component or subassembly will be required. Testing will be necessary if there is a possibility that the modification may affect adversely the performance of the equipment. MSHA will inform the applicant whether such testing is required and the component, subassembly, and related material to be submitted for that purpose.</P>
+<P>(c) If the proposed modification meets the requirements of this part, a formal extension of certification will be issued, accompanied by a list of new and corrected drawings and specifications to be added to those already on file as the basis for the extension of certification.</P>
+<CITA TYPE="N">[Sched. 31, 26 FR 645, Jan. 24, 1961, as amended at 52 FR 17516, May 8, 1987; 68 FR 36423, June 17, 2003]
+</CITA>
+</DIV8>
+
+<DIV8 N="36.13" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.13&quot;,&quot;citation&quot;:&quot;30 CFR 36.13&quot;}">
+<HEAD>&#xA7; 36.13 Withdrawal of certification.</HEAD>
+<P>MSHA reserves the right to rescind for cause any certificate of approval granted under this part.</P>
+</DIV8>
+
+</DIV6>
+<DIV6 N="B" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-36/subpart-B&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 36 Subpart B&amp;quot;}">
+<HEAD>Subpart B&#x2014;Construction and Design Requirements</HEAD>
+<DIV8 N="36.20" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.20&quot;,&quot;citation&quot;:&quot;30 CFR 36.20&quot;}">
+<HEAD>&#xA7; 36.20 Quality of material, workmanship, and design.</HEAD>
+<P>(a) MSHA will test only equipment that in the opinion of its qualified representatives is constructed of suitable materials, is of good quality workmanship, based on sound engineering principles, and is safe for its intended use. Since all possible designs, arrangements, or combinations of components and materials cannot be foreseen, MSHA reserves the right to modify the construction and design requirements of subassemblies or components and tests thereof to obtain the same degree of protection as provided by the tests described in Subpart C of this part.</P>
+<P>(b) The quality of material, workmanship, and design shall conform to the requirements of &#xA7; 7.98(q) of this chapter.</P>
+<P>(c) Power packages approved under part 7, subpart F of this chapter are considered to be acceptable for use in equipment submitted for approval under this part. Sections 36.21 through 36.26 (except &#xA7; 36.25(f)) and &#xA7;&#xA7; 36.43 through 36.48 are not applicable to equipment utilizing part 7, subpart F power packages, since these requirements have already been satisfied.</P>
+<CITA TYPE="N">[Sched. 31, 26 FR 645, Jan. 24, 1961, as amended at 61 FR 55526, Oct. 25, 1996]
+</CITA>
+</DIV8>
+
+<DIV8 N="36.21" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.21&quot;,&quot;citation&quot;:&quot;30 CFR 36.21&quot;}">
+<HEAD>&#xA7; 36.21 Engine for equipment considered for certification.</HEAD>
+<P>Only equipment powered by a compression-ignition (diesel) engine and burning diesel fuel will be considered for approval and certification. The starting mechanism shall be actuated pneumatically, hydraulically, or by other methods acceptable to MSHA. Electric starting shall not be accepted. Engines burning other fuels or utilizing volatile fuel starting aids will not be investigated.</P>
+<CITA TYPE="N">[Sched. 31, 26 FR 645, Jan. 24, 1961, as amended at 61 FR 55526, Oct. 25, 1996]
+</CITA>
+</DIV8>
+
+<DIV8 N="36.22" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.22&quot;,&quot;citation&quot;:&quot;30 CFR 36.22&quot;}">
+<HEAD>&#xA7; 36.22 Fuel-injection system.</HEAD>
+<P>This system shall be so constructed that the quantity of fuel injected can be controlled at a desired maximum value and shall be so arranged that this adjustment can be changed only after breaking a seal or unlocking a compartment. Provision shall be made for convenient adjustment of the maximum fuel-injection rate to that required for safe operation at different altitudes (elevations above sea level). The governor, controlling engine speed and fuel injection, shall not directly affect airflow to the engine and provision shall be made to seal or lock its adjustment compartment. Filters shall be provided to insure that only clean fuel will reach the injection pump or injectors.</P>
+</DIV8>
+
+<DIV8 N="36.23" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.23&quot;,&quot;citation&quot;:&quot;30 CFR 36.23&quot;}">
+<HEAD>&#xA7; 36.23 Engine intake system.</HEAD>
+<P>(a) <I>Construction.</I> The intake system (exclusive of the air cleaner) shall be designed to withstand an internal pressure equal to 4 times the maximum pressure observed in explosion tests, which are described in &#xA7; 36.46, or a pressure of 125 pounds per square inch, whichever is the lesser. Joints in the intake system shall be formed by metal flanges fitted with metal or metal-clad gaskets, positively positioned by through bolts or other suitable means for secure assembly, or shall meet the requirements for flanged metal-to-metal flame-proof joints as required in &#xA7; 36.20(b). Either type of joint shall withstand repeated explosions within the intake system without permanent deformation and shall prevent the propagation of flame through the joint into a surrounding flammable mixture.</P>
+<P>(b) <I>Intake flame arrester.</I> (1) The intake system shall include a flame arrester that will prevent an explosion within the system from propagating to a surrounding flammable mixture. This flame arrester shall be between the air cleaner and the intake manifold and shall be attached so that it may be removed for inspecting, cleaning, or repairing. Its construction shall be such that it may be cleaned readily. The flame arrester shall be of rugged construction to withstand the effects of repeated explosions within the intake system, and the material of construction shall resist deterioration in service. It shall be so mounted in the equipment assembly that it is protected from accidental external damage.</P>
+<P>(2) The parts of any flame arrester shall be positively positioned to produce a flame path that will arrest the propagation of an explosion and shall be so designed that improper assembly is impossible. In flame arresters of the spaced-plate type, the thickness of the plates shall be at least 0.125 inch; spacing between the plates shall not exceed 0.018 inch; and the plates forming the flame path shall be at least 1 inch wide. The unsupported length of the plates shall be short enough that deformation during the explosion tests shall not exceed 0.002 inch. Corrosion-resistant metal shall be used to construct flame arresters.</P>
+<P>(c) <I>Air shutoff valve.</I> The intake system shall include a valve, operable from the operator's compartment, to shut off the air supply to the engine. This valve shall be constructed to permit its operation only after the fuel supply to the engine is shut off. In reverse operation the valve must open fully before fuel can be supplied to the engine.</P>
+<P>(d) <I>Air cleaner.</I> An air cleaner shall be included in the engine intake system and so arranged that only clean air will enter the flame arrester. The resistance to airflow shall not increase rapidly in dusty atmospheres. Filters of the self-cleansing (oil-bath) type will be considered satisfactory for this application. Provision, satisfactory to MSHA, shall be made to prevent overfilling the oil-bath air cleaner.</P>
+<P>(e) <I>Vacuum-gage connection.</I> A connection shall be provided in the intake system for temporary attachment of a vacuum gage to indicate the pressure drop under flow conditions. This opening shall be closed by a plug or other suitable device that is sealed or locked in place except when a gage is attached.</P>
+</DIV8>
+
+<DIV8 N="36.24" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.24&quot;,&quot;citation&quot;:&quot;30 CFR 36.24&quot;}">
+<HEAD>&#xA7; 36.24 Engine joints.</HEAD>
+<P>(a) <I>Cylinder head.</I> The joint between the cylinder head and block of the engine shall be fitted with a metal or metal-clad gasket satisfactory to MSHA held securely in position by through bolts or other suitable means to prevent a change in alignment. This joint shall provide an adequate flame barrier with the gasket in place.</P>
+<P>(b) <I>Valve guides.</I> Valve guides shall be long enough to form an adequate flame barrier along the valve stem.</P>
+<P>(c) <I>Gaskets.</I> All metal or metal-clad gaskets shall maintain their tightness during repeated explosions within the engine and its intake and exhaust systems to prevent the propagation of flame.</P>
+</DIV8>
+
+<DIV8 N="36.25" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.25&quot;,&quot;citation&quot;:&quot;30 CFR 36.25&quot;}">
+<HEAD>&#xA7; 36.25 Engine exhaust system.</HEAD>
+<P>(a) <I>Construction.</I> The exhaust system of the engine shall be designed to withstand an internal pressure equal to 4 times the maximum pressure observed in explosion tests, which are described in &#xA7; 36.46, or a pressure of 125 pounds per square inch, whichever is the lesser. The system shall withstand repeated internal explosions without permanent deformation or deterioration.</P>
+<P>(b) <I>Exhaust flame arrester.</I> (1) The exhaust system of the engine shall be provided with a flame arrester to prevent propagation of flame or discharge of heated particles to a surrounding flammable mixture. The flame arrester shall be so positioned that only cooled exhaust gas will discharge through it and shall be so designed and attached that it can be removed for inspecting, cleaning, or repairing. Its construction shall be such that it can be cleaned readily. The flame arrester shall be of rugged construction to withstand the effects of repeated explosions within the exhaust system, and the material of construction shall resist deterioration in service. It shall be so mounted in the equipment assembly that it is protected from accidental external damage.</P>
+<P>(2) A spaced-plate flame arrester for the exhaust system shall meet the same requirements as flame arresters for the intake system (see &#xA7; 36.23(b)(2)).</P>
+<P>(3) In lieu of a space-place flame arrester, an exhaust-gas cooling box or conditioner may be used as the exhaust flame arrester provided that explosion tests demonstrate that the cooling box will arrest flame. When used as a flame arrester the cooling box shall be equipped with a device to shut off automatically the fuel supply to the engine at a safe minimum water level. A cooling box used as a flame arrester shall withstand repeated explosion tests without permanent deformation. It shall be constructed of material, satisfactory to MSHA, that will resist deterioration in service.</P>
+<P>(c) <I>Exhaust cooling system.</I> (1) A cooling system shall be provided for the engine exhaust gas. The heat-dissipation capacity shall be capable of reducing the temperature of the undiluted exhaust gas to less than 170 &#xB0;F. at the point of discharge from the cooling system under any condition of engine operation acceptable to MSHA. A device shall be provided that will automatically shut off the fuel supply to the engine immediately if the temperature of the exhaust gas exceeds 185 &#xB0;F. at the point of discharge from the cooling system. Provision shall be made, acceptable to MSHA, to prevent restarting the engine after the fuel supply has been shut off automatically until the water supply in the cooling box has been replenished. When the cooling box is used as a flame arrester, one safety device may be accepted provided it controls a safe minimum water level in the cooling box and also prevents the final exhaust temperature from exceeding 185 &#xB0;F.</P>
+<P>(2) Cooling shall be obtained by passing the exhaust gas through water or a dilute aqueous chemical solution held in a cooling box or conditioner, or by a spray of water or a dilute aqueous chemical solution that will enter the exhaust system near the outlet of the exhaust manifold, or a combination of the two methods. When a spray is used it shall be provided with a filtering device to protect the nozzle from clogging. Provisions shall be made for draining and cleaning all parts of the exhaust cooling system. Openings for draining and cleaning shall be closed and sealed or locked by a method satisfactory to MSHA.</P>
+<P>(3) The cooling system shall be constructed of corrosion-resistant metal suitable for the intended application.</P>
+<P>(4) The cooling system shall store enough water or aqueous solution to permit operation of the engine at one-third load factor for eight hours. The minimum quantity of usable water or aqueous solution available for cooling shall equal the consumption for one hour with the engine operating at maximum load and speed multiplied by 8 and this product divided by 3.</P>
+<P>(d) <I>Surface temperature of engine and exhaust system.</I> (1) The temperature of any external surface of the engine or exhaust system shall not exceed 400 &#xB0;F. under any condition of engine operation prescribed by MSHA. Water-jacketed components shall have integral jackets and provision shall be made for positive circulation of water in the jackets and to automatically shut off the engine when the temperature in the cooling jacket(s) exceeds 212 &#xB0;F. Insulated coverings to control surface temperature are not acceptable.</P>
+<P>(2) When a spray is used to reduce the temperature of the exhaust gas, it shall be located as near as practicable to the outlet of the exhaust manifold.</P>
+<P>(3) Exterior surfaces of the exhaust system shall be designed to minimize accumulation and lodgement of dust or combustible substances and to permit ready access for cleaning.</P>
+<P>(e) <I>Tightness of exhaust system.</I> All joints in the exhaust system shall be tight to prevent the flow of exhaust gas through them under any condition of engine operation prescribed by MSHA. A tight system shall be obtained by the use of ground joints, or thin metal or metal-clad gaskets. All such joints shall be fitted with adequate through bolts and all gaskets shall be aligned and held firmly in position by the bolts or other suitable means. Such joints shall remain tight to prevent passage of flame or propagation of repeated internal explosions to a surrounding flammable mixture.</P>
+<P>(f) <I>Dilution of exhaust gas.</I> (1) Provision shall be made to dilute the exhaust gas with and before it is discharged into the surrounding atmosphere. The discharged exhaust gas shall be so diluted with air that the mixture shall not contain more than 0.5 percent, by volume, of carbon dioxide; 0.01 percent, by volume, of carbon monoxide; 0.0025 percent, by volume, of oxides of nitrogen (calculated as equivalent nitrogen dioxide); or 0.0010 percent, by volume, of aldehydes (calculated as equivalent formaldehyde) under any condition of engine operation prescribed by MSHA.</P>
+<P>(2) The final diluted exhaust mixture shall be discharged in such a manner that it is directed away from the operator's compartment and also away from the breathing zones of persons required to be alongside the equipment.</P>
+<P>(g) <I>Pressure-gage connection.</I> A connection shall be provided in the exhaust system for convenient, temporary attachment of a pressure gage at a point suitable for measuring the total back pressure in the system. The connection also shall be suitable for temporary attachment of gas-sampling equipment to the exhaust system. This opening shall be closed by a plug or other suitable device that is sealed or locked in place except when a gage or sampling tube is attached.</P>
+</DIV8>
+
+<DIV8 N="36.26" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.26&quot;,&quot;citation&quot;:&quot;30 CFR 36.26&quot;}">
+<HEAD>&#xA7; 36.26 Composition of exhaust gas.</HEAD>
+<P>(a) <I>Preliminary engine adjustment.</I> The engine shall be submitted to MSHA by the applicant in such condition that it can be tested immediately at full load and speed. The preliminary liquid-fuel-injection rate shall be such that the exhaust will not contain black smoke and the applicant shall adjust the injection rate promptly to correct any adverse conditions disclosed by preliminary tests.</P>
+<P>(b) <I>Final engine adjustment.</I> The liquid fuel supply to the engine shall be adjusted so that the undiluted exhaust gas shall contain not more than 0.30 percent, by volume, of carbon monoxide or 0.20 percent, by volume, of oxides of nitrogen (calculated as equivalent nitrogen dioxide, NO<E T="52">2</E>) under any conditions of engine operation prescribed by MSHA when the intake air mixture to the engine contains 1.5 &#xB1;0.1 percent, by volume, of Pittsburgh natural gas.
+<SU>3</SU>
+<FTREF/></P>
+<FTNT>
+<P><SU>3</SU> Investigation has shown that for practical purposes, Pittsburgh natural gas (containing a high percentage of methane) is a satisfactory substitute for pure methane in these tests.</P></FTNT>
+<P>(c) <I>Coupling or adapter.</I> The applicant shall provide the coupling or adapter for connecting the engine to MSHA's dynamometer.</P>
+<NOTE>
+<HED>Note:</HED>
+<P>Preferably this coupling or adapter should be attached to the flywheel of the engine.</P></NOTE>
+<FP>Clutches, transmissions, or torque converters ordinarily are not required in the coupling train.
+</FP>
+</DIV8>
+
+<DIV8 N="36.27" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.27&quot;,&quot;citation&quot;:&quot;30 CFR 36.27&quot;}">
+<HEAD>&#xA7; 36.27 Fuel-supply system.</HEAD>
+<P>(a) <I>Fuel tank.</I> (1) The fuel tank shall not leak and shall be fabricated of metal at least
+<FR>1/16</FR> inch thick, welded at all seams, except that tanks of 5 gallons or less capacity may have thinner walls which shall be preformed or reinforced to provide good resistance to deflection. A drain plug (not a valve or petcock) shall be provided and locked in position. A vent opening shall be provided in the fuel filler cap of such design that atmospheric pressure is maintained inside the tank. The size of the vent opening shall be restricted to prevent fuel from splashing through it. The filler opening shall be so arranged that fuel can be added only through a self-closing valve at least 1 foot from the exhaust manifold of the engine, preferably below it. The self-closing valve shall constitute a fuel-tight closure when fuel is not being added. Any part of the self-closing valve that might become detached during the addition of fuel shall be secured to the tank by a chain or other fastening to prevent loss.</P>
+<P>(2) The fuel tank shall have a definite position in the equipment assembly, and no provision shall be made for attachment of separate or auxiliary fuel tanks.</P>
+<P>(3) Capacity of the fuel tank shall not exceed the amount of fuel necessary to operate the engine continuously at full load for approximately four hours.</P>
+<P>(b) <I>Fuel lines.</I> All fuel lines shall be installed to protect them against damage in ordinary use and they shall be designed, fabricated, and secured to resist breakage from vibration.</P>
+<P>(c) <I>Valve in fuel line.</I> A shutoff valve shall be provided in the fuel system, installed in a manner acceptable to MSHA.</P>
+<NOTE>
+<HED>Note:</HED>
+<P>This shutoff valve is in addition to the normal shutoff provided in the fuel-injection system and also in addition to the air-shutoff valve.</P></NOTE>
+</DIV8>
+
+<DIV8 N="36.28" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.28&quot;,&quot;citation&quot;:&quot;30 CFR 36.28&quot;}">
+<HEAD>&#xA7; 36.28 Signal or warning device.</HEAD>
+<P>All mobile diesel-powered transportation equipment shall be provided with a bell, horn, or other suitable warning device convenient to the operator. Warning devices shall be operated manually or pneumatically.</P>
+</DIV8>
+
+<DIV8 N="36.29" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.29&quot;,&quot;citation&quot;:&quot;30 CFR 36.29&quot;}">
+<HEAD>&#xA7; 36.29 Brakes.</HEAD>
+<P>All mobile diesel-powered transportation equipment shall be equipped with adequate brakes acceptable to MSHA.</P>
+</DIV8>
+
+<DIV8 N="36.30" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.30&quot;,&quot;citation&quot;:&quot;30 CFR 36.30&quot;}">
+<HEAD>&#xA7; 36.30 Rerailing device.</HEAD>
+<P>All mobile diesel-powered transportation equipment designed to travel on rails in haulage service shall carry a suitable rerailing device.</P>
+</DIV8>
+
+<DIV8 N="36.31" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.31&quot;,&quot;citation&quot;:&quot;30 CFR 36.31&quot;}">
+<HEAD>&#xA7; 36.31 Fire extinguisher.</HEAD>
+<P>Each unit of mobile diesel-powered transportation equipment shall be fitted with a fire extinguisher carried in a location easily accessible to the operator and protected by position from external damage. Liquid carbon dioxide extinguishers shall contain an active charge of not less than 4 pounds. Pressurized dry chemical extinguishers shall contain an active charge of not less than 2
+<FR>1/2</FR> pounds.</P>
+</DIV8>
+
+<DIV8 N="36.32" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.32&quot;,&quot;citation&quot;:&quot;30 CFR 36.32&quot;}">
+<HEAD>&#xA7; 36.32 Electrical components and systems.</HEAD>
+<P>(a) Electrical components on mobile diesel-powered transportation equipment shall be certified or approved under Part 18, 20 or 27 of this chapter, as applicable, and shall bear the certification number assigned by MSHA.</P>
+<P>(b) Electrical systems on mobile diesel-powered transportation equipment shall meet the requirements of Part 18 or 27 of this chapter, as applicable.</P>
+<CITA TYPE="N">[47 FR 11372, Mar. 16, 1982]
+</CITA>
+</DIV8>
+
+<DIV8 N="36.33" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.33&quot;,&quot;citation&quot;:&quot;30 CFR 36.33&quot;}">
+<HEAD>&#xA7; 36.33 Headlights and fixtures.</HEAD>
+<P>(a) Headlights and lighting fixtures on mobile diesel-powered transportation equipment shall be protected from external damage by recessing them in the equipment frame, enclosing them within a shield of substantial construction, or by any other method that provides equivalent protection.</P>
+<P>(b) Mobile diesel-powered transportation equipment shall be equipped with at least one headlight on each end.</P>
+<CITA TYPE="N">[47 FR 11372, Mar. 16, 1982]
+</CITA>
+</DIV8>
+
+</DIV6>
+<DIV6 N="C" TYPE="SUBPART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-30/part-36/subpart-C&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;30 CFR Part 36 Subpart C&amp;quot;}">
+<HEAD>Subpart C&#x2014;Test Requirements</HEAD>
+<DIV8 N="36.40" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.40&quot;,&quot;citation&quot;:&quot;30 CFR 36.40&quot;}">
+<HEAD>&#xA7; 36.40 Test site.</HEAD>
+<P>Tests shall be conducted at MSHA's Diesel Testing Laboratory or other appropriate place(s) determined by MSHA.</P>
+<CITA TYPE="N">[39 FR 24006, June 28, 1974, as amended at 43 FR 12318, Mar. 24, 1978]
+</CITA>
+</DIV8>
+
+<DIV8 N="36.41" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.41&quot;,&quot;citation&quot;:&quot;30 CFR 36.41&quot;}">
+<HEAD>&#xA7; 36.41 Testing methods.</HEAD>
+<P>Mobile diesel-powered transportation equipment submitted for certification and approval shall be tested to determine its combustion, explosion-proof, and other safety characteristics. MSHA shall prescribe the tests and reserves the right to modify the procedure(s) to attain these objectives (see &#xA7; 36.20).</P>
+</DIV8>
+
+<DIV8 N="36.42" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.42&quot;,&quot;citation&quot;:&quot;30 CFR 36.42&quot;}">
+<HEAD>&#xA7; 36.42 Inspection.</HEAD>
+<P>A detailed inspection shall be made of the equipment and all components and features related to safety in operation. The inspection shall include:</P>
+<P>(a) Investigating the materials, workmanship, and design to determine their adequacy.</P>
+<P>(b) Checking the parts and assemblies against the drawings and specifications with respect to materials, dimensions, and locations to verify their conformance.</P>
+<P>(c) Inspecting and measuring joints, flanges, and other possible flame paths in the intake and exhaust systems to determine whether they will prevent the issuance of flame or propagation of an internal explosion.</P>
+<P>(d) Inspecting and measuring flame arresters to determine whether they will prevent the issuance of flame or propagation of an internal explosion.</P>
+</DIV8>
+
+<DIV8 N="36.43" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.43&quot;,&quot;citation&quot;:&quot;30 CFR 36.43&quot;}">
+<HEAD>&#xA7; 36.43 Determination of exhaust-gas composition.</HEAD>
+<P>(a) Samples shall be taken to determine the composition of the exhaust gas while the engine is operated at loads and speeds prescribed by MSHA to determine the volume of air (ventilation) required to dilute the exhaust gas (see &#xA7; 36.45). The engine shall be at temperature equilibrium before exhaust-gas samples are collected or other test data are observed. At all test conditions the intake mixture shall contain 1.5 &#xB1;0.1 percent, by volume, of Pittsburgh natural gas (see footnote 3) in the air. Test observations shall include the rate of fuel consumption, pressures, temperatures, and other data significant in the safe operation of diesel equipment.</P>
+<P>(b) Exhaust-gas samples shall be analyzed for carbon dioxide, oxygen, carbon monoxide, hydrogen, methane, nitrogen, oxides of nitrogen, and aldehydes, or any other constituent prescribed by MSHA.</P>
+<P>(c) The intake and exhaust systems shall be complete with all component equipment such as air cleaners, flame arresters, and exhaust cooling systems. The performance of component equipment shall be observed to determine whether it functions properly.</P>
+<CITA TYPE="N">[Sched. 31, 26 FR 645, Jan. 24, 1961, as amended at 61 FR 55526, Oct. 25, 1996]
+</CITA>
+</DIV8>
+
+<DIV8 N="36.44" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.44&quot;,&quot;citation&quot;:&quot;30 CFR 36.44&quot;}">
+<HEAD>&#xA7; 36.44 Maximum allowable fuel:air ratio.</HEAD>
+<P>(a) When an engine is delivered to MSHA with the fuel-injection system adjusted by the applicant and tests of the exhaust-gas composition (see &#xA7; 36.43) show not more than 0.30 percent, by volume, of carbon monoxide, the applicant's adjustment of the fuel-injection system shall be accepted. The maximum fuel:air ratio determined from the exhaust-gas composition shall be designated as the maximum allowable fuel:air ratio. The maximum liquid fuel rate (pounds per hour) that produces the maximum allowable fuel:air ratio shall be designated as the maximum allowable fuel rate for operating the equipment at elevations not exceeding 1,000 feet above sea level.</P>
+<P>(b) When the carbon monoxide content of the exhaust exceeds 0.30 percent, by volume, only near maximum power output, the maximum fuel:air ratio at which carbon monoxide does not exceed 0.30 percent shall be calculated and designated as the maximum allowable fuel:air ratio. The corresponding calculated liquid fuel rate shall be designated as the maximum allowable fuel rate at elevations not exceeding 1,000 feet above sea level.</P>
+<NOTE>
+<HED>Note:</HED>
+<P>The applicant may be requested to adjust the liquid fuel rate during tests to determine the maximum allowable fuel:air ratio.</P></NOTE>
+<P>(c) The maximum allowable fuel:air ratio and maximum liquid fuel rates shall be used to calculate a liquid fuel rate-altitude table that shall govern the liquid fuel rate of engines operated at elevations exceeding 1,000 feet above sea level.</P>
+</DIV8>
+
+<DIV8 N="36.45" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.45&quot;,&quot;citation&quot;:&quot;30 CFR 36.45&quot;}">
+<HEAD>&#xA7; 36.45 Quantity of ventilating air.</HEAD>
+<P>(a) Results of the engine tests shall be used to calculate ventilation (cubic feet of air per minute) that shall be supplied by positive air movement when the permissible mobile diesel-powered transportation equipment is used underground. This quantity shall be stamped on the approval plate. The quantity so determined shall apply when only one machine is operated.</P>
+<P>(b) Determination of the ventilation rate shall be based upon dilution of the exhaust gas with normal air. The most undesirable and hazardous condition of engine operation prescribed by MSHA shall be used in the calculations. The concentration of any of the following individual constituents in the diluted mixture shall not exceed:</P>
+<EXTRACT>
+<FP-1>0.25 percent, by volume, of carbon dioxide (CO<E T="52">2</E>).
+</FP-1>
+<FP-1>0.005 percent, by volume, of carbon monoxide (CO).
+</FP-1>
+<FP-1>0.00125 percent, by volume, of oxides of nitrogen (calculated as equivalent nitrogen dioxide, NO<E T="52">2</E>).</FP-1></EXTRACT>
+<FP>The oxygen (O<E T="52">2</E>) content of the diluted mixture shall be not less than 20 percent, by volume. The maximum quantity of normal air to produce the above dilution shall be designated the ventilation rate.
+</FP>
+<NOTE>
+<HED>Note:</HED>
+<P>This ventilation rate will provide a factor of safety for exposure of persons to air mixtures containing harmful or objectionable gases and for minor variations in engine performance.</P></NOTE>
+</DIV8>
+
+<DIV8 N="36.46" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.46&quot;,&quot;citation&quot;:&quot;30 CFR 36.46&quot;}">
+<HEAD>&#xA7; 36.46 Explosion tests of intake and exhaust systems.</HEAD>
+<P>(a) Explosion tests to determine the strength of the intake and exhaust systems to withstand internal explosions and the adequacy of the flame arresters to prevent the propagation of an explosion shall be made with the systems connected to the engine or the systems simulated as connected to the engine. The system shall be filled with and surrounded by an explosive natural gas-air mixture. The mixture within the intake and exhaust systems shall be ignited by suitable means and the internal pressure developed by the resultant explosion shall be determined. Tests shall be conducted with the ignition source in several different locations to determine the maximum pressure developed by an internal explosion.</P>
+<P>(b) Explosion tests shall be made with the engine at rest and with the flammable natural gas-air mixtures in the intake and exhaust systems. In other tests with the flammable mixture in motion, the engine shall be driven (externally) at speeds prescribed by MSHA but no liquid fuel shall be supplied to the injection valves.</P>
+<P>(c) The temperature of the flame arresters in the intake or exhaust systems shall not exceed 212 &#xB0;F. when an explosion test is conducted. Any water-spray cooling for the exhaust system shall not be operated and water shall not be present in the exhaust cooling boxes except when water is the cooling agent for a cooling box designed to act as a flame arrester, in which case MSHA will prescribe the test conditions.</P>
+<P>(d) The explosion tests of the intake and exhaust systems shall not result in:</P>
+<P>(1) Discharge of visible flame from any joint or opening.</P>
+<P>(2) Ignition of surrounding flammable gas-air mixture.</P>
+<P>(3) Development of dangerous afterburning.
+<SU>4</SU>
+<FTREF/></P>
+<FTNT>
+<P><SU>4</SU> The term &#x201C;afterburning&#x201D; as used in this part is applied to combustion of a flammable gas-air mixture drawn into the system under test by the cooling of the products from an explosion in the system.</P></FTNT>
+<P>(4) Excessive pressures.</P>
+</DIV8>
+
+<DIV8 N="36.47" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.47&quot;,&quot;citation&quot;:&quot;30 CFR 36.47&quot;}">
+<HEAD>&#xA7; 36.47 Tests of exhaust-gas cooling system.</HEAD>
+<P>(a) The adequacy of the exhaust-gas cooling system and its components shall be determined with the engine operating at the maximum allowable liquid fuel rate and governed speed with 0.5 &#xB1;0.1 percent, by volume, of natural gas in the intake air mixture. All parts of the engine and exhaust-gas cooling system shall be at their respective equilibrium temperatures. The cooling spray, if any, shall be operated, and all compartments designed to hold cooling water shall be filled with the quantity of water recommended by the applicant. No cooling air shall be circulated over the engine or components in the cooling system during the test.</P>
+<P>(b) Determinations shall be made during the test to establish the cooling performance of the system, the cooling water consumption, high-water level when the system sprays excess water, and low-water level when the cooling system fails.</P>
+<P>(c) The final exhaust-gas temperature at discharge from the cooling system, and before the exhaust gas is diluted with air, shall not exceed 170 &#xB0;F. or the temperature of adiabatic saturation, if this temperature is lower.</P>
+<P>(d) Water consumed in cooling the exhaust gas under the test conditions shall not exceed by more than 15 percent that required for adiabatic saturation of the exhaust-gas at the final temperature. Water in excess of that required for adiabatic saturation shall be considered as entrained water. Enough water shall be available in the cooling system or in reserve supply compartments for sustained satisfactory operation for at least 2
+<FR>2/3</FR> hours under the test conditions.</P>
+<NOTE>
+<HED>Note:</HED>
+<P>This amount is enough to cool the exhaust for an 8-hour shift at one-third load factor.</P></NOTE>
+<P>(e) The adequacy of the automatic fuel shutoff actuated by the temperature of the final exhaust shall be determined with the engine operating under test conditions by withdrawing water until the cooling system fails to function. The final exhaust-gas temperature at which the liquid fuel to the engine is automatically shut off shall be noted. This temperature shall not exceed 185 &#xB0;F.</P>
+<P>(f) Following the automatic fuel shutoff test in paragraph (e) of this section, the temperature of the control point shall be allowed to fall to 170 &#xB0;F. At this temperature and with the water replenished in the cooling system, it shall be possible to start the engine.</P>
+<NOTE>
+<HED>Note:</HED>
+<P>If the cooling system includes a reserve supply water tank, the line or lines connecting it to the cooling compartment may require a suitable flame arrester.</P></NOTE>
+<P>(g) The effectiveness of the automatic engine shut-off, which will operate when the water in the cooling jacket(s) exceeds 212 &#xB0;F., shall be determined by causing the jacket temperature to exceed 212 &#xB0;F.</P>
+</DIV8>
+
+<DIV8 N="36.48" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.48&quot;,&quot;citation&quot;:&quot;30 CFR 36.48&quot;}">
+<HEAD>&#xA7; 36.48 Tests of surface temperature of engine and components of the cooling system.</HEAD>
+<P>(a) The surface temperatures of the engine, exhaust cooling system, and other components subject to heating by engine operation shall be determined with the engine operated as prescribed by MSHA. All parts of the engine, cooling system, and other components shall have reached their respective equilibrium temperatures. The exhaust cooling system shall be operated, but air shall not be circulated over the engine or components. Surface temperatures shall be measured at various places prescribed by MSHA to determine where maximum temperatures develop.</P>
+<P>(b) The temperature of any surface shall not exceed 400 &#xB0;F.</P>
+<NOTE>
+<HED>Note to &#xA7; 36.48:</HED>
+<P>The engine may be operated under test conditions prescribed by MSHA while completely surrounded by a flammable mixture. MSHA reserves the right to apply combustible materials to any surface for test. Operation under such conditions shall not ignite the flammable mixture.</P></NOTE>
+<CITA TYPE="N">[Sched. 31, 26 FR 645, Jan. 24, 1961, as amended at 61 FR 55526, Oct. 25, 1996]
+</CITA>
+</DIV8>
+
+<DIV8 N="36.49" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.49&quot;,&quot;citation&quot;:&quot;30 CFR 36.49&quot;}">
+<HEAD>&#xA7; 36.49 Tests of exhaust-gas dilution system.</HEAD>
+<P>The performance and adequacy of the exhaust-gas dilution system shall be determined in tests of the complete equipment. The engine, at temperature equilibrium, shall be operated in normal air as prescribed by MSHA. Samples of the undiluted exhaust gas and of the diluted exhaust gas, at location(s) prescribed by MSHA, shall be considered with the data obtained from the engine test (see &#xA7; 36.43) to determine that the concentrations of carbon dioxide, carbon monoxide, oxides of nitrogen, and aldehydes in the diluted exhaust shall be below the required concentrations specified in &#xA7; 36.25(f)(1).</P>
+</DIV8>
+
+<DIV8 N="36.50" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-30/section-36.50&quot;,&quot;citation&quot;:&quot;30 CFR 36.50&quot;}">
+<HEAD>&#xA7; 36.50 Tests of fuel tank.</HEAD>
+<P>The fuel tank shall be inspected and tested to determine whether: (a) It is fuel-tight, (b) the vent maintains atmospheric pressure within the tank, and (c) the vent and closure restrict the outflow of liquid fuel.</P>
+</DIV8>
+
+</DIV6>
+</DIV5>
