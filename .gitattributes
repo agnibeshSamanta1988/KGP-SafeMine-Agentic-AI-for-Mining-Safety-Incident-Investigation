@@ -1,4 +1,0 @@
-KGP-SafeMine_Data/01_msha_datasets/more_datasets/AssessedViolations.zip filter=lfs diff=lfs merge=lfs -text
-KGP-SafeMine_Data/01_msha_datasets/more_datasets/CoalDustSamples.zip filter=lfs diff=lfs merge=lfs -text
-KGP-SafeMine_Data/05_models/bge-small-en-v1.5/model.safetensors filter=lfs diff=lfs merge=lfs -text
-KGP-SafeMine_Data/01_msha_datasets/Violations.zip filter=lfs diff=lfs merge=lfs -text
