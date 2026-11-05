@@ -1,0 +1,291 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+ 
+
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" >
+
+<!-- ****************************************** Begin META TAGS ********************************************* -->
+<meta name="agency" content="Mine Safety and Health Administration (MSHA)">
+<META NAME="audience" content="workers: miners, safety, all">
+<meta name="keywords" content="Mining, mining industry, mine safety, mine health, mining safety, mining health, mine safety rules, mine safety laws, government regulations mining, mining news, news mining, Assistant Secretary of Labor for Mine Safety and Health, Joseph A. Main, Assistant Secretary Main">  
+<meta name="description" content="Federal enforcement agency responsible for the health and safety of the nation's miners.">
+
+<!-- ****************************************** End META TAGS *********************************************** -->
+
+
+<TITLE>MSHA - Fatalgrams For the Metal/Nonmetal Mine Accident on December 14, 2007 - Fatality #32</title>
+
+
+<!--Author: Webmaster-->
+<!--Graphics: Webmaster-->
+<!--Creation Date: 06/20/2008-->
+<script type="text/javascript" src="/2010redesign/Scripts/federated-analytics.js"></script>
+<script src="/2010redesign/Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<link href="/2010Redesign/includes/Print.css" type="text/css" rel="stylesheet" media="print">
+<link href="/2010Redesign/Includes/MSHAwebnew.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/2010Redesign/includes/style-screen.css" rel="stylesheet" type="text/css" media="screen" />
+<!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-81KYKKWBRH"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-81KYKKWBRH');</script></head>
+
+
+<body>
+    <link href="https://webapps.dol.gov/FSPublic/Content/W_Helpful.css" rel="stylesheet" type="text/css">
+    
+    <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript"  id="_fed_an_ua_tag" src="/res/js/dap.min.js?agency=DOL&subagency=MSHA" ></script>
+    <!--<script language="javascript" id="_fed_an_ua_tag" src="/res/js/federated-analytics.min.js?agency=DOL&subagency=MSHA"></script>-->
+    
+    <!--<script src="https://webapps.dol.gov/FSPublic/Scripts/W_Helpful.js" type="text/JavaScript"></script>
+    <script type="text/JavaScript">
+        $(document).ready(function() {
+            W_Helpful.init('#fbcontent');
+        });(jQuery);
+    </script>-->	
+    
+    <script><!-- ************* GOOGLE ANALYTICS ****************** -->
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+        ga('create', 'UA-52441844-1', 'auto');
+        ga('send', 'pageview');
+    
+        $(document).ready( function() {
+            $("a[href$='pdf']").each(function() {
+                eventName=$(this).attr('href');
+                eventClick="ga('send','event','PDF','Download','"+eventName+"');";
+                $(this).attr("onClick",eventClick);
+            });
+        });
+    </script>
+    
+    <div style="display:none;"><a href="#content">Skip to content</a></div>
+    
+<div id="header">
+	<div id="searchMSHA">
+	
+		 <form accept-charset="UTF-8" action="https://search.usa.gov/search/docs?affiliate=www.msha.gov&dc=4884&query=" id="search_form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+
+			 <input id="affiliate" name="affiliate" type="hidden" value="www.msha.gov" /></br>
+		    <input autocomplete="off" aria-label="search site" class="usagov-search-autocomplete" id="query" name="query" type="text" />
+		    <input name="commit" type="submit" value="Search"  style="color:#990000; font-weight: bold; font-family: Arial, sans-serif; height: 22px; padding: 0px; font-size:0.9em; width: 60px; padding-right: 2px;"/>
+		  </form>
+<!-- 		<form method="get" target="_self" action="https://mshasearch.msha.gov/search">
+			<label for="mshaSearchField" class="scr-rdr">Find it at MSHA</label>
+			<input name="q" id="mshaSearchField" style="color:#990000;" value="Find It at MSHA" type="text" onClick="this.value='';" > 
+			<input class="searchBtn" style="color:#990000; font-weight: bold; font-family: Arial, sans-serif; height: 22px; padding: 0px; font-size:0.9em; width: 60px; padding-right: 2px;" name="search" type="submit" value="SEARCH" />
+			<input name="client" value="MSHASearch" type="hidden"> 
+			<input name="output" value="xml_no_dtd" type="hidden">
+			<input name="proxystylesheet" value="MSHASearch" type="hidden"> 
+			<input name="filter" value="p" type="hidden">
+			<input name="getfields" value="*" type="hidden">
+			<input name="site" value="AllDocuments" type="hidden">     
+		</form> -->
+  </div>
+    
+	<div id="subscribe">
+	<script src="https://public.govdelivery.com/javascripts/cache/snippet.js" type="text/javascript"></script>
+	<form accept-charset="UTF-8" action="https://public.govdelivery.com/accounts/USDOL/subscriber/qualify?qsp=USDOL_2585" method="post">
+		<div style="margin:0;padding:0;display:inline;color:#fff;font-size: 12px;">
+			<input name="utf8" type="hidden" value="xyz" />
+			<input name="authenticity_token" type="hidden" value="4BAzX1/DPLa9DIarEHPs6w3ymvDs6SIgrYFizEOhBMs=" />
+		</div>
+		<div style="color:#ffffff;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;font-style:normal;font-size: 12px;border-radius:0px !important;">
+
+			<fieldset style="border:none; border-radius:0px !important; padding: 0px; margin: 0; font-size: 12px;;">
+				<legend><b>Subscribe to Email Updates</b></legend>
+				<input class="long" id="email" aria-label="email" name="email" type="text" style="height: 22px; border-width: 1px;padding:none;color:#990000; width: 180px; font-family: Verdana; font-style:normal;font-size:10pt; font-weight: 400; margin-right: 5px; display: inline-block; box-sizing: border-box; padding: 0 !important;"/>
+
+				<div class='button_panel' style="float:right;">
+					<input class="searchBtn" name="commit" type="submit" value="SUBMIT" style="color:#990000; font-weight: bold; font-style: uppercase;font-family: Arial, sans-serif; border: none; height: 22px; padding: 0px; font-size:0.9em; width: 60px; padding-right: 2px;" />
+				</div>
+			</fieldset>
+		</div>
+	</form>
+
+	<script type='text/javascript'>
+	  //<![CDATA[
+		new GD.view.AccountSubscribersNew({
+		  facebookAppId: "188927694463050",
+		  facebookLoginURL: "/accounts/USDOL/facebook_subscriber/login",
+		  wirelessEnabled: true
+		}).init();
+	  //]]>
+	</script>
+
+  </div>
+	
+	<div id="dol_logo">
+		<a href="https://www.dol.gov/">
+			<img src="/images/dol_sym.gif" border="0" alt="Seal of the United States Department of Labor"/></a>
+	</div>
+	
+	<div id="headText">
+		<span id="dol1">
+				UNITED STATES<br />
+				DEPARTMENT OF LABOR
+			</a>
+		</span> 
+	</div>
+	
+	<div style="clear:both;"></div>
+	
+	<div id="headlinks">
+		<!--<a href="/indexes/atozpage.asp">A-Z Index</a>&nbsp;|&nbsp;-->
+		<a href="https://www.msha.gov/sitemap">Site Map</a>&nbsp;|&nbsp;
+		<a href="https://www.msha.gov/msha-frequently-asked-questions?field_faq_category_target_id=181121">FAQs</a>&nbsp;|&nbsp;
+		<a href="https://www.msha.gov/forms-online-filing">MSHA Forms</a>&nbsp;|&nbsp;
+		<a href="https://www.msha.gov/general-contacts">Contact Us</a>
+		
+<!-- 		<script language="JavaScript">
+			var pagePath = location.href.split(location.host)[1];
+			document.write("<a href=\"http://es.arlweb.msha.gov.systranlinks.net/" + pagePath + " \" target=\"new_window\">");
+			document.write("Espa&ntilde;ol</a>");
+		</script> -->
+		<!--<span id="google_translate_element"></span>
+		<style>
+			span#google_translate_element {
+				float: right;
+				margin-top: -5px;
+			}
+			a.goog-te-menu-value > span {
+			    color: #000000;
+			}
+		</style>
+		<script type="text/javascript">
+			function googleTranslateElementInit() {
+			  new google.translate.TranslateElement({
+			  	pageLanguage: 'en', 
+			  	includedLanguages: 'en,es', 
+			  	layout: google.translate.TranslateElement.InlineLayout.SIMPLE, 
+			  	gaTrack: true, gaId: 'UA-52441844-1'
+			  }, 'google_translate_element');
+			}
+		</script>
+		<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>-->
+	</div>
+  
+	<div style="clear:both;"></div>
+	
+	<div id="three">
+		<div id="hcontent">
+			<div id="agency">
+				<a href="https://www.msha.gov/" style="text-decoration:none;">Mine Safety and Health Administration - MSHA</a>
+				
+				<!-- AddThis Button BEGIN -->
+				<!--<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=300&amp;pubid=ra-52d534a46402ec50" style="margin-left: 230px">
+					<img src="https://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/>
+				</a>
+				<script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
+				<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52d534a46402ec50"></script>-->
+				<!-- AddThis Button END --> 
+
+				<br />&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.msha.gov" style="text-decoration:none;">  - Protecting Miners' Safety and Health Since 1978</a> 
+			</div>
+         
+						<div id="headImg"> 
+				<script language="JavaScript"> 
+					if (window.print) {
+						document.write('<form><input type=button name=print value="Print This Page" onClick="window.print()"></form>');
+					}
+				</script>
+				
+				<div class="utilitybarright" style=" width: 150px; margin-top: 5px;">
+					<div id="fbcontent" style="float:right"></div>			
+				</div>
+			</div> <!-- End Agency -->
+		</div>
+	</div> <!-- End three -->
+    </div><!-- End Header -->
+    
+    <div id="headSeparator"></div>
+    
+    <!-- This ends the newheader.asp content-->
+    <div id="container">
+    
+        <!-- This begins the page content section-->
+        <div id="content">
+         
+    
+<FONT STYLE="FONT-SIZE: 7.5pt; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-serif"><a href="fab07m32.pdf">PDF Version</a></font>
+
+<FONT STYLE="FONT-SIZE: 11pt; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-serif">
+<BR>
+<BR>
+<b>METAL/NONMETAL MINE FATALITY - </b> On December 14, 2007, a 43 year-old contractor truck driver with 10 years experience was fatally injured at a lime operation.  The victim was found lying on the ground by the rear bulk trailer parked near an access rack.  The rack was used to access the hatches on top of the trailers.  The victim was hospitalized and died of his injuries on January 22, 2008.  Although there were no eyewitnesses, the victim's injuries were consistent with a fall from an elevated location.
+  
+
+<br><br>
+
+ <div align="center"><img src="ftlgif/ftl2007m32.jpg" width="350" height="260" alt="Photo Showing Accident Scene Described in Paragraph Above"></div>
+ 
+
+<P>
+<CENTER><b>Best Practices</b></CENTER> 
+
+<blockquote>
+<li>Discuss work procedures; identify all potential hazards; and ensure the job is done safely.  (SLAM ) Stop, Look, Analyze, and Manage.</li>
+<li>Train all persons to recognize fall hazards and ensure that safe work procedures are discussed and established.</li> 
+<li>Ensure that persons wear fall protection where there is a danger of falling.  </li>
+<li>Provide self retracting lanyard mechanisms when workers are required to reposition themselves to perform tasks.</li>
+<li>Ensure that access racks are properly maintained.</li>
+<li>Establish traffic patterns that ensure safe alignment of vehicles with access racks.</li>
+</blockquote>
+
+  <table width="100%" cellpadding=2>
+  <tr>
+    <th width=123>
+  <a href="/Accident_Prevention/appcategories.htm">
+  <IMG height=27 alt  ="More Information" src="/Accident_Prevention/Images/moreinfo.jpg" width=123 align=bottom border=0 ></A>
+<a href="mailto:zzMSHA-FatalSuggest&#064;&#100;&#111;&#108;&#046;&#103;&#111;&#118;?subject=Metal/Nonmetal Fatal Accident Number 32 for Year 2007">
+  <IMG height=27 alt="E-mail Suggestion for Accident Prevention Program" src="/Accident_Prevention/Images/hotbutton.jpg" width=123 border=0 ></A> 
+</th>
+<td  bgcolor="#ffd5d5"><FONT STYLE="FONT-SIZE: 7.5pt; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-serif"><strong>Submit your own suggestion for a remedy to prevent this type of accident in the future. <br>Please specify if you wish your submission to be anonymous or whether your name may be used. Please include the year of the fatality and the fatality number.</strong></font></td>
+</tr>  </table>
+<br><br>
+This is the 32<font size="-1"><sup>nd</sup></font> fatality reported in calendar year 2007 in the metal and nonmetal mining industries.  As of this date in 2006, there were 25 fatalities reported in these industries.   This is the 6<font size="-1"><sup>th</sup></font> Fall of Person fatality in 2007.  There were 3 Fall of Person fatalities in the same period in 2006.   <br><br>
+<hr style="border: 1px dashed #800000;" />
+<font size="1" color="#800000">The information provided in this notice is based on preliminary data ONLY and does not represent final determinations regarding the nature of the incident or conclusions regarding the cause of the fatality.</font>
+<hr style="border: 1px dashed #800000;" />
+<br><br>
+<B>For more information:</B><BR>
+<IMG ALIGN=absBottom BORDER=0 SRC="/IMAGES/FAB2.GIF" HEIGHT="50" WIDTH="40" ALT="Fatal Alert Bulletin Icon"> <a href="/FATALS/2007/FTL07m32.asp"><b>MSHA's Fatal Accident Investigation Report</b></a>
+</font>
+
+<div style="clear: both;"></div>
+ <!-- This ends the page content-->
+ </div>
+ </div>
+
+ <!--This Starts the Footer-->  
+   
+<div id="footer" >
+	<div style="clear:both;"></div>
+	<div id="fone">
+		<a href="https://www.msha.gov/training-education/frequently-asked-questions">FAQs</a>&nbsp;|&nbsp;
+		<a href="https://www.msha.gov/msha-foia-resources">Freedom of Information Act</a>&nbsp;|&nbsp;
+		<a href="https://www.dol.gov/general/privacynotice">Privacy & Security Statement</a>&nbsp;|&nbsp;
+		<a href="https://www.dol.gov/general/disclaim">Disclaimers</a>&nbsp;|&nbsp;
+		<!--<a href="https://www.msha.gov/general-contacts" title="Forms Help Desk" target="_blank">Online Filing Help Desk</A> &nbsp;|&nbsp;-->
+		<a href="https://www.msha.gov/general-contacts">Contact Us</a>
+	</div>
+<div id="ftwo">U.S. Department of Labor&nbsp;|&nbsp;Mine Safety and Health Administration (MSHA)&nbsp;|&nbsp;200 Constitution Ave NW&nbsp;|&nbsp;Washington, DC 20210<br />
+    <a href="https://www.msha.gov" style="text-decoration: underline;">www.msha.gov</a>&nbsp;|&nbsp;202-693-9400&nbsp;</div>
+
+<!--Footer End -->
+<script type="text/javascript">
+//<![CDATA[
+      var usasearch_config = { siteHandle:"www.msha.gov" };
+
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "//search.usa.gov/javascripts/remote.loader.js";
+      document.getElementsByTagName("head")[0].appendChild(script);
+
+//]]>
+</script>
+</body>
+</html>
