@@ -1,0 +1,247 @@
+dataset,column,data_type,length,description
+Accidents,MINE_ID,VARCHAR2,7,Identification number assigned to the mine by MSHA. It is the mine identification number of the mine where the accident/injury/illness occurred. Use mine_id to join to the Mines and Inspections tables. Use mine_id and cal_yr to join to mine_id and cal_yr in Qrtly and Annual Employ Emprod tables.
+Accidents,CONTROLLER_ID,VARCHAR2,7,Identification number assigned by MSHA Assessments for a Legal Entity acting as a controller of an operator at the time of the accident. May contain null values.
+Accidents,CONTROLLER_NAME,VARCHAR2,100,Name of the controller active at the time of the accident. May contain null values.
+Accidents,OPERATOR_ID,VARCHAR2,7,Identification number assigned by MSHA for a Legal Entity acting as an operator at a mine at the time of the accident. May contain null values.
+Accidents,OPERATOR_NAME,VARCHAR2,60,Name of the operator active at the time of the accident. May contain null values.
+Accidents,CONTRACTOR_ID,VARCHAR2,10,Identification number assigned by MSHA for companies working as contractors at a mine. It is the contractor id of the contractor or contractor employee involved in the accident/injury. May contain null values if the accident did not involve a contractor.
+Accidents,DOCUMENT_NO,VARCHAR2,12,"Document number assigned to the accident/injury form. The first number designates the type of document: (1) employment, (2) injury and (3) closing document. The next seven are the Julian date (YYYYDDD). The last four characters are a sequential number."
+Accidents,SUBUNIT_CD,VARCHAR2,2,Code that identifies the location within a mine where the accident/injury/illness occurred.
+Accidents,SUBUNIT,VARCHAR2,32,"Description of the subunit code referring to the location within a mine where the accident/injury/illness occurred: (01) Underground; (02) Surface at underground; (03) Strip, quarry, open pit; (04) Auger; (05) Culm bank/refuse pile; (06) Dredge; (12) Other mining; (17) Independent shops or yards; (30) Mill operation/preparation plant; (99) Office workers at mine site."
+Accidents,ACCIDENT_DT,DATE,10,Date the accident/injury/illness occurred (mm/dd/yyyy).
+Accidents,CAL_YR,NUMBER,4,Calendar Year in which the accident/injury/illness occurred. It is based on the accident date.
+Accidents,CAL_QTR,NUMBER,1,Calendar Quarter in which the accident/injury/illness occurred. It is based on the accident date.
+Accidents,FISCAL_YR,NUMBER,4,Fiscal Year in which the accident/injury/illness occurred. MSHA's fiscal year begins October 1 and ends September 30. It is based on the accident date.
+Accidents,FISCAL_QTR,NUMBER,1,Fiscal Quarter in which the accident/injury/illness occurred. It is based on the accident date.
+Accidents,ACCIDENT_TIME,NUMBER,4,Time the accident/injury/illness occurred (24-hour clock).
+Accidents,DEGREE_INJURY_CD,VARCHAR2,2,Code identifying the degree of injury/illness to the individual.
+Accidents,DEGREE_INJURY,VARCHAR2,30,"Description of the degree of injury/illness to the individual: (00) Accident only; (01) Fatality; (02) Permanent total or permanent partial disability; (03) Days away from work only; (04) Days away from work and restricted activity; (05) Days restricted activity only; (06) No days away from work, no restrictions; (07) Occupational illness not degree 1-6; (08) Injuries due to natural causes; (09) Injuries involving non-employees; (10) All other cases (incl. 1st aid); (?) No value found."
+Accidents,FIPS_STATE_CD,VARCHAR2,2,Federal Information Processing Standard (FIPS) state code. It refers to the state in which accident/injury/illness occurred.
+Accidents,UG_LOCATION_CD,VARCHAR2,2,Code identifying the underground location where the accident/injury/illness occurred.
+Accidents,UG_LOCATION,VARCHAR2,28,Description of the underground location code where the accident/injury/illness occurred: (01) Vertical shaft; (02) Slope/inclined shaft; (03) Face; (04) Intersection; (05) Underground shop/office; (06) Last open crosscut; (07) Inby permanent support; (08) Haulageway; (09) Other entry (not haulageway); (98) Other; (99) Not Marked; (?) No value found.
+Accidents,UG_MINING_METHOD_CD,VARCHAR2,2,Description of the underground mining method code where the accident/injury/illness occurred.
+Accidents,UG_MINING_METHOD,VARCHAR2,20,Description of the underground mining method code where the accident/injury/illness occurred: (01) Longwall; (02) Shortwall; (03) Conventional Stoping; (05) Continuous Miner; (06) Hand; (07) Caving; (08) Other; (?) No Value Found.
+Accidents,MINING_EQUIP_CD,VARCHAR2,6,Code to designate the type of equipment involved in the incident. May be '?' if invalid code.
+Accidents,MINING_EQUIP,VARCHAR2,56,Description for the type of mining equipment involved in the accident. May be 'No Value Found' if invalid mining equipment code.
+Accidents,EQUIP_MFR_CD,VARCHAR2,4,Codes that identify the manufacturer of equipment involved in the incident. May be '?' if invalid code.
+Accidents,EQUIP_MFR_NAME,VARCHAR2,50,Mining machine manufacturer of a machine involved in an accident. May be 'No Value Found' if invalid equipment manufacture code.
+Accidents,EQUIP_MODEL_NO,VARCHAR2,25,Model number that identifies the equipment involved in the incident.
+Accidents,SHIFT_BEGIN_TIME,NUMBER,4,Time the shift started (24-hour clock) during which the incident occurred.
+Accidents,CLASSIFICATION_CD,VARCHAR2,2,Accident or injury classification code. The accident classification identifies the circumstances which contributed most directly to the resulting accident.
+Accidents,CLASSIFICATION,VARCHAR2,37,Description of the accident classification code that identifies the circumstances which contributed most directly to the resulting accident.
+Accidents,ACCIDENT_TYPE_CD,VARCHAR2,2,The accident type code identifies the event which directly resulted in the reported injury/accident.
+Accidents,ACCIDENT_TYPE,VARCHAR2,30,Description of the accident type code.
+Accidents,NO_INJURIES,NUMBER,4,Number of reportable injuries or illnesses resulting from the accident. Zero is a valid number if no employees were injured in the accident or if the injury was not reportable.
+Accidents,TOT_EXPER,NUMBER,"4,2",Total mining experience of the person affected calculated in decimal years. The calculation uses both the years and months experience. May contain null values.
+Accidents,MINE_EXPER,NUMBER,"4,2",Total experience at a specific mine of the person affected calculated in decimal years. The calculation uses both the years and months experience at the mine. May contain null values.
+Accidents,JOB_EXPER,NUMBER,"4,2",Experience in the job title of the person affected calculated in decimal year. The calculation uses both the years and months experience. May contain null values.
+Accidents,OCCUPATION_CD,VARCHAR2,3,Three-digit occupation code of the accident victim's regular job title.
+Accidents,OCCUPATION,VARCHAR2,40,Description of the occupation code.
+Accidents,ACTIVITY_CD,VARCHAR2,3,Code for the specific activity the accident victim was performing at the time of the incident. May be '?' if invalid code.
+Accidents,ACTIVITY,VARCHAR2,33,Description of the activity code. May be 'No Value Found' if activity code is invalid.
+Accidents,INJURY_SOURCE_CD,VARCHAR2,3,"Code identifying the source of the injury or illness. The source of injury identifies the object, substances, exposure or bodily motion which directly produced or inflicted the injury. May be '?' if invalid code."
+Accidents,INJURY_SOURCE,VARCHAR2,25,Description of the injury source code. May have a description of 'No Value Found' if invalid injury source code.
+Accidents,NATURE_INJURY_CD,VARCHAR2,3,The nature of injury identifies the injury in terms of its principle physical characteristics. May be '?' if invalid code.
+Accidents,NATURE_INJURY,VARCHAR2,25,Description of the nature of the victim's injury. May have a description of 'No Value Found' if invalid nature of injury code.
+Accidents,INJ_BODY_PART_CD,VARCHAR2,3,Code identifying the part of the body affected by an injury. May be '?' if invalid code.
+Accidents,INJ_BODY_PART,VARCHAR2,39,Description of the part of the body affected by an injury. May have a description of 'No Value Found' if invalid injured body part code.
+Accidents,SCHEDULE_CHARGE,NUMBER,4,"Charge in days lost for any permanent injury/illness. Example: 6000 days for a death, 2400 days for the loss of a foot at the ankle. May contain data (null values) if situation does not apply."
+Accidents,DAYS_RESTRICT,NUMBER,4,Number of days of restricted work activity due to the injury/illness. May contain null values if situation does not apply.
+Accidents,DAYS_LOST,NUMBER,3,Actual days lost from work due to the injury/illness. May not contain null values if situation does not apply.
+Accidents,TRANS_TERM,VARCHAR2,1,Indicates if the injured/ill employee was permanently transferred or terminated (Y or N). May contain null values if situation does not apply.
+Accidents,RETURN_TO_WORK_DT,DATE,10,Date the injured/ill employee returned to work (mm/dd/yyyy). May contain null values if situation does not apply.
+Accidents,IMMED_NOTIFY_CD,VARCHAR2,2,Code describing if the accident is one of the 12 types immediately reportable to MSHA.
+Accidents,IMMED_NOTIFY,VARCHAR2,20,Description of the Immediate Notification code: (01) Death; (02) Serious injury; (03) Entrapment; (04) Inundation; (05) Gas of dust ignition; (06) Mine fire; (07) Explosives; (08) Roof fall; (09) Outburst; (10) Impounding dam; (11) Hoisting; (12) Offsite; (13) Not marked; (?) No value found.
+Accidents,INVEST_BEGIN_DT,DATE,10,Date the MSHA accident investigation started (mm/dd/yyyy).
+Accidents,NARRATIVE,VARCHAR2,384,Narrative description of the accident/injury/illness.
+Accidents,CLOSED_DOC_NO,VARCHAR2,12,Document number assigned to the Returned to Duty form. The first character is designated as a '3' for the closing document. The next seven are the Julian date (YYYYDDD). The last four characters are a sequential number. May contain null values.
+Accidents,COAL_METAL_IND,VARCHAR2,1,Identifies if the accident occurred at a Coal or Metal/Non-Metal mine.
+Mines,MINE_ID,VARCHAR2,7,"Identification number assigned to the mine by MSHA. It is a unique primary key to join to the Inspections, Mine Address, Accidents, Annual Employ/Prod and Qrtly Employ/Prod tables."
+Mines,CURRENT_MINE_NAME,VARCHAR2,50,Name of the mine as designated on the Legal ID Form (LID) or Mine Information Form (MIF).
+Mines,COAL_METAL_IND,VARCHAR2,1,Identifies if the mine is a Coal or Metal/Non-Metal mine.
+Mines,CURRENT_MINE_TYPE,VARCHAR2,20,"From the Legal ID (LID) form. The types are Facility, Surface or Underground."
+Mines,CURRENT_MINE_STATUS,VARCHAR2,50,"Current status of the mine. Values are Abandoned, Abandoned and Sealed, Active, Intermittent, New Mine, NonProducing and Temporarily Idled."
+Mines,CURRENT_STATUS_DT,DATE,10,Date the mine obtained the current status from the Mine Information Form (MIF).
+Mines,CURRENT_CONTROLLER_ID,VARCHAR2,7,"Identification number assigned by MSHA Assessments Center for a Legal Entity acting as a controller of an operator. May contain null values if this record has a mine status of New Mine. If it is a New Mine, this information will be entered into the system at a future date."
+Mines,CURRENT_CONTROLLER_NAME,VARCHAR2,100,"Either the business name or a person's name for the Legal Entity. May contain null values if this record has a mine status of New Mine. If it is a New Mine, this information will be entered into the system at a future date."
+Mines,CURRENT_OPERATOR_ID,VARCHAR2,7,"Identification number assigned by MSHA Assessments Center for a Legal Entity acting as an operator at a mine. May contain null values if this record has a status of New Mine. If it is a New Mine, this information will be entered into the system at a future date."
+Mines,CURRENT_OPERATOR_NAME,VARCHAR2,60,"The latest operator name as updated by a LID (legal entity id form) or MIF (mine information form). If the last action is a LID, it will be updated if Assessments updates the name when it is approved. A new MIF will subsequently overwrite the mines operator name. May contain null values if this record has a status of New Mine. If it is a New Mine, this information will be entered into the system at a future date."
+Mines,STATE,VARCHAR2,2,State in which the mine is located. Standard state abbreviation code.
+Mines,BOM_STATE_CD,VARCHAR2,2,Bureau of Mines (BOM) assigned state codes.
+Mines,FIPS_CNTY_CD,VARCHAR2,3,Federal Information Processing Standard county code.
+Mines,FIPS_CNTY_NM,VARCHAR2,80,Federal Information Processing Standards (FIPS) county code name.
+Mines,CONG_DIST_CD,VARCHAR2,2,"The Congressional District of the state in which the mine is located. Congressional District numbers are only unique within states, so State Code and Congressional District Code should be reported together. May contain null values."
+Mines,COMPANY_TYPE,VARCHAR2,80,"Unique description for each legal entity type. Values are Corporation, Limited Liability Corporation, Other, Partnership and Sole Proprietor. May contain null values."
+Mines,CURRENT_CONTROLLER_BEGIN_DT,DATE,10,Start date of the operating period at the mine. May contain null values until the controller if a controller id has not yet been submitted.
+Mines,DISTRICT,VARCHAR2,3,The first three characters of the Coal districts and the first two characters of the Metal districts.
+Mines,OFFICE_CD,VARCHAR2,5,MSHA code that identifies the office to which the mine is assigned. This is entered on the Mine Information Form (MIF).
+Mines,OFFICE_NAME,VARCHAR2,80,The name of the office to which the mine is assigned.
+Mines,ASSESS_CTRL_NO,VARCHAR2,20,The most recent Assessment Control Number for a mine determined by selecting the most recent issue date of all citations associated with a mine for all associated violations regardless of the type of violator. The system creates the Assessment Control Number.
+Mines,PRIMARY_SIC_CD,VARCHAR2,6,"This is a code derived from the SIC codes to use as a primary key for the primary commodity extracted at a mine. If it is blank, a Mine Information Form (MIF) is required from the inspector to know the true SIC code. May contain null values."
+Mines,PRIMARY_SIC,VARCHAR2,80,Description of the Standard Industrial Classification Code (SIC) code for the primary commodity at a mine. May contain null values.
+Mines,PRIMARY_SIC_CD_1,VARCHAR2,4,Standard Industrial Classification Code that identifies the primary product of the mill or mine. May contain null values.
+Mines,PRIMARY_SIC_CD_SFX,VARCHAR2,2,Suffix to the Standard Industrial Classification Code (SIC) that defines the primary commodity of the mill or mine. May contain null values.
+Mines,SECONDARY_SIC_CD,VARCHAR2,6,This is a code derived from the Standard Industrial Classification Code (SIC) codes to use as a primary key for the secondary commodity extracted at a mine. May contain null values.
+Mines,SECONDARY_SIC,VARCHAR2,80,Description of the Standard Industrial Classification Code (SIC) code for the secondary commodity at a mine. May contain null values.
+Mines,SECONDARY_SIC_CD_1,VARCHAR2,4,Standard Industrial Classification Code (SIC) that identifies the secondary product of the mill or mine. May contain null values.
+Mines,SECONDARY_SIC_CD_SFX,VARCHAR2,2,Suffix to the Standard Industrial Classification Code (SIC) that defines the secondary commodity of the mill or mine. May contain null values.
+Mines,PRIMARY_CANVASS_CD,VARCHAR2,20,"Canvass code associated with the primary commodity code. This code is also known as an industry group code. Values are 1, 2, 5, 6, 7, 8."
+Mines,PRIMARY_CANVASS,VARCHAR2,20,Unique code abbreviation for the primary industry group code for a mine. (1) Coal(Anthracite) SIC 123100; (2) Coal(Bituminous); (5) M/NM (Sand and Gravel); (6) M/NM (Stone); (7) NonMetal; (8) Metal. May contain null values.
+Mines,SECONDARY_CANVASS_CD,VARCHAR2,20,"Canvass code associated with the secondary commodity code. This code is also known as an industry group code. Values are 1, 2, 5, 6, 7, 8."
+Mines,SECONDARY_CANVASS,VARCHAR2,20,Unique code abbreviation for the secondary industry group code for a mine. (1) Coal(Anthracite) SIC 123100; (2) Coal(Bituminous); (5) M/NM (Sand and Gravel); (6) M/NM (Stone); (7) NonMetal; (8) Metal. May contain null values. May contain null values.
+Mines,CURRENT_103I,VARCHAR2,80,"This is the description of the Mine 103I Classification Code: Hazard, Ignition or Explosion, Inspection Once Every 10-days, Inspect Once Every 15-days, Inspect Once Every 5-days, Never Had 103I Status, Removed From 103I Status. May contain null values."
+Mines,CURRENT_103I_DT,DATE,10,The date the mine entered the current 103I status. May contain null values.
+Mines,PORTABLE_OPERATION,VARCHAR2,1,Indicates whether this is a portable mine or not ('Y' or 'N').
+Mines,PORTABLE_FIPS_ST_CD,VARCHAR2,2,The Federal Information Processing Standards (FIPS) state code if it is a portable mine. May contain null values.
+Mines,DAYS_PER_WEEK,NUMBER,2,Number of days per week that the mine is operational. Entered on the Mine Information Form (MIF).
+Mines,HOURS_PER_SHIFT,NUMBER,2,Number of hours per shift at the mine. Entered on the Mine Information Form (MIF). May contain null values.
+Mines,PROD_SHIFTS_PER_DAY,NUMBER,3,Number of production shifts per 24-hour day. Entered on the Mine Information Form (MIF). May contain null values.
+Mines,MAINT_SHIFTS_PER_DAY,NUMBER,3,Number of maintenance-only shifts per 24-hour day. Entered on the Mine Information Form (MIF). May contain null values.
+Mines,NO_EMPLOYEES,NUMBER,5,Number of workers employed at the mine. Entered on the Mine Information Form (MIF). May contain null values.
+Mines,PART48_TRAINING,VARCHAR2,1,Indicates whether MSHA is restricted from enforcing Part 48 training requirements ('Y' or 'N').
+Mines,LONGITUDE,VARCHAR2,10,Longitude denoting the mine location shown in the following format: XXX.XXXXXX (3.6). May contain null values.
+Mines,LATITUDE,VARCHAR2,9,Latitude denoting the mine location shown in the following format: xx.xxxxxx (2.6). May contain null values.
+Mines,AVG_MINE_HEIGHT,NUMBER,5,Average mining height in inches. Coal mines only. May contain null values for Coal and Metal/Non-Metal mines.
+Mines,MINE_GAS_CATEGORY_CD,VARCHAR2,20,This categorization is used by underground Metal/Non-Metal mines and the surface mills of Subcategory I-C mines (gilsonite) mines. The purpose is to protect persons against the hazards of methane and dusts containing volatile matter. May contain null values if this does not apply.
+Mines,METHANE_LIBERATION,NUMBER,9,Methane Liberation on Section (cubic feet each 24 hrs). May contain null values if this does not apply at the mine.
+Mines,NO_PRODUCING_PITS,NUMBER,3,Number of pits that are actively producing materials at the mine location (Coal only). May contain null values for both Coal and Metal/Non-Metal mines.
+Mines,NO_NONPRODUCING_PITS,NUMBER,5,Number of pits that are not producing materials at the mine location (Coal only). May contain null values if this does not apply at the mine.
+Mines,NO_TAILING_PONDS,NUMBER,3,Number of tailing ponds (Metal/Non-Metal mines only). May contain null values if this does not apply at the mine.
+Mines,PILLAR_RECOVERY_USED,VARCHAR2,1,Indicator denoting whether or not a mine uses pillar recovery mining techniques (MNM only) - ('Y' or 'N').
+Mines,HIGHWALL_MINER_USED,VARCHAR2,1,Indicator denoting whether or not a mine uses a highwall miner (surface coal only) ('Y' or 'N').
+Mines,MULTIPLE_PITS,VARCHAR2,1,Indicates whether there are multiple pits at the mine location ('Y' or 'N)'.
+Mines,MINERS_REP_IND,VARCHAR2,1,Indicates where there is a miners' representative at the location ('Y' or 'N').
+Mines,SAFETY_COMMITTEE_IND,VARCHAR2,1,Values are 'Y' or 'N'.
+Mines,MILES_FROM_OFFICE,NUMBER,5,Driving distance to the mine/mill from the office responsible for conducting inspection. Can contain zeroes.
+Mines,DIRECTIONS_TO_MINE,VARCHAR2,300,Free-form description of directions on how to get to the mine. It is input on the Legal Id Form (LID) and Mine Information Form (MIF). May contain null values.
+Mines,NEAREST_TOWN,VARCHAR2,30,Nearest town or city. Entered on Mine Information Form (MIF). May contain null values.
+Violations,EVENT_NO,VARCHAR2,7,"A preassigned number used to identify each inspection, investigation, audit, survey, etc. Use event_no to join to the Inspections table which can be joined to the Mines table with mine_id."
+Violations,INSPECTION_BEGIN_DT,DATE,10,Start date of the inspection (mm/dd/yyyy).
+Violations,INSPECTION_END_DT,DATE,10,Inspection close out date (mm/dd/yyyy).
+Violations,VIOLATION_NO,VARCHAR2,30,Citation/order number assigned to each citation written during an inspection. This is a unique key to the file.
+Violations,CONTROLLER_ID,VARCHAR2,7,Identification number assigned by MSHA Assessments for a Legal Entity acting as a controller of an operator at the time the violation was cited. May contain null values if this record pertains to a violation issued to a contractor.
+Violations,CONTROLLER_NAME,VARCHAR2,100,Name of the controller active at the time the violation was cited. May contain null values if this record pertains to a violation issued to a contractor.
+Violations,VIOLATOR_ID,VARCHAR2,7,Identification number assigned by MSHA for a Legal Entity acting as an operator at a mine at the time the violation was cited. May contain null values if this record pertains to a violation issued to a contractor.
+Violations,VIOLATOR_NAME,VARCHAR2,60,Name of the operator active at the time the violation was cited. May contain null values if this record pertains to a violation issued to a contractor.
+Violations,VIOLATOR_TYPE_CD,VARCHAR2,20,"Each Violator record represents an entity (Operator, Contractor, Agent or Miner) that has one or more violations at a mine."
+Violations,MINE_ID,VARCHAR2,7,Mine id of the mine where the violation was issued. Can use the mine_id to join to the Mines table.
+Violations,MINE_NAME,VARCHAR2,50,Name of the mine where the violation was issued.
+Violations,MINE_TYPE,VARCHAR2,20,"Mine type of the mine where the violation has been issued: Facility, Surface or Underground."
+Violations,COAL_METAL_IND,VARCHAR2,1,Identifies if the record is for a Coal or Metal/Non-Metal mine.
+Violations,CONTRACTOR_ID,VARCHAR2,10,Code identifying the contractor to whom the citation or order was issued. May contain null values if the contractor was not cited.
+Violations,VIOLATION_ISSUE_DT,DATE,10,Date the citation or order was issued by the MSHA inspector.
+Violations,VIOLATION_OCCUR_DT,DATE,10,Actual date of occurrence of the violation.
+Violations,CAL_YR,NUMBER,4,Calendar year during which the citation/order was issued by the MSHA inspector.
+Violations,CAL_QTR,NUMBER,1,Calendar Quarter of the date the citation or order was issued by the MSHA inspector.
+Violations,FISCAL_YR,NUMBER,4,Fiscal Year of the date the citation or order was issued by the MSHA inspector. MSHA's fiscal year begins October 1 and ends September 30.
+Violations,FISCAL_QTR,NUMBER,1,Fiscal Quarter of the date the citation or order was issued by the MSHA inspector.
+Violations,VIOLATION_ISSUE_TIME,VARCHAR2,4,Time (24 hour) the citation or order was issued by the MSHA inspector.
+Violations,SIG_SUB,VARCHAR2,1,"An indicator as to whether or not the gravity is determined by the inspector to be significant and substantial. If this is 'Y', the inspector has indicated that based upon the particular facts surrounding the violation there exists a reasonable likelihood the hazard contributed to will result in an injury or illness of a reasonably serious nature."
+Violations,SECTION_OF_ACT,VARCHAR2,20,Section of the Act under which the citation/order was issued. May contain null values.
+Violations,PART_SECTION,VARCHAR2,20,"Code of Federal Regulations: Part/section of Title 30 CFR violated in format PPSSSSSXXXX where (P) Part, (S) Section and (X) Suffix. Four-digit section numbers are expanded to five within one leading zero. May contain null values."
+Violations,SECTION_OF_ACT_1,VARCHAR2,20,Primary Section of Act which gives the MSHA Inspector the authority to take the action specified by this Issuance. More than one type of action may be cited.
+Violations,SECTION_OF_ACT_2,VARCHAR2,20,Secondary Section of Act which gives the MSHA Inspector the authority to take the action specified by this Issuance at Metal/Non-Metal mines only. More than one type of action may be cited.
+Violations,CIT_ORD_SAFE,VARCHAR2,20,"Specifies the type of Citation: Citation, Order, Safeguard, Written Notice or Notice."
+Violations,ORIG_TERM_DUE_DT,DATE,10,Original date by which the cited condition was to be abated. Original time by which the cited condition was to be abated.
+Violations,ORIG_TERM_DUE_TIME,VARCHAR2,4,Original time by which the cited condition was to be abated.
+Violations,LATEST_TERM_DUE_DT,DATE,10,"Date by which the conditions cited in the citation/order are to be abated. For Metal mines, this can be the termination due date to which the citation/order is extended."
+Violations,LATEST_TERM_DUE_TIME,VARCHAR2,4,Time by which the conditions cited on the citation/order are to be abated.
+Violations,TERMINATION_DT,DATE,10,Date on which the citation/order was terminated. May contain null values if citation has not yet been terminated.
+Violations,TERMINATION_TIME,VARCHAR2,5,Time of day (24 hour) at which the citation/order was terminated. May contain null values if citation has not yet been terminated.
+Violations,TERMINATION_TYPE,VARCHAR2,20,"Code identifying the type of termination: Issued, ReplacedByOrder or Terminated."
+Violations,VACATE_DT,DATE,10,Date on which the citation/order was vacated. May contain null values if the violation was not vacated.
+Violations,VACATE_TIME,VARCHAR2,5,Time of day (24 hour) at which the citation/order was vacated. May contain null values if the violation was not vacated.
+Violations,INITIAL_VIOL_NO,VARCHAR2,30,This is the preceding citation record when there is a need to relate a citation to a previous one. For example this would apply when an order follows a citation. This relationship is needed to calculate the good faith reduction penalty points. May contain null values.
+Violations,REPLACED_BY_ORDER_NO,VARCHAR2,30,Order number which replaced the original citation. May contain null values if situation does not apply.
+Violations,LIKELIHOOD,VARCHAR2,20,"This is a measure of the seriousness of the violation being cited as measured by the likelihood of the occurrence of an accident: Highly, NoLikelihood, Occurred, Reasonably or Unlikely. May contain null values if situation does not apply."
+Violations,INJ_ILLNESS,VARCHAR2,20,"Value assigned to a violation for gravity of injury. Measure of seriousness of violation being cited as measured by severity of the injury or illness to persons if accident were to occur due to the conditions of the violation: Fatal, LostDays, NoLostDays or Permanent."
+Violations,NO_AFFECTED,NUMBER,3,This is a measure of the number of persons affected or potentially affected by the conditions at the Mine due to the violation. Can be zero.
+Violations,NEGLIGENCE,VARCHAR2,20,"Codes representing the degree of negligence that the Inspector assigned to the violator due to the violation: HighNegligence, LowNegligence, ModNegligence, NoNegligence or Reckless. A high degree of negligence is assigned when the operator was in a position to be aware of the condition that contributed to a dangerous situation and there were no mitigating circumstances, or if there are unique aggravating circumstances associated with the violation, such as repeated past violations of the same standard at the mine."
+Violations,WRITTEN_NOTICE,VARCHAR2,1,Indicates if this citation is a result of a Miner or Agent notice of complaint to MSHA (written notice 103(g)): ('Y' or 'N'). May contain null values.
+Violations,ENFORCEMENT_AREA,VARCHAR2,20,"Specifies the enforcement areas affected by the violating condition or practice constitute a health hazard, safety hazard, both or other type of hazard. May contain null values."
+Violations,SPECIAL_ASSESS,VARCHAR2,1,Specifies whether this citation has been designated for Special Assessment based on Special Assessment Review (Y or N).
+Violations,PRIMARY_OR_MILL,VARCHAR2,20,A code indicating if the Violation was observed in the Primary Mine location or in an associated Mill (Metal/Non-Metal only). May contain null values.
+Violations,RIGHT_TO_CONF_DT,DATE,10,Date the operator was advised of his right to a conference (Metal/Non-Metal only). May contain null values.
+Violations,ASMT_GENERATED_IND,VARCHAR2,1,"If the violator is an Operator or Contractor, the indicator is 'N'. If the violator is an Agent, the indicator is 'Y'. If the violator is a Miner, the indicator can be 'Y' or 'N'. If none of the above, the indicator is '?'."
+Violations,FINAL_ORDER_ISSUE_DT,DATE,10,Date that this assessment becomes a Final Order. This date is set when the Certified Return Receipt date (CRR) is set. Note that this can be a projected future date that is set as soon as the CRR is entered.
+Violations,PROPOSED_PENALTY,NUMBER,"9,2",The original dollar value of the proposed penalty prior to any modifications such as those possibly resulting from a decision on a contested case.
+Violations,AMOUNT_DUE,NUMBER,"9,2","The current dollar value of the proposed assessment, reflecting any modifications that have been made since it was originally assessed."
+Violations,AMOUNT_PAID,NUMBER,"9,2",The total dollar value of all payments applied to this proposed assessment to date.
+Violations,BILL_PRINT_DT,DATE,10,Date the bill was printed. This date always represents the first time the bill was printed.
+Violations,LAST_ACTION_CD,VARCHAR2,30,"Last action taken against this violation such as 1stDemandPrinted, BillingReady, ApprovedforTreasury and Proposed."
+Violations,LAST_ACTION_DT,DATE,10,Date the last action taken against this violation.
+Violations,DOCKET_NO,VARCHAR2,20,The Docket Number assigned by the Court to this group of Assessments being contested.
+Violations,DOCKET_STATUS_CD,VARCHAR2,1,Denotes the current status of this docket: Approved (approved by the court) or Proposed (not yet been approved by the court).
+Violations,CONTESTED_IND,VARCHAR2,1,Indicates if this violation has been assessed and is being contested (Y or N).
+Violations,CONTESTED_DT,DATE,10,Date of the most recent docket status for this violation.
+Violations,VIOLATOR_VIOLATION_CNT,NUMBER,5,Total number of assessed violations for this violator at this time during the violation history period. Used in penalty calculation. Applies to an Operator or a Contractor.
+Violations,VIOLATOR_INSPECTION_DAY_CNT,NUMBER,5,Total number of inspections for this Operator at a mine during the violation history period. Used in penalty calculation. Does not apply to Contractor.
+Inspections,EVENT_NO,VARCHAR2,7,"A unique number used to identify each inspection, investigation, audit, survey, etc. (event). Primary key to join to the Violations table. One event number can be associated with one or more violations."
+Inspections,MINE_ID,VARCHAR2,7,Identification number assigned to the operation inspected by MSHA . Use mine id to join to Mines table.
+Inspections,INSPECTION_BEGIN_DT,DATE,10,Start date of the inspection (mm/dd/yyyy).
+Inspections,INSPECTION_END_DT,DATE,10,Inspection close out date (mm/dd/yyyy).
+Inspections,CONTROLLER_ID,VARCHAR2,7,Identification number assigned by MSHA Assessments for a Legal Entity acting as a controller of an operator at the time of the inspection. May contain null values if this record pertains to a contractor working at the mine.
+Inspections,CONTROLLER_NAME,VARCHAR2,100,Name of the controller active at the time of the inspection. May contain null values if this record pertains to a contractor working at the mine.
+Inspections,OPERATOR_ID,VARCHAR2,7,Identification number assigned by MSHA for a Legal Entity acting as an operator at a mine at the time of the inspection. May not contain data (null values) if this record pertains to a contractor working at the mine.
+Inspections,OPERATOR_NAME,VARCHAR2,60,Name of the operator active at the time of the inspection. May contain null values if this record pertains to a contractor working at the mine.
+Inspections,CAL_YR,NUMBER,4,Calendar Year of the End Date of the inspection. May contain null values if the inspection remains open.
+Inspections,CAL_QTR,NUMBER,1,Calendar Quarter of the End Date of the inspection. May contain null values if the inspection remains open.
+Inspections,FISCAL_YR,NUMBER,4,Fiscal Year of the End Date of the inspection. MSHA's fiscal year begins October 1 and ends September 30. May not contain data (null value) if the inspection remains open.
+Inspections,FISCAL_QTR,NUMBER,1,Fiscal quarter of the End Date of the inspection. May contain null values if the inspection remains open.
+Inspections,INSPECT_OFFICE_CD,VARCHAR2,5,Office code of the inspector involved in the inspection.
+Inspections,ACTIVITY_CODE,VARCHAR2,20,Code used to identify the type of enforcement activity.
+Inspections,ACTIVITY,VARCHAR2,55,Description of the inspection activity codes.
+Inspections,ACTIVE_SECTIONS,NUMBER,5,Number of active working sections inspected. Can contain zeroes.
+Inspections,IDLE_SECTIONS,NUMBER,5,Number of idle working sections inspected. Can contain zeroes.
+Inspections,SHAFT_SLOPE_SINK,NUMBER,5,Number of shaft/slope sinking construction areas inspected. Can contain zeroes.
+Inspections,IMPOUND_CONSTR,NUMBER,5,Number of impoundment construction operations inspected. Can contain zeroes.
+Inspections,BLDG_CONSTR_SITES,NUMBER,5,Number of building construction sites inspected. Can contain zeroes.
+Inspections,DRAGLINES,NUMBER,5,Number of draglines/shovel construction operations inspected. Can contain zeroes.
+Inspections,UNCLASSIFIED_CONSTR,NUMBER,5,Number of other unclassified construction areas inspected. Can contain zeroes.
+Inspections,CO_RECORDS,VARCHAR2,1,Company records inspected indicator (Y or N).
+Inspections,SURF_UG_MINE,VARCHAR2,1,Surface area/underground mine inspected indicator (Y or N).
+Inspections,SURF_FACILITY_MINE,VARCHAR2,1,Surface mine/facililty inspected indicator (Y or N).
+Inspections,REFUSE_PILES,VARCHAR2,1,Identified refuse piles inspected indicator (Y or N).
+Inspections,EXPLOSIVE_STORAGE,VARCHAR2,1,Explosives storage inspected indicator (Y or N).
+Inspections,OUTBY_AREAS,VARCHAR2,1,Outby areas inspected indicator(Y or N).
+Inspections,MAJOR_CONSTR,VARCHAR2,1,Major construction operation inspected indicator (Y or N).
+Inspections,SHAFTS_SLOPES,VARCHAR2,1,Shafts/slopes inspected indicator (Y or N).
+Inspections,IMPOUNDMENTS,VARCHAR2,1,Identified impoundments inspected indicator (Y or N).
+Inspections,MISC_AREA,VARCHAR2,1,Coal areas of inspection Not Elsewhere Classified (NEC) indicator (Y or N).
+Inspections,PROGRAM_AREA,VARCHAR2,60,Program area (Coal or Metal/Non-Metal) associated with the inspection.
+Inspections,SAMPLE_CNT_AIR,NUMBER,"9,4",Number of air samples collected. May contain null values if sample not taken.
+Inspections,SAMPLE_CNT_DUSTSPOT,NUMBER,"9,4",Number of spot dust samples collected. May contain null values if sample not taken.
+Inspections,SAMPLE_CNT_DUSTSURVEY,NUMBER,"9,4",Number of survey samples collected. May contain null values if sample not taken.
+Inspections,SAMPLE_CNT_RESPDUST,NUMBER,"9,4",Number of respiratory dust samples collected. May contain null values if sample not taken.
+Inspections,SAMPLE_CNT_NOISE,NUMBER,"9,4",Number of noise samples collected. May contain null values if sample not taken.
+Inspections,SAMPLE_CNT_OTHER,NUMBER,"9,4",Number of other samples collected. May contain null values if sample not taken.
+Inspections,NBR_INSPECTORS,NUMBER,5,Total number of inspectors working on this inspection.
+Inspections,TOTAL_ON_SITE_HOURS,NUMBER,5,"Total hours recorded on the Weekly Time and Activity Data form: On-Site Inspection Time (MNM), MMU Pit Time (C), Outby (Coal UG Mines), Surface Area Time (C) and C/O Writing On Site (MNM, C). Task code S,T,O hours included."
+Inspections,TOTAL_INSP_HOURS,NUMBER,5,"Total hours recorded on the Weekly Time and Activity Data form: On-Site Inspection Time (MNM), MMU Pit Time (C), Outby (Coal UG mines), Surface Area Time (C), C/O Writing On Site (MNM,C), C/O Writing Off Site, Travel, Other. Task code S,T.O hours included."
+Inspections,COAL_METAL_IND,VARCHAR2,1,Identifies if the inspection was at a Coal or Metal/Non-Metal mine.
+Inspections,TOTAL_ON_SITE_HRS_SPVR_TRAINEE,NUMBER,5,Total supervisory/trainee task code hours to be subtracted from TOTAL_ON_SITE_HOURS for total on-site inspection time only.
+Inspections,TOTAL_INSP_HRS_SPVR_TRAINEE,NUMBER,5,Total supervisory/trainee task code hours to be subtracted from TOTAL_INSP_HOURS for total on-site inspection time only.
+MinesProdYearly,MINE_ID,VARCHAR2,7,Identification number assigned to the operation by MSHA. Use mine_id to join to the Mines table.
+MinesProdYearly,MINE_NAME,VARCHAR2,50,Current mine name.
+MinesProdYearly,STATE,VARCHAR2,2,State in which the mine is located that is reporting employment and coal production.
+MinesProdYearly,SUBUNIT_CD,VARCHAR2,2,Code that identifies the location within a mine.
+MinesProdYearly,SUBUNIT,VARCHAR2,32,"Description of the subunit code referring to a location within a mine: (01) Underground operation; (02) Surface operation at underground mine; (03) Strip, quarry or open pit; (04) Auger (Coal only); (05) Culm bank or refuse pile (Coal only); (06) Dredge; (12) Other surface(Metal/Non-Metal only); (17) Independent shop or yard; (30) Mill operation, preparation plant or breaker; (99) Office workers at mine site."
+MinesProdYearly,CAL_YR,NUMBER,4,The 4-digit year on which the record is summarized.
+MinesProdYearly,ANNUAL_HOURS,NUMBER,9,"The annual summation of hours where the average quarterly employment is greater than zero with grouping by calendar year, subunit code and mine id."
+MinesProdYearly,ANNUAL_COAL_PRODUCTION,NUMBER,9,"The annual summation of coal production where the average quarterly employment is greater than zero with grouping by calendar year, subunit code and mine id. Production may not have been reported and may not contain data (null values)."
+MinesProdYearly,AVG_EMPLOYEE_CNT,NUMBER,9,"The average of the quarterly average employee count, where the average quarterly employment is greater than zero and is grouped by calendar year, subunit code and mine ID."
+MinesProdYearly,AVG_EMPLOYEE_HOURS,NUMBER,7,Average employee hours derived by the following: hours reported for year / avg subunit employment for year
+MinesProdYearly,COAL_METAL_IND,VARCHAR2,1,Identifies if the employment and production are being reported for a Coal or Metal/Non-Metal mine.
+OrdersIssued,COAL OR METAL,VARCHAR2,1,Identifies if the 107(a) order was at a Coal or Metal/Non-Metal mine.
+OrdersIssued,MINE ID,VARCHAR2,7,Identification number assigned to the operation inspected by MSHA . Use mine id to join to Mines table.
+OrdersIssued,MINE NAME,VARCHAR2,50,Name of the mine where the violation was issued.
+OrdersIssued,OPERATOR NAME (VIOLATIONS),VARCHAR2,60,Name of the operator active at the time the violation was cited. May contain null values if this record pertains to a violation issued to a contractor.
+OrdersIssued,CONTROLLER ID @ VIOLATIONS,VARCHAR2,7,Identification number assigned by MSHA Assessments for a Legal Entity acting as a controller of an operator at the time the violation was cited. May contain null values if this record pertains to a violation issued to a contractor.
+OrdersIssued,CONTROLLER NAME @ VIOLATIONS,VARCHAR2,60,Name of the controller active at the time the violation was cited. May contain null values if this record pertains to a violation issued to a contractor.
+OrdersIssued,CONTRACTOR ID,VARCHAR2,10,Code identifying the contractor to whom the order was issued. May contain null values if the contractor was not cited.
+OrdersIssued,CONTRACTOR NAME,VARCHAR2,60,The name of the contractor to whom the order was issued.
+OrdersIssued,STATE ABBREVIATION,VARCHAR2,2,State in which the mine is located. Standard state abbreviation code.
+OrdersIssued,VIOLATOR TYPE,VARCHAR2,20,"Type of Violator (Operator, Contractor) to whom order was issued."
+OrdersIssued,VIOLATION NO.,VARCHAR2,7,Order number assigned for this violation issued during an inspection. This is a unique key to the file.
+OrdersIssued,VIOLATION DATE ISSUED,DATE,10,Date on which the Order was issued.
+OrdersIssued,TERMINATION DATE,DATE,10,Date on which the Order was terminated. May contain null values if Order has not yet been terminated.
