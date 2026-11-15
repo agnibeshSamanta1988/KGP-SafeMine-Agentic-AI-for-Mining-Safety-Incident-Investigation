@@ -1,0 +1,821 @@
+"TABLE A-1. Fatal occupational injuries by industry and event or exposure, all United States, 2023",,,,,,,,
+,,,,,,,,
+Industry(1),NAICS code(1),Total fatal injuries (number),Event or exposure(2),,,,,
+,,,Violent acts(3),Transportation incidents(4),Explosions and fires,"Falls, slips, trips","Exposure to harmful substances, environments",Contact incidents
+,,,,,,,,
+Total,,5283,740,1942,104,885,820,779
+Private industry,,4838,627,1751,87,829,787,744
+Goods producing,,–,–,–,–,–,–,–
+Natural resources and mining,,561,–,241,–,45,52,185
+"Agriculture, forestry, fishing and hunting",,448,18,194,9,34,39,153
+Crop production,111,202,11,87,7,20,14,62
+Oilseed and grain farming,1111,58,–,20,–,8,–,24
+Soybean farming,11111,9,–,4,–,–,–,–
+Dry pea and bean farming,11113,1,–,–,–,–,–,1
+Corn farming,11115,26,–,9,–,–,–,12
+Other grain farming,11119,8,–,–,–,–,–,3
+Oilseed and grain combination farming,111191,4,–,–,–,–,–,–
+Vegetable and melon farming,1112,5,–,–,–,–,–,–
+Vegetable and melon farming,11121,5,–,–,–,–,–,–
+Fruit and tree nut farming,1113,22,–,10,–,–,4,4
+"Greenhouse, nursery, and floriculture production",1114,17,8,5,–,–,–,–
+Food crops grown under cover,11141,8,–,–,–,–,–,–
+Mushroom production,111411,7,–,–,–,–,–,–
+Nursery and floriculture production,11142,9,–,–,–,–,–,–
+Other crop farming,1119,49,–,24,–,6,5,12
+Tobacco farming,11191,6,–,–,–,–,–,–
+Hay farming,11194,12,–,–,–,–,–,3
+All other crop farming,11199,27,–,14,–,4,3,6
+Animal production and aquaculture,112,104,–,46,–,8,–,38
+Cattle ranching and farming,1121,76,–,30,–,5,–,32
+"Beef cattle ranching and farming, including feedlots",11211,37,–,16,–,–,–,15
+Beef cattle ranching and farming,112111,32,–,–,–,–,–,12
+Dairy cattle and milk production,11212,21,–,6,–,–,–,12
+Dual-purpose cattle ranching and farming,11213,2,–,–,–,–,–,–
+Hog and pig farming,1122,8,–,5,–,–,–,–
+Hog and pig farming,11221,8,–,5,–,–,–,–
+Poultry and egg production,1123,6,–,–,–,–,–,–
+Other poultry production,11239,1,–,–,–,–,–,–
+Sheep and goat farming,1124,3,–,–,–,–,–,1
+Aquaculture,1125,3,–,–,–,–,–,–
+Aquaculture,11251,3,–,–,–,–,–,–
+Finfish farming and fish hatcheries,112511,3,–,–,–,–,–,–
+Other animal production,1129,4,–,1,–,–,–,–
+All other animal production,11299,1,–,–,–,–,–,–
+Forestry and logging,113,59,–,–,–,–,–,43
+Logging,1133,56,–,–,–,–,–,–
+Logging,11331,56,–,–,–,–,–,–
+"Fishing, hunting and trapping",114,21,–,13,–,–,–,–
+Fishing,1141,20,–,13,–,–,–,–
+Fishing,11411,20,–,13,–,–,–,–
+Finfish fishing,114111,3,–,–,–,–,–,–
+Shellfish fishing,114112,10,–,8,–,–,–,–
+Support activities for agriculture and forestry,115,58,–,33,–,–,12,9
+Support activities for crop production,1151,48,–,29,–,–,9,–
+Support activities for crop production,11511,48,–,29,–,–,9,–
+Cotton ginning,115111,3,–,–,–,–,–,–
+"Soil preparation, planting, and cultivating",115112,12,–,–,–,–,–,–
+Farm labor contractors and crew leaders,115115,25,–,12,–,–,–,–
+Farm management services,115116,6,–,–,–,–,–,–
+Support activities for animal production,1152,7,–,–,–,–,–,–
+Support activities for animal production,11521,7,–,–,–,–,–,–
+Support activities for forestry,1153,3,–,–,–,–,–,–
+Support activities for forestry,11531,3,–,–,–,–,–,–
+"Mining, quarrying, and oil and gas extraction(5)",,113,–,47,–,11,13,32
+Oil and gas extraction,211,10,–,–,–,–,–,–
+Oil and gas extraction,2111,10,–,–,–,–,–,–
+Crude petroleum extraction,21112,8,–,–,–,–,–,–
+Mining (except oil and gas),212,33,–,–,–,–,–,–
+Coal mining,2121,9,–,–,–,–,–,–
+Coal mining,21211,9,–,–,–,–,–,–
+Surface coal mining,212114,3,–,–,–,–,–,–
+Underground coal mining,212115,5,–,–,–,–,–,–
+Metal ore mining,2122,4,–,–,–,–,–,–
+Gold ore and silver ore mining,21222,3,–,–,–,–,–,–
+Nonmetallic mineral mining and quarrying,2123,20,–,–,–,–,–,–
+Stone mining and quarrying,21231,11,–,–,–,–,–,–
+Crushed and broken limestone mining and quarrying,212312,6,–,–,–,–,–,–
+"Sand, gravel, clay, and ceramic and refractory minerals mining and quarrying",21232,8,–,–,–,–,–,–
+Construction sand and gravel mining,212321,7,–,–,–,–,–,–
+Support activities for mining,213,70,–,33,–,5,9,16
+Support activities for mining,2131,70,–,33,–,5,9,16
+Support activities for mining,21311,70,–,33,–,5,9,16
+Drilling oil and gas wells,213111,13,–,–,–,–,3,–
+Support activities for oil and gas operations,213112,55,–,28,–,–,6,12
+Construction,,1075,46,240,17,421,200,148
+Construction,,1075,46,240,17,421,200,148
+Construction of buildings,236,211,13,31,–,97,39,29
+Residential building construction,2361,134,10,18,–,62,27,15
+Residential building construction,23611,134,10,18,–,62,27,15
+New single-family housing construction (except for-sale builders),236115,35,3,10,–,13,3,4
+New multifamily housing construction (except for-sale builders),236116,8,–,–,–,5,–,–
+Residential remodelers,236118,73,4,5,–,36,18,10
+Nonresidential building construction,2362,67,3,11,–,27,12,14
+Industrial building construction,23621,14,–,–,–,7,4,–
+Commercial and institutional building construction,23622,49,1,–,–,18,8,–
+Heavy and civil engineering construction,237,170,–,79,–,19,32,34
+Utility system construction,2371,83,–,24,–,–,21,21
+Water and sewer line and related structures construction,23711,37,–,8,–,–,–,15
+Oil and gas pipeline and related structures construction,23712,12,–,4,–,–,–,–
+Power and communication line and related structures construction,23713,33,–,12,–,–,12,–
+"Highway, street, and bridge construction",2373,68,–,46,–,–,6,–
+"Highway, street, and bridge construction",23731,68,–,46,–,–,6,–
+Specialty trade contractors,238,656,27,125,15,292,117,80
+"Foundation, structure, and building exterior contractors",2381,277,–,–,–,172,40,33
+Poured concrete foundation and structure contractors,23811,27,–,–,–,–,9,8
+Residential poured concrete foundation and structure contractors,238111,5,–,–,–,–,–,1
+Nonresidential poured concrete foundation and structure contractors,238112,5,–,–,–,–,3,–
+Structural steel and precast concrete contractors,23812,16,–,–,–,9,–,–
+Nonresidential structural steel and precast concrete contractors,238122,7,–,–,–,4,–,–
+Framing contractors,23813,40,–,–,–,27,–,10
+Residential framing contractors,238131,12,–,–,–,9,–,–
+Nonresidential framing contractors,238132,4,–,–,–,–,–,–
+Masonry contractors,23814,29,–,–,–,12,–,7
+Residential masonry contractors,238141,9,–,–,–,–,–,4
+Nonresidential masonry contractors,238142,7,–,–,–,5,–,–
+Glass and glazing contractors,23815,5,–,–,–,–,–,–
+Roofing contractors,23816,134,–,–,–,110,18,–
+Residential roofing contractors,238161,32,–,–,–,27,5,–
+Nonresidential roofing contractors,238162,21,–,–,–,17,–,–
+Siding contractors,23817,12,–,–,–,5,–,–
+Residential siding contractors,238171,5,–,–,–,–,–,–
+"Other foundation, structure, and building exterior contractors",23819,14,–,–,–,4,4,–
+"Other nonresidential foundation, structure, and building exterior contractors",238192,5,–,–,–,–,–,–
+Building equipment contractors,2382,170,15,35,7,55,43,15
+Electrical contractors and other wiring installation contractors,23821,73,–,9,–,27,23,6
+Residential electrical contractors and other wiring installation contractors,238211,7,–,–,–,–,3,–
+Nonresidential electrical contractors and other wiring installation contractors,238212,16,–,1,–,4,7,1
+"Plumbing, heating, and air-conditioning contractors",23822,83,9,23,–,24,–,5
+"Residential plumbing, heating, and air-conditioning contractors",238221,10,–,5,–,–,–,–
+"Nonresidential plumbing, heating, and air-conditioning contractors",238222,13,–,–,–,8,–,–
+Other building equipment contractors,23829,14,–,3,–,4,–,4
+Other nonresidential building equipment contractors,238292,3,–,–,–,–,–,–
+Building finishing contractors,2383,99,7,–,–,51,16,–
+Drywall and insulation contractors,23831,23,–,–,–,13,–,–
+Residential drywall and insulation contractors,238311,7,–,–,–,4,–,–
+Nonresidential drywall and insulation contractors,238312,3,–,–,–,–,–,–
+Painting and wall covering contractors,23832,45,–,–,–,29,7,–
+Residential painting and wall covering contractors,238321,17,–,–,–,10,–,–
+Nonresidential painting and wall covering contractors,238322,7,–,–,–,–,–,–
+Flooring contractors,23833,5,–,–,–,–,–,–
+Tile and terrazzo contractors,23834,6,–,–,–,–,–,–
+Finish carpentry contractors,23835,15,–,–,–,6,4,–
+Other building finishing contractors,23839,4,–,–,–,–,–,–
+Other nonresidential building finishing contractors,238392,1,–,–,–,–,–,–
+Other specialty trade contractors,2389,107,–,43,–,13,17,29
+Site preparation contractors,23891,62,–,25,–,4,–,20
+Residential site preparation contractors,238911,5,–,–,–,–,–,–
+Nonresidential site preparation contractors,238912,20,–,10,–,–,–,8
+All other specialty trade contractors,23899,44,–,17,–,9,–,9
+All other residential specialty trade contractors,238991,10,–,7,–,–,–,–
+All other nonresidential specialty trade contractors,238992,4,–,–,–,–,–,–
+Manufacturing,,391,40,80,–,57,71,120
+Manufacturing,,391,40,80,–,57,71,120
+Food manufacturing,311,50,4,11,–,13,8,5
+Animal food manufacturing,3111,7,–,–,–,4,–,–
+Animal food manufacturing,31111,7,–,–,–,4,–,–
+Grain and oilseed milling,3112,4,–,1,–,–,–,–
+Sugar and confectionery product manufacturing,3113,11,–,–,–,–,–,–
+Chocolate and confectionery manufacturing,31135,8,–,–,–,–,–,–
+Chocolate and confectionery manufacturing from cacao beans,311351,8,–,–,–,–,–,–
+Fruit and vegetable preserving and specialty food manufacturing,3114,3,–,–,–,–,–,1
+Animal slaughtering and processing,3116,11,–,3,–,–,3,–
+Animal slaughtering and processing,31161,11,–,3,–,–,3,–
+Poultry processing,311615,8,–,–,–,–,3,–
+Seafood product preparation and packaging,3117,3,–,–,–,–,–,–
+Seafood product preparation and packaging,31171,3,–,–,–,–,–,–
+Bakeries and tortilla manufacturing,3118,3,–,–,–,–,–,–
+Bread and bakery product manufacturing,31181,3,–,–,–,–,–,–
+Commercial bakeries,311812,3,–,–,–,–,–,–
+Other food manufacturing,3119,5,–,–,–,–,–,–
+Snack food manufacturing,31191,3,–,–,–,–,–,–
+Seasoning and dressing manufacturing,31194,1,–,–,–,–,–,–
+Spice and extract manufacturing,311942,1,–,–,–,–,–,–
+All other food manufacturing,31199,1,–,–,–,–,–,–
+Beverage and tobacco product manufacturing,312,7,–,4,–,–,–,–
+Beverage manufacturing,3121,6,–,3,–,–,–,–
+Tobacco manufacturing,3122,1,–,1,–,–,–,–
+Tobacco manufacturing,31223,1,–,1,–,–,–,–
+Textile mills,313,3,–,–,–,–,–,–
+Wood product manufacturing,321,34,–,9,–,4,–,17
+Sawmills and wood preservation,3211,17,–,–,–,–,–,10
+Sawmills and wood preservation,32111,17,–,–,–,–,–,10
+Paper manufacturing,322,10,–,–,–,–,3,5
+"Pulp, paper, and paperboard mills",3221,4,–,–,–,–,–,–
+Paper mills,32212,4,–,–,–,–,–,–
+Converted paper product manufacturing,3222,5,–,–,–,–,–,–
+Printing and related support activities,323,8,–,–,–,–,4,–
+Printing and related support activities,3231,8,–,–,–,–,4,–
+Printing,32311,8,–,–,–,–,4,–
+Commercial printing (except screen and books),323111,5,–,–,–,–,–,–
+Petroleum and coal products manufacturing,324,9,–,–,–,–,–,4
+Petroleum and coal products manufacturing,3241,9,–,–,–,–,–,4
+"Asphalt paving, roofing, and saturated materials manufacturing",32412,4,–,–,–,–,–,4
+Asphalt paving mixture and block manufacturing,324121,4,–,–,–,–,–,4
+Chemical manufacturing,325,19,–,–,–,6,3,5
+Basic chemical manufacturing,3251,3,–,–,–,–,–,–
+Other basic organic chemical manufacturing,32519,1,–,–,–,–,–,–
+Ethyl alcohol manufacturing,325193,1,–,–,–,–,–,–
+"Resin, synthetic rubber, and artificial and synthetic fibers and filaments manufacturing",3252,4,–,–,–,–,–,–
+"Pesticide, fertilizer, and other agricultural chemical manufacturing",3253,4,–,–,–,1,–,–
+Pharmaceutical and medicine manufacturing,3254,4,–,–,–,–,–,–
+Pharmaceutical and medicine manufacturing,32541,4,–,–,–,–,–,–
+Medicinal and botanical manufacturing,325411,1,–,–,–,–,–,–
+Pharmaceutical preparation manufacturing,325412,3,–,–,–,–,–,–
+Plastics and rubber products manufacturing,326,16,3,–,–,–,4,9
+Plastics product manufacturing,3261,10,–,–,–,–,4,6
+Other plastics product manufacturing,32619,5,–,–,–,–,–,3
+Rubber product manufacturing,3262,6,3,–,–,–,–,3
+Nonmetallic mineral product manufacturing,327,42,–,18,–,–,3,18
+Glass and glass product manufacturing,3272,3,–,–,–,–,–,–
+Glass and glass product manufacturing,32721,3,–,–,–,–,–,–
+Cement and concrete product manufacturing,3273,32,–,–,–,–,3,10
+Cement manufacturing,32731,4,–,–,–,–,–,–
+Ready-mix concrete manufacturing,32732,18,–,–,–,–,–,3
+"Concrete pipe, brick, and block manufacturing",32733,4,–,–,–,–,–,–
+Concrete block and brick manufacturing,327331,4,–,–,–,–,–,–
+Other concrete product manufacturing,32739,6,–,–,–,–,–,4
+Other nonmetallic mineral product manufacturing,3279,7,–,–,–,–,–,–
+Abrasive product manufacturing,32791,1,–,–,–,–,–,–
+All other nonmetallic mineral product manufacturing,32799,6,–,–,–,–,–,–
+Cut stone and stone product manufacturing,327991,5,–,–,–,–,–,–
+Ground or treated mineral and earth manufacturing,327992,1,–,–,–,–,–,–
+Primary metal manufacturing,331,29,–,4,–,5,4,11
+Steel product manufacturing from purchased steel,3312,11,–,2,–,–,–,–
+Iron and steel pipe and tube manufacturing from purchased steel,33121,8,–,2,–,–,–,–
+Rolling and drawing of purchased steel,33122,3,–,–,–,–,–,–
+Rolled steel shape manufacturing,331221,3,–,–,–,–,–,–
+Alumina and aluminum production and processing,3313,4,–,–,–,–,1,–
+Alumina and aluminum production and processing,33131,4,–,–,–,–,1,–
+Foundries,3315,8,–,–,–,–,–,4
+Fabricated metal product manufacturing,332,59,5,12,–,9,11,15
+Forging and stamping,3321,6,–,–,–,–,–,–
+Forging and stamping,33211,6,–,–,–,–,–,–
+Architectural and structural metals manufacturing,3323,20,–,4,–,4,5,5
+Plate work and fabricated structural product manufacturing,33231,7,–,–,–,–,–,–
+Ornamental and architectural metal products manufacturing,33232,13,–,–,–,–,–,–
+Metal window and door manufacturing,332321,1,–,–,–,–,–,–
+Sheet metal work manufacturing,332322,8,–,–,–,–,–,–
+Ornamental and architectural metal work manufacturing,332323,4,–,–,–,–,–,–
+"Boiler, tank, and shipping container manufacturing",3324,6,–,–,–,–,–,–
+"Machine shops; turned product; and screw, nut, and bolt manufacturing",3327,9,–,–,–,–,–,–
+Machine shops,33271,8,–,–,–,–,–,–
+"Turned product and screw, nut, and bolt manufacturing",33272,1,–,–,–,–,–,–
+"Bolt, nut, screw, rivet, and washer manufacturing",332722,1,–,–,–,–,–,–
+"Coating, engraving, heat treating, and allied activities",3328,6,–,–,–,–,–,–
+"Coating, engraving, heat treating, and allied activities",33281,6,–,–,–,–,–,–
+"Metal coating, engraving (except jewelry and silverware), and allied services to manufacturers",332812,3,–,–,–,–,–,–
+Other fabricated metal product manufacturing,3329,11,–,–,–,–,–,3
+All other fabricated metal product manufacturing,33299,11,–,–,–,–,–,3
+Small arms ammunition manufacturing,332992,1,–,–,–,–,–,–
+Ammunition (except small arms) manufacturing,332993,1,–,–,–,–,–,–
+Machinery manufacturing,333,23,–,–,–,3,6,9
+"Agriculture, construction, and mining machinery manufacturing",3331,4,–,–,–,–,–,–
+"Ventilation, heating, air-conditioning, and commercial refrigeration equipment manufacturing",3334,1,–,–,–,–,–,1
+"Ventilation, heating, air-conditioning, and commercial refrigeration equipment manufacturing",33341,1,–,–,–,–,–,1
+Industrial and commercial fan and blower and air purification equipment manufacturing,333413,1,–,–,–,–,–,1
+Other general purpose machinery manufacturing,3339,11,–,–,–,–,4,4
+Material handling equipment manufacturing,33392,3,–,–,–,–,–,–
+All other general purpose machinery manufacturing,33399,8,–,–,–,–,4,–
+Welding and soldering equipment manufacturing,333992,4,–,–,–,–,–,–
+Computer and electronic product manufacturing,334,8,7,–,–,–,–,–
+Computer and peripheral equipment manufacturing,3341,1,1,–,–,–,–,–
+Computer and peripheral equipment manufacturing,33411,1,1,–,–,–,–,–
+Semiconductor and other electronic component manufacturing,3344,4,4,–,–,–,–,–
+Semiconductor and other electronic component manufacturing,33441,4,4,–,–,–,–,–
+Semiconductor and related device manufacturing,334413,2,2,–,–,–,–,–
+"Electrical equipment, appliance, and component manufacturing",335,9,–,–,–,–,4,–
+Electric lighting equipment manufacturing,3351,1,–,–,–,–,–,–
+Electric lighting equipment manufacturing,33513,1,–,–,–,–,–,–
+Electrical equipment manufacturing,3353,4,–,–,–,–,–,–
+Electrical equipment manufacturing,33531,4,–,–,–,–,–,–
+Other electrical equipment and component manufacturing,3359,4,–,–,–,–,–,–
+Transportation equipment manufacturing,336,43,–,8,–,5,15,11
+Motor vehicle body and trailer manufacturing,3362,6,–,–,–,–,–,2
+Motor vehicle body and trailer manufacturing,33621,6,–,–,–,–,–,2
+Truck trailer manufacturing,336212,2,–,–,–,–,–,2
+Motor vehicle parts manufacturing,3363,15,–,–,–,–,5,7
+Motor vehicle seating and interior trim manufacturing,33636,4,–,–,–,–,–,3
+Other motor vehicle parts manufacturing,33639,5,–,–,–,–,–,–
+Aerospace product and parts manufacturing,3364,7,–,–,–,–,–,–
+Aerospace product and parts manufacturing,33641,7,–,–,–,–,–,–
+Other aircraft parts and auxiliary equipment manufacturing,336413,3,–,–,–,–,–,–
+Ship and boat building,3366,9,–,–,–,–,3,–
+Ship and boat building,33661,9,–,–,–,–,3,–
+Ship building and repairing,336611,8,–,–,–,–,3,–
+Boat building,336612,1,–,–,–,–,–,–
+Furniture and related product manufacturing,337,7,–,–,–,–,–,–
+Miscellaneous manufacturing,339,11,–,–,–,4,–,3
+Medical equipment and supplies manufacturing,3391,4,–,–,–,–,–,–
+Medical equipment and supplies manufacturing,33911,4,–,–,–,–,–,–
+Dental equipment and supplies manufacturing,339114,1,–,–,–,–,–,–
+Other miscellaneous manufacturing,3399,7,–,–,–,–,–,–
+Sign manufacturing,33995,4,–,–,–,–,–,–
+All other miscellaneous manufacturing,33999,1,–,–,–,–,–,–
+Service providing(6),,–,–,–,–,–,–,–
+"Trade, transportation, and utilities",,1454,232,820,–,109,161,114
+Utilities,,41,2,17,–,3,13,6
+Utilities,221,41,2,17,–,3,13,6
+"Electric power generation, transmission and distribution",2211,30,–,12,–,3,9,6
+Electric power generation,22111,12,–,–,–,–,3,–
+Fossil fuel electric power generation,221112,1,–,–,–,–,–,–
+Solar electric power generation,221114,8,–,–,–,–,–,–
+Wind electric power generation,221115,1,–,–,–,–,–,–
+"Electric power transmission, control, and distribution",22112,18,–,–,–,–,6,–
+Electric bulk power transmission and control,221121,5,–,–,–,–,–,–
+Electric power distribution,221122,12,–,–,–,–,–,–
+Natural gas distribution,2212,3,1,–,–,–,–,–
+Natural gas distribution,22121,3,1,–,–,–,–,–
+"Water, sewage and other systems",2213,8,1,–,–,–,–,–
+Wholesale trade,,177,16,75,–,32,24,26
+"Merchant wholesalers, durable goods",423,105,11,41,–,18,–,21
+Motor vehicle and motor vehicle parts and supplies merchant wholesalers,4231,19,–,9,–,–,–,–
+Automobile and other motor vehicle merchant wholesalers,42311,6,–,–,–,–,–,–
+Motor vehicle supplies and new parts merchant wholesalers,42312,6,–,4,–,–,–,–
+Motor vehicle parts (used) merchant wholesalers,42314,7,–,–,–,–,–,–
+Lumber and other construction materials merchant wholesalers,4233,9,–,6,–,–,–,–
+"Brick, stone, and related construction material merchant wholesalers",42332,4,–,3,–,–,–,–
+Professional and commercial equipment and supplies merchant wholesalers,4234,6,–,–,–,–,–,–
+Office equipment merchant wholesalers,42342,1,–,–,–,–,–,–
+Metal and mineral (except petroleum) merchant wholesalers,4235,13,4,–,–,–,–,–
+Metal service centers and other metal merchant wholesalers,42351,12,4,–,–,–,–,–
+Household appliances and electrical and electronic goods merchant wholesalers,4236,8,–,3,–,3,–,–
+"Electrical apparatus and equipment, wiring supplies, and related equipment merchant wholesalers",42361,4,–,–,–,–,–,–
+"Hardware, and plumbing and heating equipment and supplies merchant wholesalers",4237,3,–,–,–,–,–,–
+"Machinery, equipment, and supplies merchant wholesalers",4238,28,4,13,–,4,–,5
+Farm and garden machinery and equipment merchant wholesalers,42382,9,–,5,–,–,–,–
+Industrial machinery and equipment merchant wholesalers,42383,11,4,–,–,–,–,–
+Industrial supplies merchant wholesalers,42384,3,–,3,–,–,–,–
+Transportation equipment and supplies (except motor vehicle) merchant wholesalers,42386,1,–,–,–,–,–,–
+Miscellaneous durable goods merchant wholesalers,4239,19,–,5,–,4,–,7
+Recyclable material merchant wholesalers,42393,15,–,5,–,–,–,–
+"Merchant wholesalers, nondurable goods",424,69,5,–,–,14,11,5
+Grocery and related product merchant wholesalers,4244,26,–,–,–,5,4,–
+General line grocery merchant wholesalers,42441,7,–,–,–,–,–,–
+Packaged frozen food merchant wholesalers,42442,1,–,–,–,–,–,–
+Meat and meat product merchant wholesalers,42447,4,–,–,–,–,–,–
+Fresh fruit and vegetable merchant wholesalers,42448,4,–,–,–,–,–,–
+Other grocery and related products merchant wholesalers,42449,5,–,–,–,–,–,–
+Farm product raw material merchant wholesalers,4245,7,–,–,–,–,–,–
+Grain and field bean merchant wholesalers,42451,5,–,–,–,–,–,–
+Petroleum and petroleum products merchant wholesalers,4247,12,–,–,–,–,–,–
+Petroleum bulk stations and terminals,42471,5,–,–,–,–,–,–
+Petroleum and petroleum products merchant wholesalers (except bulk stations and terminals),42472,7,–,–,–,–,–,–
+"Beer, wine, and distilled alcoholic beverage merchant wholesalers",4248,4,–,–,–,–,–,–
+Miscellaneous nondurable goods merchant wholesalers,4249,16,–,–,–,4,–,–
+Farm supplies merchant wholesalers,42491,7,–,–,–,–,–,–
+"Flower, nursery stock, and florists"" supplies merchant wholesalers",42493,4,–,–,–,–,–,–
+Wholesale trade agents and brokers,425,3,–,–,–,–,–,–
+Wholesale trade agents and brokers,4251,3,–,–,–,–,–,–
+Wholesale trade agents and brokers,42512,3,–,–,–,–,–,–
+Retail trade,,306,123,61,5,40,53,22
+Motor vehicle and parts dealers,441,72,16,27,–,7,–,14
+Automobile dealers,4411,33,9,16,–,–,–,4
+New car dealers,44111,13,–,9,–,–,–,–
+Used car dealers,44112,18,–,6,–,–,–,3
+Other motor vehicle dealers,4412,8,–,–,–,3,–,–
+Recreational vehicle dealers,44121,3,–,–,–,–,–,–
+"Motorcycle, boat, and other motor vehicle dealers",44122,5,–,–,–,–,–,–
+"Automotive parts, accessories, and tire retailers",4413,31,–,–,–,–,–,10
+Automotive parts and accessories retailers,44133,10,–,–,–,–,–,–
+Tire dealers,44134,16,–,–,–,–,–,7
+Building material and garden equipment and supplies dealers,444,25,–,10,–,8,–,–
+Building material and supplies dealers,4441,20,–,7,–,–,–,–
+Home centers,44411,9,–,–,–,–,–,–
+Hardware retailers,44414,4,–,–,–,–,–,–
+Other building material dealers,44418,4,–,3,–,–,–,–
+Lawn and garden equipment and supplies retailers,4442,5,–,3,–,–,–,–
+Food and beverage retailers,445,76,39,10,–,10,14,–
+Grocery and convenience retailers,4451,60,31,6,–,–,12,–
+Supermarkets and other grocery retailers (except convenience retailers),44511,31,12,–,–,–,6,–
+Convenience retailers and vending machine operators,44513,26,17,–,–,–,6,–
+Convenience retailers,445131,25,17,–,–,–,6,–
+Specialty food retailers,4452,8,–,4,–,–,–,–
+Fruit and vegetable retailers,44523,7,–,–,–,–,–,–
+Other specialty food retailers,44529,1,–,–,–,–,–,–
+"Beer, wine, and liquor retailers",4453,8,5,–,–,–,–,–
+"Beer, wine, and liquor retailers",44532,8,5,–,–,–,–,–
+"Furniture, home furnishings, electronics, and appliance retailers",449,7,–,–,–,–,–,–
+Furniture and home furnishings retailers,4491,3,–,–,–,–,–,–
+Furniture retailers,44911,3,–,–,–,–,–,–
+Electronics and appliance retailers,4492,4,–,–,–,–,–,–
+Electronics and appliance retailers,44921,4,–,–,–,–,–,–
+General merchandise retailers,455,36,16,3,–,8,6,3
+Department stores,4551,4,1,–,–,–,–,–
+Department stores,45511,4,1,–,–,–,–,–
+"Warehouse clubs, supercenters, and other general merchandise retailers",4552,27,12,3,–,5,4,3
+"Warehouse clubs, supercenters, and other general merchandise retailers",45521,27,12,3,–,5,4,3
+Warehouse clubs and supercenters,455211,13,–,–,–,5,3,–
+Health and personal care retailers,456,6,4,–,–,–,–,–
+Health and personal care retailers,4561,6,4,–,–,–,–,–
+Pharmacies and drug retailers,45611,6,4,–,–,–,–,–
+Gasoline stations and fuel dealers,457,47,22,4,–,–,17,–
+Gasoline stations,4571,44,22,–,–,–,–,–
+Gasoline stations with convenience stores,45711,41,–,–,–,–,–,–
+Other gasoline stations,45712,3,–,–,–,–,–,–
+Fuel dealers,4572,3,–,–,–,–,–,–
+Fuel dealers,45721,3,–,–,–,–,–,–
+"Clothing, clothing accessories, shoe, and jewelry retailers",458,8,6,–,–,–,–,–
+Clothing and clothing accessories retailers,4581,4,–,–,–,–,–,–
+Clothing and clothing accessories retailers,45811,4,–,–,–,–,–,–
+"Sporting goods, hobby, musical instrument, book, and miscellaneous retailers",459,27,15,4,–,–,6,–
+"Sporting goods, hobby, and musical instrument retailers",4591,6,–,–,–,–,–,–
+Used merchandise retailers,4595,6,–,–,–,–,3,–
+Used merchandise retailers,45951,6,–,–,–,–,3,–
+Other miscellaneous retailers,4599,12,10,–,–,–,–,–
+Pet and pet supplies retailers,45991,1,–,–,–,–,–,–
+All other miscellaneous retailers,45999,11,–,–,–,–,–,–
+"Tobacco, electronic cigarette, and other smoking supplies retailers",459991,9,–,–,–,–,–,–
+Transportation and warehousing,,930,91,667,6,34,71,60
+Air transportation,481,18,–,–,–,–,–,–
+Scheduled air transportation,4811,5,–,–,–,–,–,–
+Scheduled air transportation,48111,5,–,–,–,–,–,–
+Nonscheduled air transportation,4812,13,–,–,–,–,–,–
+Nonscheduled air transportation,48121,13,–,–,–,–,–,–
+Nonscheduled chartered passenger air transportation,481211,8,–,–,–,–,–,–
+Rail transportation,482,9,–,5,–,–,–,–
+Rail transportation,4821,9,–,5,–,–,–,–
+Rail transportation,48211,9,–,5,–,–,–,–
+Line-haul railroads,482111,7,–,4,–,–,–,–
+Water transportation,483,10,–,1,–,–,4,–
+Truck transportation,484,625,35,488,–,19,43,37
+General freight trucking,4841,438,24,342,–,14,28,27
+"General freight trucking, local",48411,60,–,44,–,–,4,8
+"General freight trucking, long-distance",48412,293,17,225,–,10,20,18
+"General freight trucking, long-distance, truckload",484121,152,8,115,–,–,8,12
+"General freight trucking, long-distance, less than truckload",484122,12,–,7,–,–,–,–
+Specialized freight trucking,4842,159,9,126,–,4,10,10
+Used household and office goods moving,48421,16,3,7,–,–,–,–
+"Specialized freight (except used goods) trucking, local",48422,73,3,61,–,–,–,7
+"Specialized freight (except used goods) trucking, long-distance",48423,54,–,45,–,–,5,–
+Transit and ground passenger transportation,485,72,25,41,–,–,3,–
+Urban transit systems,4851,3,–,–,–,–,–,–
+Urban transit systems,48511,3,–,–,–,–,–,–
+Commuter rail systems,485112,1,–,–,–,–,–,–
+Taxi and limousine service,4853,52,–,28,–,–,–,–
+Taxi and ridesharing services,48531,48,–,26,–,–,–,–
+Charter bus industry,4855,3,–,–,–,–,–,–
+Charter bus industry,48551,3,–,–,–,–,–,–
+Other transit and ground passenger transportation,4859,11,–,8,–,–,–,–
+Other transit and ground passenger transportation,48599,11,–,8,–,–,–,–
+Special needs transportation,485991,7,–,5,–,–,–,–
+Pipeline transportation,486,6,–,3,–,–,–,–
+Scenic and sightseeing transportation,487,3,–,3,–,–,–,–
+Support activities for transportation,488,101,10,58,–,–,12,12
+Support activities for air transportation,4881,6,–,3,–,–,–,–
+Airport operations,48811,5,–,–,–,–,–,–
+Other support activities for air transportation,48819,1,–,–,–,–,–,–
+Support activities for rail transportation,4882,3,–,–,–,–,–,–
+Support activities for rail transportation,48821,3,–,–,–,–,–,–
+Support activities for water transportation,4883,18,–,9,–,–,–,–
+Marine cargo handling,48832,8,–,–,–,–,–,–
+Navigational services to shipping,48833,5,–,5,–,–,–,–
+Support activities for road transportation,4884,62,7,41,–,–,–,7
+Motor vehicle towing,48841,48,7,27,–,–,–,7
+Other support activities for road transportation,48849,14,–,14,–,–,–,–
+Freight transportation arrangement,4885,8,–,3,–,–,–,–
+Freight transportation arrangement,48851,8,–,3,–,–,–,–
+Other support activities for transportation,4889,4,–,–,–,–,–,–
+Other support activities for transportation,48899,4,–,–,–,–,–,–
+Couriers and messengers,492,55,10,38,–,–,–,–
+Couriers and express delivery services,4921,36,3,26,–,–,–,–
+Couriers and express delivery services,49211,36,3,26,–,–,–,–
+Local messengers and local delivery,4922,19,7,12,–,–,–,–
+Local messengers and local delivery,49221,19,7,12,–,–,–,–
+Warehousing and storage,493,28,7,10,–,4,4,3
+Warehousing and storage,4931,28,7,10,–,4,4,3
+General warehousing and storage,49311,19,–,7,–,–,–,–
+Refrigerated warehousing and storage,49312,3,–,–,–,–,–,–
+Farm product warehousing and storage,49313,4,–,–,–,–,–,–
+Information,,29,6,11,–,–,7,–
+Information,,29,6,11,–,–,7,–
+Motion picture and sound recording industries,512,2,2,–,–,–,–,–
+Sound recording industries,5122,2,2,–,–,–,–,–
+Sound recording studios,51224,1,1,–,–,–,–,–
+Record production and distribution,51225,1,1,–,–,–,–,–
+Broadcasting and content providers,516,5,–,–,–,–,–,–
+Radio and television broadcasting stations,5161,4,–,–,–,–,–,–
+"Media Streaming Distribution Services, Social Networks, Other Media Networks and Content Providers",5162,1,–,–,–,–,–,–
+"Media Streaming Distribution Services, Social Networks, Other Media Networks and Content Providers",51621,1,–,–,–,–,–,–
+Telecommunications,517,19,–,8,–,–,–,–
+Wired and wireless telecommunications (except satellite),5171,15,–,6,–,–,–,–
+Wired and wireless telecommunications carriers (except satellite),51711,13,–,6,–,–,–,–
+Wired telecommunications carriers,517111,10,–,5,–,–,–,–
+All other telecommunications,5178,3,–,–,–,–,–,–
+All other telecommunications,51781,3,–,–,–,–,–,–
+Financial activities,,113,38,–,–,17,–,–
+Finance and insurance,,22,15,–,–,3,–,–
+Credit intermediation and related activities,522,15,12,–,–,–,–,–
+Depository credit intermediation,5221,10,–,–,–,–,–,–
+Insurance carriers and related activities,524,3,–,–,–,–,–,–
+Real estate and rental and leasing,,91,23,16,–,14,30,8
+Real estate,531,58,18,3,–,10,24,3
+Activities related to real estate,5313,36,8,–,–,–,–,3
+Real estate property managers,53131,32,8,–,–,–,–,3
+Residential property managers,531311,26,8,–,–,–,–,–
+Nonresidential property managers,531312,4,–,–,–,–,–,–
+Other activities related to real estate,53139,4,–,–,–,–,–,–
+Rental and leasing services,532,33,5,13,–,4,6,5
+Consumer goods rental,5322,9,3,3,–,–,–,–
+Other consumer goods rental,53228,9,3,3,–,–,–,–
+Recreational goods rental,532284,3,–,1,–,–,–,–
+Commercial and industrial machinery and equipment rental and leasing,5324,14,–,5,–,–,–,–
+"Construction, transportation, mining, and forestry machinery and equipment rental and leasing",53241,10,–,3,–,–,–,–
+"Construction, mining, and forestry machinery and equipment rental and leasing",532412,9,–,3,–,–,–,–
+Other Commercial and Industrial Machinery and Equipment Rental and Leasing,53249,4,–,2,–,–,–,–
+Professional and business services,,555,–,–,3,–,110,–
+"Professional, scientific, and technical services",,66,16,27,–,8,11,4
+"Professional, scientific, and technical services",541,66,16,27,–,8,11,4
+Legal services,5411,6,4,–,–,–,–,–
+"Accounting, tax preparation, bookkeeping, and payroll services",5412,3,–,–,–,–,–,–
+"Accounting, tax preparation, bookkeeping, and payroll services",54121,3,–,–,–,–,–,–
+"Architectural, engineering, and related services",5413,25,4,16,–,–,–,–
+Engineering services,54133,15,–,10,–,–,–,–
+Surveying and mapping (except geophysical) services,54137,4,–,–,–,–,–,–
+"Management, scientific, and technical consulting services",5416,14,–,8,–,–,3,–
+Environmental consulting services,54162,7,–,5,–,–,–,–
+"Advertising, public relations, and related services",5418,3,–,–,–,–,–,–
+Advertising agencies,54181,1,–,–,–,–,–,–
+Indoor and outdoor display advertising,54185,2,–,–,–,–,–,–
+"Other professional, scientific, and technical services",5419,10,4,–,–,–,3,–
+Photographic services,54192,3,–,–,–,–,–,–
+Commercial photography,541922,1,–,–,–,–,–,–
+Veterinary services,54194,4,–,–,–,–,–,–
+"All other professional, scientific, and technical services",54199,3,–,–,–,–,–,–
+Management of companies and enterprises,,5,–,–,–,–,–,–
+Management of companies and enterprises,551,5,–,–,–,–,–,–
+Management of companies and enterprises,5511,5,–,–,–,–,–,–
+Management of companies and enterprises,55111,5,–,–,–,–,–,–
+Administrative and support and waste management and remediation services,,484,51,148,3,87,99,96
+Administrative and support services,561,397,–,94,–,80,89,83
+Facilities support services,5612,5,–,–,–,–,–,–
+Facilities support services,56121,5,–,–,–,–,–,–
+Employment services,5613,45,–,10,–,9,–,6
+Temporary help services,56132,37,–,–,–,6,–,6
+Business support services,5614,5,–,–,–,–,–,–
+Business service centers,56143,1,–,–,–,–,–,–
+Private mail centers,561431,1,–,–,–,–,–,–
+Other business support services,56149,4,–,–,–,–,–,–
+Repossession services,561491,3,–,–,–,–,–,–
+Investigation and security services,5616,54,–,10,–,–,19,–
+"Investigation, guard, and armored car services",56161,48,–,–,–,–,16,–
+Security systems services,56162,6,–,–,–,–,3,–
+Services to buildings and dwellings,5617,275,–,62,–,67,55,72
+Exterminating and pest control services,56171,8,–,–,–,3,–,–
+Janitorial services,56172,27,–,6,–,–,7,–
+Landscaping services,56173,228,–,52,–,55,44,–
+Carpet and upholstery cleaning services,56174,3,–,–,–,–,–,–
+Other services to buildings and dwellings,56179,9,–,–,–,4,–,–
+Other support services,5619,10,–,5,–,–,–,–
+All other support services,56199,7,–,4,–,–,–,–
+Waste management and remediation services,562,87,–,54,–,7,10,13
+Waste collection,5621,39,–,26,–,–,5,–
+Waste collection,56211,39,–,26,–,–,5,–
+Solid waste collection,562111,35,–,24,–,–,4,–
+Waste treatment and disposal,5622,16,–,10,–,–,–,–
+Waste treatment and disposal,56221,16,–,10,–,–,–,–
+Hazardous waste treatment and disposal,562211,10,–,5,–,–,–,–
+Solid waste landfill,562212,3,–,3,–,–,–,–
+Remediation and other waste management services,5629,32,–,18,–,4,–,6
+Remediation services,56291,7,–,–,–,–,–,–
+Materials recovery facilities,56292,9,–,–,–,–,–,–
+All other waste management services,56299,16,–,12,–,–,–,–
+Septic tank and related services,562991,9,–,–,–,–,–,–
+Educational and health services,,178,29,67,–,24,–,–
+Educational services,,45,6,27,–,5,–,–
+Educational services,611,45,6,27,–,5,–,–
+Elementary and secondary schools,6111,13,–,2,–,–,–,–
+Elementary and secondary schools,61111,13,–,2,–,–,–,–
+"Colleges, universities, and professional schools",6113,6,–,3,–,–,–,–
+"Colleges, universities, and professional schools",61131,6,–,3,–,–,–,–
+Technical and trade schools,6115,22,–,20,–,–,–,–
+Technical and trade schools,61151,22,–,20,–,–,–,–
+Other schools and instruction,6116,4,–,2,–,–,–,–
+Health care and social assistance,,133,23,40,–,19,45,–
+Ambulatory health care services,621,60,13,25,–,7,13,–
+Offices of physicians,6211,7,3,–,–,4,–,–
+Offices of physicians,62111,7,3,–,–,4,–,–
+Offices of other health practitioners,6213,6,4,–,–,–,–,–
+Offices of mental health practitioners (except physicians),62133,1,1,–,–,–,–,–
+Offices of all other health practitioners,62139,1,–,–,–,–,–,–
+Offices of podiatrists,621391,1,–,–,–,–,–,–
+Outpatient care centers,6214,9,–,5,–,–,–,–
+Home health care services,6216,19,2,6,–,–,9,–
+Home health care services,62161,19,2,6,–,–,9,–
+Other ambulatory health care services,6219,13,–,13,–,–,–,–
+Ambulance services,62191,12,–,12,–,–,–,–
+All other ambulatory health care services,62199,1,–,1,–,–,–,–
+Blood and organ banks,621991,1,–,1,–,–,–,–
+Hospitals,622,18,4,4,–,–,5,–
+General medical and surgical hospitals,6221,14,4,3,–,–,3,–
+General medical and surgical hospitals,62211,14,4,3,–,–,3,–
+Nursing and residential care facilities,623,31,–,4,–,6,17,–
+Nursing care facilities (skilled nursing facilities),6231,8,–,–,–,–,4,–
+Nursing care facilities (skilled nursing facilities),62311,8,–,–,–,–,4,–
+"Residential intellectual and developmental disability, mental health, and substance abuse facilities",6232,16,–,–,–,–,9,–
+Residential intellectual and developmental disability facilities,62321,5,–,–,–,–,3,–
+Residential mental health and substance abuse facilities,62322,11,–,–,–,–,6,–
+Social assistance,624,22,–,6,–,–,9,–
+Individual and family services,6241,10,–,4,–,–,–,–
+Services for the elderly and persons with disabilities,62412,7,–,–,–,–,–,–
+Other individual and family services,62419,3,–,–,–,–,–,–
+"Community food and housing, and emergency and other relief services",6242,9,–,–,–,–,5,–
+Community food services,62421,1,–,–,–,–,–,–
+Community housing services,62422,8,–,–,–,–,5,–
+Temporary shelters,624221,7,–,–,–,–,5,–
+Leisure and hospitality,,265,100,50,–,–,64,–
+"Arts, entertainment, and recreation",,89,16,33,–,–,13,14
+"Performing arts, spectator sports, and related industries",711,34,5,17,–,–,4,–
+Performing arts companies,7111,2,–,–,–,–,–,–
+Musical groups and artists,71113,1,–,–,–,–,–,–
+Other performing arts companies,71119,1,–,–,–,–,–,–
+Spectator sports,7112,18,–,11,–,–,–,–
+Spectator sports,71121,18,–,11,–,–,–,–
+Racetracks,711212,3,–,–,–,–,–,–
+"Promoters of performing arts, sports, and similar events",7113,10,–,–,–,–,–,–
+"Promoters of performing arts, sports, and similar events with facilities",71131,5,–,–,–,–,–,–
+"Promoters of performing arts, sports, and similar events without facilities",71132,4,–,–,–,–,–,–
+"Museums, historical sites, and similar institutions",712,3,–,–,–,–,–,–
+"Museums, historical sites, and similar institutions",7121,3,–,–,–,–,–,–
+"Amusement, gambling, and recreation industries",713,52,11,16,–,–,9,7
+Other amusement and recreation industries,7139,42,9,–,–,–,4,–
+Golf courses and country clubs,71391,9,–,–,–,–,–,–
+Skiing facilities,71392,4,–,–,–,–,–,–
+Fitness and recreational sports centers,71394,6,–,–,–,–,–,–
+All other amusement and recreation industries,71399,18,5,–,–,–,–,–
+Accommodation and food services,,176,84,17,3,18,51,–
+Accommodation,721,33,15,3,–,3,9,–
+Traveler accommodation,7211,27,–,–,–,–,9,–
+RV (recreational vehicle) parks and recreational camps,7212,6,–,–,–,–,–,–
+RV (recreational vehicle) parks and recreational camps,72121,6,–,–,–,–,–,–
+Food services and drinking places,722,143,69,14,–,15,42,–
+Special food services,7223,9,4,–,–,–,–,–
+Food service contractors,72231,4,–,–,–,–,–,–
+Caterers,72232,2,–,–,–,–,–,–
+Mobile food services,72233,3,–,–,–,–,–,–
+Drinking places (alcoholic beverages),7224,28,22,–,–,–,–,–
+Drinking places (alcoholic beverages),72241,28,22,–,–,–,–,–
+Restaurants and other eating places,7225,106,43,12,–,11,37,–
+Restaurants and other eating places,72251,106,43,12,–,11,37,–
+Full-service restaurants,722511,45,20,–,–,–,19,–
+Limited-service restaurants,722513,54,21,9,–,6,16,–
+Other Services (except Public Administration),,209,47,46,9,26,41,40
+Other Services (except Public Administration),,209,47,46,9,26,41,40
+Repair and maintenance,811,143,28,29,9,16,26,35
+Automotive repair and maintenance,8111,96,22,11,7,7,24,25
+Automotive mechanical and electrical repair and maintenance,81111,59,13,8,–,–,11,18
+General automotive repair,811111,53,–,6,–,–,9,–
+"Automotive body, paint, interior, and glass repair",81112,10,3,–,–,–,4,–
+Other automotive repair and maintenance,81119,18,4,–,–,–,7,–
+Car washes,811192,11,3,–,–,–,–,–
+Commercial and industrial machinery and equipment (except automotive and electronic) repair and maintenance,8113,30,5,13,–,–,–,8
+Commercial and industrial machinery and equipment (except automotive and electronic) repair and maintenance,81131,30,5,13,–,–,–,8
+Personal and household goods repair and maintenance,8114,13,1,3,–,6,–,–
+Other personal and household goods repair and maintenance,81149,7,1,–,–,3,–,–
+Personal and laundry services,812,37,–,4,–,–,11,–
+Personal care services,8121,20,–,–,–,–,7,–
+"Hair, nail, and skin care services",81211,15,–,–,–,–,7,–
+Barber shops,812111,8,–,–,–,–,–,–
+Beauty salons,812112,6,–,–,–,–,–,–
+Other personal care services,81219,5,–,–,–,–,–,–
+Death care services,8122,3,–,–,–,–,–,–
+Funeral homes and funeral services,81221,3,–,–,–,–,–,–
+Drycleaning and laundry services,8123,6,–,–,–,–,–,–
+Other personal services,8129,8,–,–,–,–,–,–
+Parking lots and garages,81293,4,–,–,–,–,–,–
+Government(7),,445,113,191,17,56,33,35
+Federal Government,,83,18,42,1,9,8,5
+Service providing(6),,–,–,–,–,–,–,–
+"Trade, transportation, and utilities",,–,–,–,1,–,–,–
+Utilities,,1,–,–,1,–,–,–
+Utilities,221,1,–,–,1,–,–,–
+"Electric power generation, transmission and distribution",2211,1,–,–,1,–,–,–
+Electric power generation,22111,1,–,–,1,–,–,–
+Fossil fuel electric power generation,221112,1,–,–,1,–,–,–
+Transportation and warehousing,,15,–,–,–,–,–,–
+Educational and health services,,1,1,–,–,–,–,–
+Health care and social assistance,,1,1,–,–,–,–,–
+Hospitals,622,1,1,–,–,–,–,–
+General medical and surgical hospitals,6221,1,1,–,–,–,–,–
+General medical and surgical hospitals,62211,1,1,–,–,–,–,–
+Public administration,,62,17,31,–,5,5,–
+Public administration,,62,17,31,–,5,5,–
+Administration of economic programs,926,1,–,1,–,–,–,–
+Administration of economic programs,9261,1,–,1,–,–,–,–
+Regulation of agricultural marketing and commodities,92614,1,–,1,–,–,–,–
+National security and international affairs,928,56,17,28,–,–,4,–
+National security and international affairs,9281,56,17,28,–,–,4,–
+State Government,,92,27,38,–,12,–,8
+Goods producing,,–,–,–,–,–,–,–
+Construction,,11,–,6,–,–,–,3
+Construction,,11,–,6,–,–,–,3
+Heavy and civil engineering construction,237,11,–,6,–,–,–,–
+"Highway, street, and bridge construction",2373,11,–,6,–,–,–,–
+"Highway, street, and bridge construction",23731,11,–,6,–,–,–,–
+Service providing(6),,–,–,–,–,–,–,–
+"Trade, transportation, and utilities",,–,2,–,–,–,–,–
+Transportation and warehousing,,5,2,–,–,–,–,–
+Transit and ground passenger transportation,485,2,2,–,–,–,–,–
+Urban transit systems,4851,2,2,–,–,–,–,–
+Urban transit systems,48511,2,2,–,–,–,–,–
+Bus and other motor vehicle transit systems,485113,2,2,–,–,–,–,–
+Professional and business services,,4,1,3,–,–,–,–
+"Professional, scientific, and technical services",,3,–,3,–,–,–,–
+"Professional, scientific, and technical services",541,3,–,3,–,–,–,–
+Scientific research and development services,5417,3,–,3,–,–,–,–
+"Research and development in the physical, engineering, and life sciences",54171,3,–,3,–,–,–,–
+"Research and development in the physical, engineering, and life sciences",541715,3,–,3,–,–,–,–
+Administrative and support and waste management and remediation services,,1,1,–,–,–,–,–
+Administrative and support services,561,1,1,–,–,–,–,–
+Services to buildings and dwellings,5617,1,1,–,–,–,–,–
+Janitorial services,56172,1,1,–,–,–,–,–
+Educational and health services,,25,–,–,–,–,–,–
+Educational services,,20,9,6,–,4,–,–
+Educational services,611,20,9,6,–,–,–,–
+Elementary and secondary schools,6111,4,–,–,–,–,–,–
+Elementary and secondary schools,61111,4,–,–,–,–,–,–
+"Colleges, universities, and professional schools",6113,16,–,3,–,–,–,–
+"Colleges, universities, and professional schools",61131,16,–,3,–,–,–,–
+Health care and social assistance,,5,–,–,–,–,–,–
+Hospitals,622,3,–,–,–,–,–,–
+Psychiatric and substance abuse hospitals,6222,3,–,–,–,–,–,–
+Psychiatric and substance abuse hospitals,62221,3,–,–,–,–,–,–
+Other Services (except Public Administration),,3,–,–,–,–,–,–
+Other Services (except Public Administration),,3,–,–,–,–,–,–
+"Religious, grantmaking, civic, professional, and similar organizations",813,3,–,–,–,–,–,–
+Public administration,,39,12,19,–,–,–,–
+Public administration,,39,12,19,–,–,–,–
+"Justice, public order, and safety activities",922,22,–,8,–,–,–,–
+"Justice, public order, and safety activities",9221,22,–,8,–,–,–,–
+Police protection,92212,12,–,–,–,–,–,–
+Correctional institutions,92214,8,–,–,–,–,–,–
+Administration of environmental quality programs,924,6,–,–,–,–,–,–
+Administration of environmental quality programs,9241,6,–,–,–,–,–,–
+Administration of economic programs,926,6,–,–,–,–,–,–
+Administration of economic programs,9261,6,–,–,–,–,–,–
+Regulation and administration of transportation programs,92612,6,–,–,–,–,–,–
+Local Government,,264,66,109,15,34,19,21
+Goods producing,,–,–,–,–,–,–,–
+Construction,,12,–,9,–,–,–,1
+Construction,,12,–,9,–,–,–,1
+Heavy and civil engineering construction,237,10,–,–,–,–,–,1
+Utility system construction,2371,1,–,–,–,–,–,–
+Water and sewer line and related structures construction,23711,1,–,–,–,–,–,–
+"Highway, street, and bridge construction",2373,9,–,–,–,–,–,–
+"Highway, street, and bridge construction",23731,9,–,–,–,–,–,–
+Service providing(6),,–,–,–,–,–,–,–
+"Trade, transportation, and utilities",,–,–,–,–,–,–,–
+Utilities,,7,–,–,–,–,–,–
+Utilities,221,7,–,–,–,–,–,–
+"Electric power generation, transmission and distribution",2211,1,–,–,–,–,–,–
+Electric power generation,22111,1,–,–,–,–,–,–
+"Water, sewage and other systems",2213,6,–,–,–,–,–,–
+Transportation and warehousing,,19,–,14,–,–,–,–
+Transit and ground passenger transportation,485,12,–,9,–,–,–,–
+Urban transit systems,4851,3,–,–,–,–,–,–
+Urban transit systems,48511,3,–,–,–,–,–,–
+Interurban and rural bus transportation,4852,3,–,–,–,–,–,–
+Interurban and rural bus transportation,48521,3,–,–,–,–,–,–
+School and employee bus transportation,4854,6,–,4,–,–,–,–
+School and employee bus transportation,48541,6,–,4,–,–,–,–
+Support activities for transportation,488,6,–,–,–,–,–,–
+Couriers and messengers,492,1,–,–,–,–,–,–
+Couriers and express delivery services,4921,1,–,–,–,–,–,–
+Couriers and express delivery services,49211,1,–,–,–,–,–,–
+Professional and business services,,10,–,4,–,3,–,–
+Administrative and support and waste management and remediation services,,10,–,4,–,3,–,–
+Administrative and support services,561,1,–,1,–,–,–,–
+Other support services,5619,1,–,1,–,–,–,–
+All other support services,56199,1,–,1,–,–,–,–
+Waste management and remediation services,562,9,–,3,–,3,–,–
+Waste collection,5621,6,–,–,–,3,–,–
+Waste collection,56211,6,–,–,–,3,–,–
+Solid waste collection,562111,5,–,–,–,–,–,–
+Educational and health services,,40,5,13,–,14,5,3
+Educational services,,38,4,12,–,14,5,3
+Educational services,611,38,4,12,–,14,5,3
+Elementary and secondary schools,6111,35,4,12,–,13,3,3
+Elementary and secondary schools,61111,35,4,12,–,13,3,3
+"Colleges, universities, and professional schools",6113,1,–,–,–,–,–,–
+"Colleges, universities, and professional schools",61131,1,–,–,–,–,–,–
+Health care and social assistance,,2,1,1,–,–,–,–
+Ambulatory health care services,621,2,1,1,–,–,–,–
+Other ambulatory health care services,6219,2,1,1,–,–,–,–
+Ambulance services,62191,2,1,1,–,–,–,–
+Leisure and hospitality,,–,–,–,–,–,–,–
+"Arts, entertainment, and recreation",,6,1,–,–,–,–,–
+"Museums, historical sites, and similar institutions",712,5,1,–,–,–,–,–
+"Museums, historical sites, and similar institutions",7121,5,1,–,–,–,–,–
+Nature parks and other similar institutions,71219,5,1,–,–,–,–,–
+"Amusement, gambling, and recreation industries",713,1,–,–,–,–,–,–
+Other amusement and recreation industries,7139,1,–,–,–,–,–,–
+Golf courses and country clubs,71391,1,–,–,–,–,–,–
+Other Services (except Public Administration),,3,–,–,–,–,–,–
+Other Services (except Public Administration),,3,–,–,–,–,–,–
+Public administration,,163,54,66,15,10,8,10
+Public administration,,163,54,66,15,10,8,10
+"Executive, legislative, and other general government support",921,14,–,5,–,–,–,5
+"Executive, legislative, and other general government support",9211,14,–,5,–,–,–,5
+"Executive and legislative offices, combined",92114,3,–,–,–,–,–,–
+Other general government support,92119,10,–,–,–,–,–,–
+"Justice, public order, and safety activities",922,145,52,59,15,–,–,–
+"Justice, public order, and safety activities",9221,145,52,59,15,–,–,–
+Courts,92211,1,1,–,–,–,–,–
+Police protection,92212,84,44,35,–,–,–,–
+Correctional institutions,92214,3,1,–,–,–,–,–
+Fire protection,92216,54,6,20,15,–,–,–
+"Other justice, public order, and safety activities",92219,1,–,–,–,–,–,–
+Administration of environmental quality programs,924,2,–,–,–,–,–,–
+Administration of environmental quality programs,9241,2,–,–,–,–,–,–
+Administration of air and water resource and solid waste management programs,92411,2,–,–,–,–,–,–
+,,,,,,,,
+Footnotes:,,,,,,,,
+"(1) CFOI has used several versions of the North American Industry Classification System (NAICS) since 2003 to define industry. For complete information on the version of NAICS used in this year, see our definitions page at https://www.bls.gov/opub/hom/cfoi/concepts.htm#north-american-industry-classification-system-naics. Cases where ownership is unknown are included in private industry counts.",,,,,,,,
+(2) Based on the BLS Occupational Injury and Illness Classification System (OIICS) 3.02 implemented for 2023 data forward.,,,,,,,,
+(3) Includes violence by persons and self-inflicted injury.,,,,,,,,
+"(4) Includes roadway, nonroadway, air, water, rail fatal occupational injuries, and fatal occupational injuries resulting from being struck by a vehicle.",,,,,,,,
+"(5) Includes fatal injuries at all establishments categorized as Mining (Sector 21) in the North American Industry Classification System, including establishments not governed by the Mine Safety and Health Administration (MSHA) rules and reporting, such as those in oil and gas extraction.",,,,,,,,
+(6) Cases where industry is unknown are included in the service sector counts.,,,,,,,,
+"(7) Includes fatal injuries to workers employed by governmental organizations regardless of industry. Cases classified as foreign government and other government are included in all government counts, but not displayed separately.",,,,,,,,
+"Note: Data for all years are revised and final. Totals for major categories may include subcategories not shown separately. For complete information on how the data are coded and presented see our definitions page at https://www.bls.gov/iif/definitions/census-of-fatal-occupational-injuries-definitions.htm. Dashes indicate no data reported or data that do not meet publication criteria. N.e.c. means ""not elsewhere classified."" CFOI fatality counts exclude illness-related deaths unless precipitated by an injury event.",,,,,,,,
+"Source: U.S. Department of Labor, Bureau of Labor Statistics, in cooperation with state, New York City, District of Columbia, and federal agencies, Census of Fatal Occupational Injuries, December 2024",,,,,,,,
