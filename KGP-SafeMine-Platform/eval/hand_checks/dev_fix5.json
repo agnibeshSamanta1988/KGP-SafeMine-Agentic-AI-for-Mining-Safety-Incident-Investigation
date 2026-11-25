@@ -1,0 +1,24 @@
+{
+  "run": "eval/results/dev_fix5.jsonl",
+  "checked": "2026-11-19",
+  "reviewer": "Claude (assistant), reading each answer against the gold key points and the cited evidence text. A human reviewer should spot-check these verdicts.",
+  "scope": "All 14 DEV rows. A 20-row check needs TEST rows, which are reserved for the single final run.",
+  "faithfulness": "Every cited claim in all 14 answers appears in its cited evidence. No fabricated facts. No victim or witness names in the answers.",
+  "rows": [
+    {"id": "Q001", "scorer": "pass", "hand": "correct", "note": "Root cause copied from the cited ROOT_CAUSE chunk."},
+    {"id": "Q002", "scorer": "fail", "hand": "correct_less_detailed", "note": "Answer matches the cited report sentence; gold adds park-brake/gear detail not in the cited chunk. Scorer false negative (word recall 0.40)."},
+    {"id": "Q013", "scorer": "fail", "hand": "partial", "note": "Cited chunk lists blind spots, pre/post-trip inspections, radio communications, parking, defect reporting; answer summarises it to one general line. Fair fail."},
+    {"id": "Q022", "scorer": "pass", "hand": "correct", "note": "75.202(a) is in the cited chunk. Citation was attached by the deterministic rescue."},
+    {"id": "Q028", "scorer": "pass", "hand": "correct", "note": "All details trace to E1-E3."},
+    {"id": "Q032", "scorer": "pass", "hand": "correct", "note": "Standard text matches the 2014 annual edition in the cfr_lookup evidence."},
+    {"id": "Q037", "scorer": "pass", "hand": "correct", "note": "Exact eCFR text."},
+    {"id": "Q045", "scorer": "pass", "hand": "correct", "note": "Section identified from the title."},
+    {"id": "Q053", "scorer": "pass", "hand": "correct", "note": "27 from the tool total. Cosmetic: echoes the field name total_matching_records."},
+    {"id": "Q065", "scorer": "pass", "hand": "correct", "note": "Abstains on a post-snapshot date, no search."},
+    {"id": "Q071", "scorer": "pass", "hand": "wrong", "note": "Answer repeats the false premise (inundation) and never says MSHA classifies the event as Powered Haulage. Scorer false positive: the loose cue word 'not' matched 'did not develop'. Scorer and agent both fixed afterwards."},
+    {"id": "Q074", "scorer": "pass", "hand": "correct", "note": "Refused by the R1 guard."},
+    {"id": "Q085", "scorer": "pass", "hand": "correct", "note": "Supported; state comes from the evidence label."},
+    {"id": "Q091", "scorer": "pass", "hand": "correct", "note": "Contradicted, with the real date July 17, 2023."}
+  ],
+  "summary": {"scorer_pass": 12, "hand_correct": 12, "hand_partial": 1, "hand_wrong": 1, "scorer_errors": ["Q002 false negative", "Q071 false positive"]}
+}

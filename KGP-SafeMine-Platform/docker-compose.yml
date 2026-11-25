@@ -1,0 +1,56 @@
+# KGP-SafeMine: Streamlit UI (8501) + FastAPI service (8000), one image, secrets and data mounted at run time.
+#
+#   docker compose build
+#   docker compose up -d            # then open http://localhost:8501  (API docs: http://localhost:8000/docs)
+#   docker compose ps               # both services should become "healthy"
+#   docker compose logs -f ui
+#
+# Needs next to this file:  .env (API keys, copy .env.example)   certs/ (CA files named in .env, if needed)
+#                           data_processed/ (chunks, BM25, dense index, DuckDB, events_index.csv: build with `make data`)
+# Ports are bound to 127.0.0.1 only. Put a reverse proxy with TLS and authentication in front before exposing them.
+# Linux hosts: the container user is uid 1000. If yours is different run  APP_UID=$(id -u) APP_GID=$(id -g) docker compose up -d
+# so that data_processed/ (session database, traces) stays writable.
+
+x-safemine: &safemine
+  build: .
+  image: kgp-safemine:latest
+  env_file: .env                       # keys come from here, never from the image
+  environment:
+    LANGFUSE_HOST: http://host.docker.internal:3000   # Langfuse (observability/) runs on the host; "localhost" inside a container is the container
+  extra_hosts: ["host.docker.internal:host-gateway"]
+  user: "${APP_UID:-1000}:${APP_GID:-1000}"
+  restart: unless-stopped
+  security_opt: ["no-new-privileges:true"]
+  cap_drop: ["ALL"]
+  volumes:
+    - ./data_processed:/app/data_processed        # read-write: sessions.sqlite and traces.jsonl are written here
+    - ./.streamlit/secrets.toml:/app/.streamlit/secrets.toml:ro   # login credentials (bcrypt hash): required, never baked into the image
+    - ./certs:/app/certs:ro                       # CA certificates for the LLM and embedding endpoints (paths set in .env)
+    - ./models:/app/models:ro                     # optional pre-downloaded models (make models); empty = downloaded once, cached below
+    - hf-cache:/home/app/.cache/huggingface       # reranker and tokenizer cache: survives restarts
+
+services:
+  ui:
+    <<: *safemine
+    command: ["streamlit", "run", "app/ui.py", "--server.port", "8501", "--server.address", "0.0.0.0"]
+    ports: ["127.0.0.1:8501:8501"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request, sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8501/_stcore/health', timeout=4).status == 200 else 1)"]
+      interval: 30s
+      timeout: 6s
+      retries: 3
+      start_period: 40s
+
+  api:
+    <<: *safemine
+    command: ["uvicorn", "app.api:app", "--host", "0.0.0.0", "--port", "8000"]
+    ports: ["127.0.0.1:8000:8000"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request, sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=4).status == 200 else 1)"]
+      interval: 30s
+      timeout: 6s
+      retries: 3
+      start_period: 40s
+
+volumes:
+  hf-cache:

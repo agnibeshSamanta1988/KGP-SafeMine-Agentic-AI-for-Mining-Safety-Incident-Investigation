@@ -1,0 +1,263 @@
+[
+ {
+  "chunks": "section450",
+  "retriever": "bm25",
+  "n": 53,
+  "R@1": 0.962,
+  "R@5": 0.962,
+  "R@10": 0.981,
+  "MRR": 0.965,
+  "nDCG@10": 0.968,
+  "Ev@8_section": 0.757,
+  "n_section": 37,
+  "s/query": 0.05,
+  "R@5_by_subtype": {
+   "Reported Cause": 1.0,
+   "Corrective Action": 1.0,
+   "Cited Standard": 1.0,
+   "Circumstances": 1.0,
+   "Regulation Mapping": 1.0,
+   "Prompt Injection (Query)": 1.0,
+   "Supported Claim": 1.0,
+   "Contradicted Claim": 0.667,
+   "Partial Claim": 1.0
+  },
+  "missed_R@10": [
+   "Q095"
+  ],
+  "before_header_fix": {
+   "R@1": 0.887,
+   "R@5": 0.962,
+   "R@10": 0.962,
+   "MRR": 0.921,
+   "Ev@8_section": 0.514
+  }
+ },
+ {
+  "chunks": "section450",
+  "retriever": "bm25+rerank",
+  "n": 53,
+  "R@1": 0.962,
+  "R@5": 0.981,
+  "R@10": 0.981,
+  "MRR": 0.966,
+  "nDCG@10": 0.97,
+  "Ev@8_section": 0.811,
+  "n_section": 37,
+  "s/query": 0.77,
+  "R@5_by_subtype": {
+   "Reported Cause": 1.0,
+   "Corrective Action": 1.0,
+   "Cited Standard": 1.0,
+   "Circumstances": 1.0,
+   "Regulation Mapping": 1.0,
+   "Prompt Injection (Query)": 1.0,
+   "Supported Claim": 1.0,
+   "Contradicted Claim": 0.833,
+   "Partial Claim": 1.0
+  },
+  "missed_R@10": [
+   "Q095"
+  ],
+  "before_header_fix": {
+   "R@1": 0.868,
+   "R@5": 0.962,
+   "R@10": 0.962,
+   "MRR": 0.907,
+   "Ev@8_section": 0.568
+  }
+ },
+ {
+  "chunks": "section450",
+  "retriever": "hybrid",
+  "n": 53,
+  "R@1": 0.943,
+  "R@5": 0.981,
+  "R@10": 1.0,
+  "MRR": 0.961,
+  "nDCG@10": 0.971,
+  "Ev@8_section": 0.595,
+  "n_section": 37,
+  "s/query": 1.38,
+  "R@5_by_subtype": {
+   "Reported Cause": 1.0,
+   "Corrective Action": 1.0,
+   "Cited Standard": 1.0,
+   "Circumstances": 1.0,
+   "Regulation Mapping": 1.0,
+   "Prompt Injection (Query)": 1.0,
+   "Supported Claim": 1.0,
+   "Contradicted Claim": 0.833,
+   "Partial Claim": 1.0
+  },
+  "missed_R@10": [],
+  "before_header_fix": {
+   "R@1": 0.811,
+   "R@5": 0.943,
+   "R@10": 0.943,
+   "MRR": 0.857,
+   "Ev@8_section": 0.405
+  }
+ },
+ {
+  "chunks": "section450",
+  "retriever": "hybrid+rerank",
+  "n": 53,
+  "R@1": 0.962,
+  "R@5": 1.0,
+  "R@10": 1.0,
+  "MRR": 0.975,
+  "nDCG@10": 0.981,
+  "Ev@8_section": 0.757,
+  "n_section": 37,
+  "s/query": 1.35,
+  "R@5_by_subtype": {
+   "Reported Cause": 1.0,
+   "Corrective Action": 1.0,
+   "Cited Standard": 1.0,
+   "Circumstances": 1.0,
+   "Regulation Mapping": 1.0,
+   "Prompt Injection (Query)": 1.0,
+   "Supported Claim": 1.0,
+   "Contradicted Claim": 1.0,
+   "Partial Claim": 1.0
+  },
+  "missed_R@10": [],
+  "before_header_fix": {
+   "R@1": 0.774,
+   "R@5": 0.925,
+   "R@10": 0.962,
+   "MRR": 0.847,
+   "Ev@8_section": 0.514
+  }
+ },
+ {
+  "chunks": "fixed450",
+  "retriever": "bm25",
+  "n": 53,
+  "R@1": 0.925,
+  "R@5": 0.962,
+  "R@10": 0.962,
+  "MRR": 0.939,
+  "nDCG@10": 0.945,
+  "s/query": 0.02,
+  "R@5_by_subtype": {
+   "Reported Cause": 1.0,
+   "Corrective Action": 1.0,
+   "Cited Standard": 1.0,
+   "Circumstances": 1.0,
+   "Regulation Mapping": 1.0,
+   "Prompt Injection (Query)": 1.0,
+   "Supported Claim": 1.0,
+   "Contradicted Claim": 0.667,
+   "Partial Claim": 1.0
+  },
+  "missed_R@10": [
+   "Q095",
+   "Q096"
+  ],
+  "before_header_fix": {
+   "R@1": 0.906,
+   "R@5": 0.925,
+   "R@10": 0.962,
+   "MRR": 0.921,
+   "Ev@8_section": null
+  }
+ },
+ {
+  "chunks": "fixed450",
+  "retriever": "bm25+rerank",
+  "n": 53,
+  "R@1": 0.962,
+  "R@5": 0.962,
+  "R@10": 0.981,
+  "MRR": 0.965,
+  "nDCG@10": 0.969,
+  "s/query": 0.48,
+  "R@5_by_subtype": {
+   "Reported Cause": 1.0,
+   "Corrective Action": 1.0,
+   "Cited Standard": 1.0,
+   "Circumstances": 1.0,
+   "Regulation Mapping": 1.0,
+   "Prompt Injection (Query)": 1.0,
+   "Supported Claim": 1.0,
+   "Contradicted Claim": 0.667,
+   "Partial Claim": 1.0
+  },
+  "missed_R@10": [
+   "Q095"
+  ],
+  "before_header_fix": {
+   "R@1": 0.925,
+   "R@5": 0.943,
+   "R@10": 0.943,
+   "MRR": 0.931,
+   "Ev@8_section": null
+  }
+ },
+ {
+  "chunks": "fixed450",
+  "retriever": "hybrid",
+  "n": 53,
+  "R@1": 0.906,
+  "R@5": 0.981,
+  "R@10": 0.981,
+  "MRR": 0.937,
+  "nDCG@10": 0.948,
+  "s/query": 0.09,
+  "R@5_by_subtype": {
+   "Reported Cause": 1.0,
+   "Corrective Action": 1.0,
+   "Cited Standard": 1.0,
+   "Circumstances": 1.0,
+   "Regulation Mapping": 1.0,
+   "Prompt Injection (Query)": 1.0,
+   "Supported Claim": 1.0,
+   "Contradicted Claim": 0.833,
+   "Partial Claim": 1.0
+  },
+  "missed_R@10": [
+   "Q095"
+  ],
+  "before_header_fix": {
+   "R@1": 0.774,
+   "R@5": 0.925,
+   "R@10": 0.943,
+   "MRR": 0.832,
+   "Ev@8_section": null
+  }
+ },
+ {
+  "chunks": "fixed450",
+  "retriever": "hybrid+rerank",
+  "n": 53,
+  "R@1": 0.943,
+  "R@5": 0.981,
+  "R@10": 0.981,
+  "MRR": 0.958,
+  "nDCG@10": 0.963,
+  "s/query": 0.51,
+  "R@5_by_subtype": {
+   "Reported Cause": 1.0,
+   "Corrective Action": 1.0,
+   "Cited Standard": 1.0,
+   "Circumstances": 1.0,
+   "Regulation Mapping": 1.0,
+   "Prompt Injection (Query)": 1.0,
+   "Supported Claim": 1.0,
+   "Contradicted Claim": 0.833,
+   "Partial Claim": 1.0
+  },
+  "missed_R@10": [
+   "Q095"
+  ],
+  "before_header_fix": {
+   "R@1": 0.849,
+   "R@5": 0.906,
+   "R@10": 0.962,
+   "MRR": 0.885,
+   "Ev@8_section": null
+  }
+ }
+]

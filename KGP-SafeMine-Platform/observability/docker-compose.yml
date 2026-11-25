@@ -1,0 +1,46 @@
+# Self-hosted Langfuse (v2: one app container + Postgres) for KGP-SafeMine traces.
+#   cd observability ; docker compose up -d          then open http://localhost:3000
+# First start creates the organisation, project, admin user and API keys from .env, so there is no sign-up step.
+# Bound to 127.0.0.1 only. Secrets live in observability/.env (generated; keep private).
+
+services:
+  langfuse-db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: langfuse
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: langfuse
+    volumes: ["langfuse-db:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U langfuse -d langfuse"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  langfuse:
+    image: langfuse/langfuse:2
+    restart: unless-stopped
+    depends_on:
+      langfuse-db: {condition: service_healthy}
+    ports: ["127.0.0.1:3000:3000"]
+    environment:
+      DATABASE_URL: postgresql://langfuse:${POSTGRES_PASSWORD}@langfuse-db:5432/langfuse
+      NEXTAUTH_URL: http://localhost:3000
+      NEXTAUTH_SECRET: ${NEXTAUTH_SECRET}
+      SALT: ${SALT}
+      TELEMETRY_ENABLED: "false"
+      LANGFUSE_ENABLE_EXPERIMENTAL_FEATURES: "false"
+      AUTH_DISABLE_SIGNUP: "true"
+      LANGFUSE_INIT_ORG_ID: safemine
+      LANGFUSE_INIT_ORG_NAME: KGP-SafeMine
+      LANGFUSE_INIT_PROJECT_ID: safemine-agent
+      LANGFUSE_INIT_PROJECT_NAME: SafeMine agent
+      LANGFUSE_INIT_PROJECT_PUBLIC_KEY: ${LANGFUSE_INIT_PROJECT_PUBLIC_KEY}
+      LANGFUSE_INIT_PROJECT_SECRET_KEY: ${LANGFUSE_INIT_PROJECT_SECRET_KEY}
+      LANGFUSE_INIT_USER_EMAIL: ${LANGFUSE_INIT_USER_EMAIL}
+      LANGFUSE_INIT_USER_NAME: Admin
+      LANGFUSE_INIT_USER_PASSWORD: ${LANGFUSE_INIT_USER_PASSWORD}
+
+volumes:
+  langfuse-db:

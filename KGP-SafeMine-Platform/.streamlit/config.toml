@@ -1,0 +1,8 @@
+[server]
+headless = true          # no first-run e-mail prompt; the start script opens the browser
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#13315C"

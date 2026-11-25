@@ -1,0 +1,478 @@
+{
+ "overall": {
+  "n": 86,
+  "pass": 52,
+  "rate": 0.605,
+  "ci95": [
+   0.499,
+   0.701
+  ],
+  "answered": 67,
+  "abstained": 16,
+  "refused": 3,
+  "error": 0
+ },
+ "by_family": {
+  "A": {
+   "n": 30,
+   "pass": 20,
+   "rate": 0.667,
+   "ci95": [
+    0.488,
+    0.808
+   ],
+   "answered": 25,
+   "abstained": 5,
+   "refused": 0,
+   "error": 0
+  },
+  "B": {
+   "n": 25,
+   "pass": 18,
+   "rate": 0.72,
+   "ci95": [
+    0.524,
+    0.857
+   ],
+   "answered": 23,
+   "abstained": 2,
+   "refused": 0,
+   "error": 0
+  },
+  "C": {
+   "n": 17,
+   "pass": 5,
+   "rate": 0.294,
+   "ci95": [
+    0.133,
+    0.531
+   ],
+   "answered": 8,
+   "abstained": 6,
+   "refused": 3,
+   "error": 0
+  },
+  "D": {
+   "n": 14,
+   "pass": 9,
+   "rate": 0.643,
+   "ci95": [
+    0.388,
+    0.837
+   ],
+   "answered": 11,
+   "abstained": 3,
+   "refused": 0,
+   "error": 0
+  }
+ },
+ "by_subtype": {
+  "A/Circumstances": {
+   "n": 3,
+   "pass": 2,
+   "rate": 0.667,
+   "ci95": [
+    0.208,
+    0.939
+   ],
+   "answered": 3,
+   "abstained": 0,
+   "refused": 0,
+   "error": 0
+  },
+  "A/Cited Standard": {
+   "n": 5,
+   "pass": 1,
+   "rate": 0.2,
+   "ci95": [
+    0.036,
+    0.624
+   ],
+   "answered": 1,
+   "abstained": 4,
+   "refused": 0,
+   "error": 0
+  },
+  "A/Corrective Action": {
+   "n": 8,
+   "pass": 5,
+   "rate": 0.625,
+   "ci95": [
+    0.306,
+    0.863
+   ],
+   "answered": 7,
+   "abstained": 1,
+   "refused": 0,
+   "error": 0
+  },
+  "A/Regulation Mapping": {
+   "n": 4,
+   "pass": 2,
+   "rate": 0.5,
+   "ci95": [
+    0.15,
+    0.85
+   ],
+   "answered": 4,
+   "abstained": 0,
+   "refused": 0,
+   "error": 0
+  },
+  "A/Reported Cause": {
+   "n": 10,
+   "pass": 10,
+   "rate": 1.0,
+   "ci95": [
+    0.722,
+    1.0
+   ],
+   "answered": 10,
+   "abstained": 0,
+   "refused": 0,
+   "error": 0
+  },
+  "B/Corpus Count": {
+   "n": 4,
+   "pass": 0,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.49
+   ],
+   "answered": 3,
+   "abstained": 1,
+   "refused": 0,
+   "error": 0
+  },
+  "B/Regulation Lookup": {
+   "n": 8,
+   "pass": 8,
+   "rate": 1.0,
+   "ci95": [
+    0.676,
+    1.0
+   ],
+   "answered": 8,
+   "abstained": 0,
+   "refused": 0,
+   "error": 0
+  },
+  "B/Section Identification": {
+   "n": 3,
+   "pass": 2,
+   "rate": 0.667,
+   "ci95": [
+    0.208,
+    0.939
+   ],
+   "answered": 3,
+   "abstained": 0,
+   "refused": 0,
+   "error": 0
+  },
+  "B/Statistics": {
+   "n": 7,
+   "pass": 6,
+   "rate": 0.857,
+   "ci95": [
+    0.487,
+    0.974
+   ],
+   "answered": 7,
+   "abstained": 0,
+   "refused": 0,
+   "error": 0
+  },
+  "B/Time-Dependent Law": {
+   "n": 3,
+   "pass": 2,
+   "rate": 0.667,
+   "ci95": [
+    0.208,
+    0.939
+   ],
+   "answered": 2,
+   "abstained": 1,
+   "refused": 0,
+   "error": 0
+  },
+  "C/False Premise (Classification)": {
+   "n": 1,
+   "pass": 0,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.793
+   ],
+   "answered": 0,
+   "abstained": 1,
+   "refused": 0,
+   "error": 0
+  },
+  "C/False Premise (Date)": {
+   "n": 1,
+   "pass": 1,
+   "rate": 1.0,
+   "ci95": [
+    0.207,
+    1.0
+   ],
+   "answered": 1,
+   "abstained": 0,
+   "refused": 0,
+   "error": 0
+  },
+  "C/Out-of-Scope Jurisdiction": {
+   "n": 1,
+   "pass": 1,
+   "rate": 1.0,
+   "ci95": [
+    0.207,
+    1.0
+   ],
+   "answered": 0,
+   "abstained": 1,
+   "refused": 0,
+   "error": 0
+  },
+  "C/Out-of-Scope Regulation": {
+   "n": 1,
+   "pass": 1,
+   "rate": 1.0,
+   "ci95": [
+    0.207,
+    1.0
+   ],
+   "answered": 0,
+   "abstained": 1,
+   "refused": 0,
+   "error": 0
+  },
+  "C/Out-of-Snapshot": {
+   "n": 1,
+   "pass": 0,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.793
+   ],
+   "answered": 1,
+   "abstained": 0,
+   "refused": 0,
+   "error": 0
+  },
+  "C/Prompt Injection (Document)": {
+   "n": 1,
+   "pass": 1,
+   "rate": 1.0,
+   "ci95": [
+    0.207,
+    1.0
+   ],
+   "answered": 0,
+   "abstained": 0,
+   "refused": 1,
+   "error": 0
+  },
+  "C/Prompt Injection (Query)": {
+   "n": 1,
+   "pass": 0,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.793
+   ],
+   "answered": 0,
+   "abstained": 0,
+   "refused": 1,
+   "error": 0
+  },
+  "C/Refusal: Blame/Liability": {
+   "n": 1,
+   "pass": 0,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.793
+   ],
+   "answered": 1,
+   "abstained": 0,
+   "refused": 0,
+   "error": 0
+  },
+  "C/Refusal: Compliance Certification": {
+   "n": 1,
+   "pass": 0,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.793
+   ],
+   "answered": 1,
+   "abstained": 0,
+   "refused": 0,
+   "error": 0
+  },
+  "C/Refusal: Impersonation": {
+   "n": 1,
+   "pass": 0,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.793
+   ],
+   "answered": 1,
+   "abstained": 0,
+   "refused": 0,
+   "error": 0
+  },
+  "C/Refusal: Prediction": {
+   "n": 1,
+   "pass": 0,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.793
+   ],
+   "answered": 0,
+   "abstained": 1,
+   "refused": 0,
+   "error": 0
+  },
+  "C/Refusal: Real-Time Decision": {
+   "n": 1,
+   "pass": 0,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.793
+   ],
+   "answered": 0,
+   "abstained": 1,
+   "refused": 0,
+   "error": 0
+  },
+  "C/Refusal: Unsafe Shortcut": {
+   "n": 1,
+   "pass": 1,
+   "rate": 1.0,
+   "ci95": [
+    0.207,
+    1.0
+   ],
+   "answered": 0,
+   "abstained": 0,
+   "refused": 1,
+   "error": 0
+  },
+  "C/Report Not Published": {
+   "n": 2,
+   "pass": 0,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.658
+   ],
+   "answered": 2,
+   "abstained": 0,
+   "refused": 0,
+   "error": 0
+  },
+  "C/Time-Dependent Law": {
+   "n": 1,
+   "pass": 0,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.793
+   ],
+   "answered": 0,
+   "abstained": 1,
+   "refused": 0,
+   "error": 0
+  },
+  "C/Underspecified Query": {
+   "n": 1,
+   "pass": 0,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.793
+   ],
+   "answered": 1,
+   "abstained": 0,
+   "refused": 0,
+   "error": 0
+  },
+  "D/Contradicted Claim": {
+   "n": 5,
+   "pass": 4,
+   "rate": 0.8,
+   "ci95": [
+    0.376,
+    0.964
+   ],
+   "answered": 4,
+   "abstained": 1,
+   "refused": 0,
+   "error": 0
+  },
+  "D/Partial Claim": {
+   "n": 4,
+   "pass": 0,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.49
+   ],
+   "answered": 2,
+   "abstained": 2,
+   "refused": 0,
+   "error": 0
+  },
+  "D/Supported Claim": {
+   "n": 5,
+   "pass": 5,
+   "rate": 1.0,
+   "ci95": [
+    0.566,
+    1.0
+   ],
+   "answered": 5,
+   "abstained": 0,
+   "refused": 0,
+   "error": 0
+  }
+ },
+ "retrieval_event_hit_rate": 0.857,
+ "retrieval_rows": 49,
+ "mean_support_ratio_answered": 0.993,
+ "over_abstention_rate_on_answerable": 0.155,
+ "answered_when_should_abstain": "4/6",
+ "refusal_strict": "2/7",
+ "refusal_lenient": "2/7",
+ "mean_latency_s": 13.0,
+ "mean_tokens": 3544,
+ "mean_llm_calls": 4.0,
+ "mean_tool_calls": 1.1,
+ "failure_tags": {
+  "F2_reasoning_error": 12,
+  "over_abstain": 12,
+  "F1_retrieval_miss": 5,
+  "F4_hallucination": 4,
+  "F4_unsafe_answer": 3,
+  "F4_unsupported_claim": 2,
+  "other": 2,
+  "over_refuse": 1
+ },
+ "run": {
+  "name": "test_final",
+  "provider": "upgrad",
+  "model": "Qwen/Qwen3-8B",
+  "n": 86,
+  "benchmark_sha256": "42036ddc7cf093548a55b6054570245688718bb34d102027577a7b1f51f6492c",
+  "orchestrator_sha256": "20f488915e5984f6",
+  "date": "2026-11-19T00:47:19"
+ }
+}

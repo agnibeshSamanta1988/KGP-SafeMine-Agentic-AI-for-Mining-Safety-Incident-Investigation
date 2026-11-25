@@ -1,0 +1,5 @@
+benchmark v2.0
+file: KGP_SafeMine_100_Golden_Evaluation_Queries.csv
+sha256: 42036ddc7cf093548a55b6054570245688718bb34d102027577a7b1f51f6492c
+recorded: 2026-11-15
+rows: 100

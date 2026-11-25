@@ -1,0 +1,166 @@
+[
+ {
+  "id": "Q037",
+  "split": "DEV",
+  "subtype": "Regulation Lookup",
+  "section": "57.15003",
+  "ok": true,
+  "detail": "exact"
+ },
+ {
+  "id": "Q038",
+  "split": "TEST",
+  "subtype": "Regulation Lookup",
+  "section": "57.11016",
+  "ok": true,
+  "detail": "exact"
+ },
+ {
+  "id": "Q039",
+  "split": "TEST",
+  "subtype": "Regulation Lookup",
+  "section": "56.16013",
+  "ok": true,
+  "detail": "exact"
+ },
+ {
+  "id": "Q040",
+  "split": "TEST",
+  "subtype": "Regulation Lookup",
+  "section": "77.1003",
+  "ok": true,
+  "detail": "exact"
+ },
+ {
+  "id": "Q041",
+  "split": "TEST",
+  "subtype": "Regulation Lookup",
+  "section": "57.19074",
+  "ok": true,
+  "detail": "exact"
+ },
+ {
+  "id": "Q042",
+  "split": "TEST",
+  "subtype": "Regulation Lookup",
+  "section": "57.4263",
+  "ok": true,
+  "detail": "exact"
+ },
+ {
+  "id": "Q043",
+  "split": "TEST",
+  "subtype": "Regulation Lookup",
+  "section": "57.19049",
+  "ok": true,
+  "detail": "exact"
+ },
+ {
+  "id": "Q044",
+  "split": "TEST",
+  "subtype": "Regulation Lookup",
+  "section": "57.6312",
+  "ok": true,
+  "detail": "exact"
+ },
+ {
+  "id": "Q045",
+  "split": "DEV",
+  "subtype": "Section Identification",
+  "section": "77.205",
+  "ok": true,
+  "detail": [
+   "77.205",
+   "57.4131",
+   "77.204",
+   "77.202",
+   "77.200"
+  ]
+ },
+ {
+  "id": "Q046",
+  "split": "TEST",
+  "subtype": "Section Identification",
+  "section": "75.826",
+  "ok": true,
+  "detail": [
+   "75.810",
+   "75.826",
+   "75.833",
+   "77.804",
+   "75.804"
+  ]
+ },
+ {
+  "id": "Q047",
+  "split": "TEST",
+  "subtype": "Section Identification",
+  "section": "57.4261",
+  "ok": true,
+  "detail": [
+   "57.4261",
+   "56.19104",
+   "57.19104",
+   "75.1402",
+   "75.1402-1"
+  ]
+ },
+ {
+  "id": "Q048",
+  "split": "TEST",
+  "subtype": "Section Identification",
+  "section": "75.502",
+  "ok": true,
+  "detail": [
+   "75.502",
+   "75.1321",
+   "75.1716-3",
+   "7.407",
+   "7.408"
+  ]
+ },
+ {
+  "id": "Q049",
+  "split": "TEST",
+  "subtype": "Time-Dependent Law",
+  "section": "56.6310",
+  "ok": true,
+  "detail": [
+   "2008-07-01",
+   "2026-10-30",
+   "changed"
+  ]
+ },
+ {
+  "id": "Q050",
+  "split": "TEST",
+  "subtype": "Time-Dependent Law",
+  "section": "56.11006",
+  "ok": true,
+  "detail": [
+   "2008-07-01",
+   "2026-10-30",
+   "changed"
+  ]
+ },
+ {
+  "id": "Q051",
+  "split": "TEST",
+  "subtype": "Time-Dependent Law",
+  "section": "57.6205",
+  "ok": true,
+  "detail": [
+   "2008-07-01",
+   "2026-10-30",
+   "changed"
+  ]
+ },
+ {
+  "id": "Q052",
+  "split": "TEST",
+  "subtype": "Regulation Lookup",
+  "section": "50.10",
+  "ok": true,
+  "detail": "exact"
+ }
+]

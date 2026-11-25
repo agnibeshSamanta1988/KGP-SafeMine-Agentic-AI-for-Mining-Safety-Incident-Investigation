@@ -1,0 +1,17 @@
+pandas
+pymupdf
+pyarrow
+rank-bm25
+duckdb
+numpy
+openai
+pydantic
+sentence-transformers
+fastapi
+uvicorn
+streamlit
+python-dotenv
+python-docx
+fpdf2
+langfuse>=5,<6
+bcrypt

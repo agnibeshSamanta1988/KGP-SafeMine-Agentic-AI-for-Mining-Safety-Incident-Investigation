@@ -1,0 +1,14 @@
+# Allowlist: send ONLY what the Dockerfile copies. Everything else (.env with API keys, certs/, data_processed/ with the
+# restricted name list, models/, the raw dataset, eval results, .venv, git history) can never end up in the image.
+*
+!requirements.lock
+!safemine
+!app
+!.streamlit
+**/__pycache__
+**/*.pyc
+
+# login secrets must never be baked into the image (compose mounts secrets.toml read-only at run time)
+.streamlit/secrets.toml
+.streamlit/INITIAL_ADMIN_PASSWORD.txt
+.streamlit/secrets.toml.example

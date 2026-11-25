@@ -1,0 +1,100 @@
+# Self-hosted Langfuse v4 (v3+ server API, needed by the langfuse 5.x SDK). Slim version of the official docker-compose.yml:
+# web + worker + Postgres + ClickHouse + Redis + MinIO; the AI gateway and the in-app agent are left out.
+# Secrets come from ./.env (generated on the server, never committed). Only the web port 3000 is published (the AWS security
+# group does not open it: reach the UI through an SSH tunnel). Run:  docker compose -f docker-compose.v3.yml up -d
+x-env: &lf-env
+  NEXTAUTH_URL: ${NEXTAUTH_URL:-http://localhost:3000}
+  DATABASE_URL: postgresql://postgres:${POSTGRES_PASSWORD}@postgres:5432/postgres
+  SALT: ${SALT}
+  ENCRYPTION_KEY: ${ENCRYPTION_KEY}
+  TELEMETRY_ENABLED: "false"
+  CLICKHOUSE_MIGRATION_URL: clickhouse://clickhouse:9000
+  CLICKHOUSE_URL: http://clickhouse:8123
+  CLICKHOUSE_USER: clickhouse
+  CLICKHOUSE_PASSWORD: ${CLICKHOUSE_PASSWORD}
+  CLICKHOUSE_CLUSTER_ENABLED: "false"
+  LANGFUSE_S3_EVENT_UPLOAD_BUCKET: langfuse
+  LANGFUSE_S3_EVENT_UPLOAD_REGION: auto
+  LANGFUSE_S3_EVENT_UPLOAD_ACCESS_KEY_ID: minio
+  LANGFUSE_S3_EVENT_UPLOAD_SECRET_ACCESS_KEY: ${MINIO_ROOT_PASSWORD}
+  LANGFUSE_S3_EVENT_UPLOAD_ENDPOINT: http://minio:9000
+  LANGFUSE_S3_EVENT_UPLOAD_FORCE_PATH_STYLE: "true"
+  LANGFUSE_S3_EVENT_UPLOAD_PREFIX: events/
+  LANGFUSE_S3_MEDIA_UPLOAD_BUCKET: langfuse
+  LANGFUSE_S3_MEDIA_UPLOAD_REGION: auto
+  LANGFUSE_S3_MEDIA_UPLOAD_ACCESS_KEY_ID: minio
+  LANGFUSE_S3_MEDIA_UPLOAD_SECRET_ACCESS_KEY: ${MINIO_ROOT_PASSWORD}
+  LANGFUSE_S3_MEDIA_UPLOAD_ENDPOINT: http://minio:9000
+  LANGFUSE_S3_MEDIA_UPLOAD_FORCE_PATH_STYLE: "true"
+  LANGFUSE_S3_MEDIA_UPLOAD_PREFIX: media/
+  REDIS_HOST: redis
+  REDIS_PORT: "6379"
+  REDIS_AUTH: ${REDIS_AUTH}
+
+services:
+  langfuse-worker:
+    image: docker.langfuse.com/langfuse/langfuse-worker:${LANGFUSE_IMAGE_TAG:-4}
+    restart: always
+    depends_on: &deps
+      postgres: {condition: service_healthy}
+      minio: {condition: service_healthy}
+      redis: {condition: service_healthy}
+      clickhouse: {condition: service_healthy}
+    environment: *lf-env
+
+  langfuse-web:
+    image: docker.langfuse.com/langfuse/langfuse:${LANGFUSE_IMAGE_TAG:-4}
+    restart: always
+    depends_on: *deps
+    ports: ["3000:3000"]
+    environment:
+      <<: *lf-env
+      NEXTAUTH_SECRET: ${NEXTAUTH_SECRET}
+      LANGFUSE_INIT_ORG_ID: safemine
+      LANGFUSE_INIT_ORG_NAME: KGP-SafeMine
+      LANGFUSE_INIT_PROJECT_ID: safemine-agent
+      LANGFUSE_INIT_PROJECT_NAME: SafeMine agent
+      LANGFUSE_INIT_PROJECT_PUBLIC_KEY: ${LANGFUSE_INIT_PROJECT_PUBLIC_KEY}
+      LANGFUSE_INIT_PROJECT_SECRET_KEY: ${LANGFUSE_INIT_PROJECT_SECRET_KEY}
+      LANGFUSE_INIT_USER_EMAIL: ${LANGFUSE_INIT_USER_EMAIL}
+      LANGFUSE_INIT_USER_NAME: Admin
+      LANGFUSE_INIT_USER_PASSWORD: ${LANGFUSE_INIT_USER_PASSWORD}
+      AUTH_DISABLE_SIGNUP: "true"
+
+  clickhouse:
+    image: docker.io/clickhouse/clickhouse-server:26.3.62.3
+    restart: always
+    user: "101:101"
+    environment: {CLICKHOUSE_DB: default, CLICKHOUSE_USER: clickhouse, CLICKHOUSE_PASSWORD: "${CLICKHOUSE_PASSWORD}"}
+    volumes: [langfuse_clickhouse_data:/var/lib/clickhouse, langfuse_clickhouse_logs:/var/log/clickhouse-server]
+    healthcheck: {test: "wget --no-verbose --tries=1 --spider http://localhost:8123/ping || exit 1", interval: 5s, timeout: 5s, retries: 10, start_period: 1s}
+
+  minio:
+    image: cgr.dev/chainguard/minio
+    restart: always
+    entrypoint: sh
+    command: -c 'mkdir -p /data/langfuse && minio server --address ":9000" --console-address ":9001" /data'
+    environment: {MINIO_ROOT_USER: minio, MINIO_ROOT_PASSWORD: "${MINIO_ROOT_PASSWORD}"}
+    volumes: [langfuse_minio_data:/data]
+    healthcheck: {test: ["CMD", "mc", "ready", "local"], interval: 1s, timeout: 5s, retries: 5, start_period: 1s}
+
+  redis:
+    image: docker.io/redis:7
+    restart: always
+    command: --requirepass ${REDIS_AUTH} --maxmemory-policy noeviction
+    volumes: [langfuse_redis_data:/data]
+    healthcheck: {test: ["CMD", "redis-cli", "ping"], interval: 3s, timeout: 10s, retries: 10}
+
+  postgres:
+    image: docker.io/postgres:17
+    restart: always
+    environment: {POSTGRES_USER: postgres, POSTGRES_PASSWORD: "${POSTGRES_PASSWORD}", POSTGRES_DB: postgres, TZ: UTC, PGTZ: UTC}
+    volumes: [langfuse_postgres_data:/var/lib/postgresql/data]
+    healthcheck: {test: ["CMD-SHELL", "pg_isready -U postgres"], interval: 3s, timeout: 3s, retries: 10}
+
+volumes:
+  langfuse_postgres_data:
+  langfuse_clickhouse_data:
+  langfuse_clickhouse_logs:
+  langfuse_minio_data:
+  langfuse_redis_data:
