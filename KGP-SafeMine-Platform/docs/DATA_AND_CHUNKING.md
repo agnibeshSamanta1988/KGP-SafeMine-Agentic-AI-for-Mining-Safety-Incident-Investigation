@@ -6,7 +6,7 @@ team dataset (`KGP-SafeMine-Data/`, built 15 Nov 2026 from the 2026-10-30 MSHA s
 ## 1. Source data: the cleaned team dataset (since 15 Nov 2026)
 
 We now build from `KGP-SafeMine-Data/` in the team GitHub repo, which our teammate de-duplicated and partly redacted
-(see its `README.md`, `DATA_GUIDE_AND_RAG_BUILD.md` and `processing_reports/`). The old raw HTML/zip layout is no
+(see its `README.md` and `processing_reports/`). The old raw HTML/zip layout is no
 longer used (`clean_reports.py` stays only as the legacy HTML reader).
 
 | Folder | Used for | Reader |
