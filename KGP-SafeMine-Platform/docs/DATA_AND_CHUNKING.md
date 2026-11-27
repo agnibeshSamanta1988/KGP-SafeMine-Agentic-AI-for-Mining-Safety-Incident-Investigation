@@ -5,7 +5,7 @@ team dataset (`KGP-SafeMine-Data/`, built 15 Nov 2026 from the 2026-10-30 MSHA s
 
 ## 1. Source data: the cleaned team dataset (since 15 Nov 2026)
 
-We now build from `KGP-SafeMine-Data/` in the team GitHub repo, which our teammate de-duplicated and partly redacted
+The pipeline builds from `KGP-SafeMine-Data/` in the project repository, a de-duplicated and partly redacted snapshot
 (see its `README.md` and `processing_reports/`). The old raw HTML/zip layout is no
 longer used (`clean_reports.py` stays only as the legacy HTML reader).
 
@@ -15,14 +15,14 @@ longer used (`clean_reports.py` stays only as the legacy HTML reader).
 | `structured_data/*.parquet` (Accidents, Mines, Inspections, MinesProdYearly, Violations, OrdersIssued) | DuckDB, `accident_stats` | `build_duckdb.py` |
 | `regulations/cfr_history/cfr_section_versions.jsonl` | DuckDB law store, `cfr_lookup` (law as of a date) | `build_duckdb.py` |
 | `regulations/federal_register/federal_register_rules_index.csv` | DuckDB `fr_rules` (in force / proposed) | `build_duckdb.py` |
-| `major_disaster_investigations/`, `policy_and_guidance/`, `regulations/cfr_current/`, `mine_act/`, `reference_statistics/` | **not indexed yet** (candidates for Week 3) | - |
+| `major_disaster_investigations/`, `policy_and_guidance/`, `regulations/cfr_current/`, `mine_act/`, `reference_statistics/` | **not indexed** | - |
 
 Models are not in the dataset: `make models` puts bge-small (tokenizer/local embeddings) and the MiniLM reranker in
 `models/`; without it they are fetched from Hugging Face on first use.
 
 ### One PDF per event -> documents
 Each dossier = front-page metadata table, *1. Event summary* (preliminary), *2. Final investigation report*,
-*3. Fatality alert*, and for 88 events *4. Supplementary document* (text a source PDF had that the HTML lacked).
+*3. Fatality alert*, and for 87 events *4. Supplementary document* (text a source PDF had that the HTML lacked).
 
 - Text is read per PDF block (= paragraph); the per-page footer is dropped; paragraphs split by a page break are re-joined;
   "Sub-heading + paragraph" blocks are split so DISCUSSION sub-headings survive.
@@ -47,23 +47,27 @@ Each dossier = front-page metadata table, *1. Event summary* (preliminary), *2. 
 
 ### Privacy: a second redaction pass is still needed
 The dataset replaces the victim with "the miner" and titled staff with "[name withheld]" (16,799 replacements). Our
-name harvester still finds **2,9xx distinct real names** in the PDFs (witnesses and co-workers named without a title,
+name harvester still finds **about 2,900 distinct real names** in the PDFs (witnesses and co-workers named without a title,
 "Name — Plant Manager" lists, investigator blocks and an appendix participant list in some 2008 reports). They are
 replaced by `[PERSON-n]` / `[VICTIM]` (7,523 + 1,170 mentions) and stored in `data_processed/_restricted/names.json`
 for the Output Filter. Lines of dot leaders (tables of contents, participant lists) are dropped after harvesting.
 
-### Data problems in the cleaned dataset (tell the data owner)
+The harvester and a pass for "First I. Surname" forms did not catch every name, so a person-name recognition model
+(`dslim/distilbert-NER`, `safemine/ingest/ner_redact.py`) then runs over every chunk. It replaced 4,608 further mentions in 1,531
+chunks (about 14%). An answer filter removes known names again. Redaction reduces exposure but cannot be guaranteed complete.
+
+### Known data problems in the cleaned dataset
 1. **Fatality-alert *Best Practices* are missing.** Every dossier's alert section holds only the one-paragraph summary
    (median 322 characters); the "Best Practices" bullet lists were lost in the HTML→PDF conversion. The old pipeline had a
-   `BEST_PRACTICES` chunk per alert, the main evidence for prevention questions. Fix at source if possible.
+   `BEST_PRACTICES` chunk per alert, the main evidence for prevention questions.
 2. **39 reports without section headings** (above) - recovered heuristically, but section filters are less precise there.
 3. **Names remain** (above) - the README's "pattern-based" warning is real.
 4. Three files are Git-LFS (`Violations.parquet`, Sago and UBB PDFs): without `git lfs pull` there is no `violations` table.
 5. `2024/april-13-2024` was merged into `2024/april-13-2024-fatality`; `eval/retrieval_eval.py` maps the old gold id.
 
-## 2. Chunking recommendation
+## 2. Chunking decision
 
-**Use section-aware chunking with a ~450-token ceiling (`--strategy section --size 450`)**, i.e. *structure first, size second*:
+**Section-aware chunking with a target of about 450 tokens (`--strategy section --size 450`)**, i.e. *structure first, size second* (a few chunks run longer: 20 of 10,990 exceed 450 tokens):
 
 | Report part | Chunk unit | Reason |
 |---|---|---|
@@ -73,7 +77,7 @@ for the Output Filter. Lines of dot leaders (tables of contents, participant lis
 | DISCUSSION | split on sub-headings (*Equipment*, *Training and Experience*, *Examinations* …); tiny ones (<60 tok, e.g. *Weather*) merged into the next | Sub-headings are the natural topical boundaries |
 | DESCRIPTION / INVESTIGATION / GENERAL INFO | paragraph packing ≤450 tokens, 1-sentence overlap | Narrative; keeps timeline continuity |
 | Alert | `ALERT_SUMMARY` (+ `BEST_PRACTICES` when present: missing in the cleaned PDFs) | Prevention evidence |
-| Supplementary document (88 events) | `SUPPLEMENT`, paragraph packing | Extra text from source PDFs |
+| Supplementary document (87 events) | `SUPPLEMENT`, paragraph packing | Extra text from source PDFs |
 
 Every chunk is stored with metadata (`event_id, date, year, section, subheading, classification, mine_type, material,
 state, mine_id, cfr_ids, source_path`) and a **contextual header** (date, date in words, mine name, accident type,
@@ -120,7 +124,7 @@ actually reads contain the gold report's gold section (37 rows name a section: r
   rerank): R@1 0.774 → 0.962, R@10 0.962 → 1.000, Ev@8 section 0.514 → 0.757.
 - **Section-level evidence is still the weaker number** (Ev@8 0.76-0.81): about 1 in 5 section questions gets the right
   report but not its gold section in the 8 chunks. bm25+rerank does best here (0.811) while hybrid+rerank is best at
-  finding the report (R@10 1.000). Decide between them on DEV only; the planner can also request
+  finding the report (R@10 1.000) and is the default. The planner can also request
   `sections=["ROOT_CAUSE"]`.
 - Q095 (a contradicted claim quoting another report's wording) is the only report missed by most setups.
 - `cfr_lookup` passes all 16 regulation rows (exact text, section-by-title, 2008 vs current version):
@@ -150,11 +154,9 @@ How to read this honestly:
   same words. It does *not* measure what the golden set asks (root causes, standards, patterns across incidents).
 - Section-aware is still the recommendation because of what the proxy can't see: atomic root-cause / citation
   chunks (precise evidence for the verifier and the 8B model's small context), section filters
-  (`sections=["ROOT_CAUSE"]`), no >512-token truncation, and cleaner citations. Confirm on the golden set — report
-  recall@k for `fixed450` vs `section450` there; that comparison is a graded "chunking experiment".
+  (`sections=["ROOT_CAUSE"]`), fewer over-length chunks, and cleaner citations. The benchmark comparison of `fixed450` and
+  `section450` is in the table above.
 - **The MS-MARCO reranker hurt when used to re-sort** (R@1 −16 pts). It was trained on short web questions; the proxy
   queries are long narratives. Fusing its rank with the retrieval rank (RRF) recovers most of it, so `fuse` is the
-  default (`RERANK_MODE=replace|fuse`, or `use_rerank=False`). Your golden questions are short, so the reranker may
-  help there — measure it rather than assume.
-
-Re-run with your golden set to make the final call — the proxy is a sanity check, not the benchmark.
+  default (`RERANK_MODE=replace|fuse`, or `use_rerank=False`). The proxy is only a sanity check: the benchmark results
+  above are the evidence for the default.

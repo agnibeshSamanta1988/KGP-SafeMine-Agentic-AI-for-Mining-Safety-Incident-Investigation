@@ -91,7 +91,8 @@ non-blocking human-review flag (approve / flag / reject), and DRAFT marking in e
 ..\.venv\Scripts\python -m pytest tests -q
 ```
 
-98 tests, no network and no key (a scripted fake model and fake tools). They cover the message bus, base agent error handling, agent
+The full suite has 243 tests; some need the built data, the models and a login file (see the README). The multi-agent tests
+(`tests/test_agents.py`) need no network and no key (a scripted fake model and fake tools); three of them also need the built indexes. They cover the message bus, base agent error handling, agent
 coordination order, safety refusals, hallucination stripping, refinement bounds, every failure mode in the table above, the claim map
 and grounding score, and that `legacy` and `multi` produce identical results on the same inputs.
 
