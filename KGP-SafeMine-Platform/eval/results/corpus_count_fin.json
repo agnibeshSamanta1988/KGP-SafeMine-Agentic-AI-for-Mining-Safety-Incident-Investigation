@@ -1,0 +1,72 @@
+[
+ {
+  "q": "How many fatality events does the MSHA fatality-report corpus list for 2024?",
+  "gold": 28,
+  "status": "answered",
+  "pass": true,
+  "answer": "The MSHA fatality-report corpus lists 28 fatality events for 2024 [E1]."
+ },
+ {
+  "q": "How many fatality events does the MSHA fatality-report corpus list for 2011?",
+  "gold": 38,
+  "status": "answered",
+  "pass": true,
+  "answer": "The MSHA fatality-report corpus lists 38 fatality events for 2011 [E1]."
+ },
+ {
+  "q": "How many fatality events does the MSHA fatality-report corpus list for 2018?",
+  "gold": 29,
+  "status": "answered",
+  "pass": true,
+  "answer": "The MSHA fatality-report corpus lists 29 fatality events for 2018 [E1]."
+ },
+ {
+  "q": "How many fatality events does the MSHA fatality-report corpus list for 2025?",
+  "gold": 35,
+  "status": "answered",
+  "pass": true,
+  "answer": "The MSHA fatality-report corpus lists 35 fatality events for 2025 [E1]."
+ },
+ {
+  "q": "How many of the 2026 fatality events in the corpus do not have a final report yet?",
+  "gold": 20,
+  "status": "answered",
+  "pass": true,
+  "answer": "The evidence indicates that there are 20 fatality events in the 2026 corpus that do not have a final investigation report [E1]. This is explicitly stated in the summary of the evidence [E1]."
+ },
+ {
+  "q": "How many of the 2022 fatality events in the corpus do not have a final report yet?",
+  "gold": 4,
+  "status": "answered",
+  "pass": true,
+  "answer": "The evidence indicates that there are 4 fatality events in the corpus for 2022 that do not have a final investigation report [E1]."
+ },
+ {
+  "q": "What is the number of fatality events in the corpus index for 2017 that have a final investigation report?",
+  "gold": 27,
+  "status": "answered",
+  "pass": true,
+  "answer": "The number of fatality events in the corpus index for 2017 that have a final investigation report is 27 [E1]."
+ },
+ {
+  "q": "What is the number of fatality events in the corpus index for 2018 that have a final investigation report?",
+  "gold": 28,
+  "status": "answered",
+  "pass": true,
+  "answer": "The number of fatality events in the corpus index for 2018 that have a final investigation report is 28 [E1]."
+ },
+ {
+  "q": "How many events in the corpus are classified as slip or fall of person in 2022?",
+  "gold": 3,
+  "status": "answered",
+  "pass": true,
+  "answer": "There are 3 events in the corpus classified as slip or fall of person in 2022 [E1]."
+ },
+ {
+  "q": "How many events in the corpus are classified as powered haulage in 2022?",
+  "gold": 5,
+  "status": "answered",
+  "pass": true,
+  "answer": "There are 5 events in the corpus classified as powered haulage in 2022 [E1]."
+ }
+]

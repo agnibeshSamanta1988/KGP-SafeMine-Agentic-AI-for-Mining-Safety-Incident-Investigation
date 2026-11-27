@@ -19,3 +19,11 @@ __pycache__/
 .streamlit/INITIAL_ADMIN_PASSWORD.txt
 observability/.env
 *.log
+*.sqlite
+*.duckdb
+*.pkl
+*.npy
+*.zip
+secrets.toml
+*Access*.docx
+*Access*.pdf

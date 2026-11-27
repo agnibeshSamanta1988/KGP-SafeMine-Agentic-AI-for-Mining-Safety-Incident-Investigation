@@ -5,6 +5,12 @@
 !safemine
 !app
 !.streamlit
+!eval/retrieval_results_v2.json
+!eval/cfr_results_v2.json
+!eval/results/test_final.summary.json
+!eval/results/injection_fin_end.json
+!eval/results/injection_after_mid.json
+!eval/results/injection_leet_mid.json
 **/__pycache__
 **/*.pyc
 

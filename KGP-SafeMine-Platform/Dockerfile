@@ -30,6 +30,9 @@ RUN pip install -r requirements.lock --extra-index-url https://download.pytorch.
 COPY --chown=app:app safemine safemine
 COPY --chown=app:app app app
 COPY --chown=app:app .streamlit .streamlit
+# the six small result files behind the Home page's "Measured results" tiles (nothing else from eval/)
+COPY --chown=app:app eval/retrieval_results_v2.json eval/cfr_results_v2.json eval/
+COPY --chown=app:app eval/results/test_final.summary.json eval/results/injection_fin_end.json eval/results/injection_after_mid.json eval/results/injection_leet_mid.json eval/results/
 
 # mount points (compose binds the real folders here) and the Hugging Face cache for the reranker / tokenizer
 RUN mkdir -p /app/data_processed /app/certs /app/models /home/app/.cache/huggingface \

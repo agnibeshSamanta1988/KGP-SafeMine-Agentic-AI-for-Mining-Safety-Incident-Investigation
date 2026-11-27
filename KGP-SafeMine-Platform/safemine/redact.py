@@ -1,7 +1,7 @@
 """Redaction of "First I." / "First I. Surname" person mentions.
 
 The cleaned dataset replaced victims' surnames with "the miner" but left the first name and middle initial
-("Michael P. The miner, truck driver, ...") and names other people as "Jimmy D. Couch". The pattern-based name harvester
+("John Q. The miner, truck driver, ...") and names other people as "Jane R. Roe". The pattern-based name harvester
 does not see either form, so they reached chunks and answers. This module is dependency-free: it is used by the data
 pipeline (clean_reports.Redactor, so chunks and indexes are clean) and again by the Output Filter (guard.output_filter,
 so a name that survives anywhere is still removed from the answer).
@@ -33,7 +33,7 @@ _INITIAL = re.compile(rf"\b({_NAME}) [A-Z]\.(?!\w)")
 
 
 def redact_initial_names(text: str) -> str:
-    """'Michael P. The miner' -> 'The miner';  'Jimmy D. Couch' -> '[PERSON]';  'Randy E.' -> '[PERSON]'."""
+    """'John Q. The miner' -> 'The miner';  'Jane R. Roe' -> '[PERSON]';  'Richard E.' -> '[PERSON]'."""
     if not text:
         return text
     text = _THE_MINER.sub(lambda m: m.group(0) if m.group(1) in NOT_FIRST else "", text)

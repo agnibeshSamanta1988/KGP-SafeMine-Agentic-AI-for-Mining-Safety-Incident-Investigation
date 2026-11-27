@@ -15,6 +15,9 @@
 ![Data](https://img.shields.io/badge/Data-US%20MSHA-13315C)
 ![Docker](https://img.shields.io/badge/Deploy-Docker-13315C?logo=docker&logoColor=white)
 
+Group 19 · IIT Kharagpur Executive PG Programme in Generative AI and Agentic AI · Track B ·
+[Model card](KGP-SafeMine-Platform/README.md#model-card)
+
 [The problem](#1-the-problem) ·
 [The solution](#2-the-solution) ·
 [Repository map](#3-repository-map) ·
@@ -96,8 +99,9 @@ and routes doubtful answers to a human reviewer.
    around them.
 2. **Eight specialised agents, one supervisor.** Safety, planner, retrieval, regulatory, investigation, validator, critic and report
    agents each do one job, and every hand-off is a recorded message.
-3. **Verification that does not trust the model.** Deterministic checks remove unsupported sentences; a critic with a 60 % support
-   floor decides whether to accept, revise or abstain.
+3. **Verification that does not trust the model.** Deterministic checks remove statements with an unverified regulation number,
+   quotation, date or figure of two or more digits and flag other unsupported sentences; a critic with a 60 % support floor decides
+   whether to accept, revise or abstain.
 4. **Fail-closed by design.** If any safety-critical step fails, the answer is an honest abstention, never an unchecked draft.
 5. **Small model, serious engineering.** It runs on a hosted **8-billion-parameter model (Qwen3-8B, 8,192-token context)**, proving that
    retrieval, tool design and verification matter more than raw model size.
@@ -223,12 +227,15 @@ Measured on a 100-question benchmark written before any agent code was built (14
 
 | Measure | Result |
 |---|---|
-| End-to-end accuracy on the frozen test split (Qwen3-8B) | **52 / 86 (60.5 %)** |
+| End-to-end accuracy on the frozen test split (Qwen3-8B, run once) | **52 / 86 (60.5 %)**, 95 % interval 50 % to 70 % |
+| Factual questions in that split | **38 / 55** |
+| Behaviour questions in that split (abstain, refuse, ignore an injection), the weakest area, before the safety rebuild | **5 / 17** |
 | Right investigation report in the top 10 search results | **100 %** (first place 96.2 %) |
 | 30 CFR lookups (exact text, by title, by date) | **16 / 16** |
-| Prompt-injection attacks planted in retrieved evidence | **124 / 126 held** |
+| Prompt-injection attacks planted in retrieved evidence | **57 / 58 held** in each placement (end and middle of a document) |
 
-Full tables, method and failure analysis are in the platform documentation.
+The [platform guide](KGP-SafeMine-Platform/README.md#6-evaluation) lists the result files, later measurements and the model card.
+The full method and failure analysis are in the project report.
 
 ---
 
@@ -248,14 +255,15 @@ Full tables, method and failure analysis are in the platform documentation.
 
 ### 1. Clone, including the large data files
 
-Three data files are stored with [Git LFS](https://git-lfs.com). Install it first.
+Three data files are stored with [Git LFS](https://git-lfs.com). Install it first, and run `git lfs pull` after cloning:
+`Violations.parquet` is needed to build the database.
 
 ```bash
 git lfs install
 git config --global core.longpaths true        # Windows only: allows very long paths
 git clone https://github.com/agnibeshSamanta1988/KGP-SafeMine-Agentic-AI-for-Mining-Safety-Incident-Investigation.git
 cd KGP-SafeMine-Agentic-AI-for-Mining-Safety-Incident-Investigation
-git lfs pull                                    # only if big files appear as small text pointers
+git lfs pull                                    # replaces the small pointer files with the real data
 ```
 
 ### 2. Set up the platform
@@ -264,23 +272,26 @@ git lfs pull                                    # only if big files appear as sm
 cd KGP-SafeMine-Platform
 python -m venv .venv
 .venv/bin/pip install -r requirements.txt       # Windows: .venv\Scripts\pip
-cp .env.example .env                            # add your keys and endpoints
+cp .env.example .env                            # add keys and endpoints; set LLM_PROVIDER=upgrad for Qwen3-8B
 mkdir -p .streamlit && cp .streamlit/secrets.toml.example .streamlit/secrets.toml
 .venv/bin/python -m app.make_password_hash      # paste the hash into .streamlit/secrets.toml
 make models                                     # one-time model download
 ```
 
+> `.env.example` ships with `LLM_PROVIDER=groq`, a development-only 20B model. The results above were measured on Qwen3-8B
+> (`LLM_PROVIDER=upgrad`). On Windows, follow the PowerShell steps in the
+> [platform guide](KGP-SafeMine-Platform/README.md#9-setup).
+
 ### 3. Build the search indexes from the data folder
 
-The data sits one level up, next to the platform. Tell the pipeline where it is by adding one line to `KGP-SafeMine-Platform/.env`:
+The data sits one level up, next to the platform. The `.env` you copied already points to it
+(`SAFEMINE_DATA=../KGP-SafeMine-Data`).
 
 ```bash
-SAFEMINE_DATA=../KGP-SafeMine-Data
+make data                                       # clean, chunk, DuckDB, BM25 + dense, name redaction, events index
 ```
 
-```bash
-make data                                       # clean, chunk, DuckDB, BM25 + dense indexes
-```
+The name-redaction step takes about 30 to 40 minutes on CPU. Do not skip it.
 
 ### 4. Run
 
@@ -301,10 +312,10 @@ Prefer containers? See [`KGP-SafeMine-Platform/docs/DOCKER.md`](KGP-SafeMine-Pla
 
 | Concern | How KGP-SafeMine handles it |
 |---|---|
-| **Invented facts** | Citations are mandatory; quotes, numbers, dates and standards are verified against the cited evidence; unsupported sentences are removed |
+| **Invented facts** | Citations are mandatory; quotes, figures of two or more digits, dates and standards are verified against the cited evidence; unverified details are removed and other unsupported sentences are flagged |
 | **Blame and legal verdicts** | Blocked: no fault, liability, compliance certification, predictions or "official" findings |
 | **Live emergencies** | Refused; the platform is not an operational decision tool |
-| **Prompt injection** | Eight defence layers, including screening of retrieved documents; tested with 126 planted attacks |
+| **Prompt injection** | Eight defence layers, including screening of retrieved documents; tested with 29 attack payloads, 58 runs per placement: 1 succeeded (a planted false fact) |
 | **Personal data** | Victims replaced in the source data; a second pass redacts remaining names; an output filter blocks names |
 | **Unverified answers** | Fail-closed abstention, a human-review queue and DRAFT-marked exports |
 | **Access and secrets** | bcrypt login with lock-out; keys, certificates and data are mounted at run time and never baked into the Docker image |
@@ -315,7 +326,9 @@ Prefer containers? See [`KGP-SafeMine-Platform/docs/DOCKER.md`](KGP-SafeMine-Pla
 * An 8B model with an 8,192-token window summarises from selected passages, not whole dossiers.
 * Only indexed sources are used; uploaded files are stored but not searched.
 * Law answers are limited to the CFR editions that were collected.
-* Name redaction is pattern-based and reduces, but cannot guarantee zero, exposure of personal names. Treat the PDFs as not fully anonymised.
+* Name redaction (pattern and model based) is applied when you build the indexes. It reduces, but cannot guarantee zero, exposure of
+  personal names. Treat the PDFs as not fully anonymised.
+* The "Partial" claim verdict is never produced, and a plain false statement planted in a document can still succeed.
 
 ### Data attribution
 

@@ -15,6 +15,8 @@
 ![Model](https://img.shields.io/badge/LLM-Qwen3--8B-F2A900)
 ![RAG](https://img.shields.io/badge/Architecture-Agentic%20RAG-13315C)
 
+Group 19 · IIT Kharagpur Executive PG Programme in Generative AI and Agentic AI · Track B
+
 [Overview](#1-overview) ·
 [Architecture](#3-architecture) ·
 [How it works](#4-how-a-question-is-answered) ·
@@ -38,7 +40,8 @@ regulation (30 CFR). A safety officer who asks *"what root causes did MSHA find 
 standard say on the day of the accident?"* normally has to search all of it by hand.
 
 KGP-SafeMine answers such questions in plain language and **proves each statement**: every factual sentence carries a citation to a
-report passage, a database figure or the text of a regulation, and sentences that cannot be backed by evidence are removed. When the
+report passage, a database figure or the text of a regulation, and statements with an unverified regulation number, quotation, date or figure of two or more digits are removed
+(other unsupported sentences are flagged). When the
 evidence is missing, the platform says so instead of guessing.
 
 It was built for **Track B** of a capstone programme: a multi-agent system running on a hosted model of at most 8 billion parameters
@@ -53,7 +56,7 @@ It was built for **Track B** of a capstone programme: a multi-agent system runni
 | **Law as of a date** | "What did 30 CFR 56.14211 require in 2019?" (the edition in force on that date) |
 | **Investigate one incident** | Evidence-backed brief for a named event, with a timeline and the standards cited |
 | **Refuse and abstain safely** | Declines blame, compliance certification and live-emergency questions; abstains when evidence is thin |
-| **Human review** | Flagged answers go to a review queue (approve, flag, reject); exports are marked DRAFT |
+| **Human review** | Flagged answers go to a non-blocking review queue (approve, flag, reject); exports are marked DRAFT |
 
 ---
 
@@ -70,17 +73,17 @@ The team's cleaned dataset holds **655 dossiers**, which become **10,990 chunks*
 The pipeline also redacts personal names in a second pass (see [Safety](#7-safety-and-governance)).
 Details and every cleaning decision: [`docs/DATA_AND_CHUNKING.md`](docs/DATA_AND_CHUNKING.md).
 
-> The dataset and the built indexes are **not** part of this repository. See below and [Setup](#9-setup).
+> The cleaned dataset is in the sibling folder [`KGP-SafeMine-Data/`](../KGP-SafeMine-Data). The built indexes are **not** in the repository: you build them once. See [Setup](#9-setup).
 
 ### What is not in this repository
 
-Only code and configuration are published. You supply these yourself:
+Code, configuration, evaluation files and the public dataset are published. You supply or build these yourself:
 
 1. **API keys and endpoints.** Copy `.env.example` to `.env` and fill it in. No key is included.
 2. **A login.** Copy `.streamlit/secrets.toml.example` to `.streamlit/secrets.toml` and add a bcrypt password hash
    (`python -m app.make_password_hash`). There is no default account. See [`docs/AUTH.md`](docs/AUTH.md).
-3. **The data.** The search indexes and database (`data_processed/`) are built from the KGP-SafeMine-Data dataset (a cleaned
-   snapshot of MSHA fatality investigation PDFs, accident Parquet tables and CFR history). Neither the dataset nor the built indexes are included.
+3. **The built indexes.** The search indexes and database (`data_processed/`) are built from `../KGP-SafeMine-Data` (a cleaned
+   snapshot of MSHA fatality investigation PDFs, accident Parquet tables and CFR history) with the pipeline in `safemine/ingest/`.
 4. **Models.** `make models` downloads `BAAI/bge-small-en-v1.5` and `cross-encoder/ms-marco-MiniLM-L6-v2` from Hugging Face.
 5. **TLS certificates** (`certs/`), only if your LLM or embedding endpoint uses a self-signed certificate.
 
@@ -160,7 +163,7 @@ flowchart TB
 | **Retrieval** | `hybrid_search`, `accident_stats`, `record_lookup`; finding the one named incident |
 | **Regulatory** | `cfr_lookup` (law as of a date); standards behind an incident |
 | **Investigation** | Grounding a named incident, premise checks, cited drafting of answers and briefs |
-| **Validator** | Citation repair, claim verification, grounding score, removal of unsupported sentences |
+| **Validator** | Citation repair, claim verification, grounding score, removal of sentences with unverified facts, claim map |
 | **Critic** | Accept, revise or abstain; a support floor of 60 % means weaker answers are never accepted |
 | **Report** | Final assembly: notes, answer-policy gate, name filter, human-review flag |
 
@@ -204,8 +207,8 @@ sequenceDiagram
    one named incident. If the model fails, a deterministic heuristic plan is used.
 3. **Retrieve.** Evidence is gathered and numbered (`[E1]`, `[E2]` …); retrieved text is screened for hidden instructions.
 4. **Draft.** The investigation agent writes an answer in which every factual sentence cites evidence.
-5. **Verify.** Deterministic checks (no model involved) confirm that each quote is verbatim, each number, date and CFR section appears
-   in the cited evidence, and each sentence is cited. Unsupported sentences are removed.
+5. **Verify.** Deterministic checks (no model involved) confirm that each quote is verbatim, each number of two or more digits, date and CFR section appears
+   in the cited evidence, and each sentence is cited. Sentences that fail these checks are removed; other weakly supported ones are flagged.
 6. **Critique.** The critic accepts, asks for another round (at most two revisions), or abstains. Below a 60 % support ratio an
    answer is never accepted.
 7. **Report.** Final assembly applies the answer policy and the name filter, adds notes and marks the answer for human review when needed.
@@ -219,7 +222,7 @@ flowchart LR
     B --> F["Reciprocal rank<br/>fusion"]
     D --> F
     F --> X["MiniLM cross-encoder<br/>rerank top 20"]
-    X --> E["6–8 evidence chunks<br/>at most 2 per incident"]
+    X --> E["6–8 evidence chunks<br/>normally at most 2 per incident"]
 ```
 
 Chunks are **section-aware, up to about 450 tokens**: one chunk per root-cause and corrective-action pair (1,084 pairs), one per
@@ -274,22 +277,61 @@ agent code; 14 questions are for development and **86 are a frozen test set** th
 | Measure | Result | Source |
 |---|---|---|
 | End-to-end accuracy on the frozen test split (Qwen3-8B) | **52 / 86 (60.5 %)**, 95 % interval 50 % to 70 % | `eval/results/test_final.summary.json` |
+| Factual questions in that split (incident analysis, source and 30 CFR) | **38 / 55**; the same model without retrieval got 0 / 55 | `eval/results/test_final.summary.json`; final report |
+| Behaviour questions in that split (abstain, refuse, ignore an injection) | **5 / 17**, the weakest area, measured before the safety rebuild | `eval/results/test_final.summary.json` |
 | Right report in the top 10 (53 report questions, hybrid + rerank) | **100 %**; first place 96.2 %; MRR 0.975 | `eval/retrieval_results_v2.json` |
 | 30 CFR lookups (exact text, section by title, edition on a past date) | **16 / 16** | `eval/cfr_results_v2.json` |
-| Prompt-injection attacks planted in retrieved evidence | **124 / 126 held**; 2 got through (planted false facts) | `eval/results/injection_*.json` |
+| Prompt-injection attacks planted in retrieved evidence | **57 / 58 held** in each placement (end and middle of a document); the one that got through was a planted false fact | `eval/results/injection_*.json` |
 
-The test split ended with 67 answered, 16 abstained and 3 refused. Run your own: `python eval/agent_eval.py --help`.
+The test split ended with 67 answered, 16 abstained and 3 refused. It was run once (19 November 2026), before the safety rebuild
+and later fixes, and was not run again, so 60.5 % remains the reported test score.
+
+**Measured after the test** (not new test scores):
+
+* **Unsafe questions refused:** 84 of 86 on the 24 November re-run (86 of 86 in the 20 November log), on three question sets written by
+  the team (`eval/safety_holdout*.csv`, `eval/safety_eval.py`). These sets are not independent.
+* **RAG against no retrieval, same Qwen3-8B, all 100 questions:** token F1 46.0 % against 9.5 %; task success 77 % against 10 %. This
+  run uses the improved pipeline and includes the 14 development questions. Details are in the final project report; its raw result
+  files are not in this repository.
+
+Run your own (the second command needs the data and a Qwen3-8B endpoint):
+
+```bash
+python -m eval.agent_eval --selftest      # scorer checks, no model, no network
+python -m eval.agent_eval --split DEV     # the 14 development questions
+```
 
 ---
 
 ## 7. Safety and governance
 
+### Model card
+
+| | KGP-SafeMine |
+|---|---|
+| Model and data | Qwen3-8B (course endpoint, not fine-tuned) with retrieval; public US MSHA reports and tables and 30 CFR, snapshot 30 October 2026 |
+| Intended use | Decision support for a safety professional on US mining incidents, statistics and 30 CFR standards, including draft investigation briefs; a qualified person reviews before acting |
+| Out of scope | Assigning fault or liability, certifying compliance or giving legal advice, real-time operating decisions, predicting accidents, official findings |
+| Performance | Frozen test: 52 of 86 correct (60.5 %, 95 % interval 50 % to 70 %); factual 38 of 55; behaviour questions 5 of 17, before the safety rebuild |
+| Failure modes | Of 34 failed test questions (tags overlap): reasoning error 12, over-abstention 12, retrieval miss 5, hallucination 4, unsafe answer 3, unsupported claim 2; no "Partial" verdict |
+| Refusals | Rules R1 to R7 below; abstains when evidence is missing or the question is out of scope |
+| Adversarial tests | Unsafe questions refused: 84 of 86 on the 24 November re-run (team-written sets). Planted prompt injections: 1 of 58 compromised per placement (2 before the new layers) |
+
+### Refusal and abstention rules
+
+* **Refuse:** R1 victim names and personal details; R2 blame, fault or liability; R3 certifying compliance or legal advice; R4 real-time
+  operating decisions; R5 endorsing unsafe shortcuts; R6 predicting accidents or writing an official finding. R7: instructions inside a
+  question are treated as data (the injected sentence is removed and the real question is answered).
+* **Abstain:** the event is after the data snapshot, no incident is named, only a preliminary notice exists, or the question is out of scope.
+
+### Controls
+
 | Concern | Control |
 |---|---|
 | Unsafe requests | Rules R1 to R7 plus an LLM policy classifier |
 | Prompt injection (direct and hidden in documents) | Eight layers: input guard, evidence screen, prompt hardening, tool grounding, claim verifier, prompt-leak filter, answer policy, visibility. See [`docs/INJECTION.md`](docs/INJECTION.md) |
-| Hallucinated details | Deterministic claim verification; unsupported sentences removed; support floor of 60 % |
-| Personal data | Victims are replaced in the source data; a second pass replaces remaining names with placeholders and stores the list privately for an output filter |
+| Hallucinated details | Deterministic claim verification; unverified details removed, other unsupported sentences flagged; support floor of 60 % |
+| Personal data | Victims are replaced in the source data; pattern and name-recognition passes replace remaining names with placeholders and store the list privately for an output filter |
 | Blame and compliance verdicts | Blocked by the answer policy |
 | Unverified answers | Fail-closed abstention; human-review queue; DRAFT marking in exports |
 | Access | bcrypt login with lock-out and inactivity timeout (`docs/AUTH.md`); no default account |
@@ -304,8 +346,18 @@ The test split ended with 67 answered, 16 abstained and 3 refused. Run your own:
 * The model is small (8B) and the context window is 8,192 tokens, so long dossiers are summarised from selected passages.
 * Only the indexed sources are used. Items shown as "not indexed" in the Knowledge Base are not searched, and uploaded files are stored but not searched.
 * Law answers depend on the CFR editions that were collected; a date outside them cannot be answered.
-* Name redaction is pattern-based. It reduces, but cannot guarantee zero, exposure of personal names; keep the restricted name list private.
+* Name redaction is pattern and model based. It reduces, but cannot guarantee zero, exposure of personal names; keep the restricted name list private.
+* The source dataset is public MSHA material and can contain names; redaction happens when you build the indexes.
 * The hosted endpoint allows one active request per key, so evaluation runs and live users share capacity.
+* The claim-verification verdict "Partial" is never produced.
+* Timelines are narratives, not structured timelines. Briefs, timelines and comparisons were checked only by a small probe, not a scored set.
+* Some out-of-scope questions are answered instead of declined, and law that needs a Federal Register notice to interpret is answered poorly.
+* A plain false statement planted in a document, worded like a report sentence, can still succeed.
+* Scanned PDFs without a text layer, the pre-2008 archive, disaster reports and the policy manual are not indexed.
+* Exact-date law exists only for Parts 56 and 57 (from 2017), 75 (from 2021) and 77 (from 2024); otherwise the annual edition (from
+  July 2008) is returned and labelled as such.
+* Scoring is lexical, and the test split is spent: a second independent benchmark is still needed.
+* One server and no failover in the reference deployment; the REST API has no login, so do not expose it.
 
 ---
 
@@ -315,10 +367,11 @@ The test split ended with 67 answered, 16 abstained and 3 refused. Run your own:
 
 | Item | Notes |
 |---|---|
-| Python **3.14** or Docker with Compose v2 | The image uses `python:3.14-slim` |
+| Python **3.14** | Needed to download the models and build the indexes, also if you then run with Docker |
+| Docker with Compose v2 (optional) | To run the console and API in containers; the image uses `python:3.14-slim` |
 | A chat endpoint | OpenAI-compatible, serving Qwen3-8B (or another provider listed in `.env.example`) |
 | An embedding endpoint | `bge-small-en-v1.5`, or set `EMBED_BACKEND=local` to run it on CPU |
-| The KGP-SafeMine-Data dataset | Cleaned MSHA snapshot (see [Data](#2-the-data)); not included in this repository |
+| The `KGP-SafeMine-Data/` folder | Cleaned MSHA snapshot (see [Data](#2-the-data)), included in this repository next to this folder |
 
 ### Step by step
 
@@ -328,15 +381,15 @@ python -m venv .venv
 .venv/bin/pip install -r requirements.txt            # Windows: .venv\Scripts\pip
 
 # 2. Configuration (never commit these two files)
-cp .env.example .env                                  # add your keys and endpoints
+cp .env.example .env                                  # add keys and endpoints, and choose LLM_PROVIDER (see below)
 mkdir -p .streamlit && cp .streamlit/secrets.toml.example .streamlit/secrets.toml
 .venv/bin/python -m app.make_password_hash            # paste the printed hash into secrets.toml
 
 # 3. Models (reranker and tokenizer, one time)
 make models
 
-# 4. Data: place KGP-SafeMine-Data/ next to this file, then build the indexes
-make data                                             # clean, chunk, DuckDB, BM25 + dense, events index
+# 4. Data: .env already points SAFEMINE_DATA at ../KGP-SafeMine-Data. Build the database and indexes
+make data                                             # clean, chunk, DuckDB, BM25 + dense, name redaction, events index
 
 # 5. Run
 .venv/bin/streamlit run app/ui.py                     # console  http://localhost:8501
@@ -344,19 +397,42 @@ make data                                             # clean, chunk, DuckDB, BM
 .venv/bin/python -m safemine.cli "What does 30 CFR 56.14211 require?"
 ```
 
-On Windows replace `.venv/bin/` with `.venv\Scripts\`; the `Makefile` targets use the Linux/macOS path.
+> **Choose the model.** `.env.example` ships with `LLM_PROVIDER=groq`, a development-only 20B model. Set **`LLM_PROVIDER=upgrad`** and fill
+> in the `UPGRAD_*` values to use Qwen3-8B, the model behind every result in this README.
 
-**Build the data.** The pipeline reads the dataset folder (`KGP-SafeMine-Data/` next to this file, or set `SAFEMINE_DATA`) and writes
+**Windows (PowerShell, from this folder).** The `Makefile` targets use the Linux/macOS path, so run the steps directly:
+
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+Copy-Item .env.example .env
+Copy-Item .streamlit\secrets.toml.example .streamlit\secrets.toml
+python -m app.make_password_hash
+# stop here: edit .env (set LLM_PROVIDER=upgrad and your keys) and paste the hash into .streamlit\secrets.toml
+python -c "from huggingface_hub import snapshot_download as d; d('BAAI/bge-small-en-v1.5', local_dir='models/bge-small-en-v1.5'); d('cross-encoder/ms-marco-MiniLM-L6-v2', local_dir='models/ms-marco-MiniLM-L6-v2')"
+python -m safemine.ingest.clean_pdfs
+python -m safemine.ingest.chunk --strategy section --size 450
+python -m safemine.ingest.build_duckdb
+python -m safemine.ingest.build_indexes
+python -m safemine.ingest.ner_redact detect
+python -m safemine.ingest.ner_redact apply
+python -m safemine.ingest.build_events_index
+streamlit run app/ui.py
+```
+
+**Build the data.** The pipeline reads the dataset folder (`SAFEMINE_DATA`, here `../KGP-SafeMine-Data`) and writes
 `data_processed/` (`SAFEMINE_OUT`). Expected layout and every cleaning decision are in
 [`docs/DATA_AND_CHUNKING.md`](docs/DATA_AND_CHUNKING.md). Hosted embeddings add several minutes. The individual targets are in the `Makefile`
-(`clean`, `chunks`, `duckdb`, `index`, `events-index`). The pipeline writes a restricted name list to `data_processed/_restricted/` for the
+(`clean`, `chunks`, `duckdb`, `index`, `redact`, `events-index`). The `redact` step (name recognition) takes about 30 to 40 minutes on CPU and
+downloads `dslim/distilbert-NER` once; do not skip it. The pipeline writes a restricted name list to `data_processed/_restricted/` for the
 output filter: keep it private and never publish `data_processed/`.
 
 Key settings in `.env`:
 
 | Setting | Meaning |
 |---|---|
-| `LLM_PROVIDER` | `upgrad` (the hosted Qwen3-8B endpoint, the default provider name in code), `groq`, `openai`, `gemini`, `anthropic` |
+| `LLM_PROVIDER` | `upgrad` (the hosted Qwen3-8B endpoint), `groq` (the value in `.env.example`), `openai`, `gemini`, `anthropic` |
 | `EMBED_BACKEND` | `endpoint` or `local` |
 | `MAX_STEPS`, `MAX_REVISIONS`, `TOKEN_BUDGET_PER_QUERY` | Agent limits |
 | `LANGFUSE_*` | Tracing; leave the keys empty to switch it off |
@@ -364,11 +440,29 @@ Key settings in `.env`:
 ### Check it works
 
 ```bash
+pip install pytest                 # test runner, not part of requirements.txt (use the .venv)
 python -m pytest tests -q          # see the note below about data and login file
 python eval/container_smoke.py     # against a running API: asks retrieval, statistics and CFR questions
 ```
 
-> Without `data_processed/` and `.streamlit/secrets.toml`, about a dozen tests that exercise the real data or the login page fail. Build the data and create the login file first for a clean run.
+> Without `data_processed/` and `.streamlit/secrets.toml`, tests that exercise the real data or the login page fail or are skipped. Build the data and create the login file first for a clean run.
+
+### Developing
+
+* Console pages are in `app/views/`; agents in `safemine/agents/`; tools in `safemine/tools/`. Run `python -m pytest tests -q` after a change.
+* The REST API is described at `http://localhost:8000/docs` while it runs. It has no login: do not expose it publicly.
+
+### Troubleshooting
+
+| Symptom | What to do |
+|---|---|
+| `DuckDB / chunk store / BM25 / dense index ... missing` | Build the data (step 4); check `SAFEMINE_DATA` in `.env` |
+| Login page shows an error | Create `.streamlit/secrets.toml` with a bcrypt hash (step 2) |
+| `CA certificate not found` | Put the file named in `.env` into `certs/`, or clear the variable for a public certificate |
+| Embedding endpoint unreachable | Set `EMBED_BACKEND=local` (needs `models/`) |
+| First question is slow | The search and rerank models load on first use |
+
+More in [`docs/DOCKER.md`](docs/DOCKER.md).
 
 ---
 
@@ -383,6 +477,9 @@ docker compose up -d
 docker compose ps                           # ui and api should turn "healthy" in about 40 seconds
 ```
 
+In Windows PowerShell, replace the first line with `New-Item -ItemType Directory -Force certs, models, data_processed`.
+Build `data_processed/` first ([Setup](#9-setup), steps 3 and 4): the image does not build it.
+
 Open **http://localhost:8501** (console) and **http://localhost:8000/docs** (API).
 `.env`, `.streamlit/secrets.toml` and `data_processed/` must exist before `up`. They are mounted, never baked into the image.
 
@@ -394,8 +491,13 @@ how to read the `/health` messages.
 
 ### Tracing
 
-Set `LANGFUSE_PUBLIC_KEY`, `LANGFUSE_SECRET_KEY` and `LANGFUSE_HOST` in `.env` (Langfuse Cloud, or the self-hosted stack in
-`observability/`). With no keys, tracing is off and a local `traces.jsonl` is still written.
+Set `LANGFUSE_PUBLIC_KEY`, `LANGFUSE_SECRET_KEY` and `LANGFUSE_HOST` in `.env` (Langfuse Cloud, or a self-hosted Langfuse server).
+With no keys, tracing is off and a local `traces.jsonl` is still written.
+
+* To self-host, use `observability/docker-compose.v3.yml`. The older `observability/docker-compose.yml` runs Langfuse v2, which does not
+  accept traces from the v5 SDK.
+* **Under Docker,** `docker-compose.yml` sets `LANGFUSE_HOST=http://host.docker.internal:3000` (a Langfuse on the same machine), which
+  overrides `.env`. To use Langfuse Cloud, change or remove that line.
 
 ---
 

@@ -62,6 +62,12 @@ CSS = f"""
 .sm-card h4 {{ margin:.1rem 0 .3rem 0; color:var(--brand); font-size:1rem; }}
 .sm-card p {{ margin:0; color:var(--muted); font-size:.85rem; }}
 .sm-card .ic {{ font-size:1.4rem; }}
+/* cards in one row share the height of the tallest: pass the column's height down to the card (assistant, knowledge, Home) */
+[data-testid="stColumn"]:has(.sm-card, .hm-act) > [data-testid="stVerticalBlock"] {{ height:100%; }}
+[data-testid="stColumn"] [data-testid="stElementContainer"]:has(.sm-card, .hm-act),
+[data-testid="stColumn"] [data-testid="stElementContainer"]:has(.sm-card, .hm-act) div:not(.sm-card, .sm-card *, .hm-act, .hm-act *) {{ display:flex; flex-direction:column; flex:1 0 auto; }}
+[data-testid="stColumn"] [data-testid="stMarkdownContainer"]:has(> .sm-card, > .hm-act) {{ margin-bottom:0; }}
+[data-testid="stColumn"] .sm-card, [data-testid="stColumn"] .hm-act {{ flex:1 0 auto; height:auto; }}
 .sm-chip {{ display:inline-block; background:var(--surface2); color:var(--brand); border-radius:6px; padding:.1rem .5rem; font-size:.72rem; margin-right:.3rem; }}
 .sm-sec {{ font-size:.72rem; letter-spacing:.08em; text-transform:uppercase; color:var(--subtle); font-weight:700; margin:1rem 0 .3rem 0; }}
 .stTabs [data-baseweb="tab-list"] {{ gap:.25rem; border-bottom:1px solid var(--border); }}

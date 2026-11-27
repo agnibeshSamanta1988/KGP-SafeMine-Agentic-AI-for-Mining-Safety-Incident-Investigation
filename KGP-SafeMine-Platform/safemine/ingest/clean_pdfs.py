@@ -285,7 +285,7 @@ def process_pdf(path: Path, idx_row: dict) -> list[dict]:
     # appendix participant lists are dropped from the text, but their names must be redacted elsewhere
     _, extra = harvest_names(dropped, {})
     people |= extra
-    for ln in dropped:   # "Gaither Frazier .. General Manager"
+    for ln in dropped:   # "Pat Example .. General Manager"
         for m in re.finditer(rf"({FULL_NAME})\s*\.{{2,}}", ln):
             n = _clean_name(m.group(1))
             if n:

@@ -1,0 +1,227 @@
+[
+ {
+  "event": "2026/march-5-2026-fatality",
+  "query": "Which 30 CFR standard did MSHA cite as violated after the March 5, 2026 fatality at Deer Run Mine?",
+  "gold": [
+   "75.1732",
+   "75.220"
+  ],
+  "status": "answered",
+  "hit": true,
+  "answer": "MSHA cited 30 CFR 75.1732(a) as violated after the March 5, 2026 fatality at Deer Run Mine [E1]."
+ },
+ {
+  "event": "2023/june-8-2023-fatality",
+  "query": "Under which 30 CFR provision was the operator cited following the fatal accident at N Attleboro Plant on June 8, 2023?",
+  "gold": [
+   "56.11001",
+   "56.14105"
+  ],
+  "status": "answered",
+  "hit": true,
+  "answer": "The operator was cited under 30 CFR 56.11001 and 30 CFR 56.14105 for violations related to the fatal accident at the N Attleboro Plant on June 8, 2023 [E2][E3]. A 104(a) citation was issued for each violation [E2][E3]."
+ },
+ {
+  "event": "2014/fatality-4-march-27-2014",
+  "query": "What 30 CFR section appears in the citation issued for the fatality at LORD FARM #5 on March 27, 2014?",
+  "gold": [
+   "46.7",
+   "56.15002",
+   "56.9201"
+  ],
+  "status": "answered",
+  "hit": true,
+  "answer": "30 CFR \u00a7 56.15002 [E1]"
+ },
+ {
+  "event": "2023/august-21-2023-fatality",
+  "query": "Which 30 CFR standard did MSHA cite as violated after the August 21, 2023 fatality at Portable Crusher #2?",
+  "gold": [
+   "56.16007",
+   "56.16009"
+  ],
+  "status": "answered",
+  "hit": true,
+  "answer": "MSHA cited 30 CFR 56.16009 as violated after the August 21, 2023 fatality at Portable Crusher #2 [E1]."
+ },
+ {
+  "event": "2012/fatality-4-march-10-2012",
+  "query": "Under which 30 CFR provision was the operator cited following the fatal accident at Kingston No. 2 on March 10, 2012?",
+  "gold": [
+   "75.202",
+   "75.223",
+   "75.360",
+   "75.363",
+   "75.370"
+  ],
+  "status": "answered",
+  "hit": true,
+  "answer": "The operator was cited under 30 CFR 75.370(a)(1) for failing to follow the approved ventilation plan, as stated in Order Number 7257553 issued under Section 104(d)(1) of the Mine Act [E1]."
+ },
+ {
+  "event": "2011/fatality-8-june-27-2011",
+  "query": "What 30 CFR section appears in the citation issued for the fatality at Eagle #1 on June 27, 2011?",
+  "gold": [
+   "75.202"
+  ],
+  "status": "answered",
+  "hit": true,
+  "answer": "30 CFR \u00a7 75.202(a) [E1]"
+ },
+ {
+  "event": "2009/fatality-11-june-11-2009",
+  "query": "Which 30 CFR standard did MSHA cite as violated after the June 11, 2009 fatality at Viburnum #29 Mine?",
+  "gold": [
+   "57.14105"
+  ],
+  "status": "answered",
+  "hit": true,
+  "answer": "MSHA cited 30 CFR 57.14105 as violated after the June 11, 2009 fatality at Viburnum #29 Mine [E1]."
+ },
+ {
+  "event": "2021/march-12-2021-fatality",
+  "query": "Under which 30 CFR provision was the operator cited following the fatal accident at Dredge Chesterfield on March 12, 2021?",
+  "gold": [
+   "46.7",
+   "56.14105"
+  ],
+  "status": "answered",
+  "hit": true,
+  "answer": "The operator was cited under 30 CFR \u00a7 46.7 [E1]."
+ },
+ {
+  "event": "2023/september-8-2023-fatality",
+  "query": "What 30 CFR section appears in the citation issued for the fatality at Sewickley Mine on September 8, 2023?",
+  "gold": [
+   "46.7",
+   "56.16002"
+  ],
+  "status": "answered",
+  "hit": true,
+  "answer": "The 30 CFR section cited in the citation issued for the fatality at Sewickley Mine on September 8, 2023, is 30 CFR 46.7(a) [E1]."
+ },
+ {
+  "event": "2025/march-28-2025-fatality",
+  "query": "Which 30 CFR standard did MSHA cite as violated after the March 28, 2025 fatality at South Plant?",
+  "gold": [
+   "56.3130",
+   "56.3401"
+  ],
+  "status": "answered",
+  "hit": true,
+  "answer": "MSHA cited 30 CFR 56.3130 as violated after the March 28, 2025 fatality at South Plant [E1]."
+ },
+ {
+  "event": "2020/november-8-2020-fatality",
+  "query": "Under which 30 CFR provision was the operator cited following the fatal accident at Smokey Valley Common Operations on November 8, 2020?",
+  "gold": [
+   "56.17001",
+   "56.18002",
+   "56.20011"
+  ],
+  "status": "answered",
+  "hit": true,
+  "answer": "The operator was cited under 30 CFR \u00a7 56.18002 for not conducting a workplace examination of the 5454 level push area before allowing work to start in that area [E1]."
+ },
+ {
+  "event": "2019/august-29-2019-fatality",
+  "query": "What 30 CFR section appears in the citation issued for the fatality at Enlow Fork Mine on August 29, 2019?",
+  "gold": [
+   "75.202"
+  ],
+  "status": "answered",
+  "hit": true,
+  "answer": "30 CFR \u00a7 75.202(a) [E1]"
+ },
+ {
+  "event": "2025/july-26-2025-fatality",
+  "query": "Which 30 CFR standard did MSHA cite as violated after the July 26, 2025 fatality at Stillwater Mine?",
+  "gold": [
+   "48.7",
+   "57.12016",
+   "57.12018"
+  ],
+  "status": "answered",
+  "hit": true,
+  "answer": "MSHA cited 30 CFR 48.7(c) as violated after the July 26, 2025 fatality at Stillwater Mine [E1]."
+ },
+ {
+  "event": "2010/fatality-2-january-26-2010",
+  "query": "Under which 30 CFR provision was the operator cited following the fatal accident at Tehachapi Plant on January 26, 2010?",
+  "gold": [
+   "46.11",
+   "56.14200"
+  ],
+  "status": "answered",
+  "hit": true,
+  "answer": "The operator was cited under 30 CFR 56.14200, which is referenced in both Citation No. 6476635 (under Section 104(a) of the Mine Act) and Citation No. 6476634 (under Section 104(d) of the Mine Act) [E1][E2]."
+ },
+ {
+  "event": "2013/fatality-3-march-27-2013",
+  "query": "What 30 CFR section appears in the citation issued for the fatality at North Stone on March 27, 2013?",
+  "gold": [
+   "56.6306"
+  ],
+  "status": "answered",
+  "hit": true,
+  "answer": "30 CFR 56.6306(e) [E1], 30 CFR 56.6306(c) [E2], and 30 CFR 56.6306(f)(1) [E3] appear in the citations issued for the fatality at North Stone on March 27, 2013."
+ },
+ {
+  "event": "2014/fatality-25-november-10-2014",
+  "query": "Which 30 CFR standard did MSHA cite as violated after the November 10, 2014 fatality at R&S STONE, INC.?",
+  "gold": [
+   "46.7",
+   "56.14105"
+  ],
+  "status": "answered",
+  "hit": true,
+  "answer": "30 CFR \u00a7 56.14105 was cited as violated by MSHA after the November 10, 2014 fatality at R&S STONE, INC [E1]."
+ },
+ {
+  "event": "2012/fatality-17-november-1-2012",
+  "query": "Under which 30 CFR provision was the operator cited following the fatal accident at MT MARION PIT AND MILL on November 1, 2012?",
+  "gold": [
+   "48.27",
+   "56.18020",
+   "56.7005"
+  ],
+  "status": "answered",
+  "hit": true,
+  "answer": "The operator was cited under 30 CFR 56.18020 for a violation of 104(a) of the Mine Act [E1]."
+ },
+ {
+  "event": "2026/january-6-2026-fatality",
+  "query": "What 30 CFR section appears in the citation issued for the fatality at Lebec Cement Plant on January 6, 2026?",
+  "gold": [
+   "46.7",
+   "56.14105",
+   "56.18002"
+  ],
+  "status": "answered",
+  "hit": true,
+  "answer": "30 CFR 56.14105 [E1][E4]"
+ },
+ {
+  "event": "2013/fatality-8-march-22-2013",
+  "query": "Which 30 CFR standard did MSHA cite as violated after the March 22, 2013 fatality at Castle Valley Mine #4?",
+  "gold": [
+   "75.220",
+   "75.223"
+  ],
+  "status": "answered",
+  "hit": true,
+  "answer": "MSHA cited 30 CFR \u00a7 75.223(a)(1) as violated after the March 22, 2013 fatality at Castle Valley Mine #4 [E1]."
+ },
+ {
+  "event": "2015/fatality-12-july-10-2015",
+  "query": "Under which 30 CFR provision was the operator cited following the fatal accident at Dry Fork Sand & Gravel on July 10, 2015?",
+  "gold": [
+   "46.7",
+   "56.14100",
+   "56.14205"
+  ],
+  "status": "answered",
+  "hit": true,
+  "answer": "The operator was cited under 30 CFR \u00a7 56.14100(c) for the violation related to the dredge capsizing incident at Dry Fork Sand & Gravel on July 10, 2015 [E2]. Additionally, the operator was cited under 30 CFR \u00a7 56.14205 for the violation related to the improper use of the dredge [E5]."
+ }
+]

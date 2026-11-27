@@ -7,7 +7,9 @@ setup:
 models:  ; $(PY) -c "from huggingface_hub import snapshot_download as d; d('BAAI/bge-small-en-v1.5', local_dir='models/bge-small-en-v1.5'); d('cross-encoder/ms-marco-MiniLM-L6-v2', local_dir='models/ms-marco-MiniLM-L6-v2')"
 
 # offline data engineering on KGP-SafeMine-Data/ (≈1 min without dense; hosted embeddings add ~5-10 min)
-data: clean chunks duckdb index events-index
+data: clean chunks duckdb index redact events-index
+# name-recognition pass over the chunks (about 30-40 min on CPU); rebuilds BM25 and re-embeds changed chunks. Do not skip it.
+redact:  ; $(PY) -m safemine.ingest.ner_redact detect && $(PY) -m safemine.ingest.ner_redact apply
 events-index: ; $(PY) -m safemine.ingest.build_events_index   # corpus event index for accident_stats corpus_events
 clean:   ; $(PY) -m safemine.ingest.clean_pdfs
 chunks:  ; $(PY) -m safemine.ingest.chunk --strategy section --size 450

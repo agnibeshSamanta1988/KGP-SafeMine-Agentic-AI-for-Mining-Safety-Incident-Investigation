@@ -44,8 +44,8 @@ if not lib.ready():
 if not st.session_state["chat"]:
     c = st.columns(3)
     lib.card(c[0], "📚", "Grounded in evidence", "Answers come from MSHA fatality reports, accident records and the 30 CFR text, with numbered citations.")
-    lib.card(c[1], "✅", "Verified in code", "Quotes, numbers, dates and CFR sections are checked against the evidence. Invented ones are removed and weakly supported sentences are flagged.")
-    lib.card(c[2], "🛡️", "Safe by design", "No personal names, no speculation about blame, and a clear abstention when the evidence is not enough.")
+    lib.card(c[1], "✅", "Verified in code", "Quotes, dates, CFR sections and numbers of two or more digits are checked against the evidence. Unverified ones are removed and other unsupported sentences are flagged.")
+    lib.card(c[2], "🛡️", "Safe by design", "Personal names are redacted (not guaranteed), no speculation about blame, and a clear abstention when the evidence is not enough.")
     lib.section("Try a question")
     tabs = st.tabs(list(CATS))
     for tab, (name, qs) in zip(tabs, CATS.items()):

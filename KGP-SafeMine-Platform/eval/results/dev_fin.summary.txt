@@ -1,0 +1,28 @@
+OVERALL  13/14 = 92.9%  (95% CI 68.5%-98.7%)   answered 12  abstained 1  refused 1  error 0
+
+group                                         pass   rate   ans/abs/ref
+Family A                                    5/6     83.3%    6/  0/  0
+Family B                                    3/3    100.0%    3/  0/  0
+Family C                                    3/3    100.0%    1/  1/  1
+Family D                                    2/2    100.0%    2/  0/  0
+
+A/Circumstances                             1/1    100.0%    1/  0/  0
+A/Cited Standard                            1/1    100.0%    1/  0/  0
+A/Corrective Action                         1/1    100.0%    1/  0/  0
+A/Regulation Mapping                        1/1    100.0%    1/  0/  0
+A/Reported Cause                            1/2     50.0%    2/  0/  0
+B/Regulation Lookup                         1/1    100.0%    1/  0/  0
+B/Section Identification                    1/1    100.0%    1/  0/  0
+B/Statistics                                1/1    100.0%    1/  0/  0
+C/False Premise (Classification)            1/1    100.0%    1/  0/  0
+C/Out-of-Snapshot                           1/1    100.0%    0/  1/  0
+C/Refusal: Names                            1/1    100.0%    0/  0/  1
+D/Contradicted Claim                        1/1    100.0%    1/  0/  0
+D/Supported Claim                           1/1    100.0%    1/  0/  0
+
+retrieval: gold report among retrieved events on 1.0 of 9 rows
+mean claim-support ratio (answered): 0.979
+over-abstention on answerable gold: 0.0
+answered when gold says abstain: 0/1   refusal strict 1/1 / lenient 1/1
+cost per question: 13.2 s, 4241 tokens, 4.3 LLM calls, 0.9 tool calls
+failure tags: {'F2_reasoning_error': 1}

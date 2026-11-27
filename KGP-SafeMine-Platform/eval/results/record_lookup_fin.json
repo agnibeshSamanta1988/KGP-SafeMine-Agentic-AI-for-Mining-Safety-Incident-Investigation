@@ -1,0 +1,128 @@
+[
+ {
+  "kind": "accident",
+  "q": "What was the classification and the date of the accident with document number 220053400018?",
+  "status": "answered",
+  "pass": true,
+  "answer": "the accident with document number 220053400018 was classified as \"exploding vessels under pressure\" and occurred on 11/29/2005 [e1]."
+ },
+ {
+  "kind": "accident",
+  "q": "What was the classification and the date of the accident with document number 220080150052?",
+  "status": "answered",
+  "pass": true,
+  "answer": "the accident with document number 220080150052 was classified as powered haulage and occurred on 01/08/2008 [e1]."
+ },
+ {
+  "kind": "accident",
+  "q": "What was the classification and the date of the accident with document number 220121510007?",
+  "status": "answered",
+  "pass": true,
+  "answer": "the accident with document number 220121510007 was classified as powered haulage and occurred on 05/15/2012 [e1]."
+ },
+ {
+  "kind": "accident",
+  "q": "What was the classification and the date of the accident with document number 220212070007?",
+  "status": "answered",
+  "pass": true,
+  "answer": "the accident with document number 220212070007 was classified as machinery and occurred on 07/21/2021 [e1]."
+ },
+ {
+  "kind": "inspection",
+  "q": "What was the activity type of the inspection with event number 6824917, and when did it begin?",
+  "status": "answered",
+  "pass": true,
+  "answer": "the activity type of the inspection with event number 6824917 was 'regular safety and health inspection' and it began on 05/16/2019 [e1]."
+ },
+ {
+  "kind": "inspection",
+  "q": "What was the activity type of the inspection with event number 6873922, and when did it begin?",
+  "status": "answered",
+  "pass": true,
+  "answer": "the activity type of the inspection with event number 6873922 was 'regular safety and health inspection' and it began on 08/30/2021 [e1]."
+ },
+ {
+  "kind": "inspection",
+  "q": "What was the activity type of the inspection with event number 6462588, and when did it begin?",
+  "status": "answered",
+  "pass": true,
+  "answer": "the activity type of the inspection with event number 6462588 was 'regular safety and health inspection' and it began on 02/10/2020 [e1]."
+ },
+ {
+  "kind": "inspection",
+  "q": "What was the activity type of the inspection with event number 6918509, and when did it begin?",
+  "status": "answered",
+  "pass": true,
+  "answer": "the activity type of the inspection with event number 6918509 was 'regular safety and health inspection' and it began on 07/27/2022 [e1]."
+ },
+ {
+  "kind": "mine",
+  "q": "What is the name and mine type of mine ID 0403031?",
+  "status": "answered",
+  "pass": true,
+  "answer": "the mine with mine id 0403031 is named garey rock plant and it is a surface mine [e1]."
+ },
+ {
+  "kind": "mine",
+  "q": "What is the name and mine type of mine ID 3402191?",
+  "status": "answered",
+  "pass": true,
+  "answer": "the mine with id 3402191 is named debby's pit and it is a surface mine [e1]."
+ },
+ {
+  "kind": "mine",
+  "q": "What is the name and mine type of mine ID 0103190?",
+  "status": "answered",
+  "pass": true,
+  "answer": "the mine with mine id 0103190 is named aws pit #1 and it is a surface mine [e1]."
+ },
+ {
+  "kind": "mine",
+  "q": "What is the name and mine type of mine ID 0600817?",
+  "status": "answered",
+  "pass": true,
+  "answer": "the mine with mine id 0600817 is named getty granite salem and it is a surface mine [e1]."
+ },
+ {
+  "kind": "last_inspection",
+  "q": "When did the last inspection at mine ID 2700437 begin before January 1, 2020?",
+  "status": "answered",
+  "pass": true,
+  "answer": "the last inspection at mine id 2700437 began on 08/21/2019 [e1]."
+ },
+ {
+  "kind": "last_inspection",
+  "q": "When did the last inspection at mine ID 1103284 begin before January 1, 2020?",
+  "status": "answered",
+  "pass": true,
+  "answer": "the last inspection at mine id 1103284 began on 10/28/2019 [e1]."
+ },
+ {
+  "kind": "last_inspection",
+  "q": "When did the last inspection at mine ID 4503749 begin before January 1, 2020?",
+  "status": "answered",
+  "pass": true,
+  "answer": "the last inspection at mine id 4503749 began on 09/03/2019 [e1]."
+ },
+ {
+  "kind": "reports_citing",
+  "q": "How many fatality reports cited 30 CFR 75.1403?",
+  "status": "answered",
+  "pass": true,
+  "answer": "37 fatality reports cited 30 cfr 75.1403 [e1]."
+ },
+ {
+  "kind": "reports_citing",
+  "q": "How many fatality reports cited 30 CFR 77.1607?",
+  "status": "answered",
+  "pass": true,
+  "answer": "23 fatality reports cited 30 cfr 77.1607 [e1]."
+ },
+ {
+  "kind": "reports_citing",
+  "q": "How many fatality reports cited 30 CFR 56.15006?",
+  "status": "answered",
+  "pass": true,
+  "answer": "4 fatality reports cited 30 cfr 56.15006 [e1]."
+ }
+]

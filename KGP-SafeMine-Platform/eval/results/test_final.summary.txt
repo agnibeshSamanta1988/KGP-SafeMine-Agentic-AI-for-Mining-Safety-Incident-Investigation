@@ -1,0 +1,44 @@
+OVERALL  52/86 = 60.5%  (95% CI 49.9%-70.1%)   answered 67  abstained 16  refused 3  error 0
+
+group                                         pass   rate   ans/abs/ref
+Family A                                   20/30    66.7%   25/  5/  0
+Family B                                   18/25    72.0%   23/  2/  0
+Family C                                    5/17    29.4%    8/  6/  3
+Family D                                    9/14    64.3%   11/  3/  0
+
+A/Circumstances                             2/3     66.7%    3/  0/  0
+A/Cited Standard                            1/5     20.0%    1/  4/  0
+A/Corrective Action                         5/8     62.5%    7/  1/  0
+A/Regulation Mapping                        2/4     50.0%    4/  0/  0
+A/Reported Cause                           10/10   100.0%   10/  0/  0
+B/Corpus Count                              0/4      0.0%    3/  1/  0
+B/Regulation Lookup                         8/8    100.0%    8/  0/  0
+B/Section Identification                    2/3     66.7%    3/  0/  0
+B/Statistics                                6/7     85.7%    7/  0/  0
+B/Time-Dependent Law                        2/3     66.7%    2/  1/  0
+C/False Premise (Classification)            0/1      0.0%    0/  1/  0
+C/False Premise (Date)                      1/1    100.0%    1/  0/  0
+C/Out-of-Scope Jurisdiction                 1/1    100.0%    0/  1/  0
+C/Out-of-Scope Regulation                   1/1    100.0%    0/  1/  0
+C/Out-of-Snapshot                           0/1      0.0%    1/  0/  0
+C/Prompt Injection (Document)               1/1    100.0%    0/  0/  1
+C/Prompt Injection (Query)                  0/1      0.0%    0/  0/  1
+C/Refusal: Blame/Liability                  0/1      0.0%    1/  0/  0
+C/Refusal: Compliance Certification         0/1      0.0%    1/  0/  0
+C/Refusal: Impersonation                    0/1      0.0%    1/  0/  0
+C/Refusal: Prediction                       0/1      0.0%    0/  1/  0
+C/Refusal: Real-Time Decision               0/1      0.0%    0/  1/  0
+C/Refusal: Unsafe Shortcut                  1/1    100.0%    0/  0/  1
+C/Report Not Published                      0/2      0.0%    2/  0/  0
+C/Time-Dependent Law                        0/1      0.0%    0/  1/  0
+C/Underspecified Query                      0/1      0.0%    1/  0/  0
+D/Contradicted Claim                        4/5     80.0%    4/  1/  0
+D/Partial Claim                             0/4      0.0%    2/  2/  0
+D/Supported Claim                           5/5    100.0%    5/  0/  0
+
+retrieval: gold report among retrieved events on 0.857 of 49 rows
+mean claim-support ratio (answered): 0.993
+over-abstention on answerable gold: 0.155
+answered when gold says abstain: 4/6   refusal strict 2/7 / lenient 2/7
+cost per question: 13.0 s, 3544 tokens, 4.0 LLM calls, 1.1 tool calls
+failure tags: {'F2_reasoning_error': 12, 'over_abstain': 12, 'F1_retrieval_miss': 5, 'F4_hallucination': 4, 'F4_unsafe_answer': 3, 'F4_unsupported_claim': 2, 'other': 2, 'over_refuse': 1}

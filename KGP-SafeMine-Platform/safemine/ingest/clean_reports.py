@@ -185,7 +185,7 @@ PAREN_ROLE = re.compile(rf"({FULL_NAME})\s+\([^)]*(?i:{ROLE_WORDS})[^)]*\)")
 NAME_LIST_ROLE = re.compile(rf"((?:{FULL_NAME})(?:(?:,\s+|,?\s+and\s+)(?:{FULL_NAME}))+),\s+(?:[A-Za-z]+\s+){{0,4}}(?i:{ROLE_WORDS})")
 DOT_LEADER = re.compile(rf"^({FULL_NAME})\s*\.{{3,}}")
 TITLED = re.compile(rf"({FULL_NAME}),\s+(?:the\s+|a\s+|an\s+)?(?:[A-Za-z/&-]+\s+){{0,5}}?(?i:{ROLE_WORDS})\b")
-# "Russel Smith — Plant Manager" (principal-officials lists in the cleaned PDF dossiers)
+# "Lee Example — Plant Manager" (principal-officials lists in the cleaned PDF dossiers)
 DASH_ROLE = re.compile(rf"({FULL_NAME})\s+[\u2014\u2013-]\s+(?:[A-Za-z/&-]+\s+){{0,5}}?(?i:{ROLE_WORDS})\b")
 
 
@@ -212,13 +212,13 @@ def _clean_name(n: str) -> str | None:
     n = re.sub(r"\s+", " ", n).strip(" ,.")
     n = re.sub(r"^(On|At|By|And|Then|When|While|After|Before|Mr|Ms|Mrs|Dr)\.?\s+", "", n)
     toks = n.split()
-    while toks and toks[0].lower().strip(",") in NOT_NAME_WORDS:   # "Manager Dustin Galloway" -> "Dustin Galloway"
+    while toks and toks[0].lower().strip(",") in NOT_NAME_WORDS:   # "Manager Alex Sample" -> "Alex Sample"
         toks = toks[1:]
     if any(t in US_STATES or t.lower() in NOT_NAME_WORDS for t in toks):
         return None
-    while toks and toks[0].isupper() and len(toks[0]) > 2:   # "ACCIDENT David Ison" -> "David Ison"
+    while toks and toks[0].isupper() and len(toks[0]) > 2:   # "ACCIDENT Sam Doe" -> "Sam Doe"
         toks = toks[1:]
-    while toks and toks[-1].lower() in TRAILING_ROLE:   # "Bub Whitfield Supervisory" -> "Bub Whitfield"
+    while toks and toks[-1].lower() in TRAILING_ROLE:   # "Bo Sample Supervisory" -> "Bo Sample"
         toks = toks[:-1]
     n = " ".join(toks)
     if any(not t[0].isupper() for t in toks if t not in ("Jr.", "Sr.")):
@@ -324,7 +324,7 @@ class Redactor:
             text = re.sub(rf"\b(?:(?:Mr|Ms|Mrs|Dr)\.?\s+)?{re.escape(sn)}\b(?!\s+[A-Z][a-z])", tag, text)
         text = re.sub(r"\(?\b\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}\b", "[PHONE]", text)
         text = re.sub(r"[\w.+-]+@[\w-]+\.[\w.]+", "[EMAIL]", text)
-        return redact_initial_names(text)   # "Michael P. The miner", "Jimmy D. Couch": not caught by the harvester
+        return redact_initial_names(text)   # "John Q. The miner", "Jane R. Roe": not caught by the harvester
 
 
 # ---------------------------------------------------------------- final report parsing

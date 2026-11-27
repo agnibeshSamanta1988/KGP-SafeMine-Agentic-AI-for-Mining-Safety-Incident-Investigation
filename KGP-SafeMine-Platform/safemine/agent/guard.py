@@ -299,8 +299,8 @@ def _restricted_names() -> list[str]:
     names = {n for n in names if not _only_common_words(n)}
     if not names:
         return []
-    # The name harvester put a few non-names in the list ("Powered Haulage", "Electrical Engineers", "Electrical Dean
-    # Cripps"). Strip generic mining words from both ends; keep what is left only if it still looks like a person (2+ words).
+    # The name harvester put a few non-names in the list ("Powered Haulage", "Electrical Engineers", "Electrical John
+    # Doe"). Strip generic mining words from both ends; keep what is left only if it still looks like a person (2+ words).
     generic = lambda t: any(p in GENERIC_WORDS for p in re.split(r"[-/]", t.lower().strip(".,")))  # noqa: E731
     clean = set()
     for n in names:

@@ -1,7 +1,7 @@
 """Name-recognition (NER) pass over the chunk store: the safety net for names the pattern-based redaction missed.
 
 Why: the pattern redaction (clean_pdfs.py / redact.py) knows "Name - Plant Manager", "Mr. Name", "First I. Surname", ... but not
-"accompanied by crew members Christopher Franklin and James Eplin": plain first+last names without a title. A person-name
+"accompanied by crew members Alex Sample and Sam Doe": plain first+last names without a title. A person-name
 model finds those regardless of phrasing. An answer produced from an unredacted chunk leaked two crew members' names.
 
 Two stages, so the slow part can be stopped and resumed:

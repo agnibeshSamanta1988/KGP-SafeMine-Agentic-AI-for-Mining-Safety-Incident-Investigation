@@ -2,7 +2,7 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
-from app import lib, theme
+from app import lib, meta, theme
 from app.theme import K
 
 lib.hero("Safety Dashboard", "Fatality records from the MSHA corpus, standards most often cited, and how the AI assistant is being used.")
@@ -30,10 +30,13 @@ recent = int(per_year[per_year.year > yr[1] - half].events.sum()) if half else 0
 prior = int(per_year[(per_year.year <= yr[1] - half) & (per_year.year > yr[1] - 2 * half)].events.sum()) if half else 0
 delta = f"{(recent - prior) / prior:+.0%} vs previous {half} yrs" if prior else f"last {half} years"
 k = st.columns(4)
-lib.kpi(k[0], "Fatal events", f"{len(d):,}", f"{yr[0]}–{yr[1]}")
+lib.kpi(k[0], "Events with a dossier", f"{len(d):,}", f"{yr[0]}–{yr[1]}")
 lib.kpi(k[1], "Recent period", f"{recent}", delta)
 lib.kpi(k[2], "Top classification", top.classification.iloc[0][:20], f"{int(top.events.iloc[0])} events · {top.events.iloc[0] / len(d):.0%}")
 lib.kpi(k[3], "Mines involved", f"{d.mine_name.nunique()}", "distinct mine names")
+listed = meta.data_facts().get("events_indexed")
+if listed:
+    st.caption(f"Counts the {len(ev):,} fatality events that have a report dossier; the corpus event index lists {listed:,} events.")
 st.write("")
 
 tab1, tab2, tab3, tab4 = st.tabs(["📈 Trends", "🧱 Causes & types", "⚖️ Standards cited", "🤖 Assistant activity"])

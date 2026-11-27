@@ -4,7 +4,7 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
-from app import lib, theme
+from app import lib, meta, theme
 from app.theme import K
 from safemine import config
 from safemine.tools.hybrid_search import hybrid_search
@@ -26,9 +26,10 @@ with t1:
     ac = lib.sql("SELECT count(*) n FROM accidents").iloc[0, 0]
     k = st.columns(4)
     lib.kpi(k[0], "Indexed chunks", f"{len(ch):,}", "BM25 + dense (bge-small)")
-    lib.kpi(k[1], "Fatality events", f"{ev:,}", f"{ch.event_id.nunique()} with indexed text")
+    listed = meta.data_facts().get("events_indexed")
+    lib.kpi(k[1], "Events with a dossier", f"{ev:,}", f"of {listed:,} in the event index" if listed else "with indexed text")
     lib.kpi(k[2], "Accident records", f"{ac:,}", "MSHA structured data")
-    lib.kpi(k[3], "CFR sections", f"{cf:,}", "versioned 30 CFR text")
+    lib.kpi(k[3], "CFR section-edition rows", f"{cf:,}", "versioned 30 CFR text")
     st.write("")
     a, b = st.columns(2)
     with a:
@@ -49,8 +50,8 @@ with t1:
     lib.card(c[0], "1️⃣", "Two searches", "Keyword (BM25) and meaning (dense embeddings) each return 30 candidates.")
     lib.card(c[1], "2️⃣", "Fusion", "Reciprocal-rank fusion merges the lists into one ranking.")
     lib.card(c[2], "3️⃣", "Rerank", "A cross-encoder re-scores the top 20 against the question.")
-    lib.card(c[3], "4️⃣", "Select", "6–8 chunks, at most two per event, become the cited evidence.")
-    st.caption("Personal names are removed from the corpus before indexing; the index never contains them.")
+    lib.card(c[3], "4️⃣", "Select", "6–8 chunks, normally at most two per event (up to six when one event dominates; pattern questions take one per event, up to 12), become the cited evidence.")
+    st.caption("Personal names are redacted before indexing by pattern and name-recognition passes. Redaction is strong, not guaranteed.")
 
 with t2:
     with st.container(border=True):
